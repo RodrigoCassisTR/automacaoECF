@@ -220,7 +220,8 @@ public class VerificacoesDeTela {
 				falha("timeout, Módulo ONESOURCE ECF não localizado " + moduloEcf, driver, "selecaodemodulos");
 			try {
 				if (driver.findElement(By.xpath(moduloEcf)).isDisplayed())
-					break;
+					driver.manage().window().maximize();
+										break;
 			} catch (Exception e) {
 				Thread.sleep(1000);
 			}
