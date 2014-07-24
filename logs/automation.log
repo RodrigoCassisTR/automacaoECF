@@ -1,58 +1,5 @@
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM Wed Jul 23 20:33:32 BRT 2014
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/login.jsf
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: AUTO_ECF
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: ecf@2015
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: firefox
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/login.jsf, utilizando o navegador: firefox
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada...
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: AUTO_ECF
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: ecf@2015
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 6680, Tempo Aceitável: 10000
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Localizando Menu Principal... 
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Menu Principal localizado com sucesso!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando a tela... CENTRO DE CUSTO
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo'
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 15870, Tempo Aceitável: 10000
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo'
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 39, Tempo Aceitável: 10000
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo'
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo'
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo'
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 2519, Tempo Aceitável: 10000
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: CENTRO DE CUSTO
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Localizando Aba ... TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateVerticalToolbarItem2
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo'
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1354, Tempo Aceitável: 10000
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE CENTRO DE CUSTO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 5 SEGUNDOS 
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+INFO main ECF.automacao.suite.ResultadosDaSuite - Apagando log
+INFO main ECF.automacao.suite.ResultadosDaSuite - Apagando Screenshot
 INFO main ECF.automacao.suite.ResultadosDaSuite -                                                                                  ▒▓░ ▓░                                                            
 INFO main ECF.automacao.suite.ResultadosDaSuite -                                                                                 ▒█████▒                  ▒▒                                        
 INFO main ECF.automacao.suite.ResultadosDaSuite -            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
@@ -65,7 +12,7 @@ INFO main ECF.automacao.suite.ResultadosDaSuite -         ██░    ▓█▓
 INFO main ECF.automacao.suite.ResultadosDaSuite -         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
 INFO main ECF.automacao.suite.ResultadosDaSuite -          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
 INFO main ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------------------------------------------------------------------------------------
-INFO main ECF.automacao.suite.ResultadosDaSuite - SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 23 DE JULHO DE 2014
+INFO main ECF.automacao.suite.ResultadosDaSuite - SUITE DE TESTE INICIADA EM QUINTA-FEIRA, 24 DE JULHO DE 2014
 INFO main ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------------------------------------------------------------------------------------
 INFO main ECF.automacao.suite.ResultadosDaSuite - PARÂMETROS GERAIS: 
 INFO main ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -87,7 +34,7 @@ INFO main ECF.automacao.suite.TesteSuite - -------------------------------------
 INFO main ECF.automacao.suite.TesteSuite - INICIANDO TESTES DE TELA...
 INFO main ECF.automacao.suite.TesteSuite - ------------------------------------------------------
 INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
-INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM Wed Jul 23 20:40:44 BRT 2014
+INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM Thu Jul 24 00:17:30 BRT 2014
 INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
 INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
 INFO main ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/login.jsf

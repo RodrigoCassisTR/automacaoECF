@@ -4,8 +4,6 @@ package ECF.automacao.suite;
 
 import java.io.File;
 import java.io.IOException;
-import java.lang.reflect.Field;
-
 import org.apache.log4j.Logger;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
@@ -26,7 +24,7 @@ public class TesteSuite {
 	public static void main(String[] args) throws IOException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, NoSuchMethodException {
 		long inicio = System.currentTimeMillis();
 
-		int totalDeTestes = 0;
+	
 		int QtdeFalhas = 0;
 		int QtdeSucesso = 0;
 
@@ -49,6 +47,7 @@ public class TesteSuite {
 
 		ResultadosDaSuite auxReultados = new ResultadosDaSuite();
 
+		auxReultados.preparaSuite();
 		auxReultados.imprimeTitulo();
 		auxReultados.imprimeParametrosGeraisDaSuite();
 		auxReultados.imprimeParametrosDaSuite();

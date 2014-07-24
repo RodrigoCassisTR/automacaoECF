@@ -10,37 +10,21 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Formatter;
-import java.util.List;
-
 import org.apache.log4j.Logger;
-import org.jboss.netty.handler.codec.frame.LengthFieldBasedFrameDecoder;
-
-
-
-
-
-
 import ECF.automacaoECF.padrao.FuncionalidadesUteis;
 import ECF.automacaoECF.padrao.RecebeParametros;
 
 import java.util.Properties;
 
-import javax.activation.DataHandler;
-import javax.activation.FileDataSource;
 import javax.mail.Message;
 import javax.mail.MessagingException;
-import javax.mail.Multipart;
 import javax.mail.PasswordAuthentication;
 import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeMultipart;
 
 public class ResultadosDaSuite {
 	FuncionalidadesUteis utilidade = new FuncionalidadesUteis();
@@ -341,6 +325,26 @@ public class ResultadosDaSuite {
 		informacoesGerais[2] = "----";
 
 		return informacoesGerais;
+	}
+
+	public void preparaSuite() {
+		logger.info("Apagando log");
+		apagaLog();
+		logger.info("Apagando Screenshot");
+		apagaScreenshot();
+		
+	}
+
+	private void apagaScreenshot() {
+		FuncionalidadesUteis util=new FuncionalidadesUteis();
+		util.remover(new File("./screenshot"));
+		
+	}
+
+	private void apagaLog() {
+		FuncionalidadesUteis util=new FuncionalidadesUteis();
+		util.remover(new File("./logs"));
+		
 	}
 
 	
