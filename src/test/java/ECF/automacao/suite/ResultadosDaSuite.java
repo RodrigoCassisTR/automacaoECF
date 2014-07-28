@@ -1,7 +1,5 @@
 package ECF.automacao.suite;
 
-
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -10,11 +8,17 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DateFormat;
-import java.util.Calendar;
-import java.util.Date;
+import java.util.*;
+
+import javax.mail.*;
+import javax.mail.internet.*;
+import javax.activation.*;
+
 import org.apache.log4j.Logger;
+
 import ECF.automacaoECF.padrao.FuncionalidadesUteis;
 import ECF.automacaoECF.padrao.RecebeParametros;
+import ECF.automacaoECF.padrao.ZipUtils;
 
 import java.util.Properties;
 
@@ -27,6 +31,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 public class ResultadosDaSuite {
+
 	FuncionalidadesUteis utilidade = new FuncionalidadesUteis();
 	static org.apache.log4j.Logger logger = Logger.getLogger(ResultadosDaSuite.class.getName());
 	public String url = new RecebeParametros().url;
@@ -56,8 +61,8 @@ public class ResultadosDaSuite {
 			long duracaoParaFormatar = Long.parseLong(duracaoTestes[i]);
 			String duracaoFormatada = utilidade.formataDuracaoResumida(duracaoParaFormatar);
 
-			logger.info(String.format("%-30s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
-			resultadoParaImprimir[i] = (String.format("%-30s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
+			logger.info(String.format("%-40s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
+			resultadoParaImprimir[i] = (String.format("%-40s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
 		}
 		return resultadoParaImprimir;
 	}
@@ -135,12 +140,12 @@ public class ResultadosDaSuite {
 
 		//para a tela
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
-		logger.info(String.format("%-30s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO"));
+		logger.info(String.format("%-40s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO"));
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 
 		//para o arquivo
 		cabecalhoLinha[0] = "--------------------------------------------------------------------------------------------------------------------------------";
-		cabecalhoLinha[1] = String.format("%-30s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO");
+		cabecalhoLinha[1] = String.format("%-40s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO");
 		cabecalhoLinha[2] = "--------------------------------------------------------------------------------------------------------------------------------";
 
 		cabecalhoTestes = cabecalhoLinha[0] + "\n" + cabecalhoLinha[1] + "\n" + cabecalhoLinha[2] + "\n";
@@ -292,20 +297,20 @@ public class ResultadosDaSuite {
 		});
 
 		try {
-//			FileDataSource fileDataSource = new FileDataSource(anexoEvidencias);
-//			MimeBodyPart attachmentPart = new MimeBodyPart();
-//			attachmentPart.setDataHandler(new DataHandler(fileDataSource));
-//			attachmentPart.setFileName(fileDataSource.getName());
-//
-//			Multipart multipart = new MimeMultipart();
-//			multipart.addBodyPart(attachmentPart);
+			//			FileDataSource fileDataSource = new FileDataSource(anexoEvidencias);
+			//			MimeBodyPart attachmentPart = new MimeBodyPart();
+			//			attachmentPart.setDataHandler(new DataHandler(fileDataSource));
+			//			attachmentPart.setFileName(fileDataSource.getName());
+			//
+			//			Multipart multipart = new MimeMultipart();
+			//			multipart.addBodyPart(attachmentPart);
 
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress("tr.automation.webdriver@gmail.com"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(destinatarios));
 			message.setSubject(assuntoEmail);
 			message.setText(corpoEmailString);
-//			message.setContent(multipart);
+			//			message.setContent(multipart);
 
 			Transport.send(message);
 			logger.info("--------------------------------------------------------------------------------------------------------------------------------");
@@ -318,7 +323,7 @@ public class ResultadosDaSuite {
 	}
 
 	public String[] coletaInformacoesGeraisDoTeste() {
-		String[] informacoesGerais = {"","",""};
+		String[] informacoesGerais = {"", "", ""};
 
 		informacoesGerais[0] = url;
 		informacoesGerais[1] = navegador;
@@ -332,20 +337,100 @@ public class ResultadosDaSuite {
 		apagaLog();
 		logger.info("Apagando Screenshot");
 		apagaScreenshot();
-		
+
+	}
+
+	private void apagaZipToSend() {
+		FuncionalidadesUteis util = new FuncionalidadesUteis();
+		util.remover(new File("./files/temp/ZipToSend"));
+
 	}
 
 	private void apagaScreenshot() {
-		FuncionalidadesUteis util=new FuncionalidadesUteis();
+		FuncionalidadesUteis util = new FuncionalidadesUteis();
 		util.remover(new File("./screenshot"));
-		
+
 	}
 
 	private void apagaLog() {
-		FuncionalidadesUteis util=new FuncionalidadesUteis();
+		FuncionalidadesUteis util = new FuncionalidadesUteis();
 		util.remover(new File("./logs"));
-		
+
 	}
 
-	
+	public void enviaEmailComAnexos(String destinatarios, String assuntoEmail, String corpoEmailString) {
+
+		FuncionalidadesUteis utilidade = new FuncionalidadesUteis();
+
+		String to = destinatarios;
+		String from = "tr.automation.webdriver@gmail.com";
+
+		final String username = "tr.automation.webdriver@gmail.com";
+		final String password = "viladopombo";
+
+		Properties props = new Properties();
+		props.put("mail.smtp.auth", "true");
+		props.put("mail.smtp.starttls.enable", "true");
+		props.put("mail.smtp.host", "smtp.gmail.com");
+		props.put("mail.smtp.port", "587");
+
+		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
+			protected PasswordAuthentication getPasswordAuthentication() {
+				return new PasswordAuthentication(username, password);
+			}
+		});
+
+		try {
+
+			Message message = new MimeMessage(session);
+			message.setFrom(new InternetAddress(from));
+			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
+			message.setSubject(assuntoEmail);
+
+			BodyPart messageBodyPart = new MimeBodyPart();
+			BodyPart messageBodyPart2 = new MimeBodyPart();
+
+			messageBodyPart.setText(corpoEmailString);
+
+			Multipart multipart = new MimeMultipart();
+			multipart.addBodyPart(messageBodyPart);
+
+			messageBodyPart = new MimeBodyPart();
+			String filename = "./logs/automation.log";
+			DataSource source = new FileDataSource(filename);
+			messageBodyPart.setDataHandler(new DataHandler(source));
+			messageBodyPart.setFileName("automation.log");
+
+			if (utilidade.pastaVazia("./screenshot") == false) {
+
+				String anexoEvidencias = zipaEvidencias();
+				messageBodyPart2 = new MimeBodyPart();
+				String filename2 = anexoEvidencias;
+				DataSource source2 = new FileDataSource(filename2);
+				messageBodyPart2.setDataHandler(new DataHandler(source2));
+				messageBodyPart2.setFileName("evidencias.zip");
+				multipart.addBodyPart(messageBodyPart2);
+			}
+
+			multipart.addBodyPart(messageBodyPart);
+
+			message.setContent(multipart);
+			Transport.send(message);
+
+			logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
+			logger.info("E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! ");
+			logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
+
+		} catch (MessagingException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	public String zipaEvidencias() {
+		String[] u = null;
+		ZipUtils.main(u);
+		String evidenciasZip = "./files/temp/ZipToSend/evidencias.zip";
+		return evidenciasZip;
+	}
+
 }

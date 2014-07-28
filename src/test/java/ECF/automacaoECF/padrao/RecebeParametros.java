@@ -19,6 +19,7 @@ public class RecebeParametros {
 	public String testaIntegracao;
 	public String enviaEmail;
 	public String destinatariosSuite;
+	public String xpathModulo;
 
 	public RecebeParametros() {
 
@@ -40,6 +41,9 @@ public class RecebeParametros {
 			testaIntegracao = properties.getProperty("testaIntegracao");
 			enviaEmail = properties.getProperty("enviaEmail");
 			destinatariosSuite = properties.getProperty("destinatariosSuite");
+			
+			xpathModulo = properties.getProperty("xpathModulo");
+			
 
 
 		} catch (IOException e) {

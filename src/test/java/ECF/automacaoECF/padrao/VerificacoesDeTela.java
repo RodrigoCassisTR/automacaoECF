@@ -16,14 +16,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-
-
-
 public class VerificacoesDeTela {
 	org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeTela.class.getName());
 	public String tempoMedio = new RecebeParametros().tempoMedio;
 	int tempoMedioAceitavel = Integer.parseInt(tempoMedio);
 	FuncionalidadesUteis utilidade = new FuncionalidadesUteis();
+
+	public String usuario = new RecebeParametros().usuario;
+	public String senha = new RecebeParametros().senha;
 
 	private void falha(String mensagem, WebDriver driver, String nomeTeste) throws IOException {
 
@@ -37,6 +37,9 @@ public class VerificacoesDeTela {
 
 	public void aguardaCarregamento(String caminho, String xpathcarregaregistro, String nomeTeste, int tentativas, WebDriver driver) throws InterruptedException, IOException {
 		long inicio = System.currentTimeMillis();
+
+		Thread.sleep(1000);
+
 		for (int second = 0;; second++) {
 			logger.info("Aguardando o carregamento da tela " + caminho);
 
@@ -211,25 +214,36 @@ public class VerificacoesDeTela {
 
 	}
 
-	public void acessaModuloECF(WebDriver driver, int tentativas) throws Throwable {
+	public void acessaModuloECF(WebDriver driver, int tentativas, String xpathModulo, String nomeTeste) throws Throwable {
+		
 		org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeTela.class.getName());
-		String moduloEcf = new RecebeParametros().moduloEcf;
+		for (int i = 0; i == (tentativas + 1); i++) {
 
-		for (int second = 0;; second++) {
-			if (second >= tentativas)
-				falha("timeout, Módulo ONESOURCE ECF não localizado " + moduloEcf, driver, "selecaodemodulos");
-			try {
-				if (driver.findElement(By.xpath(moduloEcf)).isDisplayed())
-					driver.manage().window().maximize();
-										break;
-			} catch (Exception e) {
-				Thread.sleep(1000);
+			for (int second = 0; second < tentativas; second++) {
+				logger.info(second);
+				if (second >= tentativas) {
+				}
+
+				try {
+					if (driver.findElement(By.xpath(xpathModulo)).isDisplayed()==true)
+
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			if (i >= tentativas) {
+				falha("Módulo não localizado", driver, nomeTeste);
 			}
 
+			efetuaLogout(driver, tentativas);
+			efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 		}
 
 		logger.info("Acessando o módulo ONESOURCE ECF...");
-		driver.findElement(By.xpath(moduloEcf)).click();
+		aguardaCarregamento(nomeTeste, xpathModulo, nomeTeste, tentativas, driver);
+		driver.findElement(By.xpath(xpathModulo)).click();
 	}
 
 	public void acessaSistema(WebDriver driver, int tentativas, String url, String usuario, String senha, String navegador, String nomeTeste) throws InterruptedException, IOException {
@@ -247,7 +261,7 @@ public class VerificacoesDeTela {
 		driver.get(url);
 
 		for (int second = 0;; second++) {
-			logger.info("Aguardando tela de login ser carregada...");
+			logger.info("Aguardando tela de login ser carregada | Tentativa " + (second + 1) + " de " + (tentativas + 1));
 
 			if (second >= tentativas)
 				falha("Timeout, elemento nao localizado j_username", driver, nomeTeste);
@@ -262,7 +276,6 @@ public class VerificacoesDeTela {
 		logger.info("Tela carregada com sucesso!");
 
 	}
-
 	public void acessaTela(WebDriver driver, int tentativas, String xpathmenu1, String xpathmenu2, String xpathtela, String nomeTeste) throws Throwable {
 
 		for (int second = 0;; second++) {
@@ -518,7 +531,7 @@ public class VerificacoesDeTela {
 	}
 
 	public void acessaAbaPorId(WebDriver driver, int tentativas, String idAbaRegistro, String nomeTeste) throws IOException, InterruptedException {
-		
+
 		Actions builder = new Actions(driver);
 		WebElement teste = driver.findElement(By.id(idAbaRegistro));
 		builder.moveToElement(teste).build().perform();
@@ -543,7 +556,200 @@ public class VerificacoesDeTela {
 		logger.info("#########################################################################");
 		logger.info("TESTE " + nomeTeste + " ENCERRADO COM SUCESSO EM " + utilidade.formataDuracao(duracaoTeste));
 		logger.info("#########################################################################");
-		
+
+	}
+
+	public void acessaTelaPorClick(WebDriver driver, int tentativas, String xpathMenu1, String xpathMenu2, String xpathMenu3, String xpathMenu4, String xpathTela, String nomeTeste, String labelMenu1, String labelMenu2, String labelMenu3, String labelMenu4, String labelTela, int qtdeMenuInt) throws InterruptedException, IOException {
+		logger.info("Acessando a Tela...");
+
+		if (qtdeMenuInt == 1) {
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
+			Thread.sleep(500);
+
+			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu1)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathTela)).click();
+			}
+
+		} else if (qtdeMenuInt == 2) {
+			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu1)).click();
+			}
+
+			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
+			Thread.sleep(500);
+			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu2)).getText().contentEquals(labelMenu2)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu2)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+
+			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathTela)).click();
+			}
+
+		} else if (qtdeMenuInt == 3) {
+			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu1)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu2)).getText().contentEquals(labelMenu2)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu2)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu3)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu3)).getText().contentEquals(labelMenu3)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu3)).click();
+			}
+
+			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			Thread.sleep(500);
+			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathTela)).click();
+			}
+
+		} else if (qtdeMenuInt == 4) {
+			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu1)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu2)).getText().contentEquals(labelMenu2)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu2)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu3)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu3)).getText().contentEquals(labelMenu3)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu3)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathMenu4, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathMenu4)).getText() + " >");
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathMenu4)).getText().contentEquals(labelMenu4)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathMenu4)).click();
+			}
+
+			Thread.sleep(500);
+			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {
+				falha("Tela não está localizada no local correto", driver, nomeTeste);
+			} else {
+				driver.findElement(By.xpath(xpathTela)).click();
+			}
+
+		}
+
+	}
+	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste) throws InterruptedException, IOException {
+		aguardaCarregamento(nomeTeste, xpathCarregaRegistro, nomeTeste, tentativas, driver);
+		Thread.sleep(500);
+		driver.findElement(By.xpath(xpathCarregaRegistro)).click();
+
+	}
+
+	public void acessaModulo(WebDriver driver, int tentativas, String xpathModulo) throws InterruptedException, IOException {
+
+		for (int second = 0;; second++) {
+			logger.info("Localizando o link do módulo...");
+
+			if (second >= tentativas)
+				//falha("Timeout, módulo não localizado" + xpathModulo, driver, "Acesso ao Módulo");
+				efetuaLogoutLogin(driver, tentativas);
+
+			try {
+
+				if (driver.findElement(By.xpath(xpathModulo)).isDisplayed())
+					break;
+			} catch (Exception e) {
+			}
+			Thread.sleep(1000);
+		}
+
+	}
+
+	private void efetuaLogoutLogin(WebDriver driver, int tentativas) throws InterruptedException, IOException {
+		efetuaLogout(driver, tentativas);
+
+		efetuaLoginComSucesso(driver, tentativas, usuario, senha, "Login");
+
+	}
+
+	private void efetuaLogout(WebDriver driver, int tentativas) throws InterruptedException, IOException {
+		logger.info("Efetuando Logout...");
+		aguardaCarregamento("Logout", "//*[@id='taxit_logoff']/a", "Logout", tentativas, driver);
+		driver.findElement(By.xpath("//*[@id='taxit_logoff']/a")).click();
+		aguardaCarregamento("Logout", "//*[@id='j_username']", "Logout", tentativas, driver);
+		logger.info("Logout efetuado com sucesso!");
+
 	}
 
 }

@@ -1,17 +1,12 @@
 package ECF.automacao.suite;
 
-
-
 import java.io.File;
 import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
-
 import ECF.automacaoECF.acessoTela.*;
 import ECF.automacaoECF.padrao.RecebeParametros;
-
-
 
 public class TesteSuite {
 	static org.apache.log4j.Logger logger = Logger.getLogger(TesteSuite.class.getName());
@@ -24,7 +19,6 @@ public class TesteSuite {
 	public static void main(String[] args) throws IOException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, NoSuchMethodException {
 		long inicio = System.currentTimeMillis();
 
-	
 		int QtdeFalhas = 0;
 		int QtdeSucesso = 0;
 
@@ -33,7 +27,7 @@ public class TesteSuite {
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
 		//Class<?>[] testesTela = {TelaCentralDeCadastrosTest.class, TelaCentroDeCustoTest.class, TelaConsultaDarfTest.class, TelaEmpresaTest.class, TelaFeriadoTest.class, TelaLancamentoContabeisTest.class, TelaPlanoDeContasTest.class, TelaSaldosTest.class, TelaTaxaSelicTest.class, TelaTipoDeFeriadoTest.class, TelaVencimentoDosTributosTest.class};
-		Class<?>[] testesTela = {TelaCentroDeCustoAcesso.class,TelaFeriadoAcesso.class,TelaLancamentosContabeisAcesso.class,TelaPlanoDeContasAcesso.class,TelaSaldosAcesso.class,TelaTaxaSelicAcesso.class,TelaTipoDeFeriadoAcesso.class};
+		Class<?>[] testesTela = {TelaCentroDeCustoAcesso.class,TelaComBaseNoSaldoConsolidadoAcesso.class,TelaConsultaDeDarfAcesso.class,TelaFeriadoAcesso.class,TelaLancamentosContabeisAcesso.class,TelaPlanoDeContasAcesso.class,TelaProcessoEmLoteAcesso.class,TelaSaldosAcesso.class,TelaTaxaSelicAcesso.class,TelaTipoDeFeriadoAcesso.class,TelaVencimentoDosTributosAcesso.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 
@@ -114,6 +108,7 @@ public class TesteSuite {
 			for (int i = 0; i < testesIntegracao.length; i++) {
 				long duracaoSuiteTeste = System.currentTimeMillis();
 				Result result = new Result();
+				
 				result = JUnitCore.runClasses(testesIntegracao[i]);
 				long duracao = System.currentTimeMillis() - duracaoSuiteTeste;
 				String duracaoString = Long.toString(duracao);
@@ -157,8 +152,9 @@ public class TesteSuite {
 			String destinatarios = destinatariosSuite;
 			String assuntoEmail = auxReultados.montaAssuntoEmail(CabecalhoDeResultado);
 			String corpoEmailString = auxReultados.montaCorpoEmail(corpoEmail);
+		
 
-			auxReultados.enviaEmail(destinatarios, assuntoEmail, corpoEmailString);
+			auxReultados.enviaEmailComAnexos(destinatarios, assuntoEmail, corpoEmailString);
 		}
 
 	}

@@ -1,13 +1,9 @@
 package ECF.automacaoECF.padrao;
 
-
-
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
-
-
 
 public class FuncionalidadesUteis {
 	org.apache.log4j.Logger logger = Logger.getLogger(FuncionalidadesUteis.class.getName());
@@ -36,11 +32,11 @@ public class FuncionalidadesUteis {
 		return (sb.toString());
 
 	}
-	public void limpaPasta(String pasta){
+	public void limpaPasta(String pasta) {
 		File pastaTXT = new File(pasta);
 		if (pastaTXT.exists()) {
 			logger.info("Limpando pasta: " + pasta);
-			
+
 			remover(new File(pasta));
 
 		} else {
@@ -48,15 +44,10 @@ public class FuncionalidadesUteis {
 		}
 	}
 	public String formataDuracaoResumida(long duracaoParaFormatar) {
-		String duracaoFormatada=String.format("%02d:%02d:%02d", 
-			    TimeUnit.MILLISECONDS.toHours(duracaoParaFormatar),
-			    TimeUnit.MILLISECONDS.toMinutes(duracaoParaFormatar) - 
-			    TimeUnit.MINUTES.toMinutes(TimeUnit.MILLISECONDS.toHours(duracaoParaFormatar)),
-			    TimeUnit.MILLISECONDS.toSeconds(duracaoParaFormatar) - 
-			    TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duracaoParaFormatar)));   
+		String duracaoFormatada = String.format("%02d:%02d:%02d", TimeUnit.MILLISECONDS.toHours(duracaoParaFormatar), TimeUnit.MILLISECONDS.toMinutes(duracaoParaFormatar) - TimeUnit.MINUTES.toMinutes(TimeUnit.MILLISECONDS.toHours(duracaoParaFormatar)), TimeUnit.MILLISECONDS.toSeconds(duracaoParaFormatar) - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duracaoParaFormatar)));
 		return duracaoFormatada;
 	}
-	
+
 	public void remover(File f) {
 		if (f.isDirectory()) {
 			File[] files = f.listFiles();
@@ -66,5 +57,21 @@ public class FuncionalidadesUteis {
 
 		}
 		f.delete();
+	}
+	public boolean pastaVazia(String pasta) {
+		File file = new File(pasta);
+
+		if (file.isDirectory()) {
+			if (file.list().length > 0) {
+				return false;
+			} else {
+				return true;
+			}
+
+		} else {
+
+			return true;
+
+		}
 	}
 }
