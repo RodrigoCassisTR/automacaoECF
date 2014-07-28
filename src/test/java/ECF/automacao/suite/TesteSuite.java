@@ -26,8 +26,8 @@ public class TesteSuite {
 		Boolean testaCRUDBoolean = Boolean.parseBoolean(testaCRUD);
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
-		//Class<?>[] testesTela = {TelaCentralDeCadastrosTest.class, TelaCentroDeCustoTest.class, TelaConsultaDarfTest.class, TelaEmpresaTest.class, TelaFeriadoTest.class, TelaLancamentoContabeisTest.class, TelaPlanoDeContasTest.class, TelaSaldosTest.class, TelaTaxaSelicTest.class, TelaTipoDeFeriadoTest.class, TelaVencimentoDosTributosTest.class};
-		Class<?>[] testesTela = {TelaCentroDeCustoAcesso.class,TelaComBaseNoSaldoConsolidadoAcesso.class,TelaConsultaDeDarfAcesso.class,TelaFeriadoAcesso.class,TelaLancamentosContabeisAcesso.class,TelaPlanoDeContasAcesso.class,TelaProcessoEmLoteAcesso.class,TelaSaldosAcesso.class,TelaTaxaSelicAcesso.class,TelaTipoDeFeriadoAcesso.class,TelaVencimentoDosTributosAcesso.class};
+		
+		Class<?>[] testesTela = {TelaCentroDeCustoAcesso.class, TelaComBaseNoSaldoConsolidadoAcesso.class, TelaConsultaDeDarfAcesso.class, TelaFeriadoAcesso.class, TelaLancamentosContabeisAcesso.class, TelaPlanoDeContasAcesso.class, TelaProcessoEmLoteAcesso.class, TelaSaldosAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaEmpresasAcesso.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 
@@ -108,7 +108,7 @@ public class TesteSuite {
 			for (int i = 0; i < testesIntegracao.length; i++) {
 				long duracaoSuiteTeste = System.currentTimeMillis();
 				Result result = new Result();
-				
+
 				result = JUnitCore.runClasses(testesIntegracao[i]);
 				long duracao = System.currentTimeMillis() - duracaoSuiteTeste;
 				String duracaoString = Long.toString(duracao);
@@ -152,7 +152,6 @@ public class TesteSuite {
 			String destinatarios = destinatariosSuite;
 			String assuntoEmail = auxReultados.montaAssuntoEmail(CabecalhoDeResultado);
 			String corpoEmailString = auxReultados.montaCorpoEmail(corpoEmail);
-		
 
 			auxReultados.enviaEmailComAnexos(destinatarios, assuntoEmail, corpoEmailString);
 		}
