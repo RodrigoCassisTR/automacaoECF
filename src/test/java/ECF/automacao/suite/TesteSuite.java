@@ -27,7 +27,7 @@ public class TesteSuite {
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
 		
-		Class<?>[] testesTela = {TelaCentroDeCustoAcesso.class, TelaComBaseNoSaldoConsolidadoAcesso.class, TelaConsultaDeDarfAcesso.class, TelaFeriadoAcesso.class, TelaLancamentosContabeisAcesso.class, TelaPlanoDeContasAcesso.class, TelaProcessoEmLoteAcesso.class, TelaSaldosAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaEmpresasAcesso.class,TelaContasSpedAssociacaoAcesso.class};
+		Class<?>[] testesTela = {TelaAJustesParteBAcesso.class,TelaAliquotasDosTributosAcesso.class,TelaCentralDeCadastrosAcesso.class,TelaCentroDeCustoAcesso.class,TelaComBaseNoSaldoConsolidadoAcesso.class,TelaConsultaDeDarfAcesso.class,TelaContasSpedAssociacaoAcesso.class,TelaContasSpedConsultaAcesso.class,TelaEmpresasAcesso.class,TelaFeriadoAcesso.class,TelaLancamentosContabeisAcesso.class,TelaLucroEstimadoAssociacaoContasLalurAcesso.class,TelaLucroEstimadoContasAcesso.class,TelaLucroRealAssociacaoContasLalurAcesso.class,TelaLucroRealContasAcesso.class,TelaPlanoDeContasAcesso.class,TelaPlanoReferencialPlanoEmpresaAssociacaoAcesso.class,TelaPlanoReferencialPlanoEmpresaConsultaAcesso.class,TelaProcessoEmLoteAcesso.class,TelaResponsaveisAcesso.class,TelaSaldosAcesso.class,TelaScpAcesso.class,TelaSituacaoEspecialAcesso.class,TelaTaxaSelicAcesso.class,TelaTipoDeFeriadoAcesso.class,TelaVencimentoDosTributosAcesso.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 

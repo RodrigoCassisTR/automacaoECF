@@ -7471,3 +7471,1695 @@ INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
 INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
 INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
 INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | #########################################################################
+INFO main | ASSOCIAÇÃO - TESTE INICIADO EM Tue Jul 29 17:15:57 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ASSOCIAÇÃO
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | #########################################################################
+INFO main | ASSOCIAÇÃO - TESTE INICIADO EM Tue Jul 29 17:16:39 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ASSOCIAÇÃO
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | #########################################################################
+INFO main | ASSOCIAÇÃO - TESTE INICIADO EM Tue Jul 29 17:17:52 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ASSOCIAÇÃO
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | #########################################################################
+INFO main | ASSOCIAÇÃO - TESTE INICIADO EM Tue Jul 29 17:18:46 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ASSOCIAÇÃO
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Tela ASSOCIAÇÃO acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11270, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Tela ASSOCIAÇÃO acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12144, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Tela ASSOCIAÇÃO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Tela ASSOCIAÇÃO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Tela ASSOCIAÇÃO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Plano Referencial x Plano Empresa >
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Tela ASSOCIAÇÃO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Associação
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15146, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ASSOCIAÇÃO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ASSOCIAÇÃO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 4076, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ASSOCIAÇÃO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ASSOCIAÇÃO
+INFO main | Tela ASSOCIAÇÃO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Associação' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 22170, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE ASSOCIAÇÃO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 55 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | CONSULTA - TESTE INICIADO EM Tue Jul 29 17:22:41 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6704, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13136, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano Referencial x Plano Empresa >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main | Consulta
+INFO main | #########################################################################
+INFO main | CONSULTA - TESTE INICIADO EM Tue Jul 29 17:26:09 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10543, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7073, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Plano Referencial x Plano Empresa >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main | Consulta
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 18182, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | #########################################################################
+INFO main | CONSULTA - TESTE INICIADO EM Tue Jul 29 17:30:30 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8649, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11125, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano Referencial x Plano Empresa >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Consulta
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15133, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial x Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | #########################################################################
+INFO main | CONSULTA - TESTE INICIADO EM Tue Jul 29 17:34:40 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8295, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13120, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main | Plano Referencial x Plano Empresa >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Consulta
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15263, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3064, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | #########################################################################
+INFO main | CONSULTA - TESTE INICIADO EM Tue Jul 29 17:37:51 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8025, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12133, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano Referencial x Plano Empresa >
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Consulta
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12116, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2257, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CONSULTA
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela CONSULTA
+INFO main | Tela CONSULTA acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Plano Referencial > Plano Empresa > Consulta'
+INFO main | #########################################################################
+INFO main | RESPONSÁVEIS - TESTE INICIADO EM Tue Jul 29 17:41:28 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | #########################################################################
+INFO main | RESPONSÁVEIS - TESTE INICIADO EM Tue Jul 29 17:42:55 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | #########################################################################
+INFO main | RESPONSÁVEIS - TESTE INICIADO EM Tue Jul 29 17:44:28 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | #########################################################################
+INFO main | RESPONSÁVEIS - TESTE INICIADO EM Tue Jul 29 17:45:53 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7071, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 18194, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Responsáveis
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Tela 'Cadastros > Geral > Responsáveis' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7078, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Tela 'Cadastros > Geral > Responsáveis' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | #########################################################################
+INFO main | RESPONSÁVEIS - TESTE INICIADO EM Tue Jul 29 17:48:22 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | #########################################################################
+INFO main | RESPONSÁVEIS - TESTE INICIADO EM Tue Jul 29 17:49:46 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7150, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11229, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Responsáveis
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Tela 'Cadastros > Geral > Responsáveis' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12110, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Tela 'Cadastros > Geral > Responsáveis' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Tela 'Cadastros > Geral > Responsáveis' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2051, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: RESPONSÁVEIS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela RESPONSÁVEIS
+INFO main | Tela RESPONSÁVEIS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Responsáveis'
+INFO main | Tela 'Cadastros > Geral > Responsáveis' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3044, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE RESPONSÁVEIS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 55 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | SCP - TESTE INICIADO EM Tue Jul 29 17:54:56 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: SCP
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15570, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9090, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | #########################################################################
+INFO main | SCP - TESTE INICIADO EM Tue Jul 29 17:57:22 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: SCP
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9728, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11252, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela SCP
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | SCP
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Tela 'Cadastros > Geral > SCP' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12123, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: SCP
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > SCP'
+INFO main | Tela 'Cadastros > Geral > SCP' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE SCP ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 55 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | SITUAÇÃO ESPECIAL - TESTE INICIADO EM Tue Jul 29 18:01:08 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | #########################################################################
+INFO main | SITUAÇÃO ESPECIAL - TESTE INICIADO EM Tue Jul 29 18:02:32 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | #########################################################################
+INFO main | SITUAÇÃO ESPECIAL - TESTE INICIADO EM Tue Jul 29 18:04:00 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10824, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8082, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Geral >
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Situação Especial
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Tela 'Cadastros > Geral > Situação Especial' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 30301, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Tela 'Cadastros > Geral > Situação Especial' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Tela 'Cadastros > Geral > Situação Especial' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3141, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Situação Especial'
+INFO main | Tela 'Cadastros > Geral > Situação Especial' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 23186, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE SITUAÇÃO ESPECIAL ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 36 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Tue Jul 29 18:06:52 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Tue Jul 29 18:12:04 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7126, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 14167, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Tue Jul 29 18:14:09 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5231, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12120, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Tue Jul 29 18:16:44 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 4887, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10266, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1059, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Tabelas de Apoio >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Tue Jul 29 18:20:04 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5917, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8084, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Tabelas de Apoio >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8103, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3062, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Tue Jul 29 18:22:22 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5414, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9132, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main | Tabelas de Apoio >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9156, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2068, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
