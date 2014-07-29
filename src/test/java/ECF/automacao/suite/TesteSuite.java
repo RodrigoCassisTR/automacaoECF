@@ -27,7 +27,7 @@ public class TesteSuite {
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
 		
-		Class<?>[] testesTela = {TelaCentroDeCustoAcesso.class, TelaComBaseNoSaldoConsolidadoAcesso.class, TelaConsultaDeDarfAcesso.class, TelaFeriadoAcesso.class, TelaLancamentosContabeisAcesso.class, TelaPlanoDeContasAcesso.class, TelaProcessoEmLoteAcesso.class, TelaSaldosAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaEmpresasAcesso.class};
+		Class<?>[] testesTela = {TelaCentroDeCustoAcesso.class, TelaComBaseNoSaldoConsolidadoAcesso.class, TelaConsultaDeDarfAcesso.class, TelaFeriadoAcesso.class, TelaLancamentosContabeisAcesso.class, TelaPlanoDeContasAcesso.class, TelaProcessoEmLoteAcesso.class, TelaSaldosAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaEmpresasAcesso.class,TelaContasSpedAssociacaoAcesso.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 

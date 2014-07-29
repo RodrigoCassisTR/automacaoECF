@@ -1,8 +1,6 @@
 package ECF.automacaoECF.acessoTela;
 
-import ECF.automacaoECF.padrao.TelaAcessoTresAbas;
+import ECF.automacaoECF.padrao.TelaAcesso;
 
-public class TelaSaldosAcesso extends TelaAcessoTresAbas {
-
-	
+public class TelaSaldosAcesso extends TelaAcesso {
 }

@@ -9,12 +9,15 @@ import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
+import org.junit.internal.runners.statements.Fail;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.asserts.Assertion;
 
 public class VerificacoesDeTela {
 	org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeTela.class.getName());
@@ -32,9 +35,10 @@ public class VerificacoesDeTela {
 		File scrsht = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrsht, new File("./screenshot/" + nomeDoScreenshot + ".png"));
 		fail(mensagem + " Screenshot gravado no diretório ./screenshot/ com o nome " + nomeDoScreenshot + ".png");
-		encerraNavegador(driver);
-	}
 
+		encerraNavegador(driver);
+
+	}
 	public void aguardaCarregamento(String caminho, String xpathcarregaregistro, String nomeTeste, int tentativas, WebDriver driver) throws InterruptedException, IOException {
 		long inicio = System.currentTimeMillis();
 
@@ -215,7 +219,8 @@ public class VerificacoesDeTela {
 	}
 
 	public void acessaModuloECF(WebDriver driver, int tentativas, String xpathModulo, String nomeTeste) throws Throwable {
-		
+		boolean moduloPresente = false;
+
 		org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeTela.class.getName());
 		for (int i = 0; i == (tentativas + 1); i++) {
 
@@ -225,27 +230,43 @@ public class VerificacoesDeTela {
 				}
 
 				try {
-					if (driver.findElement(By.xpath(xpathModulo)).isDisplayed()==true)
-
+					moduloPresente = verificaSeEstaNaTela(driver, xpathModulo);
+					if (moduloPresente == true)
+						logger.info(moduloPresente);
 						break;
+
 				} catch (Exception e) {
 					Thread.sleep(1000);
 				}
 
 			}
-			if (i >= tentativas) {
-				falha("Módulo não localizado", driver, nomeTeste);
-			}
-
+			
 			efetuaLogout(driver, tentativas);
 			efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
-		}
+		
+			}
 
 		logger.info("Acessando o módulo ONESOURCE ECF...");
 		aguardaCarregamento(nomeTeste, xpathModulo, nomeTeste, tentativas, driver);
 		driver.findElement(By.xpath(xpathModulo)).click();
-	}
+		aguardaCarregamento(nomeTeste, "/html/body/div[3]/div[2]/div/ul/li/a", nomeTeste, tentativas, driver);
+		}
 
+		
+	
+
+	private boolean verificaSeEstaNaTela(WebDriver driver, String xpathModulo) {
+		if (driver.findElement(By.xpath(xpathModulo)).isDisplayed()==true) {
+			
+			logger.info("true");
+			return true;
+			
+		} else {
+			logger.info("false");
+			return false;
+			
+		}
+	}
 	public void acessaSistema(WebDriver driver, int tentativas, String url, String usuario, String senha, String navegador, String nomeTeste) throws InterruptedException, IOException {
 
 		logger.info("----------------------------------------------------");

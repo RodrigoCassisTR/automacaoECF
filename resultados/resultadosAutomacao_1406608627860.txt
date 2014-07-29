@@ -1,0 +1,31 @@
+AUTOMACAO | ONESOURCE ECF
+--------------------------------------------------------------------------------------------------------------------------------
+RESULTADOS DA SUITE EM TERÇA-FEIRA, 29 DE JULHO DE 2014
+
+TOTAL DE TESTES: 13 | FALHA: 6 | SUCESSO: 7
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+TESTE                                     RESULTADO            CATEGORIA              DURAÇÃO
+--------------------------------------------------------------------------------------------------------------------------------
+TelaCentroDeCustoAcesso                      FALHA!                 TELA             00:02:52
+TelaComBaseNoSaldoConsolidadoAcesso          FALHA!                 TELA             00:02:51
+TelaConsultaDeDarfAcesso                     FALHA!                 TELA             00:02:52
+TelaFeriadoAcesso                          SUCESSO!                 TELA             00:01:41
+TelaLancamentosContabeisAcesso             SUCESSO!                 TELA             00:01:53
+TelaPlanoDeContasAcesso                    SUCESSO!                 TELA             00:01:51
+TelaProcessoEmLoteAcesso                     FALHA!                 TELA             00:02:52
+TelaSaldosAcesso                           SUCESSO!                 TELA             00:01:47
+TelaTaxaSelicAcesso                          FALHA!                 TELA             00:03:21
+TelaTipoDeFeriadoAcesso                    SUCESSO!                 TELA             00:02:06
+TelaVencimentoDosTributosAcesso            SUCESSO!                 TELA             00:02:27
+TelaEmpresasAcesso                           FALHA!                 TELA             00:02:15
+TelaContasSpedAssociacaoAcesso             SUCESSO!                 TELA             00:01:54
+--------------------------------------------------------------------------------------------------------------------------------
+SUITE DE TESTE EXECUTADA EM: 0 HORAS 30 MINUTOS 47 SEGUNDOS 
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+PARAMETROS DA AUTOMACAO: 
+AMBIENTE: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+NAVEGADOR: chrome
+VERSAO: ----
+--------------------------------------------------------------------------------------------------------------------------------
