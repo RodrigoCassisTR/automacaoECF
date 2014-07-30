@@ -42,7 +42,7 @@ public class VerificacoesDeTela {
 	public void aguardaCarregamento(String caminho, String xpathcarregaregistro, String nomeTeste, int tentativas, WebDriver driver) throws InterruptedException, IOException {
 		long inicio = System.currentTimeMillis();
 
-		Thread.sleep(1000);
+		
 
 		for (int second = 0;; second++) {
 			logger.info("Aguardando o carregamento da tela " + caminho);
@@ -586,7 +586,7 @@ public class VerificacoesDeTela {
 		if (qtdeMenuInt == 1) {
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
 			Thread.sleep(500);
 
@@ -597,7 +597,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {
@@ -607,7 +607,7 @@ public class VerificacoesDeTela {
 			}
 
 		} else if (qtdeMenuInt == 2) {
-			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
@@ -616,7 +616,7 @@ public class VerificacoesDeTela {
 				driver.findElement(By.xpath(xpathMenu1)).click();
 			}
 
-			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
+			
 			Thread.sleep(500);
 			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
 			Thread.sleep(500);
@@ -627,7 +627,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			
 
 			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
 			Thread.sleep(500);
@@ -638,7 +638,7 @@ public class VerificacoesDeTela {
 			}
 
 		} else if (qtdeMenuInt == 3) {
-			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
@@ -648,7 +648,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathMenu2)).getText().contentEquals(labelMenu2)) {
@@ -658,7 +658,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu3)).getText() + " >");
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathMenu3)).getText().contentEquals(labelMenu3)) {
@@ -667,7 +667,7 @@ public class VerificacoesDeTela {
 				driver.findElement(By.xpath(xpathMenu3)).click();
 			}
 
-			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			
 			Thread.sleep(500);
 			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
 			Thread.sleep(500);
@@ -680,7 +680,7 @@ public class VerificacoesDeTela {
 		} else if (qtdeMenuInt == 4) {
 			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			
 			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
 				falha("Tela não está localizada no local correto", driver, nomeTeste);
 			} else {
@@ -688,7 +688,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathMenu2)).getText().contentEquals(labelMenu2)) {
@@ -698,7 +698,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu3)).getText() + " >");
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathMenu3)).getText().contentEquals(labelMenu3)) {
@@ -708,7 +708,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathMenu4, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathMenu4)).getText() + " >");
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathMenu4)).getText().contentEquals(labelMenu4)) {
@@ -718,7 +718,7 @@ public class VerificacoesDeTela {
 			}
 
 			Thread.sleep(500);
-			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			
 			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
 			Thread.sleep(500);
 			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {

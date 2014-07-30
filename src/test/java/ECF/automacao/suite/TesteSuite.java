@@ -26,8 +26,9 @@ public class TesteSuite {
 		Boolean testaCRUDBoolean = Boolean.parseBoolean(testaCRUD);
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
-		
-		Class<?>[] testesTela = {TelaAJustesParteBAcesso.class,TelaAliquotasDosTributosAcesso.class,TelaCentralDeCadastrosAcesso.class,TelaCentroDeCustoAcesso.class,TelaComBaseNoSaldoConsolidadoAcesso.class,TelaConsultaDeDarfAcesso.class,TelaContasSpedAssociacaoAcesso.class,TelaContasSpedConsultaAcesso.class,TelaEmpresasAcesso.class,TelaFeriadoAcesso.class,TelaLancamentosContabeisAcesso.class,TelaLucroEstimadoAssociacaoContasLalurAcesso.class,TelaLucroEstimadoContasAcesso.class,TelaLucroRealAssociacaoContasLalurAcesso.class,TelaLucroRealContasAcesso.class,TelaPlanoDeContasAcesso.class,TelaPlanoReferencialPlanoEmpresaAssociacaoAcesso.class,TelaPlanoReferencialPlanoEmpresaConsultaAcesso.class,TelaProcessoEmLoteAcesso.class,TelaResponsaveisAcesso.class,TelaSaldosAcesso.class,TelaScpAcesso.class,TelaSituacaoEspecialAcesso.class,TelaTaxaSelicAcesso.class,TelaTipoDeFeriadoAcesso.class,TelaVencimentoDosTributosAcesso.class};
+
+		//Class<?>[] testesTela = {TelaAJustesParteBAcesso.class, TelaAliquotasDosTributosAcesso.class, TelaCentralDeCadastrosAcesso.class, TelaCentroDeCustoAcesso.class, TelaComBaseNoSaldoConsolidadoAcesso.class, TelaConsultaDeDarfAcesso.class, TelaContasSpedAssociacaoAcesso.class, TelaContasSpedConsultaAcesso.class, TelaEmpresasAcesso.class, TelaFeriadoAcesso.class, TelaLancamentosContabeisAcesso.class, TelaLucroEstimadoAssociacaoContasLalurAcesso.class, TelaLucroEstimadoContasAcesso.class, TelaLucroRealAssociacaoContasLalurAcesso.class, TelaLucroRealContasAcesso.class, TelaPlanoDeContasAcesso.class, TelaPlanoReferencialPlanoEmpresaAssociacaoAcesso.class, TelaPlanoReferencialPlanoEmpresaConsultaAcesso.class, TelaProcessoEmLoteAcesso.class, TelaResponsaveisAcesso.class, TelaSaldosAcesso.class, TelaScpAcesso.class, TelaSituacaoEspecialAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class};
+		Class<?>[] testesTela = {TelaAJustesParteBAcesso.class,TelaAliquotasDosTributosAcesso.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 

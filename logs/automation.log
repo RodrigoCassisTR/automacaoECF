@@ -9163,3 +9163,1681 @@ INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
 INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
 INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
 INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 0 | FALHA: 0 | SUCESSO: 0
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                     RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 0 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 0 | FALHA: 0 | SUCESSO: 0
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                     RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 0 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 0 | FALHA: 0 | SUCESSO: 0
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                     RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 0 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 26 | FALHA: 26 | SUCESSO: 0
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                     RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TelaAJustesParteBAcesso                      FALHA!                 TELA             00:00:00
+INFO main | TelaAliquotasDosTributosAcesso               FALHA!                 TELA             00:00:00
+INFO main | TelaCentralDeCadastrosAcesso                 FALHA!                 TELA             00:00:00
+INFO main | TelaCentroDeCustoAcesso                      FALHA!                 TELA             00:00:00
+INFO main | TelaComBaseNoSaldoConsolidadoAcesso          FALHA!                 TELA             00:00:00
+INFO main | TelaConsultaDeDarfAcesso                     FALHA!                 TELA             00:00:00
+INFO main | TelaContasSpedAssociacaoAcesso               FALHA!                 TELA             00:00:00
+INFO main | TelaContasSpedConsultaAcesso                 FALHA!                 TELA             00:00:00
+INFO main | TelaEmpresasAcesso                           FALHA!                 TELA             00:00:00
+INFO main | TelaFeriadoAcesso                            FALHA!                 TELA             00:00:00
+INFO main | TelaLancamentosContabeisAcesso               FALHA!                 TELA             00:00:00
+INFO main | TelaLucroEstimadoAssociacaoContasLalurAcesso     FALHA!                 TELA             00:00:00
+INFO main | TelaLucroEstimadoContasAcesso                FALHA!                 TELA             00:00:00
+INFO main | TelaLucroRealAssociacaoContasLalurAcesso     FALHA!                 TELA             00:00:00
+INFO main | TelaLucroRealContasAcesso                    FALHA!                 TELA             00:00:00
+INFO main | TelaPlanoDeContasAcesso                      FALHA!                 TELA             00:00:00
+INFO main | TelaPlanoReferencialPlanoEmpresaAssociacaoAcesso     FALHA!                 TELA             00:00:00
+INFO main | TelaPlanoReferencialPlanoEmpresaConsultaAcesso     FALHA!                 TELA             00:00:00
+INFO main | TelaProcessoEmLoteAcesso                     FALHA!                 TELA             00:00:00
+INFO main | TelaResponsaveisAcesso                       FALHA!                 TELA             00:00:00
+INFO main | TelaSaldosAcesso                             FALHA!                 TELA             00:00:00
+INFO main | TelaScpAcesso                                FALHA!                 TELA             00:00:00
+INFO main | TelaSituacaoEspecialAcesso                   FALHA!                 TELA             00:00:00
+INFO main | TelaTaxaSelicAcesso                          FALHA!                 TELA             00:00:00
+INFO main | TelaTipoDeFeriadoAcesso                      FALHA!                 TELA             00:00:00
+INFO main | TelaVencimentoDosTributosAcesso              FALHA!                 TELA             00:00:00
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 0 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 26 | FALHA: 26 | SUCESSO: 0
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                                         RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TelaAJustesParteBAcesso                                          FALHA!                 TELA             00:00:00
+INFO main | TelaAliquotasDosTributosAcesso                                   FALHA!                 TELA             00:00:00
+INFO main | TelaCentralDeCadastrosAcesso                                     FALHA!                 TELA             00:00:00
+INFO main | TelaCentroDeCustoAcesso                                          FALHA!                 TELA             00:00:00
+INFO main | TelaComBaseNoSaldoConsolidadoAcesso                              FALHA!                 TELA             00:00:00
+INFO main | TelaConsultaDeDarfAcesso                                         FALHA!                 TELA             00:00:00
+INFO main | TelaContasSpedAssociacaoAcesso                                   FALHA!                 TELA             00:00:00
+INFO main | TelaContasSpedConsultaAcesso                                     FALHA!                 TELA             00:00:00
+INFO main | TelaEmpresasAcesso                                               FALHA!                 TELA             00:00:00
+INFO main | TelaFeriadoAcesso                                                FALHA!                 TELA             00:00:00
+INFO main | TelaLancamentosContabeisAcesso                                   FALHA!                 TELA             00:00:00
+INFO main | TelaLucroEstimadoAssociacaoContasLalurAcesso                     FALHA!                 TELA             00:00:00
+INFO main | TelaLucroEstimadoContasAcesso                                    FALHA!                 TELA             00:00:00
+INFO main | TelaLucroRealAssociacaoContasLalurAcesso                         FALHA!                 TELA             00:00:00
+INFO main | TelaLucroRealContasAcesso                                        FALHA!                 TELA             00:00:00
+INFO main | TelaPlanoDeContasAcesso                                          FALHA!                 TELA             00:00:00
+INFO main | TelaPlanoReferencialPlanoEmpresaAssociacaoAcesso                 FALHA!                 TELA             00:00:00
+INFO main | TelaPlanoReferencialPlanoEmpresaConsultaAcesso                   FALHA!                 TELA             00:00:00
+INFO main | TelaProcessoEmLoteAcesso                                         FALHA!                 TELA             00:00:00
+INFO main | TelaResponsaveisAcesso                                           FALHA!                 TELA             00:00:00
+INFO main | TelaSaldosAcesso                                                 FALHA!                 TELA             00:00:00
+INFO main | TelaScpAcesso                                                    FALHA!                 TELA             00:00:00
+INFO main | TelaSituacaoEspecialAcesso                                       FALHA!                 TELA             00:00:00
+INFO main | TelaTaxaSelicAcesso                                              FALHA!                 TELA             00:00:00
+INFO main | TelaTipoDeFeriadoAcesso                                          FALHA!                 TELA             00:00:00
+INFO main | TelaVencimentoDosTributosAcesso                                  FALHA!                 TELA             00:00:00
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 0 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 1 | FALHA: 1 | SUCESSO: 0
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                                         RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TelaAJustesParteBAcesso                                          FALHA!                 TELA             00:00:00
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 0 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | AJUSTES PARTE B  - TESTE INICIADO EM Wed Jul 30 11:49:54 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3574, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7144, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+INFO main | Lucro Real >
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 1 | FALHA: 1 | SUCESSO: 0
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                                         RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TelaAJustesParteBAcesso                                          FALHA!                 TELA             00:00:35
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 35 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | AJUSTES PARTE B  - TESTE INICIADO EM Wed Jul 30 11:51:15 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3320, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7138, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1043, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main | Lucro Real >
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main | Ajustes Parte B
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5105, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3114, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 25380, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 10 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 1 | FALHA: 0 | SUCESSO: 1
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                                         RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TelaAJustesParteBAcesso                                        SUCESSO!                 TELA             00:01:15
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 1 MINUTOS 15 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | AJUSTES PARTE B  - TESTE INICIADO EM Wed Jul 30 11:54:35 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3099, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7138, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
+INFO main | Lucro Real >
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main | Ajustes Parte B
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7187, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3102, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 22413, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 7 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | TOTAL DE TESTES: 1 | FALHA: 0 | SUCESSO: 1
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                                         RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TelaAJustesParteBAcesso                                        SUCESSO!                 TELA             00:01:12
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 1 MINUTOS 13 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando log
+INFO main | Apagando Screenshot
+INFO main |                                                                                  ▒▓░ ▓░                                                            
+INFO main |                                                                                 ▒█████▒                  ▒▒                                        
+INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
+INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
+INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
+INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
+INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
+INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
+INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
+INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
+INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 30
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 30 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | AJUSTES PARTE B  - TESTE INICIADO EM Wed Jul 30 11:58:24 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:04:21 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3350, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7132, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main | Tabelas de Apoio >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5122, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2073, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:05:57 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6337, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7140, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Tabelas de Apoio >
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:06:35 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:07:00 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:09:24 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:10:54 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:11:37 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 31
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10620, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7137, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1045, Tempo Aceitável: 10000
+INFO main | Tabelas de Apoio >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5134, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:12:52 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 21
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3521, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7139, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1045, Tempo Aceitável: 10000
+INFO main | Tabelas de Apoio >
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 4098, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:15:19 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 21
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9551, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7138, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Tabelas de Referência >
+INFO main | Tabelas de Apoio >
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5143, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 20363, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE ALÍQUOTA DOS TRIBUTOS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 4 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:16:49 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 21
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:17:42 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 21
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:18:45 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 21
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6104, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5103, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Tabelas de Referência >
+INFO main | Tabelas de Apoio >
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 4088, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7131, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE ALÍQUOTA DOS TRIBUTOS ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 44 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:20:05 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 21
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7695, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7125, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Tabelas de Referência >
+INFO main | Tabelas de Apoio >
+INFO main | Alíquotas dos Tributos
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5117, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos'
+INFO main | Tela 'Tabelas de Referência > Tabelas de Apoio > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9183, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE ALÍQUOTA DOS TRIBUTOS ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 51 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 12:21:37 BRT 2014
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 21
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3240, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS

@@ -91,6 +91,7 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			// TELA REGISTRO
 			automacao.informaTeste(3, caminho, nomeTeste);
 			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste);
+			Thread.sleep(1000);
 			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
 
 			duracaoTeste = System.currentTimeMillis() - inicio;

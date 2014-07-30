@@ -7,6 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.util.*;
 
@@ -61,8 +62,8 @@ public class ResultadosDaSuite {
 			long duracaoParaFormatar = Long.parseLong(duracaoTestes[i]);
 			String duracaoFormatada = utilidade.formataDuracaoResumida(duracaoParaFormatar);
 
-			logger.info(String.format("%-40s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
-			resultadoParaImprimir[i] = (String.format("%-40s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
+			logger.info(String.format("%-60s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
+			resultadoParaImprimir[i] = (String.format("%-60s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, duracaoFormatada));
 		}
 		return resultadoParaImprimir;
 	}
@@ -140,12 +141,12 @@ public class ResultadosDaSuite {
 
 		//para a tela
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
-		logger.info(String.format("%-40s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO"));
+		logger.info(String.format("%-60s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO"));
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 
 		//para o arquivo
 		cabecalhoLinha[0] = "--------------------------------------------------------------------------------------------------------------------------------";
-		cabecalhoLinha[1] = String.format("%-40s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO");
+		cabecalhoLinha[1] = String.format("%-60s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO");
 		cabecalhoLinha[2] = "--------------------------------------------------------------------------------------------------------------------------------";
 
 		cabecalhoTestes = cabecalhoLinha[0] + "\n" + cabecalhoLinha[1] + "\n" + cabecalhoLinha[2] + "\n";
@@ -217,7 +218,7 @@ public class ResultadosDaSuite {
 		String[] resultadosParaArquivoPart = {"", "", "", ""};
 
 		for (int i = 0; i < teste.length; i++) {
-			resultadosParaArquivoPart[i] = String.format("%-30s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, "20");
+			resultadosParaArquivoPart[i] = String.format("%-60s %10s %20s %20s", teste[i].getSimpleName(), resultados[i], categoria, "20");
 		}
 
 		for (int u = 0; u < resultadosParaArquivoPart.length; u++) {
@@ -358,7 +359,7 @@ public class ResultadosDaSuite {
 
 	}
 
-	public void enviaEmailComAnexos(String destinatarios, String assuntoEmail, String corpoEmailString) {
+	public void enviaEmailComAnexos(String destinatarios, String assuntoEmail, String corpoEmailString) throws UnsupportedEncodingException {
 
 		FuncionalidadesUteis utilidade = new FuncionalidadesUteis();
 
@@ -373,6 +374,7 @@ public class ResultadosDaSuite {
 		props.put("mail.smtp.starttls.enable", "true");
 		props.put("mail.smtp.host", "smtp.gmail.com");
 		props.put("mail.smtp.port", "587");
+		props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
 
 		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
@@ -383,7 +385,7 @@ public class ResultadosDaSuite {
 		try {
 
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress(from));
+			message.setFrom(new InternetAddress(from,"AUTOMACAO"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
 			message.setSubject(assuntoEmail);
 

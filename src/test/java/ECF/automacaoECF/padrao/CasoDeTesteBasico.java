@@ -40,7 +40,7 @@ public class CasoDeTesteBasico {
 
 	private void selecionarNavegador() {
 		if (navegador.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/auto/Tax-Br/development/automacao/drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		if (navegador.equals("firefox")) {
@@ -49,7 +49,7 @@ public class CasoDeTesteBasico {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		}
 		if (navegador.equals("ie")) {
-			File fileDriver = new File("/auto/Tax-Br/development/automacao/drivers/iexploredriver64.exe");
+			File fileDriver = new File("./drivers/iexploredriver64.exe");
 			System.setProperty("webdriver.ie.driver", fileDriver.getAbsolutePath());
 			driver = new InternetExplorerDriver();
 		}
@@ -58,7 +58,7 @@ public class CasoDeTesteBasico {
 		}
 		if (navegador.equals("phantomjs")) {
 			DesiredCapabilities ds = DesiredCapabilities.phantomjs();
-			File file = new File("/auto/Tax-Br/development/automacao/drivers/phantomjs.exe");
+			File file = new File("./drivers/phantomjs.exe");
 			System.setProperty("phantomjs.binary.path", file.getAbsolutePath());
 			ds.setJavascriptEnabled(true);
 			// ds.setCapability("takeScreenshot", true);

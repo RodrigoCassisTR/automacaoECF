@@ -1,0 +1,44 @@
+AUTOMACAO | ONESOURCE ECF
+--------------------------------------------------------------------------------------------------------------------------------
+RESULTADOS DA SUITE EM QUARTA-FEIRA, 30 DE JULHO DE 2014
+
+TOTAL DE TESTES: 26 | FALHA: 26 | SUCESSO: 0
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+TESTE                                     RESULTADO            CATEGORIA              DURAÇÃO
+--------------------------------------------------------------------------------------------------------------------------------
+TelaAJustesParteBAcesso                      FALHA!                 TELA             00:00:00
+TelaAliquotasDosTributosAcesso               FALHA!                 TELA             00:00:00
+TelaCentralDeCadastrosAcesso                 FALHA!                 TELA             00:00:00
+TelaCentroDeCustoAcesso                      FALHA!                 TELA             00:00:00
+TelaComBaseNoSaldoConsolidadoAcesso          FALHA!                 TELA             00:00:00
+TelaConsultaDeDarfAcesso                     FALHA!                 TELA             00:00:00
+TelaContasSpedAssociacaoAcesso               FALHA!                 TELA             00:00:00
+TelaContasSpedConsultaAcesso                 FALHA!                 TELA             00:00:00
+TelaEmpresasAcesso                           FALHA!                 TELA             00:00:00
+TelaFeriadoAcesso                            FALHA!                 TELA             00:00:00
+TelaLancamentosContabeisAcesso               FALHA!                 TELA             00:00:00
+TelaLucroEstimadoAssociacaoContasLalurAcesso     FALHA!                 TELA             00:00:00
+TelaLucroEstimadoContasAcesso                FALHA!                 TELA             00:00:00
+TelaLucroRealAssociacaoContasLalurAcesso     FALHA!                 TELA             00:00:00
+TelaLucroRealContasAcesso                    FALHA!                 TELA             00:00:00
+TelaPlanoDeContasAcesso                      FALHA!                 TELA             00:00:00
+TelaPlanoReferencialPlanoEmpresaAssociacaoAcesso     FALHA!                 TELA             00:00:00
+TelaPlanoReferencialPlanoEmpresaConsultaAcesso     FALHA!                 TELA             00:00:00
+TelaProcessoEmLoteAcesso                     FALHA!                 TELA             00:00:00
+TelaResponsaveisAcesso                       FALHA!                 TELA             00:00:00
+TelaSaldosAcesso                             FALHA!                 TELA             00:00:00
+TelaScpAcesso                                FALHA!                 TELA             00:00:00
+TelaSituacaoEspecialAcesso                   FALHA!                 TELA             00:00:00
+TelaTaxaSelicAcesso                          FALHA!                 TELA             00:00:00
+TelaTipoDeFeriadoAcesso                      FALHA!                 TELA             00:00:00
+TelaVencimentoDosTributosAcesso              FALHA!                 TELA             00:00:00
+--------------------------------------------------------------------------------------------------------------------------------
+SUITE DE TESTE EXECUTADA EM: 0 HORAS 0 MINUTOS 0 SEGUNDOS 
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+PARAMETROS DA AUTOMACAO: 
+AMBIENTE: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+NAVEGADOR: chrome
+VERSAO: ----
+--------------------------------------------------------------------------------------------------------------------------------
