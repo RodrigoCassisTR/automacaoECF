@@ -42,7 +42,7 @@ public class VerificacoesDeTela {
 	public void aguardaCarregamento(String caminho, String xpathcarregaregistro, String nomeTeste, int tentativas, WebDriver driver) throws InterruptedException, IOException {
 		long inicio = System.currentTimeMillis();
 
-		
+		Thread.sleep(1000);
 
 		for (int second = 0;; second++) {
 			logger.info("Aguardando o carregamento da tela " + caminho);
