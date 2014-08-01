@@ -1,139 +1,48 @@
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis' acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 72118, Tempo Aceitável: 10000
-INFO main | #########################################################################
-INFO main | RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS - TESTE INICIADO EM Wed Jul 30 15:54:52 BRT 2014
-INFO main | #########################################################################
-INFO main | ----------------------------------------------------
-INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | USUARIO: ADM
-INFO main | SENHA: adm@2014
-INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
-INFO main | Tela carregada com sucesso!
-INFO main | ----------------------------------------------------
-INFO main | ACESSANDO A APLICACAO
-INFO main | ----------------------------------------------------
-INFO main | Digitando usuario: ADM
-INFO main | Digitando senha: adm@2014
-INFO main | Clicando no botão 'Entrar'
-INFO main | Aguardando o acesso a aplicacao...
-INFO main | Aplicacao acessada com sucesso!
-INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 3246, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | Tela RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 7128, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 17274, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
 INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1037, Tempo Aceitável: 10000
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
 INFO main | Acessando a Tela...
-INFO main | Relatórios >
-INFO main | Relatório de Contas LALUR x Contas Contábeis
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis' acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 66018, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE PESQUISA, TELA: RELATÓRIO DE CONTAS LALUR x CONTAS CONTÁBEIS
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis'
-INFO main | Tela 'Relatórios > Relatório de Contas LALUR x Contas Contábeis' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL || Tentativa 1 de 2
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL || Tentativa 1 de 2
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL || Tentativa 2 de 2
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2055, Tempo Aceitável: 10000
+INFO main |  >
 INFO main | #########################################################################
-INFO main | RELATÓRIOS DE CÁLCULOS - TESTE INICIADO EM Wed Jul 30 15:58:00 BRT 2014
+INFO main | SCP - TESTE INICIADO EM SEX, 2014-8-1 AT 4:37:49 PM BRT
 INFO main | #########################################################################
 INFO main | ----------------------------------------------------
 INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
 INFO main | USUARIO: ADM
 INFO main | SENHA: adm@2014
 INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIOS DE CÁLCULOS
+INFO main | TESTE: SCP
 INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | #########################################################################
+INFO main | SITUAÇÃO ESPECIAL - TESTE INICIADO EM SEX, 2014-8-1 AT 4:38:22 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
 INFO main | Tela carregada com sucesso!
 INFO main | ----------------------------------------------------
 INFO main | ACESSANDO A APLICACAO
@@ -144,63 +53,34 @@ INFO main | Clicando no botão 'Entrar'
 INFO main | Aguardando o acesso a aplicacao...
 INFO main | Aplicacao acessada com sucesso!
 INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | #########################################################################
-INFO main | RELATÓRIOS DE CÁLCULOS - TESTE INICIADO EM Wed Jul 30 15:58:25 BRT 2014
-INFO main | #########################################################################
-INFO main | ----------------------------------------------------
-INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | USUARIO: ADM
-INFO main | SENHA: adm@2014
-INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIOS DE CÁLCULOS
-INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
-INFO main | Tela carregada com sucesso!
-INFO main | ----------------------------------------------------
-INFO main | ACESSANDO A APLICACAO
-INFO main | ----------------------------------------------------
-INFO main | Digitando usuario: ADM
-INFO main | Digitando senha: adm@2014
-INFO main | Clicando no botão 'Entrar'
-INFO main | Aguardando o acesso a aplicacao...
-INFO main | Aplicacao acessada com sucesso!
-INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Tela RELATÓRIOS DE CÁLCULOS acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 11701, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Tela RELATÓRIOS DE CÁLCULOS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 6113, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15465, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12118, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
 INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1044, Tempo Aceitável: 10000
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
 INFO main | Acessando a Tela...
-INFO main | #########################################################################
-INFO main | RELATÓRIOS DE CÁLCULOS - TESTE INICIADO EM Wed Jul 30 15:59:38 BRT 2014
-INFO main | #########################################################################
-INFO main | ----------------------------------------------------
-INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | USUARIO: ADM
-INFO main | SENHA: adm@2014
-INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIOS DE CÁLCULOS
-INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main | Aguardando o carregamento da tela SCP || Tentativa 1 de 2
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
 INFO main | Tela carregada com sucesso!
 INFO main | ----------------------------------------------------
 INFO main | ACESSANDO A APLICACAO
@@ -211,41 +91,125 @@ INFO main | Clicando no botão 'Entrar'
 INFO main | Aguardando o acesso a aplicacao...
 INFO main | Aplicacao acessada com sucesso!
 INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Tela RELATÓRIOS DE CÁLCULOS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 5453, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Tela RELATÓRIOS DE CÁLCULOS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 6180, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
+INFO main | Aguardando o carregamento da tela SCP || Tentativa 1 de 2
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Gerais >
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 14939, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10338, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
 INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main | #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
 INFO main | Acessando a Tela...
-INFO main | Relatórios >
-INFO main | Relatórios de Cálculos
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Tela 'Relatórios > Relatórios de Cálculos' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 4101, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL || Tentativa 1 de 2
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL || Tentativa 1 de 2
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Gerais >
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL || Tentativa 1 de 2
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Situação Especial
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 13 de 300
 INFO main | #########################################################################
-INFO main | RELATÓRIOS DE CÁLCULOS - TESTE INICIADO EM Wed Jul 30 16:00:40 BRT 2014
+INFO main | SCP - TESTE INICIADO EM SEX, 2014-8-1 AT 4:40:27 PM BRT
 INFO main | #########################################################################
 INFO main | ----------------------------------------------------
 INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
 INFO main | USUARIO: ADM
 INFO main | SENHA: adm@2014
 INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIOS DE CÁLCULOS
+INFO main | TESTE: SCP
 INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 22 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 23 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 24 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 25 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 26 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 27 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 28 de 300
+INFO main | Tela 'Cadastros > Gerais > Situação Especial' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 28258, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 1 de 300
+INFO main | Tela 'Cadastros > Gerais > Situação Especial' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 3 de 300
+INFO main | Tela 'Cadastros > Gerais > Situação Especial' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3069, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: SITUAÇÃO ESPECIAL
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela SITUAÇÃO ESPECIAL || Tentativa 1 de 300
+INFO main | Tela SITUAÇÃO ESPECIAL acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Situação Especial' || Tentativa 17 de 300
+INFO main | Tela 'Cadastros > Gerais > Situação Especial' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 17186, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE SITUAÇÃO ESPECIAL ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 45 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
 INFO main | Tela carregada com sucesso!
 INFO main | ----------------------------------------------------
 INFO main | ACESSANDO A APLICACAO
@@ -256,55 +220,449 @@ INFO main | Clicando no botão 'Entrar'
 INFO main | Aguardando o acesso a aplicacao...
 INFO main | Aplicacao acessada com sucesso!
 INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Tela RELATÓRIOS DE CÁLCULOS acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 18747, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Aguardando o carregamento da tela RELATÓRIOS DE CÁLCULOS
-INFO main | Tela RELATÓRIOS DE CÁLCULOS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 7136, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 22 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 23 de 300
+INFO main | #########################################################################
+INFO main | TAXA SELIC - TESTE INICIADO EM SEX, 2014-8-1 AT 4:42:23 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 24 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 25 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 26 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 27 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 28 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 29 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 30 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 31 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 32 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 33 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 34 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 35 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 36 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 37 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 38 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 65396, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15128, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
 INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela SCP || Tentativa 1 de 2
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela SCP || Tentativa 1 de 2
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Gerais >
+INFO main | Aguardando o carregamento da tela SCP || Tentativa 1 de 2
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | SCP
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 15 de 300
+INFO main | Tela 'Cadastros > Gerais > SCP' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15503, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: SCP
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 1 de 300
+INFO main | Tela 'Cadastros > Gerais > SCP' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: SCP
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 8 de 300
+INFO main | Tela 'Cadastros > Gerais > SCP' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8144, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: SCP
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela SCP || Tentativa 1 de 300
+INFO main | Tela SCP acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 6 de 300
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 7 de 300
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > SCP' || Tentativa 14 de 300
+INFO main | Tela 'Cadastros > Gerais > SCP' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 14272, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE SCP ENCERRADO COM SUCESSO EM 0 HORAS 3 MINUTOS 27 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12216, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13114, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela TAXA SELIC || Tentativa 1 de 1
+INFO main | Tela TAXA SELIC acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela TAXA SELIC || Tentativa 1 de 1
+INFO main | Tela TAXA SELIC acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Taxa Selic
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 12 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12139, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 2 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2047, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela TAXA SELIC || Tentativa 1 de 300
+INFO main | Tela TAXA SELIC acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE TAXA SELIC ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 16 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | TAXA SELIC - TESTE INICIADO EM SEX, 2014-8-1 AT 5:43:38 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10526, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12156, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela TAXA SELIC || Tentativa 1 de 1
+INFO main | Tela TAXA SELIC acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main | Tabelas de Referência >
+INFO main | Aguardando o carregamento da tela TAXA SELIC || Tentativa 1 de 1
+INFO main | Tela TAXA SELIC acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Taxa Selic
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 8 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8083, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 3 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3061, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: TAXA SELIC
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela TAXA SELIC || Tentativa 1 de 300
+INFO main | Tela TAXA SELIC acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Taxa Selic' || Tentativa 1 de 300
+INFO main | Tela 'Dados de Origem > Consulta > Taxa Selic' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE TAXA SELIC ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 18 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | TIPO DE FERIADO - TESTE INICIADO EM SEX, 2014-8-1 AT 6:5:21 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: TIPO DE FERIADO
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5863, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12144, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela TIPO DE FERIADO || Tentativa 1 de 3
+INFO main | Tela TIPO DE FERIADO acessada com sucesso!!
 INFO main | #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
-INFO main | Acessando a Tela...
-INFO main | Relatórios >
-INFO main | Relatórios de Cálculos
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatórios de Cálculos'
-INFO main | Tela 'Relatórios > Relatórios de Cálculos' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 4107, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela TIPO DE FERIADO || Tentativa 1 de 3
+INFO main | Tela TIPO DE FERIADO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Gerais >
+INFO main | Aguardando o carregamento da tela TIPO DE FERIADO || Tentativa 1 de 3
+INFO main | Tela TIPO DE FERIADO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Feriados >
+INFO main | Aguardando o carregamento da tela TIPO DE FERIADO || Tentativa 1 de 3
+INFO main | Tela TIPO DE FERIADO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Tipos
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 10 de 300
+INFO main | Tela 'Cadastros > Gerais > Feriados > Tipos' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10100, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: TIPO DE FERIADO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 1 de 300
+INFO main | Tela 'Cadastros > Gerais > Feriados > Tipos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: TIPO DE FERIADO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 2 de 300
+INFO main | Tela 'Cadastros > Gerais > Feriados > Tipos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2048, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: TIPO DE FERIADO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela TIPO DE FERIADO || Tentativa 1 de 300
+INFO main | Tela TIPO DE FERIADO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Feriados > Tipos' || Tentativa 22 de 300
+INFO main | Tela 'Cadastros > Gerais > Feriados > Tipos' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 22345, Tempo Aceitável: 10000
 INFO main | #########################################################################
-INFO main | TESTE RELATÓRIOS DE CÁLCULOS ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 47 SEGUNDOS 
+INFO main | TESTE TIPO DE FERIADO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 36 SEGUNDOS 
 INFO main | #########################################################################
 INFO main | #########################################################################
-INFO main | RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO - TESTE INICIADO EM Wed Jul 30 16:11:20 BRT 2014
+INFO main | VENCIMENTO DOS TRIBUTOS - TESTE INICIADO EM SEX, 2014-8-1 AT 6:8:46 PM BRT
 INFO main | #########################################################################
 INFO main | ----------------------------------------------------
 INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
 INFO main | USUARIO: ADM
 INFO main | SENHA: adm@2014
 INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
+INFO main | TESTE: VENCIMENTO DOS TRIBUTOS
 INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
 INFO main | Tela carregada com sucesso!
 INFO main | ----------------------------------------------------
 INFO main | ACESSANDO A APLICACAO
@@ -315,336 +673,124 @@ INFO main | Clicando no botão 'Entrar'
 INFO main | Aguardando o acesso a aplicacao...
 INFO main | Aplicacao acessada com sucesso!
 INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 3340, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
-INFO main | Tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 7141, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6332, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11224, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
 INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
 INFO main | Acessando a Tela...
-INFO main | Relatórios >
-INFO main | Relatório de Impostos Diferidos com Base no Saldo Consolidado
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado' acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 79207, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela VENCIMENTO DOS TRIBUTOS || Tentativa 1 de 2
+INFO main | Tela VENCIMENTO DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela VENCIMENTO DOS TRIBUTOS || Tentativa 1 de 2
+INFO main | Tela VENCIMENTO DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main | Gerais >
+INFO main | Aguardando o carregamento da tela VENCIMENTO DOS TRIBUTOS || Tentativa 1 de 2
+INFO main | Tela VENCIMENTO DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Vencimento dos Tributos
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 22 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 23 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 24 de 300
+INFO main | Tela 'Cadastros > Gerais > Vencimento dos Tributos' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 24235, Tempo Aceitável: 10000
 INFO main | ----------------------------------------------------
-INFO main | TELA DE PESQUISA, TELA: RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO
+INFO main | TELA DE PESQUISA, TELA: VENCIMENTO DOS TRIBUTOS
 INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado'
-INFO main | Tela 'Relatórios > Relatório de Impostos Diferidos com Base no Saldo Consolidado' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 1 de 300
+INFO main | Tela 'Cadastros > Gerais > Vencimento dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: VENCIMENTO DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 4 de 300
+INFO main | Tela 'Cadastros > Gerais > Vencimento dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 4075, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: VENCIMENTO DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela VENCIMENTO DOS TRIBUTOS || Tentativa 1 de 300
+INFO main | Tela VENCIMENTO DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Gerais > Vencimento dos Tributos' || Tentativa 19 de 300
+INFO main | Tela 'Cadastros > Gerais > Vencimento dos Tributos' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 19163, Tempo Aceitável: 10000
 INFO main | #########################################################################
-INFO main | TESTE RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NO SALDO CONSOLIDADO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 48 SEGUNDOS 
-INFO main | #########################################################################
-INFO main | #########################################################################
-INFO main | RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO - TESTE INICIADO EM Wed Jul 30 16:16:39 BRT 2014
-INFO main | #########################################################################
-INFO main | ----------------------------------------------------
-INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | USUARIO: ADM
-INFO main | SENHA: adm@2014
-INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
-INFO main | Tela carregada com sucesso!
-INFO main | ----------------------------------------------------
-INFO main | ACESSANDO A APLICACAO
-INFO main | ----------------------------------------------------
-INFO main | Digitando usuario: ADM
-INFO main | Digitando senha: adm@2014
-INFO main | Clicando no botão 'Entrar'
-INFO main | Aguardando o acesso a aplicacao...
-INFO main | Aplicacao acessada com sucesso!
-INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 3557, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO
-INFO main | Tela RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 9169, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
-INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
-INFO main | Acessando a Tela...
-INFO main | Relatórios >
-INFO main | Relatório de Impostos Diferidos com Base na Movimentação
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação'
-INFO main | Tela 'Relatórios > Relatório de Impostos Diferidos com Base na Movimentação' acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 79225, Tempo Aceitável: 10000
-INFO main | #########################################################################
-INFO main | TESTE RELATÓRIO DE IMPOSTOS DIFERIDOS COM BASE NA MOVIMENTAÇÃO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 49 SEGUNDOS 
-INFO main | #########################################################################
-INFO main | #########################################################################
-INFO main | RELATÓRIO DE SALDOS DA PARTE B - TESTE INICIADO EM Wed Jul 30 16:27:34 BRT 2014
-INFO main | #########################################################################
-INFO main | ----------------------------------------------------
-INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | USUARIO: ADM
-INFO main | SENHA: adm@2014
-INFO main | NAVEGADOR: chrome
-INFO main | TESTE: RELATÓRIO DE SALDOS DA PARTE B
-INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
-INFO main | Tela carregada com sucesso!
-INFO main | ----------------------------------------------------
-INFO main | ACESSANDO A APLICACAO
-INFO main | ----------------------------------------------------
-INFO main | Digitando usuario: ADM
-INFO main | Digitando senha: adm@2014
-INFO main | Clicando no botão 'Entrar'
-INFO main | Aguardando o acesso a aplicacao...
-INFO main | Aplicacao acessada com sucesso!
-INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Tela RELATÓRIO DE SALDOS DA PARTE B acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 5585, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Aguardando o carregamento da tela RELATÓRIO DE SALDOS DA PARTE B
-INFO main | Tela RELATÓRIO DE SALDOS DA PARTE B acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 7117, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
-INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
-INFO main | Acessando a Tela...
-INFO main | Relatórios >
-INFO main | Relatório de Saldos da Parte B
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Tela 'Relatórios > Relatório de Saldos da Parte B' acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 24397, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE PESQUISA, TELA: RELATÓRIO DE SALDOS DA PARTE B
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela 'Relatórios > Relatório de Saldos da Parte B'
-INFO main | Tela 'Relatórios > Relatório de Saldos da Parte B' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
-INFO main | #########################################################################
-INFO main | TESTE RELATÓRIO DE SALDOS DA PARTE B ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 55 SEGUNDOS 
+INFO main | TESTE VENCIMENTO DOS TRIBUTOS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 45 SEGUNDOS 
 INFO main | #########################################################################
 INFO main | Apagando Screenshot
-INFO main |                                                                                  ▒▓░ ▓░                                                            
-INFO main |                                                                                 ▒█████▒                  ▒▒                                        
-INFO main |            ▓██▒   ░█▓    ██ ████▓███  ▒████▓   ░██▓     ▓██▒    ██▓      ▓████    ▓▓█      ▓████▒       ▒██       ▓█████▓  ░▓███▓ ▒█████░          
-INFO main |            ████   ▓██   ░██ ████████ ████████▒ ▓████   ▓████   ▓███▓   ▓██████▒  ▓███▓   ▓████████      ▒██       ███▓██▒ ███████ ██████░          
-INFO main |           ██▒██▓  ▓██    ██    ██   ▓██    ███ ▓█▓██▒  ██▓█▓   ██▒██   ██▓       ██▒██   ██▒    ██▓     ▒██       ██▓    ▒██░     ██▓              
-INFO main |          ░██  ██  ▓██    ██    ██░  ██▓    ▒██ ▒█▓ ██ ██▒▓█▓  ██▒ ██▓ ▓██       ██▒ ▓█▓ ▒██     ██▓     ▒██       ██████ ▓██      ██████           
-INFO main |          ████████ ▒██    ██    ██▒  ███    ▓██ ▓██ █████ ▓█▓ ▒███████  ██▒     ░███████  ██▒    ██▓     ▒██       ██▓    ▓██      ███▒▒▓           
-INFO main |         ▓██▒▓▒▓██▒ ███▓▓███   ░██▒  ░███▓▓███░ ▓██  ███░ ██▓ ██▓▒▓▒███ ▓███▓██▒██▓▒▓▒███ ▓███▓████      ▒██       ███▓▓█▒ ███████ ███              
-INFO main |         ██░    ▓█▓  ▓████▒     ██░    ▓████▓   ▒█▓  ▓█▓  ▓█▒ ██     ██  ░▓███▓ ██     ██  ▒█████▒       ▒██       ▓█████▓  ▓████▓ ▓█▓              
-INFO main |         ▒▒     ▒▒░  ░▒▒▒▒      ▒▒     ░▒▒▒▒░   ░▒▒  ░▓░   ▓  ▒▒     ▒▓  ░▓██▓  ▒▒     ▒▓  ░░▒░▒▒░       ▒██       ░▒░▒▒▒    ▒▒▒▒░  ▓               
-INFO main |          ▓▒░  ░▒▓  ▒▓░  ▒▓░    ▒▓    ▓▓░  ░▒▓▒  ▓▒ ░▓▓▓  ▒▓▒ ░▓ ░ ░▒▓░ ▒▒▓▓▒ ▒ ░▓░░░ ▒▓▒ ▒▓▓   ▒▓▒       █▓       ░▓▒     ▒▓▒  ░▒ ░▓▒     
-INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
-INFO main | SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 30 DE JULHO DE 2014
-INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM SEXTA-FEIRA, 1 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
 INFO main | PARÂMETROS GERAIS: 
 INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
 INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
 INFO main | USUARIO: ADM
 INFO main | SENHA: adm@2014
 INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | QTDE DE TENTATIVAS: 100
-INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 100 (milissegundos)
+INFO main | QTDE DE TENTATIVAS: 300
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 300 (milissegundos)
 INFO main | PARÂMETROS DA SUITE: 
 INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
 INFO main | TESTES DE TELA (testaTela): true
@@ -657,162 +803,7 @@ INFO main | ------------------------------------------------------
 INFO main | INICIANDO TESTES DE TELA...
 INFO main | ------------------------------------------------------
 INFO main | #########################################################################
-INFO main | AJUSTES PARTE B  - TESTE INICIADO EM Wed Jul 30 16:32:18 BRT 2014
-INFO main | #########################################################################
-INFO main | ----------------------------------------------------
-INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | USUARIO: ADM
-INFO main | SENHA: adm@2014
-INFO main | NAVEGADOR: chrome
-INFO main | TESTE: AJUSTES PARTE B 
-INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
-INFO main | Tela carregada com sucesso!
-INFO main | ----------------------------------------------------
-INFO main | ACESSANDO A APLICACAO
-INFO main | ----------------------------------------------------
-INFO main | Digitando usuario: ADM
-INFO main | Digitando senha: adm@2014
-INFO main | Clicando no botão 'Entrar'
-INFO main | Aguardando o acesso a aplicacao...
-INFO main | Aplicacao acessada com sucesso!
-INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 30122, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 16259, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
-INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
-INFO main | Acessando a Tela...
-INFO main | Cadastros >
-INFO main | Lucro Real >
-INFO main | Ajustes Parte B
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 8134, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE PESQUISA, TELA: AJUSTES PARTE B 
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 4122, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE REGISTRO, TELA: AJUSTES PARTE B 
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela AJUSTES PARTE B 
-INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B'
-INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 27490, Tempo Aceitável: 10000
-INFO main | #########################################################################
-INFO main | TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 40 SEGUNDOS 
-INFO main | #########################################################################
-INFO main | #########################################################################
-INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM Wed Jul 30 16:35:03 BRT 2014
-INFO main | #########################################################################
-INFO main | ----------------------------------------------------
-INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
-INFO main | USUARIO: ADM
-INFO main | SENHA: adm@2014
-INFO main | NAVEGADOR: chrome
-INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
-INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
-INFO main | Tela carregada com sucesso!
-INFO main | ----------------------------------------------------
-INFO main | ACESSANDO A APLICACAO
-INFO main | ----------------------------------------------------
-INFO main | Digitando usuario: ADM
-INFO main | Digitando senha: adm@2014
-INFO main | Clicando no botão 'Entrar'
-INFO main | Aguardando o acesso a aplicacao...
-INFO main | Aplicacao acessada com sucesso!
-INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 5530, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS
-INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 7123, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
-INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1059, Tempo Aceitável: 10000
-INFO main | Acessando a Tela...
-INFO main | Tabelas de Referência >
-INFO main |  >
-INFO main | #########################################################################
-INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM Wed Jul 30 16:35:36 BRT 2014
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEX, 2014-8-1 AT 6:10:41 PM BRT
 INFO main | #########################################################################
 INFO main | ----------------------------------------------------
 INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
@@ -821,8 +812,8 @@ INFO main | SENHA: adm@2014
 INFO main | NAVEGADOR: chrome
 INFO main | TESTE: CENTRAL DE CADASTROS
 INFO main | ----------------------------------------------------
-INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf, utilizando o navegador: chrome
-INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
 INFO main | Tela carregada com sucesso!
 INFO main | ----------------------------------------------------
 INFO main | ACESSANDO A APLICACAO
@@ -833,68 +824,158 @@ INFO main | Clicando no botão 'Entrar'
 INFO main | Aguardando o acesso a aplicacao...
 INFO main | Aplicacao acessada com sucesso!
 INFO main | Acessando o módulo ONESOURCE ECF...
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 17037, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
-INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
-INFO main | #ALERTA# Tempo de Carregamento: 19366, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela Home
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10107, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15133, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
 INFO main | Tela Home acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
 INFO main | Acessando a Tela...
-INFO main | Cadastros >
-INFO main | Geral >
-INFO main | Central de Cadastros
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Tela 'Cadastros > Geral > Central de Cadastros' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 6103, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Tela 'Cadastros > Geral > Central de Cadastros' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Tela 'Cadastros > Geral > Central de Cadastros' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
-INFO main | ----------------------------------------------------
-INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
-INFO main | ----------------------------------------------------
-INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
 INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
-INFO main | Aguardando o carregamento da tela 'Cadastros > Geral > Central de Cadastros'
-INFO main | Tela 'Cadastros > Geral > Central de Cadastros' acessada com sucesso!!
-INFO main | #OK# Tempo de Carregamento: 1044, Tempo Aceitável: 10000
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Parâmetros Iniciais >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main |  >
 INFO main | #########################################################################
-INFO main | TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 39 SEGUNDOS 
+INFO main | AJUSTES PARTE B  - TESTE INICIADO EM SEX, 2014-8-1 AT 6:11:43 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6030, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 17193, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 2
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Cadastros >
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 2
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Lucro Real >
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 2
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Ajustes Parte B
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 11 de 300
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11106, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 300
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1018, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 300
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5127, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 300
+INFO main | Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 21 de 300
+INFO main | Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 21190, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 39 SEGUNDOS 
 INFO main | #########################################################################

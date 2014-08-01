@@ -77,6 +77,8 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			// ACESSO A TELA PESQUISA
 			automacao.informaTeste(1, caminho, nomeTeste);
 			automacao.aguardaCarregamento(caminho, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
+			if(automacao.verificaSeApresentaMensagemDeErro(driver,nomeTeste,tentativas,caminho)==true)
+				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
 		}
 
 		if (abaResultadosPesquisaBoolean == true) {
@@ -85,6 +87,11 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			Thread.sleep(500);
 			driver.findElement(By.id(idBotaoExecutarConsulta)).click();
 			automacao.aguardaCarregamento(caminho, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
+			if(automacao.verificaSeApresentaMensagemDeErro(driver,nomeTeste,tentativas,caminho)==true)
+				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
+					
+				
+			
 		}
 
 		if (abaRegistroBoolean == true) {
@@ -95,6 +102,8 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste);
 			Thread.sleep(1000);
 			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
+			if(automacao.verificaSeApresentaMensagemDeErro(driver,nomeTeste,tentativas,caminho)==true)
+				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
 
 	
 		}
