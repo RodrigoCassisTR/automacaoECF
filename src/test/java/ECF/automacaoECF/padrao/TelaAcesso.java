@@ -19,6 +19,7 @@ public class TelaAcesso extends CasoDeTesteBasico {
 	public static String xpathHome = "/html/body/div[3]/div[2]/div/ul/li/a/span";
 	public long duracaoTeste;
 
+	@SuppressWarnings("unused")
 	@Test
 	public void tesTela() throws Throwable {
 		long inicio = System.currentTimeMillis();
@@ -77,7 +78,7 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			// ACESSO A TELA PESQUISA
 			automacao.informaTeste(1, caminho, nomeTeste);
 			automacao.aguardaCarregamento(caminho, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
-			if(automacao.verificaSeApresentaMensagemDeErro(driver,nomeTeste,tentativas,caminho)==true)
+			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
 				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
 		}
 
@@ -87,25 +88,20 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			Thread.sleep(500);
 			driver.findElement(By.id(idBotaoExecutarConsulta)).click();
 			automacao.aguardaCarregamento(caminho, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
-			if(automacao.verificaSeApresentaMensagemDeErro(driver,nomeTeste,tentativas,caminho)==true)
+			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
 				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
-					
-				
-			
+
 		}
 
 		if (abaRegistroBoolean == true) {
 			// TELA REGISTRO
-			automacao.informaTeste(3, caminho, nomeTeste);
-	
 			
+			automacao.informaTeste(3, caminho, nomeTeste);
 			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste);
-			Thread.sleep(1000);
 			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
-			if(automacao.verificaSeApresentaMensagemDeErro(driver,nomeTeste,tentativas,caminho)==true)
+			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
 				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
 
-	
 		}
 		duracaoTeste = System.currentTimeMillis() - inicio;
 		automacao.informaTerminoDoTeste(nomeTeste, categoria, duracaoTeste);

@@ -1,0 +1,11 @@
+         <SAP_LIST>
+            <SAP>
+               <IND_DELETE>N</IND_DELETE>
+               <NUM_FED_TAX>83621746000140</NUM_FED_TAX>
+               <DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+               <COD_SOC_ACC_PAR>7895</COD_SOC_ACC_PAR>
+               <DSC_SOC_ACC_PAR>Teste_mensageria</DSC_SOC_ACC_PAR>
+               <DSC_COMPL_INFO>Teste_mensageria</DSC_COMPL_INFO>
+            </SAP>
+         </SAP_LIST>
+		 

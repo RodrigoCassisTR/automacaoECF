@@ -2,11 +2,14 @@ package ECF.automacao.suite;
 
 import java.io.File;
 import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
+
 import ECF.automacaoECF.acessoTela.*;
 import ECF.automacaoECF.padrao.RecebeParametros;
+
 
 public class TesteSuite {
 	static org.apache.log4j.Logger logger = Logger.getLogger(TesteSuite.class.getName());
@@ -16,6 +19,7 @@ public class TesteSuite {
 	public static String enviaEmail = new RecebeParametros().enviaEmail;
 	public static String destinatariosSuite = new RecebeParametros().destinatariosSuite;
 
+	
 	public static void main(String[] args) throws IOException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, NoSuchMethodException {
 		long inicio = System.currentTimeMillis();
 
@@ -48,8 +52,11 @@ public class TesteSuite {
 		auxReultados.imprimeParametrosDaSuite();
 
 		if (testaTelaBoolean == true) {
+			int qtdeTestes=testesTela.length;
+				
+			
 			logger.info("------------------------------------------------------");
-			logger.info("INICIANDO TESTES DE TELA...");
+			logger.info("INICIANDO TESTES DE TELA ("+qtdeTestes+" TESTES)");
 			logger.info("------------------------------------------------------");
 			for (int i = 0; i < testesTela.length; i++) {
 
@@ -75,8 +82,9 @@ public class TesteSuite {
 		}
 
 		if (testaCRUDBoolean == true) {
+			int qtdeTestes=testesTela.length;
 			logger.info("------------------------------------------------------");
-			logger.info("INICIANDO TESTES DE CRUD...");
+			logger.info("INICIANDO TESTES DE CRUD ("+qtdeTestes+" TESTES)");
 			logger.info("------------------------------------------------------");
 			for (int i = 0; i < testesCrud.length; i++) {
 
@@ -103,8 +111,9 @@ public class TesteSuite {
 		}
 
 		if (testaIntegracaoBoolean == true) {
+			int qtdeTestes=testesTela.length;
 			logger.info("------------------------------------------------------");
-			logger.info("INICIANDO TESTES DE INTEGRAÇÃO...");
+			logger.info("INICIANDO TESTES DE INTEGRAÇÃO ("+qtdeTestes+" TESTES)");
 			logger.info("------------------------------------------------------");
 			for (int i = 0; i < testesIntegracao.length; i++) {
 				long duracaoSuiteTeste = System.currentTimeMillis();

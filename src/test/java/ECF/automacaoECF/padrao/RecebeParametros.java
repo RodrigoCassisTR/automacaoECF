@@ -20,6 +20,9 @@ public class RecebeParametros {
 	public String enviaEmail;
 	public String destinatariosSuite;
 	public String xpathModulo;
+	public String caminhoIntegrador;
+	public String pastasIntegracao;
+	public String nomeDoServicoIntegrador;
 
 	public RecebeParametros() {
 
@@ -43,6 +46,11 @@ public class RecebeParametros {
 			destinatariosSuite = properties.getProperty("destinatariosSuite");
 			
 			xpathModulo = properties.getProperty("xpathModulo");
+			
+			
+			caminhoIntegrador = properties.getProperty("caminhoIntegrador");
+			pastasIntegracao = properties.getProperty("pastasIntegracao");
+			nomeDoServicoIntegrador= properties.getProperty("nomeDoServicoIntegrador");
 			
 
 

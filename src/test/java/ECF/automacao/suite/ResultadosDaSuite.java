@@ -335,21 +335,9 @@ public class ResultadosDaSuite {
 
 	}
 
-	private void apagaZipToSend() {
-		FuncionalidadesUteis util = new FuncionalidadesUteis();
-		util.remover(new File("./files/temp/ZipToSend"));
-
-	}
-
 	private void apagaScreenshot() {
 		FuncionalidadesUteis util = new FuncionalidadesUteis();
 		util.remover(new File("./screenshot"));
-
-	}
-
-	private void apagaLog() {
-		FuncionalidadesUteis util = new FuncionalidadesUteis();
-		util.remover(new File("./logs"));
 
 	}
 

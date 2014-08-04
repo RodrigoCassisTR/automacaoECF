@@ -979,3 +979,2291 @@ INFO main | #ALERTA# Tempo de Carregamento: 21190, Tempo Aceitável: 10000
 INFO main | #########################################################################
 INFO main | TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 39 SEGUNDOS 
 INFO main | #########################################################################
+INFO main | Apagando Screenshot
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM SEGUNDA-FEIRA, 4 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 300
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 300 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 10:58:53 AM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13491, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12124, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Parâmetros Iniciais >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Perfis >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Agrupamentos de Tabelas
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 12 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12129, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 3065, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 300
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2037, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 51 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | Apagando Screenshot
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM SEGUNDA-FEIRA, 4 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 300
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 300 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA...
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 11:26:30 AM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 14019, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 17307, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Parâmetros Iniciais >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Perfis >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Agrupamentos de Tabelas
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 12 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12195, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2073, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 300
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 35 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | AJUSTES PARTE B  - TESTE INICIADO EM SEG, 2014-8-4 AT 11:28:11 AM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: AJUSTES PARTE B 
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Apagando Screenshot
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM SEGUNDA-FEIRA, 4 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 300
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 300 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA | 42 TESTES
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 11:28:20 AM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Aguardando tela de login ser carregada | Tentativa 2 de 301
+INFO main | Apagando Screenshot
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM SEGUNDA-FEIRA, 4 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 300
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 300 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA (42 TESTES)
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 11:28:44 AM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Apagando Screenshot
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM SEGUNDA-FEIRA, 4 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 300
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 300 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA (42 TESTES)
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 11:29:36 AM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Aguardando tela de login ser carregada | Tentativa 2 de 301
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 12:7:34 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11668, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8181, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Parâmetros Iniciais >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Perfis >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Agrupamentos de Tabelas
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 11 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11115, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2048, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 300
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 27 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount: 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclientHost: http://166.78.0.215:8092
+INFO main | wsclientReturnHost: http://166.78.0.215:8092
+INFO main | ----------------------------------------------------------
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: null
+INFO main | ----------------------------------------------------------
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador Integrador ECF não está iniciado, encerrando o teste!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador Mastersaf DF-e IntegradorTxt - V3 não está iniciado, encerrando o teste!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS CONFIGURADOS (ledgeraccount) 
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: TXT
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS (ledgeraccount) 
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS (ledgeraccount) 
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS (ledgeraccount) 
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador TAXBR-INTEGRATOR-ECF não está iniciado, encerrando o teste!
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS (ledgeraccount) 
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 1:16:23 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6338, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13146, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Parâmetros Iniciais >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Perfis >
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 2
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Agrupamentos de Tabelas
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 12 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12136, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2222, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 300
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1022, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 300
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | #########################################################################
+INFO main | TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 27 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS (ledgeraccount) 
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-8-4 AT 1:22:43 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 1:25:9 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF (ledgeraccount) 
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS (ledgeraccount) 
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 1:54:15 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407171256993.xml com sucesso!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 1:55:58 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407171358338.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 2:1:41 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407171701954.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 2:3:23 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407171803881.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407171803881.xml sair da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:2:53 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407175375958.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407175375958.xml sair da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407175375958.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:4:1 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407175441512.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407175441512.xml sair da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407175441512.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:4:16 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407175456662.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407175456662.xml sair da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407175456662.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:5:0 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407175500814.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407175500814.xml sair da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407175500814.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:15:15 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407176116593.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407176116593.xml sair da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407176116593.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 19051, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 16153, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:23:47 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407176627532.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407176627532.xml sair da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407176627532.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9702, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 17151, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:27:40 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407176861528.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407176861528.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407176861528.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_integracao_1407176861528.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407176861528.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7691, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 17146, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:31:55 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407177116171.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177116171.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407177116171.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177116171.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_integracao_1407177116171.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 16911, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11238, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 22 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 23 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 24 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 24605, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:36:43 PM BRT
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:36:43 PM BRT
+INFO main | ----------------------------------------------------------
+INFO main | #########################################################################
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | ----------------------------------------------------------
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | ----------------------------------------------------------
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | PARAMETROS
+INFO main | ----------------------------------------------------------
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | PARAMETROS
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 3:36:43 PM BRT
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | #########################################################################
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | route.import.file.payload.type: XML
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | ----------------------------------------------------------
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407177412563.xml com sucesso!
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407177412564.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_integracao_1407177412563.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Pastas limpas com sucesso!
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177412563.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177412563.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177412564.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_integracao_1407177412563.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177412563.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_integracao_1407177412563.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177412563.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_integracao_1407177412564.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_integracao_1407177412564.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_integracao_1407177412564.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Arquivo /arquivo_integracao_1407177412563.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Arquivo /arquivo_integracao_1407177412563.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 4:11:41 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_ledgeraccount_1407179502675.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407179502675.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407179502675.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407179502675.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407179502675.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6362, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10212, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 15 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15155, Tempo Aceitável: 10000
+INFO main | Fazendo a pesquisa do documento integrado...
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 4:13:53 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_ledgeraccount_1407179633941.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407179633941.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407179633941.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407179633941.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407179633941.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 7561, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15161, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 12 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12150, Tempo Aceitável: 10000
+INFO main | Fazendo a pesquisa do documento integrado...
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 4:17:52 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_ledgeraccount_1407179872733.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407179872733.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407179872733.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407179872733.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407179872733.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 6 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15489, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15131, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 12 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12133, Tempo Aceitável: 10000
+INFO main | Fazendo a pesquisa do documento integrado...
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 4:21:39 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_ledgeraccount_1407180099776.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407180099776.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407180099776.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407180099776.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407180099776.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 16745, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 22 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 23 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 24 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 25 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 26 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 27 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 27257, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 22 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 23 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 24 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 25 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 26 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 26220, Tempo Aceitável: 10000
+INFO main | Fazendo a pesquisa do documento integrado...
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 4:33:19 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_ledgeraccount_1407180802462.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407180802462.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407180802462.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407180802462.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407180802462.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 14514, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 18 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 18191, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 16 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 16186, Tempo Aceitável: 10000
+INFO main | Fazendo a pesquisa do documento integrado...
+INFO main | Preenchendo campo 'CNPJ' com 55.231.342/0001-04 - AUTOMACAO ECF MATRIZ
+INFO main | Preenchendo campo 'Código Conta Contábil' com 6
+INFO main | Clicando no botão 'Executar Consulta
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2734, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 4:43:34 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_ledgeraccount_1407181415386.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407181415386.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407181415386.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407181415386.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407181415386.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 31451, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 17 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 18 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 19 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 20 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 21 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 22 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 23 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 24 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 25 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 26 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 27 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 28 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 29 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 30 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 31 de 300
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 32 de 300
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 32466, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 300
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Acessando a Tela...
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Dados de Origem >
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 1
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Plano de Contas
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 14 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 15 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 15141, Tempo Aceitável: 10000
+INFO main | Fazendo a pesquisa do documento integrado...
+INFO main | Preenchendo campo 'CNPJ' com 55.231.342/0001-04 - AUTOMACAO ECF MATRIZ
+INFO main | Preenchendo campo 'Código Conta Contábil' com 6
+INFO main | Clicando no botão 'Executar Consulta
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 6 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6107, Tempo Aceitável: 10000
+INFO main | Verificando se o registro é apresentado na tela de resultados
+INFO main | Registro localizado na tyela de resultados da pesquisa
+INFO main | Clicando em 'Consultar'
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela INTEGRACAO LEDGER ACCOUNT || Tentativa 2 de 300
+INFO main | Tela INTEGRACAO LEDGER ACCOUNT acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2037, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | INTEGRACAO LEDGER ACCOUNT - TESTE INICIADO EM SEG, 2014-8-4 AT 4:47:10 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------------
+INFO main | PASTAS INTEGRAÇÃO ECF
+INFO main | entrada: C:/temp/ECF/ledgeraccount/entrada
+INFO main | enviado: C:/temp/ECF/ledgeraccount/enviado
+INFO main | erro: C:/temp/ECF/ledgeraccount/erro
+INFO main | recebido: C:/temp/ECF/ledgeraccount/recebido
+INFO main | ----------------------------------------------------------
+INFO main | PARAMETROS
+INFO main | wsclient.host: http://166.78.0.215:8092
+INFO main | wsclient.return.host: http://166.78.0.215:8092
+INFO main | route.import.file.payload.type: XML
+INFO main | ----------------------------------------------------------
+INFO main | Verificando se o serviço do Integrador iniciado...
+INFO main | O servico do integrador esta iniciado!
+INFO main | Copiando arquivo modelo './files/modeloLedgerAccount.xml'...
+INFO main | Copiando arquivo modelo, com nome ./files/temp/xmlUp/arquivo_ledgeraccount_1407181631077.xml com sucesso!
+INFO main | Editando o arquivo com as informações de envio...
+INFO main | Limpando as pastas de integração...
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/entrada
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/enviado
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/erro
+INFO main | Limpando pasta C:/temp/ECF/ledgeraccount/recebido
+INFO main | Pastas limpas com sucesso!
+INFO main | Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407181631077.xml sair da pasta 'entrada': C:/temp/ECF/ledgeraccount/entrada/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407181631077.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/entrada/ com sucesso!
+INFO main | Aguardando o arquivo /arquivo_ledgeraccount_1407181631077.xml sair da pasta 'enviado': C:/temp/ECF/ledgeraccount/enviado/...
+INFO main | Arquivo /arquivo_ledgeraccount_1407181631077.xml saiu da pasta de entrada: C:/temp/ECF/ledgeraccount/enviado/ com sucesso!
+INFO main | Limpando a pasta temporaria ./files/temp/xmlUp...
+INFO main | Pastas temporaria ./files/temp/xmlUp limpa com sucesso!
+INFO main | Acessando o sistema para verificar o registro integrado...
+INFO main | ----------------------------------------------------
+INFO main | INTEGRAÇÃO: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: INTEGRACAO LEDGER ACCOUNT
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 301
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 6 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 7 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 8 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 9 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 10 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 11 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 12 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 13 de 300
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 14 de 300
