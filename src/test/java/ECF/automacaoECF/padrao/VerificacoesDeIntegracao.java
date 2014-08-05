@@ -230,17 +230,14 @@ public class VerificacoesDeIntegracao {
 	}
 
 	private String verificaSaidaDoDiretorioEntrada(String pasta_entrada, String arquivoAlterado) {
-		
-		File f = new File(pasta_entrada+arquivoAlterado);
-		if(f.exists() && !f.isDirectory()){
+
+		File f = new File(pasta_entrada + arquivoAlterado);
+		if (f.exists() && !f.isDirectory()) {
 			return ("Cheio");
-		}else{
+		} else {
 			return ("Vazio");
 		}
-		
-		
-		
-		
+
 	}
 
 	public boolean verficaServicoIntegracao(String serviceName) {
@@ -261,8 +258,8 @@ public class VerificacoesDeIntegracao {
 		return false;
 	}
 
-	public boolean verificaPastaErro(String[] pastasIntegracaoNotas, int tentativas) {
-		String caminhoPastaErro = pastasIntegracaoNotas[5];
+	public boolean verificaPastaErro(String pastaErro, int tentativas) {
+		String caminhoPastaErro = pastaErro;
 		logger.info("Verificando se o arquivo foi movido para a pasta erro: " + caminhoPastaErro);
 		boolean vazia = verificaSeDiretorioEstaVazio(caminhoPastaErro);
 		return vazia;
@@ -326,25 +323,54 @@ public class VerificacoesDeIntegracao {
 
 		String pasta_entrada = pastasIntegracao[0] + "/";
 		String pasta_enviado = pastasIntegracao[1] + "/";
+		String pasta_erro = pastasIntegracao[2] + "/";
+		String pasta_recebido = pastasIntegracao[3] + "/";
+
 
 		logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
 		copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
-		
-		String arquivoAlterado=prefixoNome+nomeArquivo;
+
+		String arquivoAlterado = prefixoNome + nomeArquivo;
 
 		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'entrada': " + pasta_entrada + "...");
-		while (verificaSaidaDoDiretorioEntrada(pasta_entrada,arquivoAlterado).contentEquals("Cheio")) {
+		while (verificaSaidaDoDiretorioEntrada(pasta_entrada, arquivoAlterado).contentEquals("Cheio")) {
 		}
 		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_entrada + " com sucesso!");
-		
+
 		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'enviado': " + pasta_enviado + "...");
 		while (verificaSaidaDoDiretorioEnviado(pasta_enviado).contentEquals("Cheio")) {
 		}
 		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_enviado + " com sucesso!");
 
+		logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
+
+		verificaSeFoiParaAPastaErro(pasta_erro);
+
+		if (verificaPastaErro(pasta_erro, tentativas) == true) {
+			logger.info("O arquivo  foi movido para a pasta 'erro'!");
+			falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+		}
+
+		logger.info("O arquivo não foi movido para a pasta 'erro'!");
+
 		logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
 		limpaPastas(diretorioTemporario);
 		logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
+
+	}
+
+	private void verificaSeFoiParaAPastaErro(String pasta_erro) {
+		File file = new File(pasta_erro);
+		if (file.isDirectory()) {
+			if (file.list().length > 0) {
+				logger.info("O arquivo  foi movido para a pasta 'erro'!");
+				falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+			} else {
+				logger.info("O arquivo não foi movido para a pasta 'erro'!");
+			}
+		} else {
+			falhaIntegracao("O diretorio " + pasta_erro + " não existe!");
+		}
 
 	}
 

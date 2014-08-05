@@ -1,11 +1,16 @@
-package ECF.automacaoECF.padrao;
+package ECF.automacaoECF.laboratorio;
+
+import java.io.IOException;
 
 import org.apache.log4j.Logger;
-import org.junit.After;
 import org.junit.Test;
-import org.openqa.selenium.By;
 
-public class TelaAcesso extends CasoDeTesteBasico {
+import ECF.automacaoECF.padrao.CasoDeTesteBasico;
+import ECF.automacaoECF.padrao.RecebeParametros;
+import ECF.automacaoECF.padrao.TelaAcesso;
+import ECF.automacaoECF.padrao.VerificacoesDeTela;
+
+public class TestaAcessoDeTela extends CasoDeTesteBasico {
 
 	org.apache.log4j.Logger logger = Logger.getLogger(TelaAcesso.class.getName());
 	public String url = new RecebeParametros().url;
@@ -19,9 +24,8 @@ public class TelaAcesso extends CasoDeTesteBasico {
 	public static String xpathHome = "/html/body/div[3]/div[2]/div/ul/li/a/span";
 	public long duracaoTeste;
 
-	@SuppressWarnings("unused")
 	@Test
-	public void tesTela() throws Throwable {
+	public void testaAcesso() throws Throwable {
 		long inicio = System.currentTimeMillis();
 
 		// ////////1 ACESSO E TITULOS
@@ -71,53 +75,7 @@ public class TelaAcesso extends CasoDeTesteBasico {
 		automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
 		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
-		automacao.acessaTelaPorClick2(driver, qtdeMenuInt, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenuInt, tentativas);
-		automacao.aguardaCarregamento(caminho, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
-
-		if (abaPesquisaBoolean == true) {
-			// ACESSO A TELA PESQUISA
-			automacao.informaTeste(1, caminho, nomeTeste);
-			automacao.aguardaCarregamento(caminho, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
-			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
-				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
-		}
-
-		if (abaResultadosPesquisaBoolean == true) {
-			// TELA RESULTADO PESQUISA
-			automacao.informaTeste(2, caminho, nomeTeste);
-			Thread.sleep(500);
-			driver.findElement(By.id(idBotaoExecutarConsulta)).click();
-			automacao.aguardaCarregamento(caminho, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
-			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
-				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
-
-		}
-
-		if (abaRegistroBoolean == true) {
-			// TELA REGISTRO
-			
-			automacao.informaTeste(3, caminho, nomeTeste);
-			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste);
-			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
-			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
-				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
-
-		}
-		duracaoTeste = System.currentTimeMillis() - inicio;
-		automacao.informaTerminoDoTeste(nomeTeste, categoria, duracaoTeste);
-	}
-
-	@After
-	public void tearDown() {
-		driver.close();
-		driver.quit();
-	}
-
-	public void executaTeste() throws Throwable {
-		setup();
-		tesTela();
-		tearDown();
+		automacao.acessaTelaPorClick2(driver, qtdeMenuInt, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenuInt,tentativas);
 
 	}
-
 }

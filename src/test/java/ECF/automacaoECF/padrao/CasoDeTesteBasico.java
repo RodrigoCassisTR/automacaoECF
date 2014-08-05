@@ -49,8 +49,12 @@ public class CasoDeTesteBasico {
 		}
 		if (navegador.equals("ie")) {
 			File fileDriver = new File("./drivers/iexploredriver64.exe");
+			DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
+			ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+			ieCapabilities.setCapability("ensureCleanSession", true);
 			System.setProperty("webdriver.ie.driver", fileDriver.getAbsolutePath());
-			driver = new InternetExplorerDriver();
+			driver = new InternetExplorerDriver(ieCapabilities);
+
 		}
 		if (navegador.equals("html")) {
 			driver = new HtmlUnitDriver(true);

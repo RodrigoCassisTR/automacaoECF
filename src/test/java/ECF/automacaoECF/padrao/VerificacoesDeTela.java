@@ -1016,9 +1016,16 @@ public class VerificacoesDeTela {
 
 	}
 	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste) throws InterruptedException, IOException {
-		aguardaCarregamento(nomeTeste, xpathCarregaRegistro, nomeTeste, tentativas, driver);
+		aguardaProcessamentoDesaparecer(driver,tentativas,nomeTeste);
 		Thread.sleep(500);
 		driver.findElement(By.xpath(xpathCarregaRegistro)).click();
+		Thread.sleep(1000);
+		
+		Actions action = new Actions(driver);
+		WebElement we = driver.findElement(By.xpath("//*[@id='taxit_loading']"));
+		action.moveToElement(we).build().perform();
+		
+		
 
 	}
 
@@ -1103,24 +1110,232 @@ public class VerificacoesDeTela {
 
 			//Coluna Resultado de Pesquisa 'Código Conta Contábil'
 			logger.info("Verificando se o registro é apresentado na tela de resultados");
-			if(driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/tbody/tr/td[3]")).isDisplayed()==false){
+			if (driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/tbody/tr/td[3]")).isDisplayed() == false) {
 				falha("Registro não foi visualizado na tela de resultado de pesquisa", driver, nomeTeste);
 			}
 			logger.info("Registro localizado na tyela de resultados da pesquisa");
 			logger.info("Clicando em 'Consultar'");
 			driver.findElement(By.id("TAXIT:trTbrCad2002LedactBean:tab1:PageTemplateToolbarSearchCrudConsult")).click();
 			aguardaCarregamento(nomeTeste, xpathCarregaRegistro, nomeTeste, tentativas, driver);
-			
-			
-			
-			
-			
-			
-			
-			
+
 			Thread.sleep(300000);
 
 		}
 
+	}
+	public void acessaTelaPorClick2(WebDriver driver, int qtdeMenuInt, String xpathMenu1, String xpathMenu2, String xpathMenu3, String xpathMenu4, String xpathTela, String nomeTeste, String labelMenu1, String labelMenu2, String labelMenu3, String labelMenu4, String labelTela, int qtdeMenuInt2, int tentativas) throws InterruptedException, IOException {
+		if (qtdeMenuInt == 0) {
+
+			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelTela)).click();
+			Thread.sleep(1000);
+			
+		}else if(qtdeMenuInt == 1){
+			driver.findElement(By.linkText(labelMenu1)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelTela)).click();
+			Thread.sleep(1000);
+			
+		}else if(qtdeMenuInt == 2){
+			driver.findElement(By.linkText(labelMenu1)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelMenu2)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelTela)).click();
+			Thread.sleep(1000);
+			
+		}else if(qtdeMenuInt == 3){
+			driver.findElement(By.linkText(labelMenu1)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelMenu2)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu3, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelMenu3)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelTela)).click();
+			Thread.sleep(1000);
+			
+		}else if(qtdeMenuInt == 4){
+			driver.findElement(By.linkText(labelMenu1)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelMenu2)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu3, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelMenu3)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu4, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelMenu4)).click();
+			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
+			driver.findElement(By.linkText(labelTela)).click();
+			Thread.sleep(1000);
+			
+		}else if(qtdeMenuInt == 30){
+			
+
+			try {
+				aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			} catch (IOException e) {
+
+				logger.info(e);
+			}
+			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			}
+			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
+				try {
+					falha("Tela não está localizada no local correto", driver, nomeTeste);
+				} catch (IOException e) {
+
+					logger.info(e);
+				}
+			} else {
+				driver.findElement(By.xpath(xpathMenu1)).click();
+			}
+
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			}
+			try {
+				aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			} catch (IOException e) {
+
+				logger.info(e);
+			}
+			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			}
+			if (!driver.findElement(By.xpath(xpathMenu2)).getText().contentEquals(labelMenu2)) {
+				try {
+					falha("Tela não está localizada no local correto", driver, nomeTeste);
+				} catch (IOException e) {
+
+					logger.info(e);
+				}
+			} else {
+				driver.findElement(By.xpath(xpathMenu2)).click();
+			}
+
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			}
+			try {
+				aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			} catch (IOException e) {
+
+				logger.info(e);
+			}
+			logger.info(driver.findElement(By.xpath(xpathMenu3)).getText() + " >");
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			}
+			if (!driver.findElement(By.xpath(xpathMenu3)).getText().contentEquals(labelMenu3)) {
+				try {
+					falha("Tela não está localizada no local correto", driver, nomeTeste);
+				} catch (IOException e) {
+
+					logger.info(e);
+				}
+			} else {
+				driver.findElement(By.xpath(xpathMenu3)).click();
+			}
+
+			try {
+				aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			} catch (InterruptedException e) {
+
+				logger.info(e);
+			} catch (IOException e) {
+
+				logger.info(e);
+			}
+			Thread.sleep(500);
+			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
+			Thread.sleep(500);
+			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {
+				try {
+					falha("Tela não está localizada no local correto", driver, nomeTeste);
+				} catch (IOException e) {
+
+					logger.info(e);
+				}
+			} else {
+				driver.findElement(By.xpath(xpathTela)).click();
+			}
+
+			
+		}
+		
+		
+	}
+	public void aguardaCarregamentoPorLinkText(String nomeTeste, String linkReferencia, String nomeTeste2, int tentativas, WebDriver driver) throws IOException, InterruptedException {
+
+		long inicio = System.currentTimeMillis();
+
+		Thread.sleep(1000);
+
+		for (int second = 0;; second++) {
+			logger.info("Aguardando o carregamento da tela " + nomeTeste + " || Tentativa " + (second + 1) + " de " + tentativas);
+
+			if (second >= tentativas)
+				falha("Timeout, elemento nao localizado " + linkReferencia, driver, nomeTeste);
+			try {
+
+				if (driver.findElement(By.linkText(linkReferencia)).isDisplayed())
+					break;
+			} catch (Exception e) {
+			}
+			Thread.sleep(1000);
+		}
+		long duracaoCarregamento = System.currentTimeMillis() - inicio;
+		logger.info("Tela " + nomeTeste + " acessada com sucesso!!");
+
+		if (duracaoCarregamento <= tempoMedioAceitavel) {
+			logger.info("#OK# Tempo de Carregamento: " + duracaoCarregamento + ", Tempo Aceitável: " + tempoMedioAceitavel);
+		} else {
+			logger.info("#ALERTA# Tempo de Carregamento: " + duracaoCarregamento + ", Tempo Aceitável: " + tempoMedioAceitavel);
+		}
+	}
+	public void aguardaProcessamentoDesaparecer(WebDriver driver,int tentativas,String nomeTeste) throws IOException, InterruptedException{
+		
+		for (int second = 0;; second++) {
+			logger.info("Aguardando tela de loading desaparecer || Tentativa " + (second + 1) + " de " + tentativas);
+
+			if (second >= tentativas)
+				falha("Timeout, elemento nao localizado " + "//*[@id='taxit_loading']", driver, nomeTeste);
+			try {
+
+				if (!driver.findElement(By.xpath("//*[@id='taxit_loading']")).isDisplayed())
+					break;
+			} catch (Exception e) {
+			}
+			Thread.sleep(1000);
+		}
+		
+		logger.info("Tela " + nomeTeste + " acessada com sucesso!!");
+		
+		
 	}
 }
