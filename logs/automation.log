@@ -7222,3 +7222,527 @@ INFO main | TelaAgrupamentoDeTabelasAcesso                                 SUCES
 INFO main | --------------------------------------------------------------------------------------------------------------------------------
 INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 1 MINUTOS 22 SEGUNDOS 
 INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM TER, 2014-8-5 AT 3:21:55 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5598, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 60
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 10107, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1047, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 11 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11116, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2051, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM TER, 2014-8-5 AT 3:24:9 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5842, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 14 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 15 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 16 de 60
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 16183, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 11 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11110, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1117, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2057, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | #########################################################################
+INFO main | TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 16 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | ALÍQUOTA DOS TRIBUTOS - TESTE INICIADO EM TER, 2014-8-5 AT 3:25:54 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6144, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 13 de 60
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13142, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela ALÍQUOTA DOS TRIBUTOS || Tentativa 1 de 60
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 9 de 60
+INFO main | Tela 'Tabelas de Referência > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9089, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 1 de 60
+INFO main | Tela 'Tabelas de Referência > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 1 de 60
+INFO main | Tela 'Tabelas de Referência > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: ALÍQUOTA DOS TRIBUTOS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 2 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 3 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 4 de 60
+INFO main | Tela ALÍQUOTA DOS TRIBUTOS acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Tabelas de Referência > Alíquotas dos Tributos' || Tentativa 4 de 60
+INFO main | Tela 'Tabelas de Referência > Alíquotas dos Tributos' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 4049, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | #########################################################################
+INFO main | TESTE ALÍQUOTA DOS TRIBUTOS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 17 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | CENTRO DE CUSTO - TESTE INICIADO EM TER, 2014-8-5 AT 3:27:37 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRO DE CUSTO
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12736, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 60
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 11106, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 60
+INFO main | Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 11 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 12 de 60
+INFO main | Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12142, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 60
+INFO main | Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 60
+INFO main | Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2053, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRO DE CUSTO
+INFO main | ----------------------------------------------------
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 60
+INFO main | Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1021, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | #########################################################################
+INFO main | TESTE CENTRO DE CUSTO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 17 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | Apagando Screenshot
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM TERÇA-FEIRA, 5 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 60
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 60 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA (1 TESTES)
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM TER, 2014-8-5 AT 3:30:41 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5437, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 11 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 12 de 60
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 12106, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1039, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 11 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 12 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 13 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13169, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 9 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9171, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+INFO main | Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 2037, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | #########################################################################
+INFO main | TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 29 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | RESULTADOS DA SUITE EM TERÇA-FEIRA, 5 DE AGOSTO DE 2014
+INFO main | TOTAL DE TESTES: 1 | FALHA: 0 | SUCESSO: 1
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTE                                                         RESULTADO            CATEGORIA              DURAÇÃO
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | TelaAgrupamentoDeTabelasAcesso                                 SUCESSO!                 TELA             00:01:39
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | SUITE DE TESTE EXECUTADA EM: 0 HORAS 1 MINUTOS 39 SEGUNDOS 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | E-MAIL COM AS INFORMAÇÕES DA SUITE ENVIADO COM SUCESSO! 
+INFO main | --------------------------------------------------------------------------------------------------------------------------------
+INFO main | Apagando Screenshot
+INFO main | ************************************************************************
+INFO main | AUTOMACAO | ONESOURCE ECF
+INFO main | ************************************************************************
+INFO main | ------------------------------------------------------------------------
+INFO main | SUITE DE TESTE INICIADA EM TERÇA-FEIRA, 5 DE AGOSTO DE 2014
+INFO main | ------------------------------------------------------------------------
+INFO main | PARÂMETROS GERAIS: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | QTDE DE TENTATIVAS: 60
+INFO main | TEMPO ACEITÁVEL DE CARREGAMENTO: 60 (milissegundos)
+INFO main | PARÂMETROS DA SUITE: 
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | TESTES DE TELA (testaTela): true
+INFO main | TESTES DE CRUD (testaCRUD): false
+INFO main | TESTES DE INTEGRAÇÃO (testaIntegracao): false
+INFO main | ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main | 
+INFO main | 
+INFO main | ------------------------------------------------------
+INFO main | INICIANDO TESTES DE TELA (41 TESTES)
+INFO main | ------------------------------------------------------
+INFO main | #########################################################################
+INFO main | CENTRAL DE CADASTROS - TESTE INICIADO EM TER, 2014-8-5 AT 3:36:21 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: CENTRAL DE CADASTROS
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf

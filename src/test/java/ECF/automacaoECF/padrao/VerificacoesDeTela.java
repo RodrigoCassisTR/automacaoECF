@@ -1015,14 +1015,14 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste) throws InterruptedException, IOException {
+	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste, String xpathPontoVazio) throws InterruptedException, IOException {
 		aguardaProcessamentoDesaparecer(driver,tentativas,nomeTeste);
-		Thread.sleep(500);
+		
 		driver.findElement(By.xpath(xpathCarregaRegistro)).click();
-		Thread.sleep(1000);
+		
 		
 		Actions action = new Actions(driver);
-		WebElement we = driver.findElement(By.xpath("//*[@id='taxit_loading']"));
+		WebElement we = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/ul/li[1]/a"));
 		action.moveToElement(we).build().perform();
 		
 		

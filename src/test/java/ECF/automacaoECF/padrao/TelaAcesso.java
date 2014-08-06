@@ -53,6 +53,7 @@ public class TelaAcesso extends CasoDeTesteBasico {
 		String xpathAbaPesquisa = properties.getProperty("xpathAbaPesquisa");
 		String xpathAbaResultados = properties.getProperty("xpathAbaResultados");
 		String xpathAbaCadastro = properties.getProperty("xpathAbaCadastro");
+		String xpathPontoVazio = properties.getProperty("xpathPontoVazio");
 
 		String abaPesquisa = properties.getProperty("abaPesquisa");
 		boolean abaPesquisaBoolean = Boolean.parseBoolean(abaPesquisa);
@@ -97,7 +98,7 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			// TELA REGISTRO
 			
 			automacao.informaTeste(3, caminho, nomeTeste);
-			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste);
+			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste, xpathPontoVazio);
 			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
 			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
 				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);
