@@ -16,6 +16,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class VerificacoesDeTela {
 	org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeTela.class.getName());
@@ -217,41 +219,57 @@ public class VerificacoesDeTela {
 
 	}
 
-	public void acessaModuloECF(WebDriver driver, int tentativas, String xpathModulo, String nomeTeste) throws Throwable {
+	public void acessaModuloECF(WebDriver driver, int tentativas, String xpathModulo, String nomeTeste) {
 		boolean moduloPresente = false;
+		try {
 
-		org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeTela.class.getName());
-		for (int i = 0; i == (tentativas + 1); i++) {
+			org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeTela.class.getName());
+			for (int i = 0; i == (tentativas + 1); i++) {
 
-			for (int second = 0; second < tentativas; second++) {
-				logger.info(second);
-				if (second >= tentativas) {
+				for (int second = 0; second < tentativas; second++) {
+					logger.info(second);
+					if (second >= tentativas) {
+					}
+
+					try {
+						moduloPresente = verificaSeEstaNaTela(driver, xpathModulo);
+						if (moduloPresente == true)
+							logger.info(moduloPresente);
+						break;
+
+					} catch (Exception e) {
+						Thread.sleep(1000);
+					}
+
 				}
 
-				try {
-					moduloPresente = verificaSeEstaNaTela(driver, xpathModulo);
-					if (moduloPresente == true)
-						logger.info(moduloPresente);
-					break;
-
-				} catch (Exception e) {
-					Thread.sleep(1000);
-				}
+				efetuaLogout(driver, tentativas);
+				efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 
 			}
 
-			efetuaLogout(driver, tentativas);
-			efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
+			logger.info("Acessando o módulo ONESOURCE ECF...");
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			aguardaCarregamento("SELEÇÃO DE MÓDULOS", xpathModulo, nomeTeste, tentativas, driver);
+
+			aguardaElemntoFicarClicavel(driver,tentativas,xpathModulo);
+		
+
+			driver.findElement(By.xpath(xpathModulo)).click();
+			aguardaCarregamento("HOME", "/html/body/div[3]/div[2]/div/ul/li/a", nomeTeste, tentativas, driver);
+		} catch (Exception e) {
+			logger.info(e.toString());
+			logger.info(e.getStackTrace().toString());
 
 		}
-
-		logger.info("Acessando o módulo ONESOURCE ECF...");
-		aguardaCarregamento("SELEÇÃO DE MÓDULOS", xpathModulo, nomeTeste, tentativas, driver);
-
-		driver.findElement(By.xpath(xpathModulo)).click();
-		aguardaCarregamento("HOME", "/html/body/div[3]/div[2]/div/ul/li/a", nomeTeste, tentativas, driver);
 	}
 
+	public void aguardaElemntoFicarClicavel(WebDriver driver, int tentativas, String xpathElemento) {
+		WebDriverWait wait = new WebDriverWait(driver, tentativas);
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathElemento)));
+		
+		
+	}
 	private boolean verificaSeEstaNaTela(WebDriver driver, String xpathModulo) {
 
 		if (driver.findElement(By.xpath(xpathModulo)).isDisplayed() == true) {
@@ -1016,16 +1034,13 @@ public class VerificacoesDeTela {
 
 	}
 	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste, String xpathPontoVazio) throws InterruptedException, IOException {
-		aguardaProcessamentoDesaparecer(driver,tentativas,nomeTeste);
-		
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+
 		driver.findElement(By.xpath(xpathCarregaRegistro)).click();
-		
-		
+
 		Actions action = new Actions(driver);
 		WebElement we = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/ul/li[1]/a"));
 		action.moveToElement(we).build().perform();
-		
-		
 
 	}
 
@@ -1129,22 +1144,22 @@ public class VerificacoesDeTela {
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-			
-		}else if(qtdeMenuInt == 1){
+
+		} else if (qtdeMenuInt == 1) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-			
-		}else if(qtdeMenuInt == 2){
+
+		} else if (qtdeMenuInt == 2) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelMenu2)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-			
-		}else if(qtdeMenuInt == 3){
+
+		} else if (qtdeMenuInt == 3) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelMenu2)).click();
@@ -1153,8 +1168,8 @@ public class VerificacoesDeTela {
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-			
-		}else if(qtdeMenuInt == 4){
+
+		} else if (qtdeMenuInt == 4) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelMenu2)).click();
@@ -1165,9 +1180,8 @@ public class VerificacoesDeTela {
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-			
-		}else if(qtdeMenuInt == 30){
-			
+
+		} else if (qtdeMenuInt == 30) {
 
 			try {
 				aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
@@ -1285,10 +1299,8 @@ public class VerificacoesDeTela {
 				driver.findElement(By.xpath(xpathTela)).click();
 			}
 
-			
 		}
-		
-		
+
 	}
 	public void aguardaCarregamentoPorLinkText(String nomeTeste, String linkReferencia, String nomeTeste2, int tentativas, WebDriver driver) throws IOException, InterruptedException {
 
@@ -1318,8 +1330,8 @@ public class VerificacoesDeTela {
 			logger.info("#ALERTA# Tempo de Carregamento: " + duracaoCarregamento + ", Tempo Aceitável: " + tempoMedioAceitavel);
 		}
 	}
-	public void aguardaProcessamentoDesaparecer(WebDriver driver,int tentativas,String nomeTeste) throws IOException, InterruptedException{
-		
+	public void aguardaProcessamentoDesaparecer(WebDriver driver, int tentativas, String nomeTeste) throws IOException, InterruptedException {
+
 		for (int second = 0;; second++) {
 			logger.info("Aguardando tela de loading desaparecer || Tentativa " + (second + 1) + " de " + tentativas);
 
@@ -1333,9 +1345,8 @@ public class VerificacoesDeTela {
 			}
 			Thread.sleep(1000);
 		}
-		
+
 		logger.info("Tela " + nomeTeste + " acessada com sucesso!!");
-		
-		
+
 	}
 }

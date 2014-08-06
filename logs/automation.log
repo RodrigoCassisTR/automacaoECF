@@ -7746,3 +7746,800 @@ INFO main | NAVEGADOR: chrome
 INFO main | TESTE: CENTRAL DE CADASTROS
 INFO main | ----------------------------------------------------
 INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | #########################################################################
+INFO main | APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:41:13 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 2 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 6 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 8241, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:42:4 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 2 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | #########################################################################
+INFO main | APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:42:49 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 2 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela HOME || Tentativa 6 de 60
+INFO main | Tela HOME acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 6070, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Tela Home acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela APURAÇÃO IRPJ (LUCRO REAL) || Tentativa 1 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela APURAÇÃO IRPJ (LUCRO REAL) || Tentativa 1 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 11 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 12 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 13 de 60
+INFO main | Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main | #ALERTA# Tempo de Carregamento: 13165, Tempo Aceitável: 10000
+INFO main | ----------------------------------------------------
+INFO main | TELA DE PESQUISA, TELA: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 60
+INFO main | Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1018, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE RESULTADOS, TELA: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 9 de 60
+INFO main | Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 9162, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | ----------------------------------------------------
+INFO main | TELA DE REGISTRO, TELA: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 5 de 60
+INFO main | Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 5061, Tempo Aceitável: 10000
+INFO main | #OK# Nehuma mensagem de erro localizada!
+INFO main | #########################################################################
+INFO main | TESTE APURAÇÃO IRPJ (LUCRO REAL) ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 0 SEGUNDOS 
+INFO main | #########################################################################
+INFO main | #########################################################################
+INFO main | APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:44:34 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 2 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | java.lang.IllegalMonitorStateException
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 11 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 12 de 60
+INFO main | #########################################################################
+INFO main | APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:48:59 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 2 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main | java.lang.IllegalMonitorStateException
+INFO main | [Ljava.lang.StackTraceElement;@25e25cc
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 5 de 60
+INFO main | #########################################################################
+INFO main | APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:49:51 PM BRT
+INFO main | #########################################################################
+INFO main | ----------------------------------------------------
+INFO main | URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | USUARIO: ADM
+INFO main | SENHA: adm@2014
+INFO main | NAVEGADOR: chrome
+INFO main | TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+INFO main | ----------------------------------------------------
+INFO main | Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main | Aguardando tela de login ser carregada | Tentativa 1 de 61
+INFO main | Tela carregada com sucesso!
+INFO main | ----------------------------------------------------
+INFO main | ACESSANDO A APLICACAO
+INFO main | ----------------------------------------------------
+INFO main | Digitando usuario: ADM
+INFO main | Digitando senha: adm@2014
+INFO main | Clicando no botão 'Entrar'
+INFO main | Aguardando o acesso a aplicacao...
+INFO main | Aplicacao acessada com sucesso!
+INFO main | Acessando o módulo ONESOURCE ECF...
+INFO main | Aguardando tela de loading desaparecer || Tentativa 1 de 60
+INFO main | Aguardando tela de loading desaparecer || Tentativa 2 de 60
+INFO main | Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+INFO main | Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+INFO main | Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main | #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main | java.lang.IllegalMonitorStateException
+INFO main | [Ljava.lang.StackTraceElement;@7303754a
+INFO main | Aguardando o carregamento da tela Home || Tentativa 1 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 2 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 3 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 4 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 5 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 6 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 7 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 8 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 9 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 10 de 60
+INFO main | Aguardando o carregamento da tela Home || Tentativa 11 de 60
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:51:13 PM BRT
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:51:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:51:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-05 23:51:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-05 23:51:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:51:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-05 23:51:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:52:23 PM BRT
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:52:23 ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:52:52 INFO  - #########################################################################
+2014-08-05 23:52:52 INFO  - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:52:52 PM BRT
+2014-08-05 23:52:52 INFO  - #########################################################################
+2014-08-05 23:52:52 INFO  - ----------------------------------------------------
+2014-08-05 23:52:52 INFO  - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:52:52 INFO  - USUARIO: ADM
+2014-08-05 23:52:52 INFO  - SENHA: adm@2014
+2014-08-05 23:52:52 INFO  - NAVEGADOR: chrome
+2014-08-05 23:52:52 INFO  - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:52:52 INFO  - ----------------------------------------------------
+2014-08-05 23:52:52 INFO  - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:53:45 INFO  - #########################################################################
+2014-08-05 23:53:45 INFO  - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:53:45 PM BRT
+2014-08-05 23:53:45 INFO  - #########################################################################
+2014-08-05 23:53:45 INFO  - ----------------------------------------------------
+2014-08-05 23:53:45 INFO  - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:53:45 INFO  - USUARIO: ADM
+2014-08-05 23:53:45 INFO  - SENHA: adm@2014
+2014-08-05 23:53:45 INFO  - NAVEGADOR: chrome
+2014-08-05 23:53:45 INFO  - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:53:45 INFO  - ----------------------------------------------------
+2014-08-05 23:53:45 INFO  - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:53:54 INFO  - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-05 23:53:55 INFO  - Aguardando tela de login ser carregada | Tentativa 2 de 61
+2014-08-05 23:54:15 INFO  - #########################################################################
+2014-08-05 23:54:15 INFO  - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:54:15 PM BRT
+2014-08-05 23:54:15 INFO  - #########################################################################
+2014-08-05 23:54:15 INFO  - ----------------------------------------------------
+2014-08-05 23:54:15 INFO  - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:54:15 INFO  - USUARIO: ADM
+2014-08-05 23:54:15 INFO  - SENHA: adm@2014
+2014-08-05 23:54:15 INFO  - NAVEGADOR: chrome
+2014-08-05 23:54:15 INFO  - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:54:15 INFO  - ----------------------------------------------------
+2014-08-05 23:54:15 INFO  - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:54:24 INFO  - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-05 23:54:25 INFO  - Aguardando tela de login ser carregada | Tentativa 2 de 61
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:54:57 PM BRT
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-05 23:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-05 23:55:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 60
+2014-08-05 23:55:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-05 23:55:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+2014-08-05 23:55:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-05 23:55:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+2014-08-05 23:55:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - java.lang.IllegalMonitorStateException
+2014-08-05 23:55:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - [Ljava.lang.StackTraceElement;@49d11c11
+2014-08-05 23:55:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 60
+2014-08-05 23:55:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 2 de 60
+2014-08-05 23:55:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 3 de 60
+2014-08-05 23:55:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 4 de 60
+2014-08-05 23:55:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 5 de 60
+2014-08-05 23:55:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 6 de 60
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:58:17 PM BRT
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:58:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-05 23:58:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-05 23:58:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 60
+2014-08-05 23:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-05 23:58:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+2014-08-05 23:58:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-05 23:58:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+2014-08-05 23:58:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+2014-08-05 23:58:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+2014-08-05 23:58:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+2014-08-05 23:58:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+2014-08-05 23:58:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+2014-08-05 23:58:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-05 23:58:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 5065, Tempo Aceitável: 10000
+2014-08-05 23:58:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 60
+2014-08-05 23:58:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-05 23:58:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+2014-08-05 23:58:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela APURAÇÃO IRPJ (LUCRO REAL) || Tentativa 1 de 60
+2014-08-05 23:58:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-05 23:58:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1045, Tempo Aceitável: 10000
+2014-08-05 23:58:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela APURAÇÃO IRPJ (LUCRO REAL) || Tentativa 1 de 60
+2014-08-05 23:58:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-05 23:58:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1061, Tempo Aceitável: 10000
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM TER, 2014-8-5 AT 11:58:52 PM BRT
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-05 23:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-05 23:59:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 60
+2014-08-05 23:59:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-05 23:59:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+2014-08-05 23:59:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-05 23:59:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-05 23:59:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+2014-08-05 23:59:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+2014-08-05 23:59:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+2014-08-05 23:59:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+2014-08-05 23:59:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+2014-08-05 23:59:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-05 23:59:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 5171, Tempo Aceitável: 10000
+2014-08-05 23:59:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 60
+2014-08-05 23:59:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-05 23:59:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+2014-08-05 23:59:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela APURAÇÃO IRPJ (LUCRO REAL) || Tentativa 1 de 60
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - APURAÇÃO IRPJ (LUCRO REAL) - TESTE INICIADO EM QUA, 2014-8-6 AT 12:1:37 AM BRT
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: APURAÇÃO IRPJ (LUCRO REAL)
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-06 00:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-06 00:01:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 60
+2014-08-06 00:01:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-06 00:01:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+2014-08-06 00:01:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 60
+2014-08-06 00:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 60
+2014-08-06 00:01:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 60
+2014-08-06 00:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 60
+2014-08-06 00:02:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 6 de 60
+2014-08-06 00:02:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 7 de 60
+2014-08-06 00:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 8 de 60
+2014-08-06 00:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 9 de 60
+2014-08-06 00:02:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 10 de 60
+2014-08-06 00:02:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 11 de 60
+2014-08-06 00:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 12 de 60
+2014-08-06 00:02:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 13 de 60
+2014-08-06 00:02:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 14 de 60
+2014-08-06 00:02:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 15 de 60
+2014-08-06 00:02:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 16 de 60
+2014-08-06 00:02:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 17 de 60
+2014-08-06 00:02:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-06 00:02:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 20398, Tempo Aceitável: 10000
+2014-08-06 00:02:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+2014-08-06 00:02:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+2014-08-06 00:02:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+2014-08-06 00:02:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+2014-08-06 00:02:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+2014-08-06 00:02:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 60
+2014-08-06 00:02:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-06 00:02:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 6064, Tempo Aceitável: 10000
+2014-08-06 00:02:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 60
+2014-08-06 00:02:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-06 00:02:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+2014-08-06 00:02:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela APURAÇÃO IRPJ (LUCRO REAL) || Tentativa 1 de 60
+2014-08-06 00:02:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-06 00:02:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1062, Tempo Aceitável: 10000
+2014-08-06 00:02:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela APURAÇÃO IRPJ (LUCRO REAL) || Tentativa 1 de 60
+2014-08-06 00:02:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela APURAÇÃO IRPJ (LUCRO REAL) acessada com sucesso!!
+2014-08-06 00:02:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+2014-08-06 00:02:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 60
+2014-08-06 00:02:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 2 de 60
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - Apagando Screenshot
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - ************************************************************************
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - AUTOMACAO | ONESOURCE ECF
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - ************************************************************************
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 6 DE AGOSTO DE 2014
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - PARÂMETROS GERAIS: 
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - USUARIO: ADM
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - SENHA: adm@2014
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - QTDE DE TENTATIVAS: 60
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - TEMPO ACEITÁVEL DE CARREGAMENTO: 60 (milissegundos)
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - PARÂMETROS DA SUITE: 
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - TESTES DE TELA (testaTela): true
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - TESTES DE CRUD (testaCRUD): false
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - TESTES DE INTEGRAÇÃO (testaIntegracao): false
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - 
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.ResultadosDaSuite - 
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.TesteSuite - ------------------------------------------------------
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.TesteSuite - INICIANDO TESTES DE TELA (41 TESTES)
+2014-08-06 00:02:53 INFO  ECF.automacao.suite.TesteSuite - ------------------------------------------------------
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-8-6 AT 12:2:56 AM BRT
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRAL DE CADASTROS
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:02:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-06 00:03:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-06 00:03:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 60
+2014-08-06 00:03:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+2014-08-06 00:03:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+2014-08-06 00:03:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-06 00:03:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-06 00:03:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+2014-08-06 00:03:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+2014-08-06 00:03:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+2014-08-06 00:03:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+2014-08-06 00:03:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+2014-08-06 00:03:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-06 00:03:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 5146, Tempo Aceitável: 10000
+2014-08-06 00:03:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 60
+2014-08-06 00:03:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-06 00:03:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+2014-08-06 00:03:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+2014-08-06 00:03:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+2014-08-06 00:03:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+2014-08-06 00:03:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 60
+2014-08-06 00:03:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+2014-08-06 00:03:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+2014-08-06 00:03:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+2014-08-06 00:03:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 60
+2014-08-06 00:03:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 60
+2014-08-06 00:03:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 60
+2014-08-06 00:03:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 60
+2014-08-06 00:03:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+2014-08-06 00:03:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 5077, Tempo Aceitável: 10000
+2014-08-06 00:03:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+2014-08-06 00:03:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+2014-08-06 00:03:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+2014-08-06 00:03:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+2014-08-06 00:03:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-06 00:03:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+2014-08-06 00:03:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: CENTRAL DE CADASTROS
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-06 00:03:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+2014-08-06 00:03:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 60
+2014-08-06 00:03:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+2014-08-06 00:03:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+2014-08-06 00:03:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-06 00:03:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:03:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 38 SEGUNDOS 
+2014-08-06 00:03:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - AJUSTES PARTE B  - TESTE INICIADO EM QUA, 2014-8-6 AT 12:3:38 AM BRT
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: AJUSTES PARTE B 
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:03:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-06 00:03:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 2 de 61
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - DARF CONSULTA - TESTE INICIADO EM QUA, 2014-8-6 AT 12:3:53 AM BRT
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: DARF CONSULTA
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:03:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-06 00:04:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-06 00:04:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 60
+2014-08-06 00:04:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:04:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+2014-08-06 00:04:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-06 00:04:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+2014-08-06 00:04:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+2014-08-06 00:04:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+2014-08-06 00:04:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+2014-08-06 00:04:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+2014-08-06 00:04:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+2014-08-06 00:04:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-06 00:04:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 5059, Tempo Aceitável: 10000
+2014-08-06 00:04:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 60
+2014-08-06 00:04:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-06 00:04:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+2014-08-06 00:04:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela DARF CONSULTA || Tentativa 1 de 60
+2014-08-06 00:04:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:04:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+2014-08-06 00:04:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela DARF CONSULTA || Tentativa 1 de 60
+2014-08-06 00:04:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:04:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+2014-08-06 00:04:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela DARF CONSULTA || Tentativa 1 de 60
+2014-08-06 00:04:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:04:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+2014-08-06 00:04:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 1 de 60
+2014-08-06 00:04:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 2 de 60
+2014-08-06 00:04:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 3 de 60
+2014-08-06 00:04:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 4 de 60
+2014-08-06 00:04:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 5 de 60
+2014-08-06 00:04:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 6 de 60
+2014-08-06 00:04:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 7 de 60
+2014-08-06 00:04:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 8 de 60
+2014-08-06 00:04:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 9 de 60
+2014-08-06 00:04:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 10 de 60
+2014-08-06 00:04:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 11 de 60
+2014-08-06 00:04:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 12 de 60
+2014-08-06 00:04:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 13 de 60
+2014-08-06 00:04:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 14 de 60
+2014-08-06 00:04:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 15 de 60
+2014-08-06 00:04:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 16 de 60
+2014-08-06 00:04:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 17 de 60
+2014-08-06 00:04:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 18 de 60
+2014-08-06 00:04:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 19 de 60
+2014-08-06 00:04:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 20 de 60
+2014-08-06 00:04:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 21 de 60
+2014-08-06 00:04:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 22 de 60
+2014-08-06 00:04:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 23 de 60
+2014-08-06 00:04:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 24 de 60
+2014-08-06 00:04:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 25 de 60
+2014-08-06 00:04:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 26 de 60
+2014-08-06 00:04:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 27 de 60
+2014-08-06 00:04:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 28 de 60
+2014-08-06 00:04:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 29 de 60
+2014-08-06 00:04:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 30 de 60
+2014-08-06 00:04:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 31 de 60
+2014-08-06 00:04:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 32 de 60
+2014-08-06 00:04:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 33 de 60
+2014-08-06 00:04:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 34 de 60
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - DARF CONSULTA - TESTE INICIADO EM QUA, 2014-8-6 AT 12:6:43 AM BRT
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: DARF CONSULTA
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 61
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-06 00:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-06 00:06:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-06 00:06:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-06 00:06:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 60
+2014-08-06 00:07:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 60
+2014-08-06 00:07:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:07:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 60
+2014-08-06 00:07:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-06 00:07:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-06 00:07:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 60
+2014-08-06 00:07:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 60
+2014-08-06 00:07:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 60
+2014-08-06 00:07:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 60
+2014-08-06 00:07:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 60
+2014-08-06 00:07:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-06 00:07:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 5058, Tempo Aceitável: 10000
+2014-08-06 00:07:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 60
+2014-08-06 00:07:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-06 00:07:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-06 00:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela DARF CONSULTA || Tentativa 1 de 60
+2014-08-06 00:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+2014-08-06 00:07:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela DARF CONSULTA || Tentativa 1 de 60
+2014-08-06 00:07:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:07:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+2014-08-06 00:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela DARF CONSULTA || Tentativa 1 de 60
+2014-08-06 00:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela DARF CONSULTA acessada com sucesso!!
+2014-08-06 00:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+2014-08-06 00:07:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 1 de 60
+2014-08-06 00:07:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 2 de 60
+2014-08-06 00:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 3 de 60
+2014-08-06 00:07:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 4 de 60
+2014-08-06 00:07:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 5 de 60
+2014-08-06 00:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 6 de 60
+2014-08-06 00:07:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 7 de 60
+2014-08-06 00:07:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 8 de 60
+2014-08-06 00:07:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 9 de 60
+2014-08-06 00:07:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Processos > Gerações > DARF > Consulta' acessada com sucesso!!
+2014-08-06 00:07:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 9095, Tempo Aceitável: 10000
+2014-08-06 00:07:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:07:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: DARF CONSULTA
+2014-08-06 00:07:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:07:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 1 de 60
+2014-08-06 00:07:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Processos > Gerações > DARF > Consulta' acessada com sucesso!!
+2014-08-06 00:07:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+2014-08-06 00:07:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-06 00:07:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:07:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: DARF CONSULTA
+2014-08-06 00:07:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-06 00:07:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 1 de 60
+2014-08-06 00:07:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 2 de 60
+2014-08-06 00:07:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 3 de 60
+2014-08-06 00:07:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Processos > Gerações > DARF > Consulta' || Tentativa 4 de 60
+2014-08-06 00:07:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Processos > Gerações > DARF > Consulta' acessada com sucesso!!
+2014-08-06 00:07:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 4083, Tempo Aceitável: 10000
+2014-08-06 00:07:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-06 00:07:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-06 00:07:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE DARF CONSULTA ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 45 SEGUNDOS 
+2014-08-06 00:07:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
