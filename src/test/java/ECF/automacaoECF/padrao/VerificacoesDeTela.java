@@ -252,8 +252,7 @@ public class VerificacoesDeTela {
 			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 			aguardaCarregamento("SELEÇÃO DE MÓDULOS", xpathModulo, nomeTeste, tentativas, driver);
 
-			aguardaElemntoFicarClicavel(driver,tentativas,xpathModulo);
-		
+			aguardaElemntoFicarClicavel(driver, tentativas, xpathModulo);
 
 			driver.findElement(By.xpath(xpathModulo)).click();
 			aguardaCarregamento("HOME", "/html/body/div[3]/div[2]/div/ul/li/a", nomeTeste, tentativas, driver);
@@ -267,8 +266,7 @@ public class VerificacoesDeTela {
 	public void aguardaElemntoFicarClicavel(WebDriver driver, int tentativas, String xpathElemento) {
 		WebDriverWait wait = new WebDriverWait(driver, tentativas);
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathElemento)));
-		
-		
+
 	}
 	private boolean verificaSeEstaNaTela(WebDriver driver, String xpathModulo) {
 
@@ -296,6 +294,7 @@ public class VerificacoesDeTela {
 		logger.info("Acessando aplicação no endereco " + url);
 
 		driver.get(url);
+		driver.manage().window().maximize();
 
 		for (int second = 0;; second++) {
 			logger.info("Aguardando tela de login ser carregada | Tentativa " + (second + 1) + " de " + (tentativas + 1));
@@ -1098,7 +1097,7 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void verificaRegistroIntegrado(WebDriver driver, String url, String usuario, String senha, String navegador, String nomeTeste, int tentativas, String nomeIntegracao, String[] informacoesRegistro, String qtdeMenu, String labelMenu1, String xpathMenu1, String labelMenu2, String xpathMenu2, String labelMenu3, String xpathMenu3, String labelMenu4, String xpathMenu4, String labelTela, String xpathTela, String xPathCarregaPesquisa, String estabelecimento, String[] camposTelaPesquisa, String idBotaoExecutarConsulta, String xpathCarregaResultadoPesquisa, String xpathCarregaRegistro) throws Throwable {
+	public void verificaRegistroIntegrado(WebDriver driver, String url, String usuario, String senha, String navegador, String nomeTeste, int tentativas, String nomeIntegracao, String[] informacoesRegistro, String qtdeMenu, String labelMenu1, String xpathMenu1, String labelMenu2, String xpathMenu2, String labelMenu3, String xpathMenu3, String labelMenu4, String xpathMenu4, String labelTela, String xpathTela, String xPathCarregaPesquisa, String estabelecimento, String[] camposTelaPesquisa, String idBotaoExecutarConsulta, String xpathCarregaResultadoPesquisa, String xpathCarregaRegistro, String[] camposTelaCadastro, String[] informacoesTelaCadastro) throws Throwable {
 
 		int qtdeMenuInt = Integer.parseInt(qtdeMenu);
 		logger.info("Acessando o sistema para verificar o registro integrado...");
@@ -1109,7 +1108,7 @@ public class VerificacoesDeTela {
 			efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 			acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
 			aguardaCarregamento("Home", "//*[@id='ui-id-1']/span", nomeTeste, tentativas, driver);
-			acessaTelaPorClick(driver, qtdeMenuInt, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenuInt);
+			acessaTelaPorClick2(driver, qtdeMenuInt, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenuInt, tentativas);
 			aguardaCarregamento(nomeTeste, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
 
 			logger.info("Fazendo a pesquisa do documento integrado...");
@@ -1128,13 +1127,36 @@ public class VerificacoesDeTela {
 			if (driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/tbody/tr/td[3]")).isDisplayed() == false) {
 				falha("Registro não foi visualizado na tela de resultado de pesquisa", driver, nomeTeste);
 			}
+
 			logger.info("Registro localizado na tyela de resultados da pesquisa");
 			logger.info("Clicando em 'Consultar'");
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 			driver.findElement(By.id("TAXIT:trTbrCad2002LedactBean:tab1:PageTemplateToolbarSearchCrudConsult")).click();
 			aguardaCarregamento(nomeTeste, xpathCarregaRegistro, nomeTeste, tentativas, driver);
 
-			Thread.sleep(300000);
+			logger.info("Verificando as informacoes do registro integrado...");
 
+			comparaValoresDosCampos(driver, tentativas, camposTelaCadastro, informacoesTelaCadastro);
+
+		}
+
+	}
+	public void comparaValoresDosCampos(WebDriver driver, int tentativas, String[] campos, String[] informacoes) {
+
+		logger.info("Comparando os dados integrados com os presentes na tela...");
+
+		int i = 0;
+		while (i < campos.length) {
+
+			if (driver.findElement(By.id(campos[i])).getText().contentEquals(informacoes[i])) {
+
+				logger.info("#OK# Esperado: " + informacoes[i] + ", Obtido: " + driver.findElement(By.id(campos[i])).getText());
+
+			} else {
+				logger.info("#ALERTA# Esperado: " + informacoes[i] + ", Obtido: " + driver.findElement(By.id(campos[i])).getText());
+			}
+
+			i++;
 		}
 
 	}
@@ -1347,6 +1369,86 @@ public class VerificacoesDeTela {
 		}
 
 		logger.info("Tela " + nomeTeste + " acessada com sucesso!!");
+
+	}
+
+	public void pesquisaRegistroIntegrado(WebDriver driver, int tentativas, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta) throws InterruptedException, IOException {
+		aguardaCarregamentoPorId(driver, tentativas, "Tela Pesquisa", camposPesquisa[0]);
+
+		for (int i = 0; i < qtdePesquisa; i++) {
+
+			logger.info("Preenchendo campos de pesquisa |" + camposPesquisa[i] + " : " + valoresPesquisa[i]);
+			driver.findElement(By.id(camposPesquisa[i])).sendKeys(valoresPesquisa[i]);
+
+		}
+		logger.info("Clicando no botão 'Executar Consulta'");
+		driver.findElement(By.id(idBotaoExecutarConsulta)).click();
+
+	}
+
+	private void aguardaCarregamentoPorId(WebDriver driver, int tentativas, String nomeTeste, String idReferencia) throws IOException, InterruptedException {
+		long inicio = System.currentTimeMillis();
+
+		Thread.sleep(1000);
+
+		for (int second = 0;; second++) {
+			logger.info("Aguardando o carregamento da tela " + nomeTeste + " || Tentativa " + (second + 1) + " de " + tentativas);
+
+			if (second >= tentativas)
+				try {
+					falha("Timeout, elemento nao localizado " + idReferencia, driver, nomeTeste);
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			try {
+
+				if (driver.findElement(By.id(idReferencia)).isDisplayed())
+					break;
+			} catch (Exception e) {
+				logger.info(e.toString());
+			}
+			Thread.sleep(1000);
+		}
+		long duracaoCarregamento = System.currentTimeMillis() - inicio;
+		logger.info("Tela " + nomeTeste + " acessada com sucesso!!");
+
+		if (duracaoCarregamento <= tempoMedioAceitavel) {
+			logger.info("#OK# Tempo de Carregamento: " + duracaoCarregamento + ", Tempo Aceitável: " + tempoMedioAceitavel);
+		} else {
+			logger.info("#ALERTA# Tempo de Carregamento: " + duracaoCarregamento + ", Tempo Aceitável: " + tempoMedioAceitavel);
+		}
+
+	}
+	public void verificaResultadoDaPesquisa(WebDriver driver, int tentativas, int qtdeResultados, String[] colunasResultados, String[] valoresResultados, String[] idBotoesResultados) throws IOException, InterruptedException {
+		aguardaCarregamentoPorId(driver, tentativas, "Resultados da PEsquisa", idBotoesResultados[0]);
+
+		for (int i = 0; i < qtdeResultados; i++) {
+
+			logger.info("Comparando | " + driver.findElement(By.xpath(colunasResultados[i])).getText() + " : " + valoresResultados[i]);
+			if (driver.findElement(By.xpath(colunasResultados[i])).getText().startsWith(valoresResultados[i])) {
+			} else {
+				falha("Não foi retornado resultado esperado: " + "Esperado: " + valoresResultados[i] + ", Obtido: " + driver.findElement(By.xpath(colunasResultados[i])).getText(), driver, "Resultados da Pesquisa");
+			}
+
+		}
+		logger.info("Clicando no botão 'Consultar'");
+		driver.findElement(By.id(idBotoesResultados[0])).click();
+
+	}
+	public void verificaTelaCadastro(WebDriver driver, int tentativas, int qtdeCadastro, String[] camposCadastro, String[] informacoesCadastro) throws IOException, InterruptedException {
+		aguardaCarregamentoPorId(driver, tentativas, "Tela de Cadastro", camposCadastro[0]);
+
+		for (int i = 0; i < qtdeCadastro; i++) {
+
+			logger.info("Comparando | Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value") + " : Esperado: " + informacoesCadastro[i]);
+			if (driver.findElement(By.id(camposCadastro[i])).getAttribute("value").contentEquals(informacoesCadastro[i])) {
+			} else {
+				falha("Não foi retornado resultado esperado: " + "Esperado: " + informacoesCadastro[i] + ", Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"), driver, "Tela de Cadastro");
+			}
+
+		}
+		logger.info("Elementos localizados na tela com sucesso!");
 
 	}
 }

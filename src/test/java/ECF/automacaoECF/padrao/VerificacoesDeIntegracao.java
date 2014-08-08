@@ -282,6 +282,8 @@ public class VerificacoesDeIntegracao {
 	}
 
 	public void verficaServicoIntegracaoIniciado(String nomeDoServicoIntegrador) {
+
+		logger.info("Verificando se o serviço do Integrador iniciado...");
 		boolean servicoIniciado = verficaServicoIntegracao(nomeDoServicoIntegrador);
 		if (servicoIniciado == false) {
 			logger.info("O servico do integrador " + nomeDoServicoIntegrador + " não está iniciado, encerrando o teste!");
@@ -325,7 +327,6 @@ public class VerificacoesDeIntegracao {
 		String pasta_enviado = pastasIntegracao[1] + "/";
 		String pasta_erro = pastasIntegracao[2] + "/";
 		String pasta_recebido = pastasIntegracao[3] + "/";
-
 
 		logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
 		copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
@@ -388,6 +389,79 @@ public class VerificacoesDeIntegracao {
 		} else {
 			return ("Erro");
 		}
+	}
+
+	public void integraRegistro(String arquivoIntegracao, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro) throws IOException {
+		Calendar c = Calendar.getInstance();
+
+		logger.info("Copiando arquivo modelo '" + arquivoIntegracao + "'...");
+		String diretorioTemporario = "./files/temp/xmlUp";
+		String prefixoNome = "/arquivo_integracao_";
+		String nomeArquivo = c.getTimeInMillis() + ".xml";
+		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
+		copiaArquivos(arquivoIntegracao, arquivoTemporario);
+		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
+
+		logger.info("Editando o arquivo com as informações de envio...");
+		Path path = Paths.get(arquivoTemporario);
+		Charset charset = StandardCharsets.UTF_8;
+		String content = new String(Files.readAllBytes(path), charset);
+
+		logger.info("Limpando as pastas de integração...");
+		for (int count = 0; count < pastasIntegracao.length; count++) {
+			logger.info("Limpando pasta " + pastasIntegracao[count]);
+			limpaPastas(pastasIntegracao[count]);
+		}
+		logger.info("Pastas limpas com sucesso!");
+
+		logger.info("Preenchendo o arquivo com as informações corretas...");
+		for (int count = 0; count < camposRegistro.length; count++) {
+			content = content.replaceAll(camposRegistro[count], informacoesRegistro[count]);
+			Files.write(path, content.getBytes(charset));
+		}
+
+		String pasta_entrada = pastasIntegracao[0] + "/";
+		String pasta_enviado = pastasIntegracao[1] + "/";
+		String pasta_erro = pastasIntegracao[2] + "/";
+		String pasta_recebido = pastasIntegracao[3] + "/";
+
+		logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
+		copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
+
+		String arquivoAlterado = prefixoNome + nomeArquivo;
+
+		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'entrada': " + pasta_entrada + "...");
+
+		for (int countEntrada = 0; countEntrada <= tentativas; countEntrada++) {
+			while (verificaSaidaDoDiretorioEntrada(pasta_entrada, arquivoAlterado).contentEquals("Cheio")) {
+
+			}
+		}
+
+		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_entrada + " com sucesso!");
+
+		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'enviado': " + pasta_enviado + "...");
+		for (int countSaida = 0; countSaida <= tentativas; countSaida++) {
+			while (verificaSaidaDoDiretorioEnviado(pasta_enviado).contentEquals("Cheio")) {
+			}
+		}
+		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_enviado + " com sucesso!");
+
+		logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
+
+		verificaSeFoiParaAPastaErro(pasta_erro);
+
+		if (verificaPastaErro(pasta_erro, tentativas) == true) {
+			logger.info("O arquivo  foi movido para a pasta 'erro'!");
+			falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+		}
+
+		logger.info("O arquivo não foi movido para a pasta 'erro'!");
+
+		logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
+		limpaPastas(diretorioTemporario);
+		logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
+
 	}
 
 }
