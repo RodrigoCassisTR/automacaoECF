@@ -6,10 +6,12 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.NoSuchElementException;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -1398,15 +1400,14 @@ public class VerificacoesDeTela {
 				try {
 					falha("Timeout, elemento nao localizado " + idReferencia, driver, nomeTeste);
 				} catch (Exception e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
+
 				}
 			try {
 
 				if (driver.findElement(By.id(idReferencia)).isDisplayed())
 					break;
 			} catch (Exception e) {
-				logger.info(e.toString());
+
 			}
 			Thread.sleep(1000);
 		}
@@ -1449,6 +1450,113 @@ public class VerificacoesDeTela {
 
 		}
 		logger.info("Elementos localizados na tela com sucesso!");
+
+	}
+	public boolean verificaExistenciaDoRegistro(WebDriver driver, int tentativas, String nomeTeste, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta, int qtdeResultados, String[] colunasResultados, String[] valoresResultados) throws IOException, InterruptedException {
+		logger.info("----------------------------------------------------");
+		logger.info("VERIFICANDO SE O REGISTRO EXISTE...");
+		logger.info("----------------------------------------------------");
+
+		aguardaCarregamentoPorId(driver, tentativas, "Tela Pesquisa", camposPesquisa[0]);
+
+		for (int i = 0; i < qtdePesquisa; i++) {
+
+			logger.info("Preenchendo campos de pesquisa |" + camposPesquisa[i] + " : " + valoresPesquisa[i]);
+			driver.findElement(By.id(camposPesquisa[i])).sendKeys(valoresPesquisa[i]);
+
+		}
+		logger.info("Clicando no botão 'Executar Consulta'");
+		driver.findElement(By.id(idBotaoExecutarConsulta)).click();
+
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+		aguardaCarregamento(nomeTeste, "//*[@id='ui-id-1']", nomeTeste, tentativas, driver);
+
+		Boolean iselementpresent = driver.findElements(By.xpath(colunasResultados[0])).size() != 0;
+		if (iselementpresent == true) {
+
+			logger.info("----------------------------------------------------");
+			logger.info("Registro localizado! Iniciando o processo de Exclusão...");
+			logger.info("----------------------------------------------------");
+			return true;
+		} else {
+			logger.info("----------------------------------------------------");
+			logger.info("Registro não localizado! Iniciando o processo de integração do registro...");
+			logger.info("----------------------------------------------------");
+			return false;
+
+		}
+
+	}
+
+	public boolean isElementPresentByXpath(WebDriver driver, String xpath) {
+		boolean present;
+		try {
+			driver.findElement(By.xpath(xpath));
+			present = true;
+		} catch (NoSuchElementException e) {
+			present = false;
+		}
+		return present;
+	}
+	public void reotrnaSistema(WebDriver driver, int tentativas, String url, String usuario2, String senha2, String navegador, String nomeTeste) throws IOException, InterruptedException {
+		logger.info("----------------------------------------------------");
+		logger.info("URL: " + url);
+		logger.info("USUARIO: " + usuario);
+		logger.info("SENHA: " + senha);
+		logger.info("NAVEGADOR: " + navegador);
+		logger.info("TESTE: " + nomeTeste);
+		logger.info("----------------------------------------------------");
+
+		logger.info("Acessando aplicação no endereco " + url);
+
+		driver.get(url);
+
+		for (int second = 0;; second++) {
+			logger.info("Aguardando carregamento da tela | Tentativa " + (second) + " de " + (tentativas));
+
+			if (second >= tentativas)
+				falha("Timeout, elemento nao localizado j_username", driver, nomeTeste);
+			try {
+				if (driver.findElement(By.id("taxit_solution_logo")).isDisplayed())
+					break;
+			} catch (Exception e) {
+			}
+			Thread.sleep(1000);
+
+		}
+		logger.info("Tela carregada com sucesso!");
+
+	}
+	public void VerificaExclusaoDoRegistro(WebDriver driver, int tentativas, String nomeTeste, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta, int qtdeResultados, String[] colunasResultados, String[] valoresResultados) throws IOException, InterruptedException {
+		logger.info("----------------------------------------------------");
+		logger.info("VERIFICANDO SE O REGISTRO EXISTE...");
+		logger.info("----------------------------------------------------");
+
+		aguardaCarregamentoPorId(driver, tentativas, "Tela Pesquisa", camposPesquisa[0]);
+
+		for (int i = 0; i < qtdePesquisa; i++) {
+
+			logger.info("Preenchendo campos de pesquisa |" + camposPesquisa[i] + " : " + valoresPesquisa[i]);
+			driver.findElement(By.id(camposPesquisa[i])).sendKeys(valoresPesquisa[i]);
+
+		}
+		logger.info("Clicando no botão 'Executar Consulta'");
+		driver.findElement(By.id(idBotaoExecutarConsulta)).click();
+
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+		aguardaCarregamento(nomeTeste, "//*[@id='ui-id-1']", nomeTeste, tentativas, driver);
+
+		Boolean iselementpresent = driver.findElements(By.xpath(colunasResultados[0])).size() != 0;
+		if (iselementpresent == true) {
+
+			falha("O Registro não foi excluído", driver, nomeTeste);
+
+		} else {
+			logger.info("----------------------------------------------------");
+			logger.info("Excluido com sucesso!");
+			logger.info("----------------------------------------------------");
+
+		}
 
 	}
 }

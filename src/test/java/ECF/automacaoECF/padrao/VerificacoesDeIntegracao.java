@@ -15,7 +15,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -93,55 +95,6 @@ public class VerificacoesDeIntegracao {
 
 	}
 
-	/*
-	 * @rodrigocassis Método que cria o txt com os dados informados e move para
-	 * a pasta de integração
-	 */
-	public void integraNotaTxt(String[] camposNfe, String[] dadosEmissao, long numeroNota, String arquivoNfeModelo, int resultadoEsperado) throws IOException {
-
-		/*
-		 * resultadoEsperado = 1 - Autorizada resultadoEsperado = 2 - Rejeitada
-		 * resultadoEsperado = 3 - Erro de XML
-		 */
-
-		// C:/Users/u0155902/Downloads/testJavaTXT/entrada/copia.txt
-		// TODO criar rotina de montar as notas com as variaveis
-
-		Calendar c = Calendar.getInstance();
-		String nomeDoArquivo = "C:/Users/u0155902/Downloads/testJavaTXT/entrada/arquivo_integracao_" + c.getTimeInMillis() + ".txt";
-
-		try {
-
-			BufferedReader streamIn = new BufferedReader(new FileReader(arquivoNfeModelo));
-			BufferedWriter streamOut = new BufferedWriter(new FileWriter(nomeDoArquivo));
-
-			String line = streamIn.readLine();
-			while (line != null) {
-				if (line.contentEquals("2.00")) {
-					streamOut.write("!!!!!!!TROQUEI AQUI!!!!");
-				} else {
-					streamOut.write(line);
-					line = streamIn.readLine();
-				}
-
-			}
-			logger.info("Gravado arquivo " + nomeDoArquivo);
-
-			// while (streamIn.ready()) {
-			// streamOut.write(streamIn.readLine());
-			// }
-
-			streamIn.close();
-			streamOut.close();
-
-		} catch (FileNotFoundException e) {
-			System.err.println("FileStreamsTest: " + e);
-		} catch (IOException e) {
-			System.err.println("FileStreamsTest: " + e);
-		}
-
-	}
-
 	private void copiaArquivos(String origem, String destino) throws IOException {
 		File inputFile = new File(origem);
 		File outputFile = new File(destino);
@@ -172,56 +125,6 @@ public class VerificacoesDeIntegracao {
 
 	}
 
-	public void integraNotaTxtTeste(String[] pastasIntegracao, String[] camposNota, String[] dadosEmissao, long numeroNota, String arquivoModelo, int n, String pasta_entrada) throws IOException {
-
-		Calendar c = Calendar.getInstance();
-
-		logger.info("Copiando arquivo modelo '" + arquivoModelo + "'...");
-		String diretorioTemporario = "./files/temp/txtUp";
-		String prefixoNome = "/arquivo_integracao_";
-		String nomeArquivo = c.getTimeInMillis() + ".txt";
-		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
-		copiaArquivos(arquivoModelo, arquivoTemporario);
-		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
-
-		logger.info("Editando o arquivo com as informações de envio...");
-		Path path = Paths.get(arquivoTemporario);
-		Charset charset = StandardCharsets.UTF_8;
-		String content = new String(Files.readAllBytes(path), charset);
-
-		logger.info("Limpando as pastas de integração...");
-		for (int count = 0; count < pastasIntegracao.length; count++) {
-			logger.info("Limpando pasta " + pastasIntegracao[count]);
-			limpaPastas(pastasIntegracao[count]);
-		}
-		logger.info("Pastas limpas com sucesso!");
-
-		for (int count = 0; count < camposNota.length; count++) {
-			content = content.replaceAll(camposNota[count], dadosEmissao[count]);
-			Files.write(path, content.getBytes(charset));
-		}
-
-		logger.info("Arquivo editado com sucesso! Alterado os seguintes campos:");
-		for (int count = 0; count < camposNota.length; count++) {
-			logger.info("#### " + camposNota[count] + ": " + dadosEmissao[count]);
-		}
-
-		pasta_entrada = pastasIntegracao[0] + "/";
-
-		logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
-		copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
-
-		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta de entrada: " + pasta_entrada + "...");
-		while (verificaSaidaDoDiretorioEntrada(pasta_entrada, content).contentEquals("Cheio")) {
-		}
-		logger.info("Arquivo " + prefixoNome + nomeArquivo + " saiu da pasta de entrada: " + pasta_entrada + " com sucesso!");
-
-		logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
-		limpaPastas(diretorioTemporario);
-		logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
-
-	}
-
 	private void limpaPastas(String diretorio) throws IOException {
 		File diretorioParaApagar = new File(diretorio);
 
@@ -229,9 +132,9 @@ public class VerificacoesDeIntegracao {
 
 	}
 
-	private String verificaSaidaDoDiretorioEntrada(String pasta_entrada, String arquivoAlterado) {
+	private String verificaSaidaDoDiretorio(String pasta, String arquivoAlterado) {
 
-		File f = new File(pasta_entrada + arquivoAlterado);
+		File f = new File(pasta + arquivoAlterado);
 		if (f.exists() && !f.isDirectory()) {
 			return ("Cheio");
 		} else {
@@ -295,71 +198,6 @@ public class VerificacoesDeIntegracao {
 
 	}
 
-	public void integraLedgerAccount(String[] campos, String[] informacoesRegistro, String[] pastasIntegracao, String arquivoModelo) throws IOException {
-		Calendar c = Calendar.getInstance();
-
-		logger.info("Copiando arquivo modelo '" + arquivoModelo + "'...");
-		String diretorioTemporario = "./files/temp/xmlUp";
-		String prefixoNome = "/arquivo_ledgeraccount_";
-		String nomeArquivo = c.getTimeInMillis() + ".xml";
-		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
-		copiaArquivos(arquivoModelo, arquivoTemporario);
-		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
-
-		logger.info("Editando o arquivo com as informações de envio...");
-		Path path = Paths.get(arquivoTemporario);
-		Charset charset = StandardCharsets.UTF_8;
-		String content = new String(Files.readAllBytes(path), charset);
-
-		logger.info("Limpando as pastas de integração...");
-		for (int count = 0; count < pastasIntegracao.length; count++) {
-			logger.info("Limpando pasta " + pastasIntegracao[count]);
-			limpaPastas(pastasIntegracao[count]);
-		}
-		logger.info("Pastas limpas com sucesso!");
-
-		for (int count = 0; count < campos.length; count++) {
-			content = content.replaceAll(campos[count], informacoesRegistro[count]);
-			Files.write(path, content.getBytes(charset));
-		}
-
-		String pasta_entrada = pastasIntegracao[0] + "/";
-		String pasta_enviado = pastasIntegracao[1] + "/";
-		String pasta_erro = pastasIntegracao[2] + "/";
-		String pasta_recebido = pastasIntegracao[3] + "/";
-
-		logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
-		copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
-
-		String arquivoAlterado = prefixoNome + nomeArquivo;
-
-		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'entrada': " + pasta_entrada + "...");
-		while (verificaSaidaDoDiretorioEntrada(pasta_entrada, arquivoAlterado).contentEquals("Cheio")) {
-		}
-		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_entrada + " com sucesso!");
-
-		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'enviado': " + pasta_enviado + "...");
-		while (verificaSaidaDoDiretorioEnviado(pasta_enviado).contentEquals("Cheio")) {
-		}
-		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_enviado + " com sucesso!");
-
-		logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
-
-		verificaSeFoiParaAPastaErro(pasta_erro);
-
-		if (verificaPastaErro(pasta_erro, tentativas) == true) {
-			logger.info("O arquivo  foi movido para a pasta 'erro'!");
-			falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
-		}
-
-		logger.info("O arquivo não foi movido para a pasta 'erro'!");
-
-		logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
-		limpaPastas(diretorioTemporario);
-		logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
-
-	}
-
 	private void verificaSeFoiParaAPastaErro(String pasta_erro) {
 		File file = new File(pasta_erro);
 		if (file.isDirectory()) {
@@ -391,13 +229,14 @@ public class VerificacoesDeIntegracao {
 		}
 	}
 
-	public void integraRegistro(String arquivoIntegracao, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro) throws IOException {
-		Calendar c = Calendar.getInstance();
+	public void integraRegistro(String arquivoIntegracao, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro) throws IOException, InterruptedException {
+		SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
+		Date date = new Date();
 
 		logger.info("Copiando arquivo modelo '" + arquivoIntegracao + "'...");
 		String diretorioTemporario = "./files/temp/xmlUp";
 		String prefixoNome = "/arquivo_integracao_";
-		String nomeArquivo = c.getTimeInMillis() + ".xml";
+		String nomeArquivo = dateFormat.format(date) + ".xml";
 		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
 		copiaArquivos(arquivoIntegracao, arquivoTemporario);
 		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
@@ -431,20 +270,86 @@ public class VerificacoesDeIntegracao {
 		String arquivoAlterado = prefixoNome + nomeArquivo;
 
 		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'entrada': " + pasta_entrada + "...");
-
-		for (int countEntrada = 0; countEntrada <= tentativas; countEntrada++) {
-			while (verificaSaidaDoDiretorioEntrada(pasta_entrada, arquivoAlterado).contentEquals("Cheio")) {
-
-			}
-		}
-
+		aguardaPastaFicarVazia(pasta_entrada, arquivoAlterado, tentativas);
 		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_entrada + " com sucesso!");
 
 		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'enviado': " + pasta_enviado + "...");
-		for (int countSaida = 0; countSaida <= tentativas; countSaida++) {
-			while (verificaSaidaDoDiretorioEnviado(pasta_enviado).contentEquals("Cheio")) {
+		aguardaPastaFicarVazia(pasta_enviado, arquivoAlterado, tentativas);
+		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de enviado: " + pasta_enviado + " com sucesso!");
+
+		logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
+
+		verificaSeFoiParaAPastaErro(pasta_erro);
+
+		if (verificaPastaErro(pasta_erro, tentativas) == true) {
+			logger.info("O arquivo  foi movido para a pasta 'erro'!");
+			falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+		}
+
+		logger.info("O arquivo não foi movido para a pasta 'erro'!");
+
+		logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
+		limpaPastas(diretorioTemporario);
+		logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
+
+	}
+	public void aguardaPastaFicarVazia(String pasta, String arquivo, int tentativas) throws InterruptedException {
+		int count = 0;
+		while (verificaSaidaDoDiretorio(pasta, arquivo).contentEquals("Cheio")) {
+			count++;
+			if (count > 9000000) {
+				logger.info("O arquivo não saiu da pasta ou demorou mais tempo do que o aceitavel");
+				falhaIntegracao("O arquivo não saiu da pasta ou demorou mais tempo do que o aceitavel");
 			}
 		}
+	}
+
+	public void integraRegistroDeExclusao(String arquivoIntegracaoExclui, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro) throws IOException, InterruptedException {
+		
+		SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
+		Date date = new Date();
+
+		logger.info("Copiando arquivo modelo '" + arquivoIntegracaoExclui + "'...");
+		String diretorioTemporario = "./files/temp/xmlUp";
+		String prefixoNome = "/arquivo_integracao_";
+		String nomeArquivo = dateFormat.format(date) + ".xml";
+		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
+		copiaArquivos(arquivoIntegracaoExclui, arquivoTemporario);
+		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
+
+		logger.info("Editando o arquivo com as informações de envio...");
+		Path path = Paths.get(arquivoTemporario);
+		Charset charset = StandardCharsets.UTF_8;
+		String content = new String(Files.readAllBytes(path), charset);
+
+		logger.info("Limpando as pastas de integração...");
+		for (int count = 0; count < pastasIntegracao.length; count++) {
+			logger.info("Limpando pasta " + pastasIntegracao[count]);
+			limpaPastas(pastasIntegracao[count]);
+		}
+		logger.info("Pastas limpas com sucesso!");
+
+		logger.info("Preenchendo o arquivo com as informações corretas...");
+		for (int count = 0; count < camposRegistro.length; count++) {
+			content = content.replaceAll(camposRegistro[count], informacoesRegistro[count]);
+			Files.write(path, content.getBytes(charset));
+		}
+
+		String pasta_entrada = pastasIntegracao[0] + "/";
+		String pasta_enviado = pastasIntegracao[1] + "/";
+		String pasta_erro = pastasIntegracao[2] + "/";
+		String pasta_recebido = pastasIntegracao[3] + "/";
+
+		logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
+		copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
+
+		String arquivoAlterado = prefixoNome + nomeArquivo;
+		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'entrada': " + pasta_entrada + "...");
+		aguardaPastaFicarVazia(pasta_entrada, arquivoAlterado, tentativas);
+		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_entrada + " com sucesso!");
+
+		logger.info("Aguardando o arquivo " + prefixoNome + nomeArquivo + " sair da pasta 'enviado': " + pasta_enviado + "...");
+		aguardaPastaFicarVazia(pasta_enviado, arquivoAlterado, tentativas);
 		logger.info("Arquivo " + arquivoAlterado + " saiu da pasta de entrada: " + pasta_enviado + " com sucesso!");
 
 		logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");

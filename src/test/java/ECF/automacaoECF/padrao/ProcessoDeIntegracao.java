@@ -47,6 +47,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		//INFORMCOES REGISTRO
 		String arquivoIntegracao = properties.getProperty("arquivoIntegracao");
+		String arquivoIntegracaoExclui = properties.getProperty("arquivoIntegracaoExclui");
 
 		// Lendo o arquivo taxbr.ecf.integrator.ledgeraccount.cfg
 		String filename = caminhoIntegrador + "/etc/taxbr.ecf.integrator.ledgeraccount.cfg";
@@ -496,10 +497,10 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String[] camposRegistro = {"!campo1", "!campo2", "!campo3", "!campo4", "!campo5", "!campo6", "!campo7", "!campo8", "!campo9", "!campo10", "!campo11", "!campo12", "!campo13", "!campo14", "!campo15", "!campo16", "!campo17", "!campo18", "!campo19", "!campo20"};
 		String[] informacoesRegistro = {campo1, campo2, campo3, campo4, campo5, campo6, campo7, campo8, campo9, campo10, campo11, campo12, campo13, campo14, campo15, campo16, campo17, campo18, campo19, campo20};
 
+		boolean existeRegistro = false;
+
 		VerificacoesDeIntegracao integracao = new VerificacoesDeIntegracao();
 		VerificacoesDeTela automacao = new VerificacoesDeTela();
-
-		//ROTEIRO DE INTEGRACAO
 
 		//ROTEIRO DE INTEGRACAO
 		automacao.informaTeste(0, "-", nomeTeste);
@@ -516,25 +517,49 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		logger.info("route.import.file.payload.type: " + routeImportFilePayloadType);
 		logger.info("----------------------------------------------------------");
 
+		//VERIFICA SE O SERVIÇO DO INTEGRADOR ESTÁ INICIADO
 		integracao.verficaServicoIntegracaoIniciado(nomeDoServicoIntegrador);
-		integracao.integraRegistro(arquivoIntegracao, pastasIntegracao, camposRegistro, informacoesRegistro);
 
-		// ACESSA TELA
+		//VERIFICA SE O REGISTRO A SER INTEGRADO JA EXISTE, SE EXISTE EXCLUI
 		automacao.acessaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
 		automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
 		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
 		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 		automacao.aguardaCarregamento(caminho, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
+		existeRegistro = automacao.verificaExistenciaDoRegistro(driver, tentativas, nomeTeste, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, qtdeResultados, colunasResultados, valoresResultados);
+		if (existeRegistro == true) {
+			integracao.integraRegistroDeExclusao(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro);
+			Thread.sleep(10000);
+		}
 
-		//PESQUISA DOCUMENTO
+		//INTEGRAD REGISTRO
+		integracao.integraRegistro(arquivoIntegracao, pastasIntegracao, camposRegistro, informacoesRegistro);
+
+
+		//PESQUISA REGISTRO
+		automacao.reotrnaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
+		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
+		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
+		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 		automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
 		automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados);
 		automacao.verificaTelaCadastro(driver, tentativas, qtdeCadastro, camposTelaCadastro, valoresCadastro);
-
+		
+		//EXCLUI REGISTRO
+		integracao.integraRegistroDeExclusao(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro);
+		
+		//VERIFICA SE O REGISTRO FOI EXCLUIDO
+		automacao.reotrnaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
+		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
+		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
+		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
+		automacao.VerificaExclusaoDoRegistro(driver, tentativas, nomeTeste, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, qtdeResultados, colunasResultados, valoresResultados);
+		
 		duracaoTeste = System.currentTimeMillis() - inicio;
 		automacao.informaTerminoDoTeste(nomeTeste, categoria, duracaoTeste);
 	}
+
 	@After
 	public void tearDown() {
 		driver.close();
