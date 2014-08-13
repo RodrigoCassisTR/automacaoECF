@@ -98,7 +98,7 @@ public class TelaAcesso extends CasoDeTesteBasico {
 			// TELA REGISTRO
 			
 			automacao.informaTeste(3, caminho, nomeTeste);
-			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste, xpathPontoVazio);
+			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste);
 			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
 			if (automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho) == true)
 				automacao.falha("A tela apresentou mensagem de erro", driver, nomeTeste);

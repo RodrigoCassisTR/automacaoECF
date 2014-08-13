@@ -1,5 +1,7 @@
 package ECF.automacaoECF.integracao;
 
-public class IntegracaoCostCenterTeste {
+import ECF.automacaoECF.padrao.ProcessoDeIntegracao;
+
+public class IntegracaoCostCenterTeste extends ProcessoDeIntegracao {
 
 }

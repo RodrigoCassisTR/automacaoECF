@@ -2,7 +2,7 @@
 	<COST_CENTER>
 		<COD_CENTRAL_REGISTRATION>!campo1</COD_CENTRAL_REGISTRATION>
 		<!--Codigo da Central de Cadastros-->
-		<IND_DELETE>N</IND_DELETE>
+		<IND_DELETE>S</IND_DELETE>
 		<!--Indicador de Exclusao-->
 		<COD_COST_CENTER>!campo2</COD_COST_CENTER>
 		<!--Codigo do Centro de Custo-->

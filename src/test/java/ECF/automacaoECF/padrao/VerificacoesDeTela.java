@@ -1034,7 +1034,7 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste, String xpathPontoVazio) throws InterruptedException, IOException {
+	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste) throws InterruptedException, IOException {
 		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 
 		driver.findElement(By.xpath(xpathCarregaRegistro)).click();
@@ -1086,7 +1086,12 @@ public class VerificacoesDeTela {
 		boolean apareceuErro;
 		String xpathErro = "/html/body/div[13]/div";
 		apareceuErro = verificaSeElementoEstaPresente(driver, xpathErro);
-		return (apareceuErro);
+		if (apareceuErro == true) {
+			logger.info("Foi Apresentada mensagem de erro não prevista!");
+			falha("Foi Apresentada mensagem de erro não prevista!", driver, nomeTeste);
+			return (apareceuErro);
+		}
+		return apareceuErro;
 
 	}
 	private boolean verificaSeElementoEstaPresente(WebDriver driver, String xpathErro) {
@@ -1422,7 +1427,8 @@ public class VerificacoesDeTela {
 
 	}
 	public void verificaResultadoDaPesquisa(WebDriver driver, int tentativas, int qtdeResultados, String[] colunasResultados, String[] valoresResultados, String[] idBotoesResultados) throws IOException, InterruptedException {
-		aguardaCarregamentoPorId(driver, tentativas, "Resultados da PEsquisa", idBotoesResultados[0]);
+		aguardaCarregamentoPorId(driver, tentativas, "Resultados da Pesquisa", idBotoesResultados[0]);
+		aguardaCarregamento("Consulta de Registro", colunasResultados[0], "Consulta de Registro", tentativas, driver);
 
 		for (int i = 0; i < qtdeResultados; i++) {
 
@@ -1556,6 +1562,218 @@ public class VerificacoesDeTela {
 			logger.info("Excluido com sucesso!");
 			logger.info("----------------------------------------------------");
 
+		}
+
+	}
+	public void verificaCamposTelaDePesquisa(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposPesquisa, String[] labelsTelaPesquisa, String[] idLabelsTelaPesquisa, String[] idCamposTelaPesquisa) throws IOException, InterruptedException {
+		if (verificaCamposPesquisa == true) {
+			verificaPresencaCamposDePesquisaPorId(nomeTeste, driver, tentativas, idLabelsTelaPesquisa, idCamposTelaPesquisa);
+			validaLabels(driver, nomeTeste, tentativas, labelsTelaPesquisa, idLabelsTelaPesquisa);
+		} else {
+			//Não valida nada!
+		}
+
+	}
+	public void validaLabels(WebDriver driver, String nomeTeste, int tentativas, String[] labelsTelaPesquisa, String[] idLabelsTelaPesquisa) {
+		logger.info("Verificando labels...");
+
+		int i = 0;
+		while (i < labelsTelaPesquisa.length) {
+
+			if (driver.findElement(By.id(idLabelsTelaPesquisa[i])).getText().contentEquals(labelsTelaPesquisa[i])) {
+
+				logger.info("#OK# Esperado: " + labelsTelaPesquisa[i] + ", Obtido: " + driver.findElement(By.id(idLabelsTelaPesquisa[i])).getText());
+
+			} else {
+				logger.info("#ALERTA# Esperado: " + labelsTelaPesquisa[i] + ", Obtido: " + driver.findElement(By.id(idLabelsTelaPesquisa[i])).getText());
+			}
+
+			i++;
+		}
+
+	}
+	public void verificaPresencaCamposDePesquisaPorId(String nomeTeste, WebDriver driver, int tentativas, String[] idLabelsTelaPesquisa, String[] idCamposTelaPesquisa) throws IOException, InterruptedException {
+		logger.info("Verificando a presença dos campos da tela de " + nomeTeste + "...");
+
+		int i = 0;
+		while (i < idLabelsTelaPesquisa.length) {
+			for (int second = 0;; second++) {
+				logger.info("Verificando campo " + idLabelsTelaPesquisa[i]);
+
+				if (second >= tentativas)
+					falha("Timeout, elemento nao localizado " + idLabelsTelaPesquisa[i], driver, nomeTeste);
+				try {
+					if (driver.findElement(By.id(idLabelsTelaPesquisa[i])).isDisplayed())
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			i++;
+
+		}
+
+		int u = 0;
+		while (i < idLabelsTelaPesquisa.length) {
+			for (int second = 0;; second++) {
+				logger.info("Verificando campo " + idCamposTelaPesquisa[u]);
+
+				if (second >= tentativas)
+					falha("Timeout, elemento nao localizado " + idCamposTelaPesquisa[u], driver, nomeTeste);
+				try {
+					if (driver.findElement(By.id(idCamposTelaPesquisa[u])).isDisplayed())
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			u++;
+
+		}
+
+	}
+	public void verificaCamposTelaDeResultados(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposResultados, String[] xpathColunasResultados, String[] labelsColunasResultados) throws IOException, InterruptedException {
+		if (verificaCamposResultados == true) {
+			verificaCamposResultadosPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
+			validaLabelsTelaResultados(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
+		} else {
+			//Não valida nada!
+		}
+	}
+	private void validaLabelsTelaResultados(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] xpathColunasResultados, String[] labelsColunasResultados) {
+		logger.info("Verificando labels...");
+
+		int i = 0;
+		while (i < xpathColunasResultados.length) {
+
+			if (driver.findElement(By.xpath(xpathColunasResultados[i])).getText().contentEquals(labelsColunasResultados[i])) {
+
+				logger.info("#OK# Esperado: " + labelsColunasResultados[i] + ", Obtido: " + driver.findElement(By.xpath(xpathColunasResultados[i])).getText());
+
+			} else {
+				logger.info("#ALERTA# Esperado: " + labelsColunasResultados[i] + ", Obtido: " + driver.findElement(By.xpath(xpathColunasResultados[i])).getText());
+			}
+
+			i++;
+		}
+	}
+	private void verificaCamposResultadosPorXpath(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] xpathColunasResultados, String[] labelsColunasResultados) throws IOException, InterruptedException {
+
+		int i = 0;
+		while (i < xpathColunasResultados.length) {
+			for (int second = 0;; second++) {
+				logger.info("Verificando campo " + xpathColunasResultados[i]);
+
+				if (second >= tentativas)
+					falha("Timeout, elemento nao localizado " + xpathColunasResultados[i], driver, nomeTeste);
+				try {
+					if (driver.findElement(By.xpath(xpathColunasResultados[i])).isDisplayed())
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			i++;
+
+		}
+	}
+	public void verificaCamposTelaDeCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposCadastro, String[] labelsCadastro, String[] idLabelsCadastro, String[] idCaixasCadastro) throws IOException, InterruptedException {
+		if (verificaCamposCadastro == true) {
+			verificaPresencaCamposDeCadastroPorId(nomeTeste, driver, tentativas, idLabelsCadastro, idCaixasCadastro);
+			comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+		} else {
+			//Não valida nada!
+		}
+
+	}
+	private void comparaLabelsPorId(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabelsCadastro, String[] labelsCadastro) {
+		logger.info("Verificando labels...");
+
+		int i = 0;
+		while (i < idLabelsCadastro.length) {
+
+			if (driver.findElement(By.id(idLabelsCadastro[i])).getText().contentEquals(labelsCadastro[i])) {
+
+				logger.info("#OK# Esperado: " + labelsCadastro[i] + ", Obtido: " + driver.findElement(By.id(idLabelsCadastro[i])).getText());
+
+			} else {
+				logger.info("#ALERTA# Esperado: " + labelsCadastro[i] + ", Obtido: " + driver.findElement(By.id(idLabelsCadastro[i])).getText());
+			}
+
+			i++;
+		}
+
+	}
+	private void verificaPresencaCamposDeCadastroPorId(String nomeTeste, WebDriver driver, int tentativas, String[] idLabelsCadastro, String[] idCaixasCadastro) throws IOException, InterruptedException {
+		logger.info("Verificando a presença dos campos da tela de " + nomeTeste + "...");
+
+		int i = 0;
+		while (i < idLabelsCadastro.length) {
+			for (int second = 0;; second++) {
+				logger.info("Verificando campo " + idLabelsCadastro[i]);
+
+				if (second >= tentativas)
+					falha("Timeout, elemento nao localizado " + idLabelsCadastro[i], driver, nomeTeste);
+				try {
+					if (driver.findElement(By.id(idLabelsCadastro[i])).isDisplayed())
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			i++;
+
+		}
+
+		int u = 0;
+		while (i < idLabelsCadastro.length) {
+			for (int second = 0;; second++) {
+				logger.info("Verificando campo " + idCaixasCadastro[u]);
+
+				if (second >= tentativas)
+					falha("Timeout, elemento nao localizado " + idCaixasCadastro[u], driver, nomeTeste);
+				try {
+					if (driver.findElement(By.id(idCaixasCadastro[u])).isDisplayed())
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			u++;
+
+		}
+
+	}
+	public void verificaTamanhoDeArray(WebDriver driver, String nomeTeste, String[] array1, String[] array2, String[] array3) throws IOException {
+		if (array1.length == array2.length) {
+			if (array2.length == array3.length) {
+				logger.info("A quantidade de campos, labels foram informadas corretamente no .properties");
+			}
+		} else {
+			logger.info("A quantidade de campos, labels não foram informadas corretamente no .properties");
+			logger.info("Array 1: " + array1.length);
+			logger.info("Array 2: " + array2.length);
+			logger.info("Array 3: " + array3.length);
+			falha("A quantidade de campos, labels não foram informadas corretamente no .properties", driver, nomeTeste);
+		}
+
+	}
+
+	public void verificaTamanhoDeArray(WebDriver driver, String nomeTeste, String[] array1, String[] array2) throws IOException {
+		if (array1.length == array2.length) {
+			logger.info("A quantidade de campos, labels foram informadas corretamente no .properties");
+		} else {
+			logger.info("A quantidade de campos, labels não foram informadas corretamente no .properties");
+			logger.info("Array 1: "+array1.length);
+			logger.info("Array 1: "+array2.length);
+			logger.info("A quantidade de campos, labels não foram informadas corretamente no .properties");
+			falha("A quantidade de campos, labels não foram informadas corretamente no .properties", driver, nomeTeste);
+			
 		}
 
 	}
