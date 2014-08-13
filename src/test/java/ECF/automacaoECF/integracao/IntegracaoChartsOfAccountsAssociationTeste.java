@@ -1,5 +1,7 @@
 package ECF.automacaoECF.integracao;
 
-public class IntegracaoChartsOfAccountsAssociationTeste {
+import ECF.automacaoECF.padrao.ProcessoDeIntegracao;
+
+public class IntegracaoChartsOfAccountsAssociationTeste extends ProcessoDeIntegracao {
 
 }
