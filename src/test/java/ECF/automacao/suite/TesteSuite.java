@@ -8,6 +8,7 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 
 import ECF.automacaoECF.acessoTela.*;
+import ECF.automacaoECF.integracao.*;
 import ECF.automacaoECF.padrao.RecebeParametros;
 
 
@@ -40,7 +41,7 @@ public class TesteSuite {
 		String[] resultadosTestesCrud = new String[testesCrud.length];
 		String[] duracaoTestesCrud = new String[testesCrud.length];
 
-		Class<?>[] testesIntegracao = {};
+		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class,IntegracaoAccountEntryTeste.class,IntegracaoBranchTeste.class,IntegracaoChartsOfAccountsAssociationTeste.class,IntegracaoCostCenterTeste.class,IntegracaoLedgerAccountTeste.class,IntegracaoSocietyAccountParticipationTeste.class};
 		String[] resultadosTestesIntegracao = new String[testesIntegracao.length];
 		String[] duracaoTestesIntegracao = new String[testesIntegracao.length];
 
@@ -111,7 +112,7 @@ public class TesteSuite {
 		}
 
 		if (testaIntegracaoBoolean == true) {
-			int qtdeTestes=testesTela.length;
+			int qtdeTestes=testesIntegracao.length;
 			logger.info("------------------------------------------------------");
 			logger.info("INICIANDO TESTES DE INTEGRAÇÃO ("+qtdeTestes+" TESTES)");
 			logger.info("------------------------------------------------------");

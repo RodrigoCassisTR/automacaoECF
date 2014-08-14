@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Random;
 
@@ -1769,12 +1770,25 @@ public class VerificacoesDeTela {
 			logger.info("A quantidade de campos, labels foram informadas corretamente no .properties");
 		} else {
 			logger.info("A quantidade de campos, labels não foram informadas corretamente no .properties");
-			logger.info("Array 1: "+array1.length);
-			logger.info("Array 1: "+array2.length);
+			logger.info("Array 1: " + array1.length);
+			logger.info("Array 1: " + array2.length);
 			logger.info("A quantidade de campos, labels não foram informadas corretamente no .properties");
 			falha("A quantidade de campos, labels não foram informadas corretamente no .properties", driver, nomeTeste);
-			
+
 		}
 
+	}
+	public void verificaSeExiteCamposNaoPrevistos(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposPesquisa, String[] labelsTelaPesquisa, String[] idLabelsTelaPesquisa, String[] idCamposTelaPesquisa) {
+		logger.info("Verificando se existe mais campos na tela...");
+
+		int qtdeCamposPrevistos = idCamposTelaPesquisa.length;
+
+		List<WebElement> elementsRoot = driver.findElements(By.xpath("//*[@id='TAXIT:taxitDesktopTabInitial1']"));
+		int qtdeCamposNaTela=elementsRoot.size();
+		
+		logger.info("Campos previstos: "+qtdeCamposPrevistos);
+		logger.info("Campos encontrados: "+qtdeCamposNaTela);
+		
+		
 	}
 }
