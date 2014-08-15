@@ -38,6 +38,13 @@ public class VerificacoesDeTela {
 		String nomeDoScreenshot = "erro_" + nomeTeste.trim().toLowerCase() + "_" + numeroAleatorio.hashCode();
 		File scrsht = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrsht, new File("./screenshot/" + nomeDoScreenshot + ".png"));
+
+		
+		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
+		logger.info("FALHA: "+mensagem);
+		logger.info("Screenshot gravado no diretório ./screenshot/ com o nome " + nomeDoScreenshot + ".png");
+		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
+		
 		fail(mensagem + " Screenshot gravado no diretório ./screenshot/ com o nome " + nomeDoScreenshot + ".png");
 
 		encerraNavegador(driver);
@@ -1170,17 +1177,14 @@ public class VerificacoesDeTela {
 	}
 	public void acessaTelaPorClick2(WebDriver driver, int qtdeMenuInt, String xpathMenu1, String xpathMenu2, String xpathMenu3, String xpathMenu4, String xpathTela, String nomeTeste, String labelMenu1, String labelMenu2, String labelMenu3, String labelMenu4, String labelTela, int qtdeMenuInt2, int tentativas) throws InterruptedException, IOException {
 		if (qtdeMenuInt == 0) {
-
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-
 		} else if (qtdeMenuInt == 1) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-
 		} else if (qtdeMenuInt == 2) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
@@ -1188,7 +1192,6 @@ public class VerificacoesDeTela {
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-
 		} else if (qtdeMenuInt == 3) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
@@ -1198,7 +1201,6 @@ public class VerificacoesDeTela {
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-
 		} else if (qtdeMenuInt == 4) {
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
@@ -1210,125 +1212,25 @@ public class VerificacoesDeTela {
 			aguardaCarregamentoPorLinkText(nomeTeste, labelTela, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
-
 		} else if (qtdeMenuInt == 30) {
-
-			try {
-				aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			} catch (IOException e) {
-
-				logger.info(e);
-			}
+			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
 			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			}
-			if (!driver.findElement(By.xpath(xpathMenu1)).getText().contentEquals(labelMenu1)) {
-				try {
-					falha("Tela não está localizada no local correto", driver, nomeTeste);
-				} catch (IOException e) {
-
-					logger.info(e);
-				}
-			} else {
-				driver.findElement(By.xpath(xpathMenu1)).click();
-			}
-
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			}
-			try {
-				aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			} catch (IOException e) {
-
-				logger.info(e);
-			}
+			driver.findElement(By.xpath(xpathMenu1)).click();
+			
+			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
 			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			}
-			if (!driver.findElement(By.xpath(xpathMenu2)).getText().contentEquals(labelMenu2)) {
-				try {
-					falha("Tela não está localizada no local correto", driver, nomeTeste);
-				} catch (IOException e) {
-
-					logger.info(e);
-				}
-			} else {
-				driver.findElement(By.xpath(xpathMenu2)).click();
-			}
-
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			}
-			try {
-				aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			} catch (IOException e) {
-
-				logger.info(e);
-			}
+			driver.findElement(By.xpath(xpathMenu2)).click();
+			
+			aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
 			logger.info(driver.findElement(By.xpath(xpathMenu3)).getText() + " >");
-			try {
-				Thread.sleep(500);
-			} catch (InterruptedException e) {
+			driver.findElement(By.xpath(xpathMenu3)).click();
+			
+			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
+			logger.info(driver.findElement(By.xpath(xpathTela)).getText() + " >");
+			driver.findElement(By.xpath(xpathTela)).click();
 
-				logger.info(e);
-			}
-			if (!driver.findElement(By.xpath(xpathMenu3)).getText().contentEquals(labelMenu3)) {
-				try {
-					falha("Tela não está localizada no local correto", driver, nomeTeste);
-				} catch (IOException e) {
-
-					logger.info(e);
-				}
-			} else {
-				driver.findElement(By.xpath(xpathMenu3)).click();
-			}
-
-			try {
-				aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
-			} catch (InterruptedException e) {
-
-				logger.info(e);
-			} catch (IOException e) {
-
-				logger.info(e);
-			}
-			Thread.sleep(500);
-			logger.info(driver.findElement(By.xpath(xpathTela)).getText());
-			Thread.sleep(500);
-			if (!driver.findElement(By.xpath(xpathTela)).getText().contentEquals(labelTela)) {
-				try {
-					falha("Tela não está localizada no local correto", driver, nomeTeste);
-				} catch (IOException e) {
-
-					logger.info(e);
-				}
-			} else {
-				driver.findElement(By.xpath(xpathTela)).click();
-			}
-
+			
+			
 		}
 
 	}
@@ -1784,11 +1686,10 @@ public class VerificacoesDeTela {
 		int qtdeCamposPrevistos = idCamposTelaPesquisa.length;
 
 		List<WebElement> elementsRoot = driver.findElements(By.xpath("//*[@id='TAXIT:taxitDesktopTabInitial1']"));
-		int qtdeCamposNaTela=elementsRoot.size();
-		
-		logger.info("Campos previstos: "+qtdeCamposPrevistos);
-		logger.info("Campos encontrados: "+qtdeCamposNaTela);
-		
-		
+		int qtdeCamposNaTela = elementsRoot.size();
+
+		logger.info("Campos previstos: " + qtdeCamposPrevistos);
+		logger.info("Campos encontrados: " + qtdeCamposNaTela);
+
 	}
 }

@@ -7,6 +7,13 @@ import java.util.Properties;
 
 public class RecebeParametros {
 
+	public String testesTela;
+	public String testesCrud;
+	public String testesIntegracao;
+
+	
+	
+	
 	public String url;
 	public String usuario;
 	public String senha;
@@ -51,6 +58,12 @@ public class RecebeParametros {
 			caminhoIntegrador = properties.getProperty("caminhoIntegrador");
 			pastasIntegracao = properties.getProperty("pastasIntegracao");
 			nomeDoServicoIntegrador= properties.getProperty("nomeDoServicoIntegrador");
+			
+			
+			testesTela= properties.getProperty("testesTela");
+			testesCrud= properties.getProperty("testesCrud");
+			testesIntegracao= properties.getProperty("testesIntegracao");
+			
 			
 
 

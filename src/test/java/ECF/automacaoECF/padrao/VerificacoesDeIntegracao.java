@@ -45,6 +45,9 @@ public class VerificacoesDeIntegracao {
 	}
 
 	public void falhaIntegracao(String mensagem) {
+		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
+		logger.info("FALHA: " + mensagem);
+		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
 		fail(mensagem);
 
 	}
