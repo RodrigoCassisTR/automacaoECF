@@ -14,6 +14,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -39,12 +40,11 @@ public class VerificacoesDeTela {
 		File scrsht = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrsht, new File("./screenshot/" + nomeDoScreenshot + ".png"));
 
-		
 		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
-		logger.info("FALHA: "+mensagem);
+		logger.info("FALHA: " + mensagem);
 		logger.info("Screenshot gravado no diretório ./screenshot/ com o nome " + nomeDoScreenshot + ".png");
 		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
-		
+
 		fail(mensagem + " Screenshot gravado no diretório ./screenshot/ com o nome " + nomeDoScreenshot + ".png");
 
 		encerraNavegador(driver);
@@ -1216,21 +1216,19 @@ public class VerificacoesDeTela {
 			aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
 			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
 			driver.findElement(By.xpath(xpathMenu1)).click();
-			
+
 			aguardaCarregamento(nomeTeste, xpathMenu2, nomeTeste, tentativas, driver);
 			logger.info(driver.findElement(By.xpath(xpathMenu2)).getText() + " >");
 			driver.findElement(By.xpath(xpathMenu2)).click();
-			
+
 			aguardaCarregamento(nomeTeste, xpathMenu3, nomeTeste, tentativas, driver);
 			logger.info(driver.findElement(By.xpath(xpathMenu3)).getText() + " >");
 			driver.findElement(By.xpath(xpathMenu3)).click();
-			
+
 			aguardaCarregamento(nomeTeste, xpathTela, nomeTeste, tentativas, driver);
 			logger.info(driver.findElement(By.xpath(xpathTela)).getText() + " >");
 			driver.findElement(By.xpath(xpathTela)).click();
 
-			
-			
 		}
 
 	}
@@ -1329,21 +1327,48 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void verificaResultadoDaPesquisa(WebDriver driver, int tentativas, int qtdeResultados, String[] colunasResultados, String[] valoresResultados, String[] idBotoesResultados) throws IOException, InterruptedException {
+	public boolean verificaResultadoDaPesquisa(WebDriver driver, int tentativas, int qtdeResultados, String[] colunasResultados, String[] valoresResultados, String[] idBotoesResultados, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta, String idSemResultados) throws IOException, InterruptedException {
+		aguardaProcessamentoDesaparecer(driver, tentativas, "Resultados da Pesquisa");
 		aguardaCarregamentoPorId(driver, tentativas, "Resultados da Pesquisa", idBotoesResultados[0]);
-		aguardaCarregamento("Consulta de Registro", colunasResultados[0], "Consulta de Registro", tentativas, driver);
+		aguardaProcessamentoDesaparecer(driver, tentativas, "Resultados da Pesquisa");
+		aguardaCarregamento("Resultado da Pesquisa", "//*[@id='ui-id-1']/span", "Resultados da Pesquisa", tentativas, driver);
 
-		for (int i = 0; i < qtdeResultados; i++) {
+		logger.info("Verificando se apresenta a mensagem: 'Não foi encontrada nenhuma linha.' com o id " + idSemResultados);
 
-			logger.info("Comparando | " + driver.findElement(By.xpath(colunasResultados[i])).getText() + " : " + valoresResultados[i]);
-			if (driver.findElement(By.xpath(colunasResultados[i])).getText().startsWith(valoresResultados[i])) {
-			} else {
-				falha("Não foi retornado resultado esperado: " + "Esperado: " + valoresResultados[i] + ", Obtido: " + driver.findElement(By.xpath(colunasResultados[i])).getText(), driver, "Resultados da Pesquisa");
+		boolean noExists = driver.findElements(By.id(idSemResultados)).size() == 0;
+		
+		if (noExists == true) {
+			
+			logger.info("Não foi apresentada mensagem de registro não localizado");
+			
+			for (int i = 0; i < qtdeResultados; i++) {
+				logger.info("Iniciando comparação do resultado de pesquisa...");
+				logger.info("Comparando | " + driver.findElement(By.xpath(colunasResultados[i])).getText() + " : " + valoresResultados[i]);
+				if (driver.findElement(By.xpath(colunasResultados[i])).getText().startsWith(valoresResultados[i])) {
+				} else {
+					falha("Não foi retornado resultado esperado: " + "Esperado: " + valoresResultados[i] + ", Obtido: " + driver.findElement(By.xpath(colunasResultados[i])).getText(), driver, "Resultados da Pesquisa");
+				}
 			}
-
+			logger.info("Clicando no botão 'Consultar'");
+			aguardaCarregamentoPorId(driver, tentativas, "Pesquisa", idBotoesResultados[0]);
+			driver.findElement(By.id(idBotoesResultados[0])).click();
+			
+			
+			
+		
+		} else {
+			logger.info("Foi Apresentada a mensagem " + driver.findElement(By.id(idSemResultados)).getText());
 		}
-		logger.info("Clicando no botão 'Consultar'");
-		driver.findElement(By.id(idBotoesResultados[0])).click();
+		logger.info("Retornando: "+noExists);
+		return noExists;
+
+	}
+	private void fechaAba(WebDriver driver, int tentativas) throws IOException, InterruptedException {
+		logger.info("Fechando Aba...");
+		aguardaCarregamentoPorId(driver, tentativas, "Processo de Integração", "ui-id-1");
+		driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/ul/li[2]/a/span[2]")).click();
+		aguardaCarregamentoPorId(driver, tentativas, "Processo de Integração", "ui-id-1");
+		logger.info("Aba fechada com sucesso");
 
 	}
 	public void verificaTelaCadastro(WebDriver driver, int tentativas, int qtdeCadastro, String[] camposCadastro, String[] informacoesCadastro) throws IOException, InterruptedException {
@@ -1354,6 +1379,7 @@ public class VerificacoesDeTela {
 			logger.info("Comparando | Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value") + " : Esperado: " + informacoesCadastro[i]);
 			if (driver.findElement(By.id(camposCadastro[i])).getAttribute("value").contentEquals(informacoesCadastro[i])) {
 			} else {
+				logger.info("O valor do campo de ID: " + camposCadastro[i] + "está com o valor" + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"));
 				falha("Não foi retornado resultado esperado: " + "Esperado: " + informacoesCadastro[i] + ", Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"), driver, "Tela de Cadastro");
 			}
 
@@ -1472,8 +1498,10 @@ public class VerificacoesDeTela {
 		if (verificaCamposPesquisa == true) {
 			verificaPresencaCamposDePesquisaPorId(nomeTeste, driver, tentativas, idLabelsTelaPesquisa, idCamposTelaPesquisa);
 			validaLabels(driver, nomeTeste, tentativas, labelsTelaPesquisa, idLabelsTelaPesquisa);
+			verificaSeCaixasEstaoVazias(driver, nomeTeste, tentativas, caminho, idCamposTelaPesquisa);
+			verificaToolTip(driver, nomeTeste, tentativas, caminho, idLabelsTelaPesquisa, labelsTelaPesquisa);
 		} else {
-			//Não valida nada!
+			logger.info("Campos da tela de Cadastro não serão validados, verificaCamposPesquisa=false");
 		}
 
 	}
@@ -1587,8 +1615,48 @@ public class VerificacoesDeTela {
 		if (verificaCamposCadastro == true) {
 			verificaPresencaCamposDeCadastroPorId(nomeTeste, driver, tentativas, idLabelsCadastro, idCaixasCadastro);
 			comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+			verificaSeCaixasEstaoVazias(driver, nomeTeste, tentativas, caminho, idCaixasCadastro);
+			verificaToolTip(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+
 		} else {
-			//Não valida nada!
+			logger.info("Campos da tela de Cadastro não serão validados, verificaCamposCadastro=false");
+		}
+
+	}
+	private void verificaToolTip(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabels, String[] labels) throws IOException {
+		logger.info("Verificando o tooltip 'i' dos campos...");
+
+		int i = 0;
+		while (i < idLabels.length) {
+			boolean toolTip = driver.findElement(By.id(idLabels[i])).getAttribute("original-title").isEmpty();
+
+			if (toolTip == false) {
+				logger.info("Tooltip 'i' do campo " + idLabels[i] + " localizado com sucesso!");
+			} else {
+				falha("Tooltip 'i' não localizado no campo " + idLabels[i], driver, nomeTeste);
+			}
+
+			i++;
+		}
+	}
+
+	//TODO escrever aqui a rotina de verificação do tooltip das labels....
+
+	private void verificaSeCaixasEstaoVazias(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idCaixas) throws IOException {
+		logger.info("Verificando se as caixas de texto estão vazias...");
+		int i = 0;
+		while (i < idCaixas.length) {
+			String valueCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("value");
+
+			if (valueCaixa.contentEquals("")) {
+
+				logger.info("Caixa " + idCaixas[i] + " está vazia");
+
+			} else {
+				falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
+			}
+
+			i++;
 		}
 
 	}
@@ -1684,12 +1752,36 @@ public class VerificacoesDeTela {
 		logger.info("Verificando se existe mais campos na tela...");
 
 		int qtdeCamposPrevistos = idCamposTelaPesquisa.length;
+		int qtdeCamposNaTela = 0;
 
-		List<WebElement> elementsRoot = driver.findElements(By.xpath("//*[@id='TAXIT:taxitDesktopTabInitial1']"));
-		int qtdeCamposNaTela = elementsRoot.size();
+		List<WebElement> elementsRoot = driver.findElements(By.xpath("/html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[1]/div[2]/div[1]/table/tbody"));
+
+		for (int i = 0; i < elementsRoot.size(); ++i) {
+			WebElement checkbox = elementsRoot.get(i).findElement(By.xpath(".//input"));
+			qtdeCamposPrevistos++;
+		}
+		logger.info(elementsRoot.size());
 
 		logger.info("Campos previstos: " + qtdeCamposPrevistos);
 		logger.info("Campos encontrados: " + qtdeCamposNaTela);
+
+	}
+	public void efetuaLogout(WebDriver driver, int tentativas, String url, String usuario2, String senha2, String navegador, String nomeTeste) throws IOException, InterruptedException {
+		logger.info("Efetuando logout da aplicação...");
+		aguardaCarregamentoPorId(driver, tentativas, nomeTeste, "ui-id-1");
+		driver.findElement(By.linkText("Sair")).click();
+		aguardaCarregamentoPorId(driver, tentativas, nomeTeste, "j_username");
+		logger.info("Logout efetuado com sucesso!");
+
+		logger.info("Excluindo todos os Cookies...");
+		driver.manage().deleteAllCookies();
+		aguardaCarregamentoPorId(driver, tentativas, nomeTeste, "j_username");
+		logger.info("Cookies excluidos com sucesso!");
+
+		logger.info("Atualizando página...");
+		driver.navigate().refresh();
+		aguardaCarregamentoPorId(driver, tentativas, nomeTeste, "j_username");
+		logger.info("Página atualizada com sucesso!");
 
 	}
 }

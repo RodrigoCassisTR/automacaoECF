@@ -27432,3 +27432,1173 @@
 2014-08-15 14:45:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeIntegracao - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 2014-08-15 14:45:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeIntegracao - FALHA: Arquivo /arquivo_integracao_15082014_144418.xml não saiu da pasta de enviado: C:/temp/ECF/ledgeraccount/enviado/
 2014-08-15 14:45:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeIntegracao - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM SEG, 2014-8-18 AT 10:17:54 AM BRT
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:17:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 10:18:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:18:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 10:18:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:18:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 10:18:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-18 10:18:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1063, Tempo Aceitável: 10000
+2014-08-18 10:18:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 50
+2014-08-18 10:18:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 50
+2014-08-18 10:18:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 50
+2014-08-18 10:18:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 50
+2014-08-18 10:18:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 50
+2014-08-18 10:18:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 50
+2014-08-18 10:18:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 7 de 50
+2014-08-18 10:18:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 8 de 50
+2014-08-18 10:18:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 9 de 50
+2014-08-18 10:18:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 10 de 50
+2014-08-18 10:18:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 11 de 50
+2014-08-18 10:18:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 12 de 50
+2014-08-18 10:19:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 13 de 50
+2014-08-18 10:19:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 14 de 50
+2014-08-18 10:19:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 15 de 50
+2014-08-18 10:19:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 16 de 50
+2014-08-18 10:19:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 17 de 50
+2014-08-18 10:19:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 18 de 50
+2014-08-18 10:19:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 19 de 50
+2014-08-18 10:19:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 20 de 50
+2014-08-18 10:19:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 21 de 50
+2014-08-18 10:19:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 22 de 50
+2014-08-18 10:19:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 23 de 50
+2014-08-18 10:19:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 24 de 50
+2014-08-18 10:19:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 25 de 50
+2014-08-18 10:19:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 26 de 50
+2014-08-18 10:19:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 27 de 50
+2014-08-18 10:19:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 28 de 50
+2014-08-18 10:19:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-18 10:19:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 28272, Tempo Aceitável: 10000
+2014-08-18 10:19:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 50
+2014-08-18 10:19:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-18 10:19:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+2014-08-18 10:19:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 50
+2014-08-18 10:19:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:19:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+2014-08-18 10:19:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:19:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 10:19:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 50
+2014-08-18 10:19:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 50
+2014-08-18 10:19:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 50
+2014-08-18 10:19:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 50
+2014-08-18 10:19:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 50
+2014-08-18 10:19:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 50
+2014-08-18 10:19:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 50
+2014-08-18 10:19:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 50
+2014-08-18 10:19:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 11 de 50
+2014-08-18 10:19:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 12 de 50
+2014-08-18 10:19:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:19:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 12120, Tempo Aceitável: 10000
+2014-08-18 10:19:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:19:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+2014-08-18 10:19:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:19:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:19:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:19:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:19:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Data Inicial, Obtido: 
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Descrição Centro Custo, Obtido: 
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: CNPJ, Obtido: 
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se existe mais campos na tela...
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos previstos: 4
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos encontrados: 1
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:19:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:19:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 2047, Tempo Aceitável: 10000
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: CENTRO DE CUSTO
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:19:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:19:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:19:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:19:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:19:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1023, Tempo Aceitável: 10000
+2014-08-18 10:19:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:19:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 10:19:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:19:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:19:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate_label_span
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter_label_span
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE CENTRO DE CUSTO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 46 SEGUNDOS 
+2014-08-18 10:19:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM SEG, 2014-8-18 AT 10:28:41 AM BRT
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:28:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 10:29:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:29:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 10:29:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:29:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 10:29:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-18 10:29:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+2014-08-18 10:29:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 50
+2014-08-18 10:29:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 50
+2014-08-18 10:29:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 50
+2014-08-18 10:29:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 50
+2014-08-18 10:29:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 50
+2014-08-18 10:29:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 50
+2014-08-18 10:29:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 7 de 50
+2014-08-18 10:29:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 8 de 50
+2014-08-18 10:29:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 9 de 50
+2014-08-18 10:29:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 10 de 50
+2014-08-18 10:29:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 11 de 50
+2014-08-18 10:29:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 12 de 50
+2014-08-18 10:29:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 13 de 50
+2014-08-18 10:29:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 14 de 50
+2014-08-18 10:29:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 15 de 50
+2014-08-18 10:29:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 16 de 50
+2014-08-18 10:29:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 17 de 50
+2014-08-18 10:29:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 18 de 50
+2014-08-18 10:29:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 19 de 50
+2014-08-18 10:29:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 20 de 50
+2014-08-18 10:29:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 21 de 50
+2014-08-18 10:29:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 22 de 50
+2014-08-18 10:29:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 23 de 50
+2014-08-18 10:29:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-18 10:29:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 23246, Tempo Aceitável: 10000
+2014-08-18 10:29:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 50
+2014-08-18 10:29:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-18 10:29:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 10:29:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 50
+2014-08-18 10:29:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:29:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+2014-08-18 10:29:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:29:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 10:29:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 50
+2014-08-18 10:29:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 50
+2014-08-18 10:29:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 50
+2014-08-18 10:29:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 50
+2014-08-18 10:29:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 50
+2014-08-18 10:30:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 50
+2014-08-18 10:30:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:30:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 8083, Tempo Aceitável: 10000
+2014-08-18 10:30:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:30:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+2014-08-18 10:30:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:30:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:30:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Data Inicial, Obtido: 
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Descrição Centro Custo, Obtido: 
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: CNPJ, Obtido: 
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se existe mais campos na tela...
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos previstos: 4
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos encontrados: 1
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:30:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:30:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:30:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 10:30:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 50
+2014-08-18 10:30:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:30:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 3064, Tempo Aceitável: 10000
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: CENTRO DE CUSTO
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:30:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:30:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:30:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:30:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+2014-08-18 10:30:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:30:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 10:30:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate_label_span
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter_label_span
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se as caixas de texto estão vazias...
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg está vazia
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate está vazia
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter está vazia
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter está vazia
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE CENTRO DE CUSTO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 28 SEGUNDOS 
+2014-08-18 10:30:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - PLANO DE CONTAS - TESTE INICIADO EM SEG, 2014-8-18 AT 10:44:42 AM BRT
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: PLANO DE CONTAS
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:44:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 10:45:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:45:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 10:45:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela PLANO DE CONTAS acessada com sucesso!!
+2014-08-18 10:45:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 10:45:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 50
+2014-08-18 10:45:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 50
+2014-08-18 10:45:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 50
+2014-08-18 10:45:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 50
+2014-08-18 10:45:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 6 de 50
+2014-08-18 10:45:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 7 de 50
+2014-08-18 10:45:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-18 10:45:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 8761, Tempo Aceitável: 10000
+2014-08-18 10:45:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 50
+2014-08-18 10:45:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 50
+2014-08-18 10:45:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 50
+2014-08-18 10:45:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 50
+2014-08-18 10:45:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 50
+2014-08-18 10:45:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 50
+2014-08-18 10:45:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 7 de 50
+2014-08-18 10:45:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 8 de 50
+2014-08-18 10:45:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 9 de 50
+2014-08-18 10:45:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 10 de 50
+2014-08-18 10:45:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 11 de 50
+2014-08-18 10:45:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 12 de 50
+2014-08-18 10:45:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 13 de 50
+2014-08-18 10:45:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 14 de 50
+2014-08-18 10:45:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 15 de 50
+2014-08-18 10:45:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 16 de 50
+2014-08-18 10:45:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 17 de 50
+2014-08-18 10:45:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 18 de 50
+2014-08-18 10:45:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 19 de 50
+2014-08-18 10:45:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 20 de 50
+2014-08-18 10:45:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 21 de 50
+2014-08-18 10:45:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 22 de 50
+2014-08-18 10:45:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 23 de 50
+2014-08-18 10:45:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 24 de 50
+2014-08-18 10:45:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 25 de 50
+2014-08-18 10:45:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-18 10:45:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 25240, Tempo Aceitável: 10000
+2014-08-18 10:45:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 50
+2014-08-18 10:45:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-18 10:45:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 10:45:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela PLANO DE CONTAS || Tentativa 1 de 50
+2014-08-18 10:45:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela PLANO DE CONTAS acessada com sucesso!!
+2014-08-18 10:45:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+2014-08-18 10:45:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 1 de 50
+2014-08-18 10:45:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 2 de 50
+2014-08-18 10:45:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 3 de 50
+2014-08-18 10:45:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 4 de 50
+2014-08-18 10:46:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 5 de 50
+2014-08-18 10:46:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 6 de 50
+2014-08-18 10:46:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 7 de 50
+2014-08-18 10:46:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 8 de 50
+2014-08-18 10:46:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 9 de 50
+2014-08-18 10:46:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 10 de 50
+2014-08-18 10:46:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 11 de 50
+2014-08-18 10:46:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 12 de 50
+2014-08-18 10:46:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 13 de 50
+2014-08-18 10:46:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 14 de 50
+2014-08-18 10:46:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 15 de 50
+2014-08-18 10:46:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 16 de 50
+2014-08-18 10:46:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 17 de 50
+2014-08-18 10:46:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 18 de 50
+2014-08-18 10:46:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 19 de 50
+2014-08-18 10:46:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 20 de 50
+2014-08-18 10:46:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 21 de 50
+2014-08-18 10:46:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 22 de 50
+2014-08-18 10:46:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 23 de 50
+2014-08-18 10:46:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 24 de 50
+2014-08-18 10:46:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 25 de 50
+2014-08-18 10:46:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 26 de 50
+2014-08-18 10:46:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Plano de Contas' acessada com sucesso!!
+2014-08-18 10:46:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 26242, Tempo Aceitável: 10000
+2014-08-18 10:46:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:46:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: PLANO DE CONTAS
+2014-08-18 10:46:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:46:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:46:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 1 de 50
+2014-08-18 10:46:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Plano de Contas' acessada com sucesso!!
+2014-08-18 10:46:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de PLANO DE CONTAS...
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:Filter_TbrCad2002Ledact_tbrCadCentralReg_label_span
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:Filter_TbrCad2002Ledact_codLedgerAccount_label_span
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:Filter_TbrCad2002Ledact_codLedgerAccount_label_span
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:Filter_TbrCad2002Ledact_dscLedgerAccount_label_span
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_fmkDomainA_label_span
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_fmkDomainB_label_span
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Data Inicial, Obtido: Código Conta Contábil
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Conta Contábil, Obtido: Descrição Conta Contábil
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Tipo da Conta, Obtido: Tipo da Conta
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Ind. Natureza, Obtido: Ind. Natureza
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se existe mais campos na tela...
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos previstos: 6
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos encontrados: 1
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: PLANO DE CONTAS
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:46:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:46:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 1 de 50
+2014-08-18 10:46:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 2 de 50
+2014-08-18 10:46:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 3 de 50
+2014-08-18 10:46:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 4 de 50
+2014-08-18 10:46:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 5 de 50
+2014-08-18 10:46:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 6 de 50
+2014-08-18 10:46:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 7 de 50
+2014-08-18 10:46:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 8 de 50
+2014-08-18 10:46:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 9 de 50
+2014-08-18 10:46:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Plano de Contas' acessada com sucesso!!
+2014-08-18 10:46:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 9146, Tempo Aceitável: 10000
+2014-08-18 10:46:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:46:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+2014-08-18 10:46:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span 
+2014-08-18 10:46:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo  /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span 
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo  /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo  /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[6]/label/span
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo  /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[7]/label/span
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Conta Contábil, Obtido: Descrição Conta Contábil
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Tipo da Conta, Obtido: Tipo da Conta
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Ind. Natureza, Obtido: Ind. Natureza
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: PLANO DE CONTAS
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:46:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela PLANO DE CONTAS acessada com sucesso!!
+2014-08-18 10:46:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 1 de 50
+2014-08-18 10:46:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 2 de 50
+2014-08-18 10:46:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 3 de 50
+2014-08-18 10:46:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 4 de 50
+2014-08-18 10:46:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Plano de Contas' || Tentativa 5 de 50
+2014-08-18 10:46:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Plano de Contas' acessada com sucesso!!
+2014-08-18 10:46:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 5066, Tempo Aceitável: 10000
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de PLANO DE CONTAS...
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:Filter_TbrCad2002Ledact_tbrCadCentralReg2_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_datInsertUpdate_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_codLedgerAccount_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_dscLedgerAccount_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_codAccountSynthetic_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_dscAccountSynthetic_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_fmkDomain2_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_numLedgerAcctLevel_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_fmkDomain_label_span
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Conta Contábil, Obtido: Descrição Conta Contábil
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Conta Sintética, Obtido: Código Conta Sintética
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Conta Sintética, Obtido: Descrição Conta Sintética
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Tipo da Conta, Obtido: Tipo da Conta
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Nível, Obtido: Nível
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Ind. Natureza, Obtido: Ind. Natureza
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se as caixas de texto estão vazias...
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2002LedactBean:tab1:Filter_TbrCad2002Ledact_tbrCadCentralReg2 está vazia
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_datInsertUpdate está vazia
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_codLedgerAccount está vazia
+2014-08-18 10:46:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_dscLedgerAccount está vazia
+2014-08-18 10:46:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-08-18 10:46:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - FALHA: A caixa de texto TAXIT:trTbrCad2002LedactBean:tab1:TbrCad2002Ledact_codAccountSynthetic está preenchida com valor!
+2014-08-18 10:46:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Screenshot gravado no diretório ./screenshot/ com o nome erro_plano de contas_1585700000.png
+2014-08-18 10:46:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SCP - TESTE INICIADO EM SEG, 2014-8-18 AT 10:48:12 AM BRT
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: SCP
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:48:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:49:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 10:49:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 10:49:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:49:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 10:49:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:49:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 10:49:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 10:49:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 10:49:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 10:49:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 10:49:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 10:49:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:49:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 10:49:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SCP acessada com sucesso!!
+2014-08-18 10:49:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 10:49:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-18 10:49:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 10:49:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 50
+2014-08-18 10:49:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 50
+2014-08-18 10:49:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 50
+2014-08-18 10:49:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 50
+2014-08-18 10:49:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 50
+2014-08-18 10:49:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 50
+2014-08-18 10:49:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 7 de 50
+2014-08-18 10:49:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 8 de 50
+2014-08-18 10:49:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 9 de 50
+2014-08-18 10:49:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 10 de 50
+2014-08-18 10:49:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 11 de 50
+2014-08-18 10:49:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 12 de 50
+2014-08-18 10:49:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 13 de 50
+2014-08-18 10:49:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 14 de 50
+2014-08-18 10:49:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 15 de 50
+2014-08-18 10:49:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 16 de 50
+2014-08-18 10:49:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 17 de 50
+2014-08-18 10:49:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 18 de 50
+2014-08-18 10:49:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 19 de 50
+2014-08-18 10:49:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 20 de 50
+2014-08-18 10:49:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 21 de 50
+2014-08-18 10:49:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 22 de 50
+2014-08-18 10:49:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 23 de 50
+2014-08-18 10:49:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 24 de 50
+2014-08-18 10:49:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 25 de 50
+2014-08-18 10:49:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 26 de 50
+2014-08-18 10:49:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-18 10:49:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 26269, Tempo Aceitável: 10000
+2014-08-18 10:49:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 50
+2014-08-18 10:49:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-18 10:49:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 10:49:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 1 de 50
+2014-08-18 10:49:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 2 de 50
+2014-08-18 10:49:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 3 de 50
+2014-08-18 10:49:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 4 de 50
+2014-08-18 10:49:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 5 de 50
+2014-08-18 10:49:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 6 de 50
+2014-08-18 10:49:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 7 de 50
+2014-08-18 10:49:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 8 de 50
+2014-08-18 10:49:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 9 de 50
+2014-08-18 10:49:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 10 de 50
+2014-08-18 10:49:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 11 de 50
+2014-08-18 10:49:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 12 de 50
+2014-08-18 10:49:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 13 de 50
+2014-08-18 10:49:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 14 de 50
+2014-08-18 10:49:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SCP acessada com sucesso!!
+2014-08-18 10:49:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 14626, Tempo Aceitável: 10000
+2014-08-18 10:49:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SCP || Tentativa 1 de 50
+2014-08-18 10:49:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SCP acessada com sucesso!!
+2014-08-18 10:49:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1074, Tempo Aceitável: 10000
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM SEG, 2014-8-18 AT 10:53:25 AM BRT
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:53:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 10:54:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:54:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 10:54:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 3 de 50
+2014-08-18 10:54:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 4 de 50
+2014-08-18 10:54:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 5 de 50
+2014-08-18 10:54:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 6 de 50
+2014-08-18 10:54:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 7 de 50
+2014-08-18 10:54:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 8 de 50
+2014-08-18 10:54:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 9 de 50
+2014-08-18 10:54:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 10 de 50
+2014-08-18 10:54:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 11 de 50
+2014-08-18 10:54:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 12 de 50
+2014-08-18 10:54:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 13 de 50
+2014-08-18 10:54:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 14 de 50
+2014-08-18 10:54:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 15 de 50
+2014-08-18 10:54:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 16 de 50
+2014-08-18 10:54:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 17 de 50
+2014-08-18 10:54:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 18 de 50
+2014-08-18 10:54:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 19 de 50
+2014-08-18 10:54:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 20 de 50
+2014-08-18 10:54:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 21 de 50
+2014-08-18 10:54:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 22 de 50
+2014-08-18 10:54:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 23 de 50
+2014-08-18 10:54:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 24 de 50
+2014-08-18 10:54:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 25 de 50
+2014-08-18 10:54:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 26 de 50
+2014-08-18 10:54:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 27 de 50
+2014-08-18 10:54:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 28 de 50
+2014-08-18 10:54:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 29 de 50
+2014-08-18 10:54:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 30 de 50
+2014-08-18 10:54:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 31 de 50
+2014-08-18 10:54:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 32 de 50
+2014-08-18 10:55:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 33 de 50
+2014-08-18 10:55:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 34 de 50
+2014-08-18 10:55:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 35 de 50
+2014-08-18 10:55:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 36 de 50
+2014-08-18 10:55:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 37 de 50
+2014-08-18 10:55:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 38 de 50
+2014-08-18 10:55:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 39 de 50
+2014-08-18 10:55:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 40 de 50
+2014-08-18 10:55:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 41 de 50
+2014-08-18 10:55:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 42 de 50
+2014-08-18 10:55:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 43 de 50
+2014-08-18 10:55:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 44 de 50
+2014-08-18 10:55:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 45 de 50
+2014-08-18 10:55:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 46 de 50
+2014-08-18 10:55:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 47 de 50
+2014-08-18 10:55:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 48 de 50
+2014-08-18 10:55:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 49 de 50
+2014-08-18 10:55:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 50 de 50
+2014-08-18 10:55:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 51 de 50
+2014-08-18 10:55:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-08-18 10:55:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - FALHA: Timeout, elemento nao localizado //*[@id='taxit_loading']
+2014-08-18 10:55:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_1510342654.png
+2014-08-18 10:55:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM SEG, 2014-8-18 AT 10:55:37 AM BRT
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:55:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 10:56:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 10:56:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 10:56:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 10:56:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:56:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 10:56:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:56:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 10:56:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 50
+2014-08-18 10:56:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 50
+2014-08-18 10:56:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 50
+2014-08-18 10:56:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 50
+2014-08-18 10:56:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 6 de 50
+2014-08-18 10:56:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 7 de 50
+2014-08-18 10:56:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 8 de 50
+2014-08-18 10:56:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 9 de 50
+2014-08-18 10:56:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 10 de 50
+2014-08-18 10:56:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 11 de 50
+2014-08-18 10:56:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 12 de 50
+2014-08-18 10:56:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 13 de 50
+2014-08-18 10:56:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 14 de 50
+2014-08-18 10:56:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 15 de 50
+2014-08-18 10:56:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 16 de 50
+2014-08-18 10:56:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 17 de 50
+2014-08-18 10:56:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 18 de 50
+2014-08-18 10:56:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 19 de 50
+2014-08-18 10:56:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 20 de 50
+2014-08-18 10:56:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 21 de 50
+2014-08-18 10:56:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 22 de 50
+2014-08-18 10:57:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 23 de 50
+2014-08-18 10:57:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 24 de 50
+2014-08-18 10:57:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 25 de 50
+2014-08-18 10:57:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 26 de 50
+2014-08-18 10:57:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 27 de 50
+2014-08-18 10:57:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 28 de 50
+2014-08-18 10:57:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 29 de 50
+2014-08-18 10:57:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 30 de 50
+2014-08-18 10:57:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 31 de 50
+2014-08-18 10:57:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 32 de 50
+2014-08-18 10:57:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 33 de 50
+2014-08-18 10:57:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 34 de 50
+2014-08-18 10:57:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 35 de 50
+2014-08-18 10:57:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 36 de 50
+2014-08-18 10:57:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 37 de 50
+2014-08-18 10:57:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 38 de 50
+2014-08-18 10:57:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 39 de 50
+2014-08-18 10:57:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 40 de 50
+2014-08-18 10:57:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 41 de 50
+2014-08-18 10:57:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 42 de 50
+2014-08-18 10:57:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 43 de 50
+2014-08-18 10:57:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 44 de 50
+2014-08-18 10:57:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 45 de 50
+2014-08-18 10:57:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 46 de 50
+2014-08-18 10:57:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 47 de 50
+2014-08-18 10:57:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 48 de 50
+2014-08-18 10:57:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 49 de 50
+2014-08-18 10:57:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 50 de 50
+2014-08-18 10:57:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 51 de 50
+2014-08-18 10:57:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-08-18 10:57:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - FALHA: Timeout, elemento nao localizado /html/body/div[3]/div[2]/form/div[2]/div/ul/li[3]/a/span
+2014-08-18 10:57:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_1021829211.png
+2014-08-18 10:57:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM SEG, 2014-8-18 AT 10:58:1 AM BRT
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:58:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 10:58:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:58:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 10:58:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:58:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 10:58:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-18 10:58:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+2014-08-18 10:58:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 50
+2014-08-18 10:58:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 50
+2014-08-18 10:58:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 50
+2014-08-18 10:58:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 50
+2014-08-18 10:58:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 50
+2014-08-18 10:58:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 50
+2014-08-18 10:58:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 7 de 50
+2014-08-18 10:58:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 8 de 50
+2014-08-18 10:58:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 9 de 50
+2014-08-18 10:58:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 10 de 50
+2014-08-18 10:58:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 11 de 50
+2014-08-18 10:58:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 12 de 50
+2014-08-18 10:58:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 13 de 50
+2014-08-18 10:58:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 14 de 50
+2014-08-18 10:59:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 15 de 50
+2014-08-18 10:59:01 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 16 de 50
+2014-08-18 10:59:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 17 de 50
+2014-08-18 10:59:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 18 de 50
+2014-08-18 10:59:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 19 de 50
+2014-08-18 10:59:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 20 de 50
+2014-08-18 10:59:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 21 de 50
+2014-08-18 10:59:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 22 de 50
+2014-08-18 10:59:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 23 de 50
+2014-08-18 10:59:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 24 de 50
+2014-08-18 10:59:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 25 de 50
+2014-08-18 10:59:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 26 de 50
+2014-08-18 10:59:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 27 de 50
+2014-08-18 10:59:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 28 de 50
+2014-08-18 10:59:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 29 de 50
+2014-08-18 10:59:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 30 de 50
+2014-08-18 10:59:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 31 de 50
+2014-08-18 10:59:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 32 de 50
+2014-08-18 10:59:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-18 10:59:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 32306, Tempo Aceitável: 10000
+2014-08-18 10:59:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 50
+2014-08-18 10:59:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-18 10:59:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 10:59:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 50
+2014-08-18 10:59:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:59:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+2014-08-18 10:59:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:59:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 10:59:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 50
+2014-08-18 10:59:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 50
+2014-08-18 10:59:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 50
+2014-08-18 10:59:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 50
+2014-08-18 10:59:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 50
+2014-08-18 10:59:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 50
+2014-08-18 10:59:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 50
+2014-08-18 10:59:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 50
+2014-08-18 10:59:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 11 de 50
+2014-08-18 10:59:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 12 de 50
+2014-08-18 10:59:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:59:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 12128, Tempo Aceitável: 10000
+2014-08-18 10:59:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:59:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+2014-08-18 10:59:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:59:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:59:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:59:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:59:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Data Inicial, Obtido: 
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Descrição Centro Custo, Obtido: 
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: CNPJ, Obtido: 
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se existe mais campos na tela...
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos previstos: 4
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos encontrados: 1
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:59:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:59:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 2050, Tempo Aceitável: 10000
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:59:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: CENTRO DE CUSTO
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 10:59:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate_label_span
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter_label_span
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 10:59:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se as caixas de texto estão vazias...
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg está vazia
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate está vazia
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter está vazia
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter está vazia
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando o tooltip 'i' dos campos...
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate_label_span
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter_label_span
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE CENTRO DE CUSTO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 38 SEGUNDOS 
+2014-08-18 10:59:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM SEG, 2014-8-18 AT 11:0:10 AM BRT
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:00:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 11:00:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 11:00:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 11:01:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 11:01:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 11:01:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-18 11:01:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 11:01:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 50
+2014-08-18 11:01:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 50
+2014-08-18 11:01:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 50
+2014-08-18 11:01:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 50
+2014-08-18 11:01:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 50
+2014-08-18 11:01:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 50
+2014-08-18 11:01:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 7 de 50
+2014-08-18 11:01:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 8 de 50
+2014-08-18 11:01:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 9 de 50
+2014-08-18 11:01:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 10 de 50
+2014-08-18 11:01:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 11 de 50
+2014-08-18 11:01:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 12 de 50
+2014-08-18 11:01:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 13 de 50
+2014-08-18 11:01:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 14 de 50
+2014-08-18 11:01:22 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 15 de 50
+2014-08-18 11:01:23 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 16 de 50
+2014-08-18 11:01:24 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 17 de 50
+2014-08-18 11:01:25 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 18 de 50
+2014-08-18 11:01:26 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 19 de 50
+2014-08-18 11:01:27 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 20 de 50
+2014-08-18 11:01:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 21 de 50
+2014-08-18 11:01:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 22 de 50
+2014-08-18 11:01:30 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 23 de 50
+2014-08-18 11:01:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 24 de 50
+2014-08-18 11:01:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 25 de 50
+2014-08-18 11:01:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 26 de 50
+2014-08-18 11:01:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 27 de 50
+2014-08-18 11:01:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 28 de 50
+2014-08-18 11:01:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 29 de 50
+2014-08-18 11:01:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 30 de 50
+2014-08-18 11:01:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 31 de 50
+2014-08-18 11:01:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 32 de 50
+2014-08-18 11:01:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 33 de 50
+2014-08-18 11:01:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 34 de 50
+2014-08-18 11:01:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 35 de 50
+2014-08-18 11:01:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 36 de 50
+2014-08-18 11:01:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-18 11:01:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 36304, Tempo Aceitável: 10000
+2014-08-18 11:01:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 50
+2014-08-18 11:01:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-18 11:01:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 11:01:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 50
+2014-08-18 11:01:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 11:01:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+2014-08-18 11:01:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:01:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 11:01:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 50
+2014-08-18 11:01:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 50
+2014-08-18 11:01:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 50
+2014-08-18 11:01:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 50
+2014-08-18 11:01:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 50
+2014-08-18 11:01:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 50
+2014-08-18 11:01:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 50
+2014-08-18 11:01:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 50
+2014-08-18 11:01:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 11 de 50
+2014-08-18 11:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 12 de 50
+2014-08-18 11:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 12141, Tempo Aceitável: 10000
+2014-08-18 11:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+2014-08-18 11:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:01:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 11:01:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:01:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:01:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Data Inicial, Obtido: 
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Descrição Centro Custo, Obtido: 
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: CNPJ, Obtido: 
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se existe mais campos na tela...
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos previstos: 4
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos encontrados: 1
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:02:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 11:02:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 2070, Tempo Aceitável: 10000
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 11:02:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: CENTRO DE CUSTO
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 11:02:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 11:02:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:02:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:02:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+2014-08-18 11:02:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 11:02:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 11:02:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 11:02:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 11:02:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate_label_span
+2014-08-18 11:02:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 11:02:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter_label_span
+2014-08-18 11:02:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 11:02:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se as caixas de texto estão vazias...
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg está vazia
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate está vazia
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter está vazia
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter está vazia
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando o tooltip 'i' dos campos...
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - <span class='tipsy_msg_info'>CNPJ</span>
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - <span class='tipsy_msg_info'>Data da inclusão, alteração ou atualização do cadastro do centro de custo.</span>
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - <span class='tipsy_msg_info'>Código do centro de custo.</span>
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - <span class='tipsy_msg_info'>Nome do centro de custo.</span>
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE CENTRO DE CUSTO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 56 SEGUNDOS 
+2014-08-18 11:02:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - CENTRO DE CUSTO - TESTE INICIADO EM SEG, 2014-8-18 AT 11:5:28 AM BRT
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - USUARIO: ADM
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - SENHA: adm@2014
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - NAVEGADOR: chrome
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE: CENTRO DE CUSTO
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:05:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de login ser carregada | Tentativa 1 de 51
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela carregada com sucesso!
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ACESSANDO A APLICACAO
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando usuario: ADM
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Digitando senha: adm@2014
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Clicando no botão 'Entrar'
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o acesso a aplicacao...
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aplicacao acessada com sucesso!
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Acessando o módulo ONESOURCE ECF...
+2014-08-18 11:06:20 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 11:06:21 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 2 de 50
+2014-08-18 11:06:28 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 11:06:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 50
+2014-08-18 11:06:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+2014-08-18 11:06:29 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+2014-08-18 11:06:31 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 1 de 50
+2014-08-18 11:06:32 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 2 de 50
+2014-08-18 11:06:33 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 3 de 50
+2014-08-18 11:06:34 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 4 de 50
+2014-08-18 11:06:35 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 5 de 50
+2014-08-18 11:06:36 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 6 de 50
+2014-08-18 11:06:37 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 7 de 50
+2014-08-18 11:06:38 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 8 de 50
+2014-08-18 11:06:39 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 9 de 50
+2014-08-18 11:06:40 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 10 de 50
+2014-08-18 11:06:41 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 11 de 50
+2014-08-18 11:06:42 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 12 de 50
+2014-08-18 11:06:43 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 13 de 50
+2014-08-18 11:06:44 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 14 de 50
+2014-08-18 11:06:45 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 15 de 50
+2014-08-18 11:06:46 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 16 de 50
+2014-08-18 11:06:47 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 17 de 50
+2014-08-18 11:06:48 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 18 de 50
+2014-08-18 11:06:49 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 19 de 50
+2014-08-18 11:06:50 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 20 de 50
+2014-08-18 11:06:51 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 21 de 50
+2014-08-18 11:06:52 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 22 de 50
+2014-08-18 11:06:53 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 23 de 50
+2014-08-18 11:06:54 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 24 de 50
+2014-08-18 11:06:55 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 25 de 50
+2014-08-18 11:06:56 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 26 de 50
+2014-08-18 11:06:57 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 27 de 50
+2014-08-18 11:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela HOME || Tentativa 28 de 50
+2014-08-18 11:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela HOME acessada com sucesso!!
+2014-08-18 11:06:58 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Tempo de Carregamento: 28257, Tempo Aceitável: 10000
+2014-08-18 11:06:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela Home || Tentativa 1 de 50
+2014-08-18 11:06:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela Home acessada com sucesso!!
+2014-08-18 11:06:59 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+2014-08-18 11:07:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 50
+2014-08-18 11:07:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 11:07:00 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+2014-08-18 11:07:02 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:07:03 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 11:07:04 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 50
+2014-08-18 11:07:05 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 50
+2014-08-18 11:07:06 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 50
+2014-08-18 11:07:07 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 50
+2014-08-18 11:07:08 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 50
+2014-08-18 11:07:09 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 50
+2014-08-18 11:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 50
+2014-08-18 11:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 9084, Tempo Aceitável: 10000
+2014-08-18 11:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+2014-08-18 11:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:07:10 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 11:07:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:07:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:07:11 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Data Inicial, Obtido: 
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: Descrição Centro Custo, Obtido: 
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #ALERTA# Esperado: CNPJ, Obtido: 
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se existe mais campos na tela...
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos previstos: 4
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Campos encontrados: 1
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:07:12 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 11:07:13 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:07:14 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 50
+2014-08-18 11:07:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 50
+2014-08-18 11:07:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:07:15 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 3067, Tempo Aceitável: 10000
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TELA DE REGISTRO, TELA: CENTRO DE CUSTO
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - ----------------------------------------------------
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - A quantidade de campos, labels foram informadas corretamente no .properties
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando tela de loading desaparecer || Tentativa 1 de 50
+2014-08-18 11:07:16 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela CENTRO DE CUSTO acessada com sucesso!!
+2014-08-18 11:07:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 50
+2014-08-18 11:07:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+2014-08-18 11:07:17 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Tempo de Carregamento: 1021, Tempo Aceitável: 10000
+2014-08-18 11:07:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Nehuma mensagem de erro localizada!
+2014-08-18 11:07:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+2014-08-18 11:07:18 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg_label_span
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate_label_span
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter_label_span
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando campo TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter_label_span
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando labels...
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: CNPJ, Obtido: CNPJ
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando se as caixas de texto estão vazias...
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_tbrCadCentralReg está vazia
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_datInsertUpdate está vazia
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_codCostCenter está vazia
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Caixa TAXIT:trTbrCad2003CostctBean:tab1:TbrCad2003Costct_dscCostCenter está vazia
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - Verificando o tooltip 'i' dos campos...
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - 
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - 
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - 
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - 
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - TESTE CENTRO DE CUSTO ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 51 SEGUNDOS 
+2014-08-18 11:07:19 INFO  ECF.automacaoECF.padrao.VerificacoesDeTela - #########################################################################

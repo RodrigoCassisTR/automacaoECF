@@ -79,6 +79,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String xpathMenu4 = propertiesTela.getProperty("xpathMenu4");
 		String labelTela = propertiesTela.getProperty("labelTela");
 		String xpathTela = propertiesTela.getProperty("xpathTela");
+		String idSemResultados = propertiesTela.getProperty("idSemResultados");
 
 		//////////VALIDACOES PADRAO
 		String xpathAbaCadastro = propertiesTela.getProperty("xpathAbaCadastro");
@@ -221,13 +222,15 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String idCampoCadastro19 = properties.getProperty("idCampoCadastro19");
 		String idCampoCadastro20 = properties.getProperty("idCampoCadastro20");
 
-		String[] valoresCadastro = {valorCadastro1, valorCadastro2, valorCadastro3, valorCadastro4, valorCadastro5, valorCadastro6, valorCadastro7, valorCadastro8, valorCadastro9, valorCadastro10, valorCadastro10, valorCadastro11, valorCadastro12, valorCadastro13, valorCadastro14, valorCadastro15, valorCadastro16, valorCadastro17, valorCadastro18, valorCadastro19, valorCadastro20};
+		String[] valoresCadastro = {valorCadastro1, valorCadastro2, valorCadastro3, valorCadastro4, valorCadastro5, valorCadastro6, valorCadastro7, valorCadastro8, valorCadastro9, valorCadastro10, valorCadastro11, valorCadastro12, valorCadastro13, valorCadastro14, valorCadastro15, valorCadastro16, valorCadastro17, valorCadastro18, valorCadastro19, valorCadastro20};
 		String[] camposTelaCadastro = {idCampoCadastro1, idCampoCadastro2, idCampoCadastro3, idCampoCadastro4, idCampoCadastro5, idCampoCadastro6, idCampoCadastro7, idCampoCadastro8, idCampoCadastro9, idCampoCadastro10, idCampoCadastro11, idCampoCadastro12, idCampoCadastro13, idCampoCadastro14, idCampoCadastro15, idCampoCadastro16, idCampoCadastro17, idCampoCadastro18, idCampoCadastro19, idCampoCadastro20};
 
 		String[] camposRegistro = {"!campo1", "!campo2", "!campo3", "!campo4", "!campo5", "!campo6", "!campo7", "!campo8", "!campo9", "!campo10", "!campo11", "!campo12", "!campo13", "!campo14", "!campo15", "!campo16", "!campo17", "!campo18", "!campo19", "!campo20"};
 		String[] informacoesRegistro = {campo1, campo2, campo3, campo4, campo5, campo6, campo7, campo8, campo9, campo10, campo11, campo12, campo13, campo14, campo15, campo16, campo17, campo18, campo19, campo20};
 
 		boolean existeRegistro = false;
+		boolean registroNaoVisualizado = false;
+		int tentativasDeLocalizar = 0;
 
 		VerificacoesDeIntegracao integracao = new VerificacoesDeIntegracao();
 		VerificacoesDeTela automacao = new VerificacoesDeTela();
@@ -267,12 +270,28 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		integracao.integraRegistro(arquivoIntegracao, pastasIntegracao, camposRegistro, informacoesRegistro);
 
 		//PESQUISA REGISTRO
-		automacao.reotrnaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
+		automacao.efetuaLogout(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
+		automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
 		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
 		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 		automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
-		automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados);
+		registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, idSemResultados);
+
+		do {
+			if (registroNaoVisualizado == false) {
+				automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
+				automacao.efetuaLogout(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
+				automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
+				automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
+				automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
+				automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
+				automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
+				registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, idSemResultados);
+				tentativasDeLocalizar++;
+			}
+		} while (registroNaoVisualizado == false || tentativasDeLocalizar > 4);
+
 		automacao.verificaTelaCadastro(driver, tentativas, qtdeCadastro, camposTelaCadastro, valoresCadastro);
 
 		//EXCLUI REGISTRO
