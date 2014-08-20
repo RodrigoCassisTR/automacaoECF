@@ -79,7 +79,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String xpathMenu4 = propertiesTela.getProperty("xpathMenu4");
 		String labelTela = propertiesTela.getProperty("labelTela");
 		String xpathTela = propertiesTela.getProperty("xpathTela");
-		String idSemResultados = propertiesTela.getProperty("idSemResultados");
+		String xpathSemResultados = propertiesTela.getProperty("xpathSemResultados");
 
 		//////////VALIDACOES PADRAO
 		String xpathAbaCadastro = propertiesTela.getProperty("xpathAbaCadastro");
@@ -276,8 +276,9 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
 		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 		automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
-		registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, idSemResultados);
+		registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, xpathSemResultados);
 
+		//TENTA 4 VEZES LOCALIZAR O REGISTRO NA TELA, FAZENDO O LOGOUT E LOGIN A CADA TENTATIVA
 		do {
 			if (registroNaoVisualizado == false) {
 				automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
@@ -287,7 +288,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 				automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
 				automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 				automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
-				registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, idSemResultados);
+				registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, xpathSemResultados);
 				tentativasDeLocalizar++;
 			}
 		} while (registroNaoVisualizado == false || tentativasDeLocalizar > 4);

@@ -1,0 +1,14 @@
+<COST_CENTER_LIST>   
+	<COST_CENTER>
+		<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+		<!--Codigo da Central de Cadastros-->
+		<IND_DELETE>N</IND_DELETE>
+		<!--Indicador de Exclusao-->
+		<COD_COST_CENTER>CC011</COD_COST_CENTER>
+		<!--Codigo do Centro de Custo-->
+		<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+		<!--Data Inicio de Validade-->
+		<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO FIXO NAO MEXER</DSC_COST_CENTER>
+		<!--Descricao do Centro de Custo-->
+	</COST_CENTER>
+</COST_CENTER_LIST>

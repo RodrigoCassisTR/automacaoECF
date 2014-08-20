@@ -1327,39 +1327,36 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public boolean verificaResultadoDaPesquisa(WebDriver driver, int tentativas, int qtdeResultados, String[] colunasResultados, String[] valoresResultados, String[] idBotoesResultados, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta, String idSemResultados) throws IOException, InterruptedException {
+	public boolean verificaResultadoDaPesquisa(WebDriver driver, int tentativas, int qtdeResultados, String[] colunasResultados, String[] valoresResultados, String[] idBotoesResultados, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta, String xpathSemResultados) throws IOException, InterruptedException {
 		aguardaProcessamentoDesaparecer(driver, tentativas, "Resultados da Pesquisa");
 		aguardaCarregamentoPorId(driver, tentativas, "Resultados da Pesquisa", idBotoesResultados[0]);
 		aguardaProcessamentoDesaparecer(driver, tentativas, "Resultados da Pesquisa");
 		aguardaCarregamento("Resultado da Pesquisa", "//*[@id='ui-id-1']/span", "Resultados da Pesquisa", tentativas, driver);
 
-		logger.info("Verificando se apresenta a mensagem: 'Não foi encontrada nenhuma linha.' com o id " + idSemResultados);
+		logger.info("Verificando se apresenta a mensagem: 'Não foi encontrada nenhuma linha.' com o xpath " + xpathSemResultados);
 
-		boolean noExists = driver.findElements(By.id(idSemResultados)).size() == 0;
-		
+		boolean noExists = driver.findElements(By.xpath(xpathSemResultados)).size() == 0;
+
 		if (noExists == true) {
-			
+
 			logger.info("Não foi apresentada mensagem de registro não localizado");
-			
+
 			for (int i = 0; i < qtdeResultados; i++) {
 				logger.info("Iniciando comparação do resultado de pesquisa...");
 				logger.info("Comparando | " + driver.findElement(By.xpath(colunasResultados[i])).getText() + " : " + valoresResultados[i]);
-				if (driver.findElement(By.xpath(colunasResultados[i])).getText().startsWith(valoresResultados[i])) {
+				if (driver.findElement(By.xpath(colunasResultados[i])).getText().contentEquals(valoresResultados[i])) {
 				} else {
-					falha("Não foi retornado resultado esperado: " + "Esperado: " + valoresResultados[i] + ", Obtido: " + driver.findElement(By.xpath(colunasResultados[i])).getText(), driver, "Resultados da Pesquisa");
+					logger.info("#ALERTA# Não foi retornado resultado esperado: " + "Esperado: " + valoresResultados[i] + ", Obtido: " + driver.findElement(By.xpath(colunasResultados[i])).getText());
 				}
 			}
 			logger.info("Clicando no botão 'Consultar'");
 			aguardaCarregamentoPorId(driver, tentativas, "Pesquisa", idBotoesResultados[0]);
 			driver.findElement(By.id(idBotoesResultados[0])).click();
-			
-			
-			
-		
+
 		} else {
-			logger.info("Foi Apresentada a mensagem " + driver.findElement(By.id(idSemResultados)).getText());
+			logger.info("Foi Apresentada a mensagem " + driver.findElement(By.xpath(xpathSemResultados)).getText());
 		}
-		logger.info("Retornando: "+noExists);
+		logger.info("Retornando: " + noExists);
 		return noExists;
 
 	}
@@ -1379,8 +1376,7 @@ public class VerificacoesDeTela {
 			logger.info("Comparando | Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value") + " : Esperado: " + informacoesCadastro[i]);
 			if (driver.findElement(By.id(camposCadastro[i])).getAttribute("value").contentEquals(informacoesCadastro[i])) {
 			} else {
-				logger.info("O valor do campo de ID: " + camposCadastro[i] + "está com o valor" + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"));
-				falha("Não foi retornado resultado esperado: " + "Esperado: " + informacoesCadastro[i] + ", Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"), driver, "Tela de Cadastro");
+				logger.info("#ALERTA# O valor do campo de ID: " + camposCadastro[i] + "está com o valor" + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"));
 			}
 
 		}
