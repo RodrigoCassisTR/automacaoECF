@@ -1,4 +1,4 @@
-package ECF.automacaoECF.acessoTela;
+package ECF.automacaoECF.tela;
 
 import ECF.automacaoECF.padrao.ValidacaoDeTela;
 

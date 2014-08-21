@@ -5,9 +5,9 @@ import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-public class ValidacaoDeTela extends CasoDeTesteBasico {
+public class ValidacaoDeTelaDeApuracao extends CasoDeTesteBasico {
 
-	org.apache.log4j.Logger logger = Logger.getLogger(ValidacaoDeTela.class.getName());
+	org.apache.log4j.Logger logger = Logger.getLogger(ValidacaoDeTelaDeApuracao.class.getName());
 	public String url = new RecebeParametros().url;
 	public String usuario = new RecebeParametros().usuario;
 	public String senha = new RecebeParametros().senha;
@@ -104,127 +104,6 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		String xpathAbaResultados = properties.getProperty("xpathAbaResultados");
 		String xpathAbaCadastro = properties.getProperty("xpathAbaCadastro");
 
-		////ABAS
-		boolean possuiAbas = Boolean.parseBoolean(properties.getProperty("possuiAbas"));
-		String xpathAbas = properties.getProperty("xpathAbas");
-		String labelAbas = properties.getProperty("labelAbas");
-		int qtdeAbasDaTelaCadastro = xpathAbas.length();
-
-		String[] xpathAbasDaTelaCadastro = xpathAbas.split(",");
-		String[] labelAbasDaTelaCadastro = labelAbas.split(",");
-
-		//ABA 1
-		String labelsAba1 = properties.getProperty("labelsAba1");
-		String idLabelsAba1 = properties.getProperty("idLabelsAba1");
-		String idCaixasAba1 = properties.getProperty("idCaixasAba1");
-		String idBotoesAba1 = properties.getProperty("idBotoesAba1");
-
-		String[] labelsAba1Cadastro = labelsAba1.split(",");
-		String[] idLabelsAba1Cadastro = idLabelsAba1.split(",");
-		String[] idCaixasAba1Cadastro = idCaixasAba1.split(",");
-		String[] idBotoesAba1Cadastro = idBotoesAba1.split(",");
-
-		//ABA 2
-		String labelsAba2 = properties.getProperty("labelsAba2");
-		String idLabelsAba2 = properties.getProperty("idLabelsAba2");
-		String idCaixasAba2 = properties.getProperty("idCaixasAba2");
-		String idBotoesAba2 = properties.getProperty("idBotoesAba2");
-
-		String[] labelsAba2Cadastro = labelsAba2.split(",");
-		String[] idLabelsAba2Cadastro = idLabelsAba2.split(",");
-		String[] idCaixasAba2Cadastro = idCaixasAba2.split(",");
-		String[] idBotoesAba2Cadastro = idBotoesAba2.split(",");
-
-		//ABA 3
-		String labelsAba3 = properties.getProperty("labelsAba3");
-		String idLabelsAba3 = properties.getProperty("idLabelsAba3");
-		String idCaixasAba3 = properties.getProperty("idCaixasAba3");
-		String idBotoesAba3 = properties.getProperty("idBotoesAba3");
-
-		String[] labelsAba3Cadastro = labelsAba3.split(",");
-		String[] idLabelsAba3Cadastro = idLabelsAba3.split(",");
-		String[] idCaixasAba3Cadastro = idCaixasAba3.split(",");
-		String[] idBotoesAba3Cadastro = idBotoesAba3.split(",");
-
-		//ABA 4
-		String labelsAba4 = properties.getProperty("labelsAba4");
-		String idLabelsAba4 = properties.getProperty("idLabelsAba4");
-		String idCaixasAba4 = properties.getProperty("idCaixasAba4");
-		String idBotoesAba4 = properties.getProperty("idBotoesAba4");
-
-		String[] labelsAba4Cadastro = labelsAba4.split(",");
-		String[] idLabelsAba4Cadastro = idLabelsAba4.split(",");
-		String[] idCaixasAba4Cadastro = idCaixasAba4.split(",");
-		String[] idBotoesAba4Cadastro = idBotoesAba4.split(",");
-
-		//ABA 5
-		String labelsAba5 = properties.getProperty("labelsAba5");
-		String idLabelsAba5 = properties.getProperty("idLabelsAba5");
-		String idCaixasAba5 = properties.getProperty("idCaixasAba5");
-		String idBotoesAba5 = properties.getProperty("idBotoesAba5");
-
-		String[] labelsAba5Cadastro = labelsAba5.split(",");
-		String[] idLabelsAba5Cadastro = idLabelsAba5.split(",");
-		String[] idCaixasAba5Cadastro = idCaixasAba5.split(",");
-		String[] idBotoesAba5Cadastro = idBotoesAba5.split(",");
-
-		//ABA 6
-		String labelsAba6 = properties.getProperty("labelsAba6");
-		String idLabelsAba6 = properties.getProperty("idLabelsAba6");
-		String idCaixasAba6 = properties.getProperty("idCaixasAba6");
-		String idBotoesAba6 = properties.getProperty("idBotoesAba6");
-
-		String[] labelsAba6Cadastro = labelsAba6.split(",");
-		String[] idLabelsAba6Cadastro = idLabelsAba6.split(",");
-		String[] idCaixasAba6Cadastro = idCaixasAba6.split(",");
-		String[] idBotoesAba6Cadastro = idBotoesAba6.split(",");
-
-		//ABA 7
-		String labelsAba7 = properties.getProperty("labelsAba7");
-		String idLabelsAba7 = properties.getProperty("idLabelsAba7");
-		String idCaixasAba7 = properties.getProperty("idCaixasAba7");
-		String idBotoesAba7 = properties.getProperty("idBotoesAba7");
-
-		String[] labelsAba7Cadastro = labelsAba7.split(",");
-		String[] idLabelsAba7Cadastro = idLabelsAba7.split(",");
-		String[] idCaixasAba7Cadastro = idCaixasAba7.split(",");
-		String[] idBotoesAba7Cadastro = idBotoesAba7.split(",");
-
-		//ABA 8
-		String labelsAba8 = properties.getProperty("labelsAba8");
-		String idLabelsAba8 = properties.getProperty("idLabelsAba8");
-		String idCaixasAba8 = properties.getProperty("idCaixasAba8");
-		String idBotoesAba8 = properties.getProperty("idBotoesAba8");
-
-		String[] labelsAba8Cadastro = labelsAba8.split(",");
-		String[] idLabelsAba8Cadastro = idLabelsAba8.split(",");
-		String[] idCaixasAba8Cadastro = idCaixasAba8.split(",");
-		String[] idBotoesAba8Cadastro = idBotoesAba8.split(",");
-
-		//ABA 9
-		String labelsAba9 = properties.getProperty("labelsAba9");
-		String idLabelsAba9 = properties.getProperty("idLabelsAba9");
-		String idCaixasAba9 = properties.getProperty("idCaixasAba9");
-		String idBotoesAba9 = properties.getProperty("idBotoesAba9");
-
-		String[] labelsAba9Cadastro = labelsAba9.split(",");
-		String[] idLabelsAba9Cadastro = idLabelsAba9.split(",");
-		String[] idCaixasAba9Cadastro = idCaixasAba9.split(",");
-		String[] idBotoesAba9Cadastro = idBotoesAba9.split(",");
-
-		//ABA 10
-		String labelsAba10 = properties.getProperty("labelsAba10");
-		String idLabelsAba10 = properties.getProperty("idLabelsAba10");
-		String idCaixasAba10 = properties.getProperty("idCaixasAba10");
-		String idBotoesAba10 = properties.getProperty("idBotoesAba10");
-
-		String[] labelsAba10Cadastro = labelsAba10.split(",");
-		String[] idLabelsAba10Cadastro = idLabelsAba10.split(",");
-		String[] idCaixasAba10Cadastro = idCaixasAba10.split(",");
-		String[] idBotoesAba10Cadastro = idBotoesAba10.split(",");
-
-		int countAbas = 0;
-
 		VerificacoesDeTela automacao = new VerificacoesDeTela();
 
 		// ACESSA TELA
@@ -244,7 +123,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
 			automacao.verificaCamposTelaDePesquisa(driver, nomeTeste, caminho, tentativas, verificaCamposPesquisa, labelsTelaPesquisa, idLabelsTelaPesquisa, idCamposTelaPesquisa);
 			//automacao.verificaSeExiteCamposNaoPrevistos(driver,nomeTeste,caminho,tentativas,verificaCamposPesquisa, labelsTelaPesquisa, idLabelsTelaPesquisa, idCamposTelaPesquisa);
-
+			
 		}
 
 		if (abaResultadosPesquisa == true) {
@@ -267,13 +146,12 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
 			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
 			automacao.verificaCamposTelaDeCadastro(driver, nomeTeste, caminho, tentativas, verificaCamposCadastro, labelsCadastro, idLabelsCadastro, idCaixasCadastro);
-			automacao.verificaAbasDaTelaCadastro(driver, nomeTeste, caminho, tentativas, possuiAbas, xpathAbasDaTelaCadastro, labelAbasDaTelaCadastro);
-			automacao.acessaAbas(driver, nomeTeste, caminho, tentativas, possuiAbas, xpathAbasDaTelaCadastro);
 
 		}
 		duracaoTeste = System.currentTimeMillis() - inicio;
 		automacao.informaTerminoDoTeste(nomeTeste, categoria, duracaoTeste);
 	}
+
 	@After
 	public void tearDown() {
 		driver.close();

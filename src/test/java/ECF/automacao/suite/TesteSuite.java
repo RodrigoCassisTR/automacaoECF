@@ -10,6 +10,12 @@ import org.junit.runner.Result;
 import ECF.automacaoECF.acessoTela.*;
 import ECF.automacaoECF.integracao.*;
 import ECF.automacaoECF.padrao.RecebeParametros;
+import ECF.automacaoECF.tela.TelaCentrosDeCustos;
+import ECF.automacaoECF.tela.TelaEstabelecimentos;
+import ECF.automacaoECF.tela.TelaLancamentosContabeis;
+import ECF.automacaoECF.tela.TelaPlanoDeContas;
+import ECF.automacaoECF.tela.TelaSaldos;
+import ECF.automacaoECF.tela.TelaScp;
 
 
 public class TesteSuite {

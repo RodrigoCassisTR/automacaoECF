@@ -1643,15 +1643,12 @@ public class VerificacoesDeTela {
 		int i = 0;
 		while (i < idCaixas.length) {
 			String valueCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("value");
-
 			if (valueCaixa.contentEquals("")) {
-
 				logger.info("Caixa " + idCaixas[i] + " está vazia");
-
 			} else {
-				falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
+				//falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
+				logger.info("A caixa de texto " + idCaixas[i] + " está preenchida com valor!");
 			}
-
 			i++;
 		}
 
@@ -1780,4 +1777,52 @@ public class VerificacoesDeTela {
 		logger.info("Página atualizada com sucesso!");
 
 	}
+	public void verificaAbasDaTelaCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiAbas, String[] xpathAbasDaTelaCadastro, String[] labelAbasDaTelaCadastro) {
+		if (possuiAbas == true) {
+			//Processo de validação das abas
+			logger.info("Validando abas, quantidade de abas: " + labelAbasDaTelaCadastro.length);
+			comparaLabelsPorXpath(driver, nomeTeste, tentativas, labelAbasDaTelaCadastro, xpathAbasDaTelaCadastro);
+
+		} else {
+			logger.info("Não existem abas para validação nesta tela!");
+		}
+
+	}
+	private void comparaLabelsPorXpath(WebDriver driver, String nomeTeste, int tentativas, String[] labels, String[] xpathDaLebel) {
+		logger.info("Verificando labels...");
+
+		int i = 0;
+		while (i < labels.length) {
+
+			if (driver.findElement(By.xpath(xpathDaLebel[i])).getText().contentEquals(labels[i])) {
+
+				logger.info("#OK# Esperado: " + labels[i] + ", Obtido: " + driver.findElement(By.xpath(xpathDaLebel[i])).getText());
+
+			} else {
+				logger.info("#ALERTA# Esperado: " + labels[i] + ", Obtido: " + driver.findElement(By.xpath(xpathDaLebel[i])).getText());
+			}
+
+			i++;
+		}
+
+	}
+	public void acessaAbas(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiAbas, String[] xpathAbasDaTelaCadastro) throws InterruptedException, IOException {
+
+		if (possuiAbas == true) {
+
+			logger.info("Acessando Abas...");
+			for (int i = 0; i < xpathAbasDaTelaCadastro.length; i++) {
+				aguardaCarregamento(driver.findElement(By.xpath(xpathAbasDaTelaCadastro[i])).getText(), xpathAbasDaTelaCadastro[i], nomeTeste, tentativas, driver);
+				driver.findElement(By.xpath(xpathAbasDaTelaCadastro[i])).click();
+				aguardaCarregamento(driver.findElement(By.xpath(xpathAbasDaTelaCadastro[i])).getText(), xpathAbasDaTelaCadastro[i], nomeTeste, tentativas, driver);
+				logger.info("Aba " + driver.findElement(By.xpath(xpathAbasDaTelaCadastro[i])).getText() + " acessada com sucesso!");
+
+				//comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+
+			}
+		} else {
+			logger.info("Não existem abas para serem acessadas!");
+		}
+	}
+
 }
