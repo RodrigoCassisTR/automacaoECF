@@ -12,9 +12,7 @@ import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -1360,6 +1358,7 @@ public class VerificacoesDeTela {
 		return noExists;
 
 	}
+	@SuppressWarnings("unused")
 	private void fechaAba(WebDriver driver, int tentativas) throws IOException, InterruptedException {
 		logger.info("Fechando Aba...");
 		aguardaCarregamentoPorId(driver, tentativas, "Processo de Integração", "ui-id-1");
@@ -1372,15 +1371,19 @@ public class VerificacoesDeTela {
 		aguardaCarregamentoPorId(driver, tentativas, "Tela de Cadastro", camposCadastro[0]);
 
 		for (int i = 0; i < qtdeCadastro; i++) {
-
+			if (driver.findElement(By.id(camposCadastro[i])).isDisplayed() == true) {
 			logger.info("Comparando | Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value") + " : Esperado: " + informacoesCadastro[i]);
-			if (driver.findElement(By.id(camposCadastro[i])).getAttribute("value").contentEquals(informacoesCadastro[i])) {
+
+
+				if (driver.findElement(By.id(camposCadastro[i])).getAttribute("value").contentEquals(informacoesCadastro[i])) {
+				} else {
+					logger.info("#ALERTA# O valor do campo de ID: " + camposCadastro[i] + "está com o valor " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"));
+				}
 			} else {
-				logger.info("#ALERTA# O valor do campo de ID: " + camposCadastro[i] + "está com o valor" + driver.findElement(By.id(camposCadastro[i])).getAttribute("value"));
+				falha("Elemento não localizado " + camposCadastro[i], driver, "Cadastro");
 			}
 
 		}
-		logger.info("Elementos localizados na tela com sucesso!");
 
 	}
 	public boolean verificaExistenciaDoRegistro(WebDriver driver, int tentativas, String nomeTeste, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta, int qtdeResultados, String[] colunasResultados, String[] valoresResultados) throws IOException, InterruptedException {
@@ -1490,14 +1493,25 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void verificaCamposTelaDePesquisa(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposPesquisa, String[] labelsTelaPesquisa, String[] idLabelsTelaPesquisa, String[] idCamposTelaPesquisa) throws IOException, InterruptedException {
+	public void verificaCamposTelaDePesquisa(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposPesquisa, String[] labelsTelaPesquisa, String[] idLabelsTelaPesquisa, String[] idCamposTelaPesquisa, String idBotaoExecutarConsulta, String idBotaoLimpar) throws IOException, InterruptedException {
 		if (verificaCamposPesquisa == true) {
 			verificaPresencaCamposDePesquisaPorId(nomeTeste, driver, tentativas, idLabelsTelaPesquisa, idCamposTelaPesquisa);
 			validaLabels(driver, nomeTeste, tentativas, labelsTelaPesquisa, idLabelsTelaPesquisa);
 			verificaSeCaixasEstaoVazias(driver, nomeTeste, tentativas, caminho, idCamposTelaPesquisa);
 			verificaToolTip(driver, nomeTeste, tentativas, caminho, idLabelsTelaPesquisa, labelsTelaPesquisa);
+			verificaBotoesDeAcao(driver, nomeTeste, tentativas, caminho, idBotaoExecutarConsulta, idBotaoLimpar);
 		} else {
 			logger.info("Campos da tela de Cadastro não serão validados, verificaCamposPesquisa=false");
+		}
+
+	}
+	private void verificaBotoesDeAcao(WebDriver driver, String nomeTeste, int tentativas, String caminho, String idBotaoExecutarConsulta, String idBotaoLimpar) throws IOException {
+
+		logger.info("Verificando botoes 'Executar Pesquisa' e 'Limpar'...");
+		if (driver.findElement(By.id(idBotaoExecutarConsulta)).isDisplayed() && driver.findElement(By.id(idBotaoExecutarConsulta)).isDisplayed()) {
+
+		} else {
+			falha("Timeout, elemento nao localizado " + idBotaoExecutarConsulta + " e " + idBotaoLimpar, driver, nomeTeste);
 		}
 
 	}
@@ -1561,13 +1575,35 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void verificaCamposTelaDeResultados(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposResultados, String[] xpathColunasResultados, String[] labelsColunasResultados) throws IOException, InterruptedException {
+	public void verificaCamposTelaDeResultados(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposResultados, String[] xpathColunasResultados, String[] labelsColunasResultados, String[] idBotoesResultados) throws IOException, InterruptedException {
 		if (verificaCamposResultados == true) {
 			verificaCamposResultadosPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
 			validaLabelsTelaResultados(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
+			validaBotoesResultados(driver, nomeTeste, tentativas, caminho, idBotoesResultados);
 		} else {
 			//Não valida nada!
 		}
+	}
+	private void validaBotoesResultados(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idBotoesResultados) throws IOException, InterruptedException {
+		int i = 0;
+		while (i < idBotoesResultados.length) {
+			for (int second = 0;; second++) {
+				logger.info("Verificando botão " + idBotoesResultados[i]);
+
+				if (second >= tentativas)
+					falha("Timeout, botão nao localizado nao localizado " + idBotoesResultados[i], driver, nomeTeste);
+				try {
+					if (driver.findElement(By.id(idBotoesResultados[i])).isDisplayed())
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			i++;
+
+		}
+
 	}
 	private void validaLabelsTelaResultados(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] xpathColunasResultados, String[] labelsColunasResultados) {
 		logger.info("Verificando labels...");
@@ -1607,15 +1643,37 @@ public class VerificacoesDeTela {
 
 		}
 	}
-	public void verificaCamposTelaDeCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposCadastro, String[] labelsCadastro, String[] idLabelsCadastro, String[] idCaixasCadastro) throws IOException, InterruptedException {
+	public void verificaCamposTelaDeCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposCadastro, String[] labelsCadastro, String[] idLabelsCadastro, String[] idCaixasCadastro, String[] idBotoesCadastro) throws IOException, InterruptedException {
 		if (verificaCamposCadastro == true) {
 			verificaPresencaCamposDeCadastroPorId(nomeTeste, driver, tentativas, idLabelsCadastro, idCaixasCadastro);
 			comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
 			verificaSeCaixasEstaoVazias(driver, nomeTeste, tentativas, caminho, idCaixasCadastro);
 			verificaToolTip(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+			verificaBotoesDaTelaCadastro(driver, nomeTeste, tentativas, caminho, idBotoesCadastro);
 
 		} else {
 			logger.info("Campos da tela de Cadastro não serão validados, verificaCamposCadastro=false");
+		}
+
+	}
+	private void verificaBotoesDaTelaCadastro(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idBotoesCadastro) throws IOException, InterruptedException {
+		int i = 0;
+		while (i < idBotoesCadastro.length) {
+			for (int second = 0;; second++) {
+				logger.info("Verificando botao " + idBotoesCadastro[i] + " || Tentativa " + (second + 1) + " de " + tentativas);
+
+				if (second >= tentativas)
+					falha("Timeout, elemento nao localizado " + idBotoesCadastro[i], driver, nomeTeste);
+				try {
+					if (driver.findElement(By.id(idBotoesCadastro[i])).isDisplayed())
+						break;
+				} catch (Exception e) {
+					Thread.sleep(1000);
+				}
+
+			}
+			i++;
+
 		}
 
 	}
@@ -1636,19 +1694,25 @@ public class VerificacoesDeTela {
 		}
 	}
 
-	//TODO escrever aqui a rotina de verificação do tooltip das labels....
-
 	private void verificaSeCaixasEstaoVazias(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idCaixas) throws IOException {
-		logger.info("Verificando se as caixas de texto estão vazias...");
+		logger.info("Verificando se as caixas de texto estão vazias ...");
 		int i = 0;
 		while (i < idCaixas.length) {
-			String valueCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("value");
-			if (valueCaixa.contentEquals("")) {
-				logger.info("Caixa " + idCaixas[i] + " está vazia");
+
+			String tipoDeCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("type");
+
+			if (tipoDeCaixa.contentEquals("text")) {
+				String valueCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("value");
+				if (valueCaixa.contentEquals("")) {
+					logger.info("Caixa " + idCaixas[i] + " está vazia");
+				} else {
+					falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
+
+				}
 			} else {
-				//falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
-				logger.info("A caixa de texto " + idCaixas[i] + " está preenchida com valor!");
+				logger.info("Elemento não localizado, não é uma caixa de texto 'type=text'");
 			}
+
 			i++;
 		}
 
@@ -1665,6 +1729,7 @@ public class VerificacoesDeTela {
 
 			} else {
 				logger.info("#ALERTA# Esperado: " + labelsCadastro[i] + ", Obtido: " + driver.findElement(By.id(idLabelsCadastro[i])).getText());
+
 			}
 
 			i++;
@@ -1750,6 +1815,7 @@ public class VerificacoesDeTela {
 		List<WebElement> elementsRoot = driver.findElements(By.xpath("/html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[1]/div[2]/div[1]/table/tbody"));
 
 		for (int i = 0; i < elementsRoot.size(); ++i) {
+			@SuppressWarnings("unused")
 			WebElement checkbox = elementsRoot.get(i).findElement(By.xpath(".//input"));
 			qtdeCamposPrevistos++;
 		}
@@ -1823,6 +1889,59 @@ public class VerificacoesDeTela {
 		} else {
 			logger.info("Não existem abas para serem acessadas!");
 		}
+	}
+
+	public void validaCamposDasAbas(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiAbas, String xpathAbasDaTelaCadastro, String[] labelsAbaDaTelaCadastro, String[] idlabelsAbaDaTelaCadastro, String[] idCaixasAbasDaTelaCadastro, String[] idBotoesAbaDaTelaCadastro) throws InterruptedException, IOException {
+		if (possuiAbas == true) {
+			logger.info("----------------------------------------------------");
+			logger.info("Acessando a Aba " + driver.findElement(By.xpath(xpathAbasDaTelaCadastro)).getText());
+			logger.info("----------------------------------------------------");
+			driver.findElement(By.xpath(xpathAbasDaTelaCadastro)).click();
+			aguardaCarregamento(caminho, xpathAbasDaTelaCadastro, nomeTeste, tentativas, driver);
+			logger.info("Aba " + driver.findElement(By.xpath(xpathAbasDaTelaCadastro)).getText() + " acessada com sucesso!");
+
+			comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idlabelsAbaDaTelaCadastro, labelsAbaDaTelaCadastro);
+
+		} else {
+			logger.info("Não existem abas para serem acessadas!");
+		}
+
+	}
+	public void validaAbasDaTelaCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiAbas, String[] xpathAbasDaTelaCadastro, String[] labelsAba, String[] idLabelsAba, String[] idCaixasAba, String[] idBotoesAba) throws InterruptedException, IOException {
+		if (possuiAbas == true) {
+
+			for (int i = 0; i < xpathAbasDaTelaCadastro.length; i++) {
+				String[] labelsAbaDaTelaCadastro = labelsAba[i].split(",");
+				String[] idlabelsAbaDaTelaCadastro = idLabelsAba[i].split(",");
+				String[] idCaixasAbasDaTelaCadastro = idCaixasAba[i].split(",");
+				String[] idBotoesAbaDaTelaCadastro = idBotoesAba[i].split(",");
+				validaCamposDasAbas(driver, nomeTeste, caminho, tentativas, possuiAbas, xpathAbasDaTelaCadastro[i], labelsAbaDaTelaCadastro, idlabelsAbaDaTelaCadastro, idCaixasAbasDaTelaCadastro, idBotoesAbaDaTelaCadastro);
+				verificaSeCaixasEstaoVazias(driver, nomeTeste, tentativas, caminho, idCaixasAbasDaTelaCadastro);
+				verificaToolTip(driver, nomeTeste, tentativas, caminho, idlabelsAbaDaTelaCadastro, labelsAbaDaTelaCadastro);
+			}
+		}
+	}
+	public void executaConsulta(WebDriver driver, String nomeTeste, String idBotaoExecutarConsulta) throws InterruptedException {
+		Thread.sleep(500);
+		driver.findElement(By.id(idBotaoExecutarConsulta)).click();
+
+	}
+	public void validaAbaDaTela(WebDriver driver, String nomeTeste, int tentativas, String idAba, String labelAba) throws IOException {
+		logger.info("Verificando a Aba da tela...");
+
+		if (driver.findElement(By.id(idAba)).isDisplayed() == true) {
+
+			if (driver.findElement(By.id(idAba)).getText().contentEquals(labelAba)) {
+				logger.info("#OK# Esperado: " + labelAba + ", Obtido: " + driver.findElement(By.id(idAba)).getText());
+
+			} else {
+				logger.info("#ALERTA# Esperado: " + labelAba + ", Obtido: " + driver.findElement(By.id(idAba)).getText());
+
+			}
+		} else {
+			falha("Aba não localizada! ", driver, nomeTeste);
+		}
+
 	}
 
 }

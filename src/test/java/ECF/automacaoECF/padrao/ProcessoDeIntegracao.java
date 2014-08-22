@@ -64,8 +64,6 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		//////////ACESSO E TITULOS
 		String caminho = propertiesTela.getProperty("caminho");
-		String idAba = propertiesTela.getProperty("idAba");
-		String labelAba = propertiesTela.getProperty("labelAba");
 
 		//////////ACESSO A TELA
 		int qtdeMenu = Integer.parseInt(propertiesTela.getProperty("qtdeMenu"));
@@ -82,10 +80,8 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String xpathSemResultados = propertiesTela.getProperty("xpathSemResultados");
 
 		//////////VALIDACOES PADRAO
-		String xpathAbaCadastro = propertiesTela.getProperty("xpathAbaCadastro");
 		String xPathCarregaPesquisa = propertiesTela.getProperty("xPathCarregaPesquisa");
-		String xpathCarregaResultadoPesquisa = propertiesTela.getProperty("xpathCarregaResultadoPesquisa");
-		String xpathCarregaRegistro = propertiesTela.getProperty("xpathCarregaRegistro");
+
 
 		String idBotaoExecutarConsulta = propertiesTela.getProperty("idBotaoExecutarConsulta");
 

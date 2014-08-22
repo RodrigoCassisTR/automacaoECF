@@ -6,9 +6,7 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.junit.After;
-import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runners.MethodSorters;
 
 public class ProcessoDeCalculoLucroReal extends CasoDeTesteBasico {
 

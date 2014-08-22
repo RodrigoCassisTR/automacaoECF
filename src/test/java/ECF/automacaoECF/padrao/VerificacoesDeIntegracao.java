@@ -3,9 +3,7 @@ package ECF.automacaoECF.padrao;
 import static org.junit.Assert.fail;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -16,7 +14,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
@@ -135,6 +132,7 @@ public class VerificacoesDeIntegracao {
 
 	}
 
+	@SuppressWarnings("unused")
 	private String verificaSaidaDoDiretorio(String pasta, String arquivoAlterado) {
 
 		File f = new File(pasta + arquivoAlterado);
@@ -216,6 +214,7 @@ public class VerificacoesDeIntegracao {
 
 	}
 
+	@SuppressWarnings("unused")
 	private String verificaSaidaDoDiretorioEnviado(String pasta_enviado) {
 		/*
 		 * Retornos: 0 - Cheio 1 - Vazio 2 - Erro
@@ -256,6 +255,7 @@ public class VerificacoesDeIntegracao {
 		String pasta_entrada = pastasIntegracao[0] + "/";
 		String pasta_enviado = pastasIntegracao[1] + "/";
 		String pasta_erro = pastasIntegracao[2] + "/";
+		@SuppressWarnings("unused")
 		String pasta_recebido = pastasIntegracao[3] + "/";
 		String pasta_backup = pasta_entrada + "/.ecf-backup";
 
