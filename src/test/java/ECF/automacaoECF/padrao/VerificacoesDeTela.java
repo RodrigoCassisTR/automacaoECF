@@ -1372,8 +1372,7 @@ public class VerificacoesDeTela {
 
 		for (int i = 0; i < qtdeCadastro; i++) {
 			if (driver.findElement(By.id(camposCadastro[i])).isDisplayed() == true) {
-			logger.info("Comparando | Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value") + " : Esperado: " + informacoesCadastro[i]);
-
+				logger.info("Comparando | Obtido: " + driver.findElement(By.id(camposCadastro[i])).getAttribute("value") + " : Esperado: " + informacoesCadastro[i]);
 
 				if (driver.findElement(By.id(camposCadastro[i])).getAttribute("value").contentEquals(informacoesCadastro[i])) {
 				} else {
@@ -1643,39 +1642,82 @@ public class VerificacoesDeTela {
 
 		}
 	}
-	public void verificaCamposTelaDeCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposCadastro, String[] labelsCadastro, String[] idLabelsCadastro, String[] idCaixasCadastro, String[] idBotoesCadastro) throws IOException, InterruptedException {
-		if (verificaCamposCadastro == true) {
-			verificaPresencaCamposDeCadastroPorId(nomeTeste, driver, tentativas, idLabelsCadastro, idCaixasCadastro);
-			comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
-			verificaSeCaixasEstaoVazias(driver, nomeTeste, tentativas, caminho, idCaixasCadastro);
-			verificaToolTip(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
-			verificaBotoesDaTelaCadastro(driver, nomeTeste, tentativas, caminho, idBotoesCadastro);
+	public void verificaCamposTelaDeCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposCadastro, String[] labelsCadastro, String[] idLabelsCadastro, String[] idCaixasCadastro, String[] idBotoesCadastro, String[] labelsTitulosCadastro, String[] xpathLabelsTitulosCadastro, String[] idBotoesAcaoCadastro, boolean possuiBotoesNaTela, boolean possuiTitulosNaTela) throws IOException, InterruptedException {
+		try {
 
-		} else {
-			logger.info("Campos da tela de Cadastro não serão validados, verificaCamposCadastro=false");
+			if (verificaCamposCadastro == true) {
+				verificaPresencaCamposDeCadastroPorId(nomeTeste, driver, tentativas, idLabelsCadastro, idCaixasCadastro);
+				comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+				verificaSeCaixasEstaoVazias(driver, nomeTeste, tentativas, caminho, idCaixasCadastro);
+				verificaToolTip(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+				verificaBotoesDaTelaCadastro(driver, nomeTeste, tentativas, caminho, idBotoesCadastro, true);
+				verificaBotoesDaTelaCadastro(driver, nomeTeste, tentativas, caminho, idBotoesAcaoCadastro, possuiBotoesNaTela);
+				comparaTitulosPorXpath(driver, nomeTeste, tentativas, labelsTitulosCadastro, xpathLabelsTitulosCadastro, possuiTitulosNaTela);
+
+			} else {
+				logger.info("Campos da tela de Cadastro não serão validados, verificaCamposCadastro=false");
+			}
+		} catch (NoSuchElementException e) {
+			logger.info(e.toString());
+			falha("Elemento não localizado!", driver, nomeTeste);
+
 		}
 
 	}
-	private void verificaBotoesDaTelaCadastro(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idBotoesCadastro) throws IOException, InterruptedException {
-		int i = 0;
-		while (i < idBotoesCadastro.length) {
-			for (int second = 0;; second++) {
-				logger.info("Verificando botao " + idBotoesCadastro[i] + " || Tentativa " + (second + 1) + " de " + tentativas);
+	private void comparaTitulosPorXpath(WebDriver driver, String nomeTeste, int tentativas, String[] labelsTitulos, String[] xpathLabelsTitulos, boolean possuiTitulosNaTela) throws IOException {
+		try {
 
-				if (second >= tentativas)
-					falha("Timeout, elemento nao localizado " + idBotoesCadastro[i], driver, nomeTeste);
-				try {
-					if (driver.findElement(By.id(idBotoesCadastro[i])).isDisplayed())
-						break;
-				} catch (Exception e) {
-					Thread.sleep(1000);
+			if (possuiTitulosNaTela == true) {
+				logger.info("Verificando títulos...");
+
+				int i = 0;
+				while (i < labelsTitulos.length) {
+					if (driver.findElement(By.xpath(xpathLabelsTitulos[i])).getText().contentEquals(labelsTitulos[i])) {
+						logger.info("#OK# Esperado: " + labelsTitulos[i] + ", Obtido: " + driver.findElement(By.xpath(xpathLabelsTitulos[i])).getText());
+					} else {
+						logger.info("#ALERTA# Esperado: " + labelsTitulos[i] + ", Obtido: " + driver.findElement(By.xpath(xpathLabelsTitulos[i])).getText());
+					}
+					i++;
 				}
-
+			} else {
+				logger.info("Não existem titulos na tela!");
 			}
-			i++;
+		} catch (NoSuchElementException e) {
+			logger.info(e.toString());
+			falha("Elemento não localizado!", driver, nomeTeste);
 
 		}
 
+	}
+	private void verificaBotoesDaTelaCadastro(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idBotoesCadastro, boolean possuiBotoesNaTela) throws IOException, InterruptedException {
+		try {
+
+			if (possuiBotoesNaTela == true) {
+				int i = 0;
+				while (i < idBotoesCadastro.length) {
+					for (int second = 0;; second++) {
+						logger.info("Verificando botao " + idBotoesCadastro[i] + " || Tentativa " + (second + 1) + " de " + tentativas);
+
+						if (second >= tentativas)
+							falha("Timeout, elemento nao localizado " + idBotoesCadastro[i], driver, nomeTeste);
+						try {
+							if (driver.findElement(By.id(idBotoesCadastro[i])).isDisplayed())
+								break;
+						} catch (Exception e) {
+							Thread.sleep(1000);
+						}
+
+					}
+					i++;
+
+				}
+			} else {
+				logger.info("Não existem botões na tela a serem verificados!");
+			}
+		} catch (AssertionError e) {
+			logger.info(e.toString());
+			falha("Timeout, elemento nao localizado!", driver, nomeTeste);
+		}
 	}
 	private void verificaToolTip(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabels, String[] labels) throws IOException {
 		logger.info("Verificando o tooltip 'i' dos campos...");
@@ -1696,43 +1738,57 @@ public class VerificacoesDeTela {
 
 	private void verificaSeCaixasEstaoVazias(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idCaixas) throws IOException {
 		logger.info("Verificando se as caixas de texto estão vazias ...");
-		int i = 0;
-		while (i < idCaixas.length) {
+		try {
 
-			String tipoDeCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("type");
+			int i = 0;
+			while (i < idCaixas.length) {
 
-			if (tipoDeCaixa.contentEquals("text")) {
-				String valueCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("value");
-				if (valueCaixa.contentEquals("")) {
-					logger.info("Caixa " + idCaixas[i] + " está vazia");
+				String tipoDeCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("type");
+
+				if (tipoDeCaixa.contentEquals("text")) {
+					String valueCaixa = driver.findElement(By.id(idCaixas[i])).getAttribute("value");
+					if (valueCaixa.contentEquals("")) {
+						logger.info("Caixa " + idCaixas[i] + " está vazia");
+					} else {
+						logger.info("A caixa de texto " + idCaixas[i] + " está preenchida com valor!");
+						//falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
+
+					}
 				} else {
-					falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
 
 				}
-			} else {
-				logger.info("Elemento não localizado, não é uma caixa de texto 'type=text'");
-			}
 
-			i++;
+				i++;
+			}
+		} catch (NoSuchElementException e) {
+			logger.info(e.toString());
+			falha("Elemento não localizado!", driver, nomeTeste);
 		}
 
 	}
 	private void comparaLabelsPorId(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabelsCadastro, String[] labelsCadastro) {
 		logger.info("Verificando labels...");
 
-		int i = 0;
-		while (i < idLabelsCadastro.length) {
+		if (idLabelsCadastro[0].contentEquals(null)) {
 
-			if (driver.findElement(By.id(idLabelsCadastro[i])).getText().contentEquals(labelsCadastro[i])) {
+			logger.info("Não existem labels para validar!");
+		}
 
-				logger.info("#OK# Esperado: " + labelsCadastro[i] + ", Obtido: " + driver.findElement(By.id(idLabelsCadastro[i])).getText());
+		else {
+			int i = 0;
+			while (i < idLabelsCadastro.length) {
 
-			} else {
-				logger.info("#ALERTA# Esperado: " + labelsCadastro[i] + ", Obtido: " + driver.findElement(By.id(idLabelsCadastro[i])).getText());
+				if (driver.findElement(By.id(idLabelsCadastro[i])).getText().contentEquals(labelsCadastro[i])) {
 
+					logger.info("#OK# Esperado: " + labelsCadastro[i] + ", Obtido: " + driver.findElement(By.id(idLabelsCadastro[i])).getText());
+
+				} else {
+					logger.info("#ALERTA# Esperado: " + labelsCadastro[i] + ", Obtido: " + driver.findElement(By.id(idLabelsCadastro[i])).getText());
+
+				}
+
+				i++;
 			}
-
-			i++;
 		}
 
 	}
@@ -1907,9 +1963,8 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void validaAbasDaTelaCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiAbas, String[] xpathAbasDaTelaCadastro, String[] labelsAba, String[] idLabelsAba, String[] idCaixasAba, String[] idBotoesAba) throws InterruptedException, IOException {
+	public void validaAbasDaTelaCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiAbas, String[] xpathAbasDaTelaCadastro, String[] labelsAba, String[] idLabelsAba, String[] idCaixasAba, String[] idBotoesAba, String[] possuiBotoesNaAba, String[] possuiTitulosNaAba) throws InterruptedException, IOException {
 		if (possuiAbas == true) {
-
 			for (int i = 0; i < xpathAbasDaTelaCadastro.length; i++) {
 				String[] labelsAbaDaTelaCadastro = labelsAba[i].split(",");
 				String[] idlabelsAbaDaTelaCadastro = idLabelsAba[i].split(",");
