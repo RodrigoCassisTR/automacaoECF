@@ -100,20 +100,25 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		//CAMPOS
 		boolean possuiBotoesNaTela = Boolean.parseBoolean(properties.getProperty("possuiBotoesNaTela"));
 		boolean possuiTitulosNaTela = Boolean.parseBoolean(properties.getProperty("possuiTitulosNaTela"));
+		boolean possuiLabelsNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiLabelsNaTelaCadastro"));
+		boolean possuiCaixasNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiCaixasNaTelaCadastro"));
+		boolean possuiTitulosNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiTitulosNaTelaCadastro"));
+		boolean possuiBotoesNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiBotoesNaTelaCadastro"));
 
-		String idLabelCampo = properties.getProperty("idLabelCampo");
-		String idCaixaCampo = properties.getProperty("idCaixaCampo");
-		String labelCampo = properties.getProperty("labelCampo");
-		String labelTitulos = properties.getProperty("labelTitulos");
-		String xpathTitulos = properties.getProperty("xpathTitulos");
-		String idBotoesTelaCadastro = properties.getProperty("idBotoesTelaCadastro");
+		String[] labelCampo = properties.getProperty("labelCampo").split(",");
+		String[] idLabelCampo = properties.getProperty("idLabelCampo").split(",");
+		String[] possuiTootip = properties.getProperty("possuiTootip").split(",");
+		String[] toolTipEsperado = properties.getProperty("toolTipEsperado").split(",");
 
-		String[] labelsCadastro = labelCampo.split(",");
-		String[] idLabelsCadastro = idLabelCampo.split(",");
-		String[] idCaixasCadastro = idCaixaCampo.split(",");
-		String[] labelsTitulosCadastro = labelTitulos.split(",");
-		String[] xpathLabelsTitulosCadastro = xpathTitulos.split(",");
-		String[] idBotoesAcaoCadastro = idBotoesTelaCadastro.split(",");
+		String[] idCaixaCampo = properties.getProperty("idCaixaCampo").split(",");
+		String[] possuiValue = properties.getProperty("possuiValue").split(",");
+		String[] vlrEsperadoCaixaCampo = properties.getProperty("vlrEsperadoCaixaCampo").split(",");
+
+		String[] labelTitulos = properties.getProperty("labelTitulos").split(",");
+		String[] xpathTitulos = properties.getProperty("xpathTitulos").split(",");
+
+		String[] idBotoesTelaCadastro = properties.getProperty("idBotoesTelaCadastro").split(",");
+		String[] valueBotoesTelaCadastro = properties.getProperty("valueBotoesTelaCadastro").split(",");
 
 		String xpathAbaCadastro = properties.getProperty("xpathAbaCadastro");
 
@@ -168,14 +173,22 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		if (abaRegistro == true) {
 			// TELA CADASTROS
 			automacao.informaTeste(3, caminho, nomeTeste);
-			automacao.verificaTamanhoDeArray(driver, nomeTeste, labelsCadastro, idLabelsCadastro, idCaixasCadastro);
 			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaCadastro, nomeTeste);
 			automacao.aguardaCarregamento(caminho, xpathCarregaRegistro, nomeTeste, tentativas, driver);
 			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
-			automacao.verificaCamposTelaDeCadastro(driver, nomeTeste, caminho, tentativas, verificaCamposCadastro, labelsCadastro, idLabelsCadastro, idCaixasCadastro, idBotoesCadastro, labelsTitulosCadastro, xpathLabelsTitulosCadastro, idBotoesAcaoCadastro, possuiBotoesNaTela, possuiTitulosNaTela);
-			automacao.verificaAbasDaTelaCadastro(driver, nomeTeste, caminho, tentativas, possuiAbas, xpathAbasDaTelaCadastro, labelAbasDaTelaCadastro);
-			automacao.validaAbasDaTelaCadastro(driver, nomeTeste, caminho, tentativas, possuiAbas, xpathAbasDaTelaCadastro, labelsAba, idLabelsAba, idCaixasAba, idBotoesAba, possuiBotoesNaAba, possuiTitulosNaAba);
+			automacao.verificaPresencaCamposPorId(nomeTeste, driver, qtdeMenu, idLabelCampo, idCaixaCampo, idBotoesTelaCadastro,possuiLabelsNaTelaCadastro,possuiCaixasNaTelaCadastro,possuiBotoesNaTelaCadastro);
+			
+			
+			
+			automacao.validaTitulosDaTelaPorXpath(nomeTeste, driver, tentativas, labelTitulos, xpathTitulos);
+			automacao.validaLabelsDaTelCadastro(nomeTeste, driver, tentativas, labelCampo, idLabelCampo, possuiTootip, toolTipEsperado);
+			automacao.validaElementosInput(nomeTeste, driver, tentativas, idCaixaCampo, possuiValue, vlrEsperadoCaixaCampo);
+			automacao.validaBotoesDaTelaCadastro(nomeTeste, driver, tentativas, idBotoesTelaCadastro, valueBotoesTelaCadastro,possuiBotoesNaTelaCadastro);
 
+			if (possuiAbas == true) {
+				//				automacao.verificaAbasDaTelaCadastro(driver, nomeTeste, caminho, tentativas, possuiAbas, xpathAbasDaTelaCadastro, labelAbasDaTelaCadastro);
+				//				automacao.validaAbasDaTelaCadastro(driver, nomeTeste, caminho, tentativas, possuiAbas, xpathAbasDaTelaCadastro, labelsAba, idLabelsAba, idCaixasAba, idBotoesAba, possuiBotoesNaAba, possuiTitulosNaAba);
+			}
 		}
 
 		duracaoTeste = System.currentTimeMillis() - inicio;

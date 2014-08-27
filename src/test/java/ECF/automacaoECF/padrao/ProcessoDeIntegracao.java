@@ -233,6 +233,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		//ROTEIRO DE INTEGRACAO
 		automacao.informaTeste(0, "-", nomeTeste);
+		
 		logger.info("----------------------------------------------------------");
 		logger.info("PASTAS INTEGRAÇÃO ECF");
 		logger.info("entrada: " + pastaEntrada);
