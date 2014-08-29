@@ -12,6 +12,7 @@ import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -463,11 +464,37 @@ public class VerificacoesDeTela {
 			logger.info("----------------------------------------------------");
 		} else if (i == 3) {
 			logger.info("----------------------------------------------------");
-			logger.info("TELA DE REGISTRO, TELA: " + nomeTeste);
+			logger.info("TELA DE CADASTRO, TELA: " + nomeTeste);
 			logger.info("----------------------------------------------------");
 		} else if (i == 4) {
 			logger.info("----------------------------------------------------");
 			logger.info("INTEGRAÇÃO: " + nomeTeste);
+			logger.info("----------------------------------------------------");
+		} else if (i == 5) {
+			logger.info("----------------------------------------------------");
+			logger.info("ABA: " + nomeTeste);
+			logger.info("----------------------------------------------------");
+		} else {
+			logger.info("????????????????????????????????????????????????????");
+			logger.info("INVÁLIDO");
+			logger.info("????????????????????????????????????????????????????");
+		}
+
+	}
+
+	public void informaTeste(int i, String caminho, String nomeTeste, String labelAba) {
+
+		Date now = new Date();
+		SimpleDateFormat dateFormatter = new SimpleDateFormat("E, y-M-d 'at' h:m:s a z");
+		dateFormatter = new SimpleDateFormat("E, y-M-d 'at' h:m:s a z");
+
+		if (i == 0) {
+			logger.info("#########################################################################");
+			logger.info(nomeTeste + " - TESTE INICIADO EM " + dateFormatter.format(now).toUpperCase());
+			logger.info("#########################################################################");
+		} else if (i == 1) {
+			logger.info("----------------------------------------------------");
+			logger.info("ABA: " + labelAba);
 			logger.info("----------------------------------------------------");
 		} else {
 			logger.info("????????????????????????????????????????????????????");
@@ -1862,9 +1889,15 @@ public class VerificacoesDeTela {
 			}
 		}
 	}
-	public void executaConsulta(WebDriver driver, String nomeTeste, String idBotaoExecutarConsulta) throws InterruptedException {
+	public void executaConsulta(WebDriver driver, String nomeTeste, String idBotaoExecutarConsulta) throws InterruptedException, IOException {
+		try{
+			
+		
 		Thread.sleep(500);
 		driver.findElement(By.id(idBotaoExecutarConsulta)).click();
+		}catch(Exception e){
+			falha("Não foi possivel executar a consulta", driver, nomeTeste);
+		}
 
 	}
 	public void validaAbaDaTela(WebDriver driver, String nomeTeste, int tentativas, String idAba, String labelAba) throws IOException {
@@ -1896,15 +1929,21 @@ public class VerificacoesDeTela {
 
 		return result;
 	}
-	public void validaTitulosDaTelaPorXpath(String nomeTeste, WebDriver driver, int tentativas, String[] labelTitulos, String[] xpathTitulos) throws IOException, InterruptedException {
-		logger.info("-----");
-		logger.info("Verificando a existencia dos títulos...");
-		logger.info("-----");
-		verificaExistenciaDeComponentesPorXpath(nomeTeste, driver, tentativas, xpathTitulos);
-		logger.info("-----");
-		logger.info("Validando a label dos títulos...");
-		logger.info("-----");
-		validaLabelsPorXpath(driver, nomeTeste, tentativas, labelTitulos, xpathTitulos);
+	public void validaTitulosDaTelaPorXpath(String nomeTeste, WebDriver driver, int tentativas, String[] labelTitulos, String[] xpathTitulos, boolean possuiTitulosNaTelaCadastro) throws IOException, InterruptedException {
+
+		if (possuiTitulosNaTelaCadastro == true) {
+			logger.info("-----");
+			logger.info("Verificando a existencia dos títulos...");
+			logger.info("-----");
+			verificaExistenciaDeComponentesPorXpath(nomeTeste, driver, tentativas, xpathTitulos);
+			logger.info("-----");
+			logger.info("Validando a label dos títulos...");
+			logger.info("-----");
+			validaLabelsPorXpath(driver, nomeTeste, tentativas, labelTitulos, xpathTitulos);
+
+		} else {
+
+		}
 
 	}
 
@@ -1925,8 +1964,8 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void validaLabelsDaTelCadastro(String nomeTeste, WebDriver driver, int tentativas, String[] labelCampo, String[] idLabelCampo, String[] possuiTootip, String[] toolTipEsperado) {
-		// TODO Auto-generated method stub
+	public void validaLabelsDaTelCadastro(String nomeTeste, WebDriver driver, int tentativas, String[] labelCampo, String[] idLabelCampo, String[] possuiTootip, String[] toolTipEsperado) throws IOException {
+
 		logger.info("-----");
 		logger.info("Verificando labels da tela...");
 		logger.info("-----");
@@ -1938,8 +1977,7 @@ public class VerificacoesDeTela {
 
 	}
 
-	private void validaTootip(WebDriver driver, String nomeTeste, int tentativas, String[] idLabel, String[] possuiTootip, String[] toolTipEsperado) {
-		// TODO Auto-generated method stub
+	private void validaTootip(WebDriver driver, String nomeTeste, int tentativas, String[] idLabel, String[] possuiTootip, String[] toolTipEsperado) throws IOException {
 
 		for (int i = 0; i < idLabel.length; i++) {
 			if (Boolean.parseBoolean(possuiTootip[i]) == true) {
@@ -1947,17 +1985,17 @@ public class VerificacoesDeTela {
 				String tooltipObtido = driver.findElement(By.id(idLabel[i])).getAttribute("original-title");
 
 				if (toolTipVazia == false) {
-					logger.info("Tooltip 'i' do campo " + idLabel[i] + " localizado com sucesso!");
 					if (tooltipObtido.contentEquals(toolTipEsperado[i])) {
 						logger.info("#OK# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + driver.findElement(By.id(idLabel[i])).getAttribute("original-title"));
 					} else {
-						//TODO ALTERAR PARA FALHA!  
-						logger.info("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + driver.findElement(By.id(idLabel[i])).getAttribute("original-title"));
+
+						//logger.info("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + driver.findElement(By.id(idLabel[i])).getAttribute("original-title"));
+						String obtido = driver.findElement(By.id(idLabel[i])).getAttribute("original-title");
+						falha("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + obtido, driver, nomeTeste);
 					}
 				} else {
-					//TODO ALTERAR PARA FALHA!  
 					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idLabel[i]);
-					//	falha("Tooltip 'i' não localizado no campo " + idLabels[i], driver, nomeTeste);
+					falha("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idLabel[i], driver, nomeTeste);
 				}
 			} else {
 				logger.info("Elemento " + idLabel[i] + " não possui tooltip 'i' para verificar");
@@ -1982,19 +2020,24 @@ public class VerificacoesDeTela {
 			i++;
 		}
 	}
-	public void validaElementosInput(String nomeTeste, WebDriver driver, int tentativas, String[] idCaixaCampo, String[] possuiValue, String[] vlrEsperadoCaixaCampo) {
+	public void validaElementosInput(String nomeTeste, WebDriver driver, int tentativas, String[] idCaixaCampo, String[] possuiValue, String[] vlrEsperadoCaixaCampo) throws IOException {
 		logger.info("-----");
 		logger.info("Verificando elementos input, como caixas de texto, checkbox, radiobutton, etc...");
 		logger.info("-----");
 		for (int i = 0; i < idCaixaCampo.length; i++) {
 			if (Boolean.parseBoolean(possuiValue[i]) == true) {
 				String valueObtido = driver.findElement(By.id(idCaixaCampo[i])).getAttribute("value");
+
+				if (vlrEsperadoCaixaCampo[i].contentEquals(" ")) {
+					vlrEsperadoCaixaCampo[i] = "";
+				}
+
 				if (valueObtido.contentEquals(vlrEsperadoCaixaCampo[i])) {
-					logger.info("Input " + idCaixaCampo[i] + " Preenchido com o valor esperado " + vlrEsperadoCaixaCampo[i] + "!");
+					logger.info("#OK# Input " + idCaixaCampo[i] + " preenchido com o valor esperado, obtido: " + driver.findElement(By.id(idCaixaCampo[i])).getAttribute("value") + " valor esperado: " + vlrEsperadoCaixaCampo[i]);
 				} else {
-					//TODO ALTERAR PARA FALHA!  
-					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idCaixaCampo[i]);
-					//falha("Input não preenchido com o valor esperado, input: " + idCaixaCampo[i]+" valor esperado: "+vlrEsperadoCaixaCampo[i], driver, nomeTeste);
+
+					//logger.info("#ALERTA# Input " + idCaixaCampo[i] + " não preenchido com o valor esperado, obtido: " + driver.findElement(By.id(idCaixaCampo[i])).getAttribute("value") + " valor esperado: " + vlrEsperadoCaixaCampo[i]);
+					falha("#ALERTA#  Input não preenchido com o valor esperado, input: " + idCaixaCampo[i] + " valor esperado: " + vlrEsperadoCaixaCampo[i], driver, nomeTeste);
 				}
 			} else {
 				logger.info("Elemento " + idCaixaCampo[i] + " não possui value para validar!");
@@ -2003,7 +2046,7 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void validaBotoesDaTelaCadastro(String nomeTeste, WebDriver driver, int tentativas, String[] idBotoesTelaCadastro, String[] valueBotoes, boolean possuiBotoesNaTelaCadastro) {
+	public void validaBotoesDaTelaCadastro(String nomeTeste, WebDriver driver, int tentativas, String[] idBotoesTelaCadastro, String[] valueBotoes, boolean possuiBotoesNaTelaCadastro) throws IOException {
 		if (possuiBotoesNaTelaCadastro == true) {
 
 			for (int i = 0; i < idBotoesTelaCadastro.length; i++) {
@@ -2014,14 +2057,108 @@ public class VerificacoesDeTela {
 				if (valueObtido.contentEquals(valueBotoes[i])) {
 					logger.info("Input " + idBotoesTelaCadastro[i] + " Preenchido com o valor esperado " + valueBotoes[i] + "!");
 				} else {
-					//TODO ALTERAR PARA FALHA!  
-					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idBotoesTelaCadastro[i]);
-					//falha("Input não preenchido com o valor esperado, input: " + idCaixaCampo[i]+" valor esperado: "+vlrEsperadoCaixaCampo[i], driver, nomeTeste);
+
+					//logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idBotoesTelaCadastro[i]);
+					falha("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idBotoesTelaCadastro[i], driver, nomeTeste);
 				}
 
 			}
 
 		}
+	}
+	public void validaBotoesPadrao(String nomeTeste, WebDriver driver, int tentativas, boolean possuiBotoesNaTelaCadastro, String[] idBotoesPadraoCadastro) {
+		if (possuiBotoesNaTelaCadastro == true) {
+
+			for (int i = 0; i < idBotoesPadraoCadastro.length; i++) {
+
+				if (driver.findElement(By.id(idBotoesPadraoCadastro[i])).isDisplayed()) {
+					logger.info("Botão padrão " + idBotoesPadraoCadastro[i] + " localizado com sucesso!");
+				} else {
+					logger.info("#ALERTA# Botão não localizado " + idBotoesPadraoCadastro[i]);
+					//falha("#ALERTA# Botão não localizado "+idBotoesPadraoCadastro[i], driver, nomeTeste);
+				}
+
+			}
+
+		}
+
+	}
+	public void validaOrdenacao(WebDriver driver, String nomeTeste, String caminho, int tentativas, String[] xpathColunasResultados, String[] indOrdenacaoColuna, String[] labelColuna) throws InterruptedException, IOException {
+
+		try {
+
+			aguardaCarregamento(caminho, xpathColunasResultados[0], nomeTeste, tentativas, driver);
+
+			for (int i = 0; i < xpathColunasResultados.length; i++) {
+				logger.info("Testando ordenação da coluna " + driver.findElement(By.xpath(xpathColunasResultados[i])).getText() + "...");
+
+				driver.findElement(By.xpath(xpathColunasResultados[i])).click();
+
+				moveParaIconeHome(driver);
+
+				for (int second = 0;; second++) {
+
+					if (second >= tentativas)
+						falha("Timeout, elemento nao localizado " + indOrdenacaoColuna, driver, nomeTeste);
+					try {
+
+						if (isElementPresentByXpath(driver, indOrdenacaoColuna[i]))
+							break;
+					} catch (Exception e) {
+					}
+					Thread.sleep(1000);
+				}
+				logger.info("indicador de Ordenação visualizado com sucesso!");
+
+			}
+		} catch (Exception e) {
+			falha("Não foi possível efetuar a ordenação de colunas!", driver, nomeTeste);
+		}
+
+	}
+
+	private void moveParaIconeHome(WebDriver driver) {
+		Actions action = new Actions(driver);
+		WebElement we = driver.findElement(By.id("ui-id-1"));
+		action.moveToElement(we).build().perform();
+
+	}
+	public void checkAlert(WebDriver driver) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, 2);
+			wait.until(ExpectedConditions.alertIsPresent());
+			Alert alert = driver.switchTo().alert();
+			alert.getText();
+		} catch (Exception e) {
+			//exception handling
+		}
+	}
+	public void acessaTelaResultadosPelaAba(WebDriver driver, String nomeTeste, int tentativas, String xpathAbaPesquisa, String xpathAbaResultados, String xPathCarregaPesquisa, String xpathCarregaResultadoPesquisa) throws InterruptedException, IOException {
+
+		try {
+			Thread.sleep(1000);
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			aguardaCarregamento(nomeTeste, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
+			logger.info("Acessando a tela de Resultados através da Aba...");
+			aguardaCarregamento(nomeTeste, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
+			driver.findElement(By.xpath(xpathAbaResultados)).click();
+			moveParaIconeHome(driver);
+			aguardaCarregamento(nomeTeste, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
+
+			logger.info("Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...");
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			aguardaCarregamento(nomeTeste, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
+			driver.findElement(By.xpath(xpathAbaPesquisa)).click();
+			moveParaIconeHome(driver);
+			aguardaCarregamento(nomeTeste, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
+
+			logger.info("Retornada a tela de pesquisa com sucesso!");
+
+		} catch (Exception e) {
+			falha("Falha ao acessar a tela", driver, nomeTeste);
+
+		}
+
 	}
 
 }

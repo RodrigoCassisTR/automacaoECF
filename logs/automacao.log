@@ -1,90 +1,2020 @@
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 4 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 5 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 6 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 7 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 8 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 9 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 10 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 11 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 12 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 13 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 14 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 15 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 16 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 17 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 18 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 19 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 20 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 21 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 22 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 23 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 24 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 25 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 26 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 27 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 28 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 29 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 30 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 31 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 32 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 33 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 34 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 35 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 36 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 37 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 38 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 39 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 40 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 41 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 42 de 100
-INFO main - Aguardando o carregamento da tela 'Cadastros > Gerais > Estabelecimentos' || Tentativa 43 de 100
-INFO main - Tela 'Cadastros > Gerais > Estabelecimentos' acessada com sucesso!!
-INFO main - #ALERTA# Tempo de Carregamento: 43385, Tempo Aceitável: 10000
-INFO main - #OK# Nehuma mensagem de erro localizada!
-INFO main - Verificando a presença dos campos da tela de TELA ESTABELECIMENTOS...
-INFO main - Verificando a presença de todas as Labels...
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_tbrCompany_label_span
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_datInsertUpdate_label_span
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchCodBranch_label_span
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchNumFedTax_label_span
-INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_tbrCompany
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_datInsertUpdate
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchCodBranch
-INFO main - Verificando componente TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchNumFedTax
-INFO main - -----
-INFO main - Verificando a existencia dos títulos...
-INFO main - -----
-INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[1]/h3
-INFO main - -----
-INFO main - Validando a label dos títulos...
-INFO main - -----
-INFO main - #OK# Esperado: Cadastro, Obtido: Cadastro
-INFO main - -----
-INFO main - Verificando labels da tela...
-INFO main - -----
-INFO main - #OK# Esperado: Empresa, Obtido: Empresa
-INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
-INFO main - #OK# Esperado: Estabelecimento, Obtido: Estabelecimento
-INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
-INFO main - -----
-INFO main - Verificando tooltip das labels...
-INFO main - -----
-INFO main - Tooltip 'i' do campo TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_tbrCompany_label_span localizado com sucesso!
-INFO main - #ALERTA# Tooltip esperado: Empresa, tooltip obtido: <span class='tipsy_msg_info'>Empresa</span>
-INFO main - Tooltip 'i' do campo TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_datInsertUpdate_label_span localizado com sucesso!
-INFO main - #ALERTA# Tooltip esperado: Data Inicial, tooltip obtido: <span class='tipsy_msg_info'>Data Inicial</span>
-INFO main - Tooltip 'i' do campo TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchCodBranch_label_span localizado com sucesso!
-INFO main - #ALERTA# Tooltip esperado: Estabelecimento, tooltip obtido: <span class='tipsy_msg_info'>Estabelecimento</span>
-INFO main - Tooltip 'i' do campo TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchNumFedTax_label_span localizado com sucesso!
-INFO main - #ALERTA# Tooltip esperado: CNPJ, tooltip obtido: <span class='tipsy_msg_info'>CNPJ</span>
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Ind. Saldo Inicial</span>, tooltip obtido: <span class='tipsy_msg_info'>Ind. Saldo Inicial</span>
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Valor total dos débitos registrados no período.</span>, tooltip obtido: <span class='tipsy_msg_info'>Valor total dos débitos registrados no período.</span>
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Valor total dos créditos registrados no período.</span>, tooltip obtido: <span class='tipsy_msg_info'>Valor total dos créditos registrados no período.</span>
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Ind. Saldo Final</span>, tooltip obtido: <span class='tipsy_msg_info'>Ind. Saldo Final</span>
 INFO main - -----
 INFO main - Verificando elementos input, como caixas de texto, checkbox, radiobutton, etc...
 INFO main - -----
-INFO main - Input TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_tbrCompany Preenchido com o valor esperado !
-INFO main - Input TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000Branch_datInsertUpdate Preenchido com o valor esperado !
-INFO main - #ALERTA# Tooltip Tooltip 'i' não localizado no campo TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchCodBranch
-INFO main - #ALERTA# Tooltip Tooltip 'i' não localizado no campo TAXIT:trTbrCad0000BranchIrpjBean:tab1:TbrCad0000BranchNumFedTax
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_tbrCad0000Branch preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_datAccountBalance preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_tbrCad2002Ledact preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_tbrCad2002Ledact_dscLedgerAccount preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_tbrCad2003Costct preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_tbrCad2003Costct_dscCostCenter preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_tbrCad2057Sap preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_tbrCad2057Sap preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_curOpeningBalance preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_fmkDomain preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_curCredit preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_curDebit preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_curClosingBalance preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0002ActblcBean:tab1:TbrMov0002Actblc_fmkDomain2 preenchido com o valor esperado, obtido:  valor esperado: 
 INFO main - #########################################################################
-INFO main - TESTE TELA ESTABELECIMENTOS ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 46 SEGUNDOS 
+INFO main - TESTE SALDOS ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 12 SEGUNDOS 
 INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 4:46:43 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 31293, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 15 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 15139, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1019, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 3050, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudConsult
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNew
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNewLike
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudEdit
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudDel
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchExportExp
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Testando ordenação da coluna CNPJ...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Código Centro Custo...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Data Inicial...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Descrição Centro Custo...
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 4:50:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 20389, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 8092, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1018, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2038, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudConsult
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNew
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNewLike
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudEdit
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudDel
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchExportExp
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Testando ordenação da coluna CNPJ...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Código Centro Custo...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Data Inicial...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Não foi possível efetuar a ordenação de colunas!
+INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_1211561780.png
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 4:54:3 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 21240, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 8083, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1018, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2039, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudConsult
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNew
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNewLike
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudEdit
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudDel
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchExportExp
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Testando ordenação da coluna CNPJ...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Código Centro Custo...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Data Inicial...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Não foi possível efetuar a ordenação de colunas!
+INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_747136299.png
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 4:57:6 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 27328, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 9096, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1047, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 4:59:42 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 29275, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 8086, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1019, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1018, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 3 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2035, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudConsult
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNew
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNewLike
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudEdit
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudDel
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchExportExp
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Testando ordenação da coluna CNPJ...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Código Centro Custo...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Data Inicial...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Não foi possível efetuar a ordenação de colunas!
+INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_2145755550.png
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 5:3:49 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 24249, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 9154, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1019, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 4079, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudConsult
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNew
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudNewLike
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudEdit
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchCrudDel
+INFO main - Verificando botão TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateToolbarSearchExportExp
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 23 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 24 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 25 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 26 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 27 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 28 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 29 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 30 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 31 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 32 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 33 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 34 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 35 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 36 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 37 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 38 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 39 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 40 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 41 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 42 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 43 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 44 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 45 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 46 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 47 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 48 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 49 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 50 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 51 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 52 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 53 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 54 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 55 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 56 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 57 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 58 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 59 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 60 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 61 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 62 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 63 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 64 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 65 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 66 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 67 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 68 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 69 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 70 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 71 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 72 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 73 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 74 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 75 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 76 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 77 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 78 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 79 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 80 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 81 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 82 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 83 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 84 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 85 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 86 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 87 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 88 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 89 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 90 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 91 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 92 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 93 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 94 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 95 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 96 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 97 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 98 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 99 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 100 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 101 de 100
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Timeout, elemento nao localizado /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_1888755466.png
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 5:10:9 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 24245, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 10105, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1045, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2043, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Timeout, elemento nao localizado /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_348875670.png
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 5:14:54 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 23475, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 10107, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 4066, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 5:50:3 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 20206, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 10 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 10099, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1017, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1022, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2042, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - #########################################################################
+INFO main - CENTRO DE CUSTO - TESTE INICIADO EM SEX, 2014-8-29 AT 5:52:27 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 101
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Aguardando tela de loading desaparecer || Tentativa 2 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 100
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 100
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 100
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 25246, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 100
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 3 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 4 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 5 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 6 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 6070, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #ALERTA# Esperado: Centro de Custo, Obtido: Centros de Custos
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando a presença dos campos da tela de CENTRO DE CUSTO...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrCad2003CostctBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: Código Centro Custo, Obtido: Código Centro Custo
+INFO main - #OK# Esperado: Data Inicial, Obtido: Data Inicial
+INFO main - #OK# Esperado: Descrição Centro Custo, Obtido: Descrição Centro Custo
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdateInputDate está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg::field está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_datInsertUpdate_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrCad2003CostctBean:tab1:Filter_TbrCad2003Costct_tbrCadCentralReg_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRO DE CUSTO
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando tela de loading desaparecer || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1016, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRO DE CUSTO || Tentativa 1 de 100
+INFO main - Tela CENTRO DE CUSTO acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1015, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 1 de 100
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Consulta > Centro de Custo' || Tentativa 2 de 100
+INFO main - Tela 'Dados de Origem > Consulta > Centro de Custo' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2037, Tempo Aceitável: 10000
+INFO main - #OK# Nehuma mensagem de erro localizada!
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Timeout, elemento nao localizado /html/body/div[5]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_centro de custo_269892489.png
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
