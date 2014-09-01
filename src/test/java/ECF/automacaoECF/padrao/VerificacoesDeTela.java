@@ -1610,7 +1610,7 @@ public class VerificacoesDeTela {
 		}
 	}
 
-	private void verificaToolTip(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabels, String[] labels) throws IOException {
+	public void verificaToolTip(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabels, String[] labels) throws IOException {
 		logger.info("Verificando o tooltip 'i' dos campos...");
 
 		int i = 0;
@@ -1989,9 +1989,9 @@ public class VerificacoesDeTela {
 						logger.info("#OK# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + driver.findElement(By.id(idLabel[i])).getAttribute("original-title"));
 					} else {
 
-						//logger.info("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + driver.findElement(By.id(idLabel[i])).getAttribute("original-title"));
+						logger.info("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + driver.findElement(By.id(idLabel[i])).getAttribute("original-title"));
 						String obtido = driver.findElement(By.id(idLabel[i])).getAttribute("original-title");
-						falha("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + obtido, driver, nomeTeste);
+						//falha("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + obtido, driver, nomeTeste);
 					}
 				} else {
 					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idLabel[i]);
@@ -2036,8 +2036,8 @@ public class VerificacoesDeTela {
 					logger.info("#OK# Input " + idCaixaCampo[i] + " preenchido com o valor esperado, obtido: " + driver.findElement(By.id(idCaixaCampo[i])).getAttribute("value") + " valor esperado: " + vlrEsperadoCaixaCampo[i]);
 				} else {
 
-					//logger.info("#ALERTA# Input " + idCaixaCampo[i] + " não preenchido com o valor esperado, obtido: " + driver.findElement(By.id(idCaixaCampo[i])).getAttribute("value") + " valor esperado: " + vlrEsperadoCaixaCampo[i]);
-					falha("#ALERTA#  Input não preenchido com o valor esperado, input: " + idCaixaCampo[i] + " valor esperado: " + vlrEsperadoCaixaCampo[i], driver, nomeTeste);
+					logger.info("#ALERTA# Input " + idCaixaCampo[i] + " não preenchido com o valor esperado, obtido: " + driver.findElement(By.id(idCaixaCampo[i])).getAttribute("value") + " valor esperado: " + vlrEsperadoCaixaCampo[i]);
+					//falha("#ALERTA#  Input não preenchido com o valor esperado, input: " + idCaixaCampo[i] + " valor esperado: " + vlrEsperadoCaixaCampo[i], driver, nomeTeste);
 				}
 			} else {
 				logger.info("Elemento " + idCaixaCampo[i] + " não possui value para validar!");
@@ -2160,5 +2160,65 @@ public class VerificacoesDeTela {
 		}
 
 	}
+	public void validaOrdenacao(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiTabelasNaTelaCadastro, String[] xpathColunaOrdenacao, String[] indOrdenacaoColuna, String[] labelColuna) throws IOException {
+		// TODO Auto-generated method stub
+		try {
 
+			aguardaCarregamento(caminho, xpathColunaOrdenacao[0], nomeTeste, tentativas, driver);
+
+			for (int i = 0; i < xpathColunaOrdenacao.length; i++) {
+				logger.info("Testando ordenação da coluna " + driver.findElement(By.xpath(xpathColunaOrdenacao[i])).getText() + "...");
+
+				driver.findElement(By.xpath(xpathColunaOrdenacao[i])).click();
+
+				moveParaIconeHome(driver);
+
+				for (int second = 0;; second++) {
+
+					if (second >= tentativas)
+						falha("Timeout, elemento nao localizado " + indOrdenacaoColuna, driver, nomeTeste);
+					try {
+
+						if (isElementPresentByXpath(driver, indOrdenacaoColuna[i]))
+							break;
+					} catch (Exception e) {
+					}
+					Thread.sleep(1000);
+				}
+				logger.info("indicador de Ordenação visualizado com sucesso!");
+
+			}
+		} catch (Exception e) {
+			falha("Não foi possível efetuar a ordenação de colunas!", driver, nomeTeste);
+		}
+
+	}
+	public void verificaToolTipPorXpath(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] xpathColunaTabelaCadastro, String[] tooltipEsperadoColunaTabelaCadastro, String[] possuiTooltipColunaTabelaCadastro) throws IOException {
+		// TODO Auto-generated method stub
+		logger.info("Validando tooltip...");
+		
+		for (int i = 0; i < xpathColunaTabelaCadastro.length; i++) {
+			if (Boolean.parseBoolean(possuiTooltipColunaTabelaCadastro[i]) == true) {
+				boolean toolTipVazia = driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title").isEmpty();
+				String tooltipObtido = driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title");
+
+				if (toolTipVazia == false) {
+					if (tooltipObtido.contentEquals(tooltipEsperadoColunaTabelaCadastro[i])) {
+						logger.info("#OK# Tooltip esperado: " + tooltipEsperadoColunaTabelaCadastro[i] + ", tooltip obtido: " + driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title"));
+					} else {
+
+						logger.info("#ALERTA# Tooltip esperado: " + tooltipEsperadoColunaTabelaCadastro[i] + ", tooltip obtido: " + driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title"));
+						String obtido = driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title");
+						//falha("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + obtido, driver, nomeTeste);
+					}
+				} else {
+					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + xpathColunaTabelaCadastro[i]);
+					falha("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + xpathColunaTabelaCadastro[i], driver, nomeTeste);
+				}
+			} else {
+				logger.info("Elemento " + xpathColunaTabelaCadastro[i] + " não possui tooltip 'i' para verificar");
+			}
+
+		}
+}
 }

@@ -21,7 +21,6 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 	@Test
 	public void testeTela() throws Throwable {
 		long inicio = System.currentTimeMillis();
-
 		// ////////1 ACESSO E TITULOS
 		String nomeTeste = properties.getProperty("nomeTeste");
 		String categoria = properties.getProperty("categoria");
@@ -29,8 +28,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		String idAba = properties.getProperty("idAba");
 		String labelAba = properties.getProperty("labelAba");
 
-		//////////ACESSO A TELA
-
+		////////// ACESSO A TELA
 		int qtdeMenu = Integer.parseInt(properties.getProperty("qtdeMenu"));
 		String labelMenu1 = properties.getProperty("labelMenu1");
 		String xpathMenu1 = properties.getProperty("xpathMenu1");
@@ -59,22 +57,19 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		////TELA PESQUISA
 		boolean verificaCamposPesquisa = Boolean.parseBoolean(properties.getProperty("verificaCamposPesquisa"));
 
-		//CAMPOS
+		//CAMPOS TELA PESQUISA
 		String labelCampoPesquisa = properties.getProperty("labelCampoPesquisa");
 		String idLabelPesquisa = properties.getProperty("idLabelPesquisa");
 		String idCaixaPesquisa = properties.getProperty("idCaixaPesquisa");
-
 		String[] labelsTelaPesquisa = labelCampoPesquisa.split("@@");
 		String[] idLabelsTelaPesquisa = idLabelPesquisa.split("@@");
 		String[] idCamposTelaPesquisa = idCaixaPesquisa.split("@@");
-
 		//BOTOES
 		String idBotaoExecutarConsulta = properties.getProperty("idBotaoExecutarConsulta");
 		String idBotaoLimpar = properties.getProperty("idBotaoLimpar");
 
 		////TELA RESULTADOS
 		boolean verificaCamposResultados = Boolean.parseBoolean(properties.getProperty("verificaCamposResultados"));
-
 		String idBotaoConsultar = properties.getProperty("idBotaoConsultar");
 		String idBotaoNovo = properties.getProperty("idBotaoNovo");
 		String idBotaoCriarCopia = properties.getProperty("idBotaoCriarCopia");
@@ -82,17 +77,14 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		String idBotaoExcluir = properties.getProperty("idBotaoExcluir");
 		String idBotaoExportar = properties.getProperty("idBotaoExportar");
 
-		String[] indOrdenacaoColuna = properties.getProperty("indOrdenacaoColuna").split("@@");
-		String[] xpathColunaOrdenacao = properties.getProperty("xpathColunaOrdenacao").split("@@");
-
-		String[] idBotoesResultados = {idBotaoConsultar, idBotaoNovo, idBotaoCriarCopia, idBotaoEditar, idBotaoExcluir, idBotaoExportar};
-
-		//CAMPOs
-
+		//CAMPOS TELA RESULTADOS
 		String[] labelColuna = properties.getProperty("labelColuna").split("@@");
 		String[] xpathColuna = properties.getProperty("xpathColuna").split("@@");
+		String[] indOrdenacaoColuna = properties.getProperty("indOrdenacaoColuna").split("@@");
+		String[] xpathColunaOrdenacao = properties.getProperty("xpathColunaOrdenacao").split("@@");
+		String[] idBotoesResultados = {idBotaoConsultar, idBotaoNovo, idBotaoCriarCopia, idBotaoEditar, idBotaoExcluir, idBotaoExportar};
 
-		////TELA CADASTRO
+		////////////// TELA CADASTRO
 		boolean verificaCamposCadastro = Boolean.parseBoolean(properties.getProperty("verificaCamposCadastro"));
 		boolean possuiBotoesPadrao = Boolean.parseBoolean(properties.getProperty("possuiBotoesPadrao"));
 		String idBotaoSalvarCadastro = properties.getProperty("idBotaoSalvarCadastro");
@@ -103,28 +95,32 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		String idBotaoCancelarCadastro = properties.getProperty("idBotaoCancelarCadastro");
 		String[] idBotoesPadraoCadastro = {idBotaoSalvarCadastro, idBotaoNovoCadastro, idBotaoCriarCopiaCadastro, idBotaoEditarCadastro, idBotaoExcluirCadastro, idBotaoCancelarCadastro};
 
-		//CAMPOS
+		////////  CAMPOS TELA CADASTRO
 		boolean possuiLabelsNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiLabelsNaTelaCadastro"));
 		boolean possuiCaixasNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiCaixasNaTelaCadastro"));
 		boolean possuiTitulosNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiTitulosNaTelaCadastro"));
 		boolean possuiBotoesNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiBotoesNaTelaCadastro"));
+		boolean possuiTabelasNaTelaCadastro = Boolean.parseBoolean(properties.getProperty("possuiTabelasNaTelaCadastro"));
 
 		String[] labelCampo = properties.getProperty("labelCampo").split("@@");
 		String[] idLabelCampo = properties.getProperty("idLabelCampo").split("@@");
 		String[] possuiTootip = properties.getProperty("possuiTootip").split("@@");
 		String[] toolTipEsperado = properties.getProperty("toolTipEsperado").split("@@");
-
 		String[] idCaixaCampo = properties.getProperty("idCaixaCampo").split("@@");
 		String[] possuiValue = properties.getProperty("possuiValue").split("@@");
 		String[] vlrEsperadoCaixaCampo = properties.getProperty("vlrEsperadoCaixaCampo").split("@@");
-
 		String[] labelTitulos = properties.getProperty("labelTitulos").split("@@");
 		String[] xpathTitulos = properties.getProperty("xpathTitulos").split("@@");
-
 		String[] idBotoesTelaCadastro = properties.getProperty("idBotoesTelaCadastro").split("@@");
 		String[] valueBotoesTelaCadastro = properties.getProperty("valueBotoesTelaCadastro").split("@@");
 
-		
+		String[] xpathColunaTabelaCadastro = properties.getProperty("xpathColunaTabelaCadastro").split("@@");
+		String[] tooltipEsperadoColunaTabelaCadastro = properties.getProperty("tooltipEsperadoColunaTabelaCadastro").split("@@");
+		String[] indOrdenacaoColunaTabelaCadastro = properties.getProperty("indOrdenacaoColunaTabelaCadastro").split("@@");
+		String[] possuiTooltipColunaTabelaCadastro = properties.getProperty("possuiTooltipColunaTabelaCadastro").split("@@");
+
+		String[] xpathColunaOrdenacaoTabelaCadastro = properties.getProperty("xpathColunaOrdenacaoTabelaCadastro").split("@@");
+
 		////ABAS
 		boolean possuiAbas = Boolean.parseBoolean(properties.getProperty("possuiAbas"));
 
@@ -135,6 +131,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		String[] possuiCaixasNaAba = {properties.getProperty("possuiCaixasNaAba1"), properties.getProperty("possuiCaixasNaAba2"), properties.getProperty("possuiCaixasNaAba2"), properties.getProperty("possuiCaixasNaAba3"), properties.getProperty("possuiCaixasNaAba4"), properties.getProperty("possuiCaixasNaAba5"), properties.getProperty("possuiCaixasNaAba6"), properties.getProperty("possuiCaixasNaAba7"), properties.getProperty("possuiCaixasNaAba8"), properties.getProperty("possuiCaixasNaAba9"), properties.getProperty("possuiCaixasNaAba10")};
 		String[] possuiTitulosNaAba = {properties.getProperty("possuiTitulosNaAba1"), properties.getProperty("possuiTitulosNaAba2"), properties.getProperty("possuiTitulosNaAba2"), properties.getProperty("possuiTitulosNaAba3"), properties.getProperty("possuiTitulosNaAba4"), properties.getProperty("possuiTitulosNaAba5"), properties.getProperty("possuiTitulosNaAba6"), properties.getProperty("possuiTitulosNaAba7"), properties.getProperty("possuiTitulosNaAba8"), properties.getProperty("possuiTitulosNaAba9"), properties.getProperty("possuiTitulosNaAba10")};
 		String[] possuiBotoesNaAba = {properties.getProperty("possuiBotoesNaAba1"), properties.getProperty("possuiBotoesNaAba2"), properties.getProperty("possuiBotoesNaAba2"), properties.getProperty("possuiBotoesNaAba3"), properties.getProperty("possuiBotoesNaAba4"), properties.getProperty("possuiBotoesNaAba5"), properties.getProperty("possuiBotoesNaAba6"), properties.getProperty("possuiBotoesNaAba7"), properties.getProperty("possuiBotoesNaAba8"), properties.getProperty("possuiBotoesNaAba9"), properties.getProperty("possuiBotoesNaAba10")};
+		String[] possuiColunasNaAba = {properties.getProperty("possuiColunasNaAba1"), properties.getProperty("possuiColunasNaAba2"), properties.getProperty("possuiColunasNaAba2"), properties.getProperty("possuiColunasNaAba3"), properties.getProperty("possuiColunasNaAba4"), properties.getProperty("possuiColunasNaAba5"), properties.getProperty("possuiColunasNaAba6"), properties.getProperty("possuiColunasNaAba7"), properties.getProperty("possuiColunasNaAba8"), properties.getProperty("possuiColunasNaAba9"), properties.getProperty("possuiColunasNaAba10")};
 
 		String[] idLabelsAba = {properties.getProperty("idLabelsAba1"), properties.getProperty("idLabelsAba2"), properties.getProperty("idLabelsAba3"), properties.getProperty("idLabelsAba4"), properties.getProperty("idLabelsAba5"), properties.getProperty("idLabelsAba6"), properties.getProperty("idLabelsAba7"), properties.getProperty("idLabelsAba8"), properties.getProperty("idLabelsAba9"), properties.getProperty("idLabelsAba10")};
 		String[] labelsAba = {properties.getProperty("labelsAba1"), properties.getProperty("labelsAba2"), properties.getProperty("labelsAba3"), properties.getProperty("labelsAba4"), properties.getProperty("labelsAba5"), properties.getProperty("labelsAba6"), properties.getProperty("labelsAba7"), properties.getProperty("labelsAba8"), properties.getProperty("labelsAba9"), properties.getProperty("labelsAba10")};
@@ -177,8 +174,8 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			// TELA RESULTADO PESQUISA
 			automacao.informaTeste(2, caminho, nomeTeste);
 			automacao.verificaTamanhoDeArray(driver, nomeTeste, xpathColuna, labelColuna);
-			automacao.acessaTelaResultadosPelaAba(driver, nomeTeste, tentativas, xpathAbaPesquisa,xpathAbaResultados,xPathCarregaPesquisa,xpathCarregaResultadoPesquisa);
-			
+			automacao.acessaTelaResultadosPelaAba(driver, nomeTeste, tentativas, xpathAbaPesquisa, xpathAbaResultados, xPathCarregaPesquisa, xpathCarregaResultadoPesquisa);
+
 			automacao.executaConsulta(driver, nomeTeste, idBotaoExecutarConsulta);
 			automacao.aguardaCarregamento(caminho, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
 			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
@@ -198,6 +195,8 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			automacao.validaLabelsDaTelCadastro(nomeTeste, driver, tentativas, labelCampo, idLabelCampo, possuiTootip, toolTipEsperado);
 			automacao.validaElementosInput(nomeTeste, driver, tentativas, idCaixaCampo, possuiValue, vlrEsperadoCaixaCampo);
 			automacao.validaBotoesDaTelaCadastro(nomeTeste, driver, tentativas, idBotoesTelaCadastro, valueBotoesTelaCadastro, possuiBotoesNaTelaCadastro);
+			automacao.verificaToolTipPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunaTabelaCadastro, tooltipEsperadoColunaTabelaCadastro, possuiTooltipColunaTabelaCadastro);
+			automacao.validaOrdenacao(driver, nomeTeste, caminho, tentativas, possuiTabelasNaTelaCadastro, xpathColunaOrdenacao, indOrdenacaoColuna, labelColuna);
 
 			if (possuiAbas == true) {
 				for (int i = 0; i < xpathAcessoAbas.length; i++) {
@@ -205,6 +204,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 					boolean possuiCaixasNaAbaBoolean = Boolean.parseBoolean(possuiCaixasNaAba[i]);
 					boolean possuiTitulosNaAbaBoolean = Boolean.parseBoolean(possuiTitulosNaAba[i]);
 					boolean possuiBotoesNaAbaBoolean = Boolean.parseBoolean(possuiBotoesNaAba[i]);
+					boolean possuiColunasNaAbaBoolean = Boolean.parseBoolean(possuiColunasNaAba[i]);
 
 					// ABAS
 					automacao.informaTeste(1, caminho, nomeTeste, labelAcessoAbas[i]);
@@ -216,6 +216,10 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 					automacao.validaLabelsDaTelCadastro(nomeTeste, driver, tentativas, labelsAba[i].split("@@"), idLabelsAba[i].split("@@"), PossuiTooltipNaLabelAba[i].split("@@"), toolTipEsperadoAba[i].split("@@"));
 					automacao.validaElementosInput(nomeTeste, driver, tentativas, idCaixasAba[i].split("@@"), possuiValueCaixasAba[i].split("@@"), vlrEsperadoCaixaCampoAba[i].split("@@"));
 					automacao.validaBotoesDaTelaCadastro(nomeTeste, driver, tentativas, idBotoesAba[i].split("@@"), valueBotoesAba[i].split("@@"), possuiBotoesNaAbaBoolean);
+					if (possuiColunasNaAbaBoolean == true) {
+						automacao.verificaToolTipPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunaTabelaAba[i], tooltipEsperadoColunaTabelaCadastro, possuiTooltipColunaTabelaCadastro);
+						automacao.validaOrdenacao(driver, nomeTeste, caminho, tentativas, possuiTabelasNaTelaCadastro, xpathColunaOrdenacao, indOrdenacaoColuna, labelColuna);
+					}
 
 				}
 
