@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ValidacaoDeTela extends CasoDeTesteBasico {
 
-	org.apache.log4j.Logger logger = Logger.getLogger(ValidacaoDeTela.class.getName());
+	public org.apache.log4j.Logger logger = Logger.getLogger(ValidacaoDeTela.class.getName());
 	public String url = new RecebeParametros().url;
 	public String usuario = new RecebeParametros().usuario;
 	public String senha = new RecebeParametros().senha;
@@ -23,7 +23,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 	public void testeTela() throws Throwable {
 		long inicio = System.currentTimeMillis();
 		// ////////1 ACESSO E TITULOS
-		String nomeTeste = properties.getProperty("nomeTeste");
+		String nomeTeste = getClass().getSimpleName().toUpperCase();
 		String categoria = properties.getProperty("categoria");
 		String caminho = properties.getProperty("caminho");
 		String idAba = properties.getProperty("idAba");
@@ -177,6 +177,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
 			automacao.verificaCamposTelaDePesquisa(driver, nomeTeste, caminho, tentativas, verificaCamposPesquisa, labelsTelaPesquisa, idLabelsTelaPesquisa, idCamposTelaPesquisa, idBotaoExecutarConsulta, idBotaoLimpar);
 			//automacao.verificaSeExiteCamposNaoPrevistos(driver,nomeTeste,caminho,tentativas,verificaCamposPesquisa, labelsTelaPesquisa, idLabelsTelaPesquisa, idCamposTelaPesquisa);
+			testeEspecificoDaTelaDePesquisa(driver, nomeTeste, caminho, tentativas);
 		}
 
 		if (abaResultadosPesquisa == true) {
@@ -189,6 +190,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
 			automacao.verificaCamposTelaDeResultados(driver, nomeTeste, caminho, tentativas, verificaCamposResultados, xpathColuna, labelColuna, idBotoesResultados);
 			automacao.validaOrdenacao(driver, nomeTeste, caminho, tentativas, xpathColunaOrdenacao, indOrdenacaoColuna, labelColuna);
+			testeEspecificoDaTelaDeResultados(driver, nomeTeste, caminho, tentativas);
 		}
 
 		if (abaRegistro == true) {
@@ -205,7 +207,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			automacao.validaBotoesDaTelaCadastro(nomeTeste, driver, tentativas, idBotoesTelaCadastro, valueBotoesTelaCadastro, possuiBotoesNaTelaCadastro);
 			automacao.verificaToolTipPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunaTabelaCadastro, tooltipEsperadoColunaTabelaCadastro, possuiTooltipColunaTabelaCadastro);
 			automacao.validaOrdenacao(driver, nomeTeste, caminho, tentativas, possuiTabelasNaTelaCadastro, xpathColunaOrdenacao, indOrdenacaoColuna, labelColuna);
-			testeEspecificoDaTela(driver, nomeTeste, caminho, tentativas);
+			testeEspecificoDaTelaDeCadastro(driver, nomeTeste, caminho, tentativas);
 
 			if (possuiAbas == true) {
 				for (int i = 0; i < xpathAcessoAbas.length; i++) {
@@ -241,8 +243,18 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		automacao.informaTerminoDoTeste(nomeTeste, categoria, duracaoTeste);
 	}
 
-	private void testeEspecificoDaTela(WebDriver driver, String nomeTeste, String caminho, int tentativas) {
-		// TESTES ESPECIFICO DA TELA
+	public void testeEspecificoDaTelaDePesquisa(WebDriver driver, String nomeTeste, String caminho, int tentativas2) {
+		// TESTES ESPECIFICO DA TELA DE CADASTRO
+		
+	}
+
+	public void testeEspecificoDaTelaDeResultados(WebDriver driver, String nomeTeste, String caminho, int tentativas2) {
+		// TESTES ESPECIFICO DA TELA DE CADASTRO
+		
+	}
+
+	public void testeEspecificoDaTelaDeCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas) {
+		// TESTES ESPECIFICO DA TELA DE CADASTRO
 
 	}
 	@After
