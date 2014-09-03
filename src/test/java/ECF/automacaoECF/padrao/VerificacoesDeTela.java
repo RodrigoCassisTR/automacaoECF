@@ -1285,8 +1285,9 @@ public class VerificacoesDeTela {
 	}
 
 	public void pesquisaRegistroIntegrado(WebDriver driver, int tentativas, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta) throws InterruptedException, IOException {
-		aguardaCarregamentoPorId(driver, tentativas, "Tela Pesquisa", camposPesquisa[0]);
 
+		aguardaCarregamentoPorId(driver, tentativas, "Tela Pesquisa", camposPesquisa[0]);
+		aguardaProcessamentoDesaparecer(driver, tentativas, "Tela Pesquisa");
 		for (int i = 0; i < qtdePesquisa; i++) {
 
 			logger.info("Preenchendo campos de pesquisa |" + camposPesquisa[i] + " : " + valoresPesquisa[i]);
@@ -1541,33 +1542,35 @@ public class VerificacoesDeTela {
 
 	}
 
-	public void verificaCamposTelaDeResultados(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposResultados, String[] xpathColunasResultados, String[] labelsColunasResultados, String[] idBotoesResultados) throws IOException, InterruptedException {
+	public void verificaCamposTelaDeResultados(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean verificaCamposResultados, String[] xpathColunasResultados, String[] labelsColunasResultados, String[] idBotoesResultados, boolean possuiBotoesNaTelaResultados) throws IOException, InterruptedException {
 		if (verificaCamposResultados == true) {
 			verificaCamposResultadosPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
 			validaLabelsTelaResultados(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
-			validaBotoesResultados(driver, nomeTeste, tentativas, caminho, idBotoesResultados);
+			validaBotoesResultados(driver, nomeTeste, tentativas, caminho, possuiBotoesNaTelaResultados,idBotoesResultados);
 		} else {
 			//Não valida nada!
 		}
 	}
-	private void validaBotoesResultados(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idBotoesResultados) throws IOException, InterruptedException {
-		int i = 0;
-		while (i < idBotoesResultados.length) {
-			for (int second = 0;; second++) {
-				logger.info("Verificando botão " + idBotoesResultados[i]);
+	private void validaBotoesResultados(WebDriver driver, String nomeTeste, int tentativas, String caminho, boolean possuiBotoesNaTelaResultados, String[] idBotoesResultados) throws IOException, InterruptedException {
+		if (possuiBotoesNaTelaResultados == true) {
+			int i = 0;
+			while (i < idBotoesResultados.length) {
+				for (int second = 0;; second++) {
+					logger.info("Verificando botão " + idBotoesResultados[i]);
 
-				if (second >= tentativas)
-					falha("Timeout, botão nao localizado nao localizado " + idBotoesResultados[i], driver, nomeTeste);
-				try {
-					if (driver.findElement(By.id(idBotoesResultados[i])).isDisplayed())
-						break;
-				} catch (Exception e) {
-					Thread.sleep(1000);
+					if (second >= tentativas)
+						falha("Timeout, botão nao localizado nao localizado " + idBotoesResultados[i], driver, nomeTeste);
+					try {
+						if (driver.findElement(By.id(idBotoesResultados[i])).isDisplayed())
+							break;
+					} catch (Exception e) {
+						Thread.sleep(1000);
+					}
+
 				}
+				i++;
 
 			}
-			i++;
-
 		}
 
 	}
@@ -1977,6 +1980,9 @@ public class VerificacoesDeTela {
 	private void validaTootip(WebDriver driver, String nomeTeste, int tentativas, String[] idLabel, String[] possuiTootip, String[] toolTipEsperado) throws IOException {
 
 		for (int i = 0; i < idLabel.length; i++) {
+			logger.info("-----------------------");
+			logger.info(idLabel[i]);
+			logger.info("-----------------------");
 			if (Boolean.parseBoolean(possuiTootip[i]) == true) {
 				boolean toolTipVazia = driver.findElement(By.id(idLabel[i])).getAttribute("original-title").isEmpty();
 				String tooltipObtido = driver.findElement(By.id(idLabel[i])).getAttribute("original-title");
@@ -2196,7 +2202,7 @@ public class VerificacoesDeTela {
 		}
 	}
 	public void verificaToolTipPorXpath(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] xpathColunaTabelaCadastro, String[] tooltipEsperadoColunaTabelaCadastro, String[] possuiTooltipColunaTabelaCadastro) throws IOException {
-		
+
 		logger.info("Validando tooltip...");
 
 		for (int i = 0; i < xpathColunaTabelaCadastro.length; i++) {
@@ -2231,6 +2237,7 @@ public class VerificacoesDeTela {
 
 	}
 	public void validaTootipDaAba(String nomeTeste, WebDriver driver, int tentativas, String[] idLabelsAba, String[] PossuiTooltipNaLabelAba, String[] toolTipEsperadoAba) throws IOException {
+
 		validaTootip(driver, nomeTeste, tentativas, idLabelsAba, PossuiTooltipNaLabelAba, toolTipEsperadoAba);
 
 	}

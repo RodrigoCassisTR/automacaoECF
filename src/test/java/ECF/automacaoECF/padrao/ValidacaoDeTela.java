@@ -61,6 +61,8 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 		//CAMPOS TELA PESQUISA
 		String labelCampoPesquisa = properties.getProperty("labelCampoPesquisa");
 		String idLabelPesquisa = properties.getProperty("idLabelPesquisa");
+		String[] possuiTootipLabelPesquisa = properties.getProperty("possuiTootipLabelPesquisa").split(";");
+		String[] toolTipEsperadoLabelPesquisa = properties.getProperty("toolTipEsperadoLabelPesquisa").split(";");
 		String idCaixaPesquisa = properties.getProperty("idCaixaPesquisa");
 		String[] labelsTelaPesquisa = labelCampoPesquisa.split(";");
 		String[] idLabelsTelaPesquisa = idLabelPesquisa.split(";");
@@ -71,6 +73,9 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 
 		////TELA RESULTADOS
 		boolean verificaCamposResultados = Boolean.parseBoolean(properties.getProperty("verificaCamposResultados"));
+		boolean possuiBotoesNaTelaResultados = Boolean.parseBoolean(properties.getProperty("possuiBotoesNaTelaResultados"));
+		
+		
 		String idBotaoConsultar = properties.getProperty("idBotaoConsultar");
 		String idBotaoNovo = properties.getProperty("idBotaoNovo");
 		String idBotaoCriarCopia = properties.getProperty("idBotaoCriarCopia");
@@ -188,7 +193,7 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 			automacao.executaConsulta(driver, nomeTeste, tentativas, idBotaoExecutarConsulta);
 			automacao.aguardaCarregamento(caminho, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
 			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
-			automacao.verificaCamposTelaDeResultados(driver, nomeTeste, caminho, tentativas, verificaCamposResultados, xpathColuna, labelColuna, idBotoesResultados);
+			automacao.verificaCamposTelaDeResultados(driver, nomeTeste, caminho, tentativas, verificaCamposResultados, xpathColuna, labelColuna, idBotoesResultados,possuiBotoesNaTelaResultados);
 			automacao.validaOrdenacao(driver, nomeTeste, caminho, tentativas, xpathColunaOrdenacao, indOrdenacaoColuna, labelColuna);
 			testeEspecificoDaTelaDeResultados(driver, nomeTeste, caminho, tentativas);
 		}
@@ -230,8 +235,8 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 					automacao.validaElementosInput(nomeTeste, driver, tentativas, idCaixasAba[i].split(";"), possuiValueCaixasAba[i].split(";"), vlrEsperadoCaixaCampoAba[i].split(";"));
 					automacao.validaBotoesDaTelaCadastro(nomeTeste, driver, tentativas, idBotoesAba[i].split(";"), valueBotoesAba[i].split(";"), possuiBotoesNaAbaBoolean);
 					if (possuiTabelaNaAbaBoolean == true) {
-						automacao.verificaToolTipPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunaTabelaAba[i].split(";"), tooltipEsperadoColunaAba[i].split(";"), possuiTooltipColunaTabelaAba[i].split(";"));
-						//						automacao.validaOrdenacao(driver, nomeTeste, caminho, tentativas, possuiTabelasNaTelaCadastro, xpathColunaOrdenacao, indOrdenacaoColuna, labelColuna);
+						//automacao.verificaToolTipPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunaTabelaAba[i].split(";"), tooltipEsperadoColunaAba[i].split(";"), possuiTooltipColunaTabelaAba[i].split(";"));
+						//automacao.validaOrdenacao(driver, nomeTeste, caminho, tentativas, possuiTabelasNaTelaCadastro, xpathColunaOrdenacao, indOrdenacaoColuna, labelColuna);
 					}
 
 				}
@@ -244,13 +249,13 @@ public class ValidacaoDeTela extends CasoDeTesteBasico {
 	}
 
 	public void testeEspecificoDaTelaDePesquisa(WebDriver driver, String nomeTeste, String caminho, int tentativas2) {
-		// TESTES ESPECIFICO DA TELA DE CADASTRO
-		
+		// TESTES ESPECIFICO DA TELA DE PESQUISA
+
 	}
 
 	public void testeEspecificoDaTelaDeResultados(WebDriver driver, String nomeTeste, String caminho, int tentativas2) {
-		// TESTES ESPECIFICO DA TELA DE CADASTRO
-		
+		// TESTES ESPECIFICO DA TELA DE RESULTADOS
+
 	}
 
 	public void testeEspecificoDaTelaDeCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas) {
