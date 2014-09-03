@@ -1046,10 +1046,10 @@ public class VerificacoesDeTela {
 		}
 
 	}
-	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathCarregaRegistro, String nomeTeste) throws InterruptedException, IOException {
+	public void acessaAbaPorXpath(WebDriver driver, int tentativas, String xpathAba, String nomeTeste) throws InterruptedException, IOException {
 		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 
-		driver.findElement(By.xpath(xpathCarregaRegistro)).click();
+		driver.findElement(By.xpath(xpathAba)).click();
 
 		Actions action = new Actions(driver);
 		WebElement we = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/ul/li[1]/a"));
@@ -1722,9 +1722,7 @@ public class VerificacoesDeTela {
 
 			}
 			i++;
-
 		}
-
 	}
 	private void verificaExistenciaDeComponentesPorXpath(String nomeTeste, WebDriver driver, int tentativas, String[] xpathComponentes) throws IOException, InterruptedException {
 		int i = 0;
@@ -1889,13 +1887,12 @@ public class VerificacoesDeTela {
 			}
 		}
 	}
-	public void executaConsulta(WebDriver driver, String nomeTeste, String idBotaoExecutarConsulta) throws InterruptedException, IOException {
-		try{
-			
-		
-		Thread.sleep(500);
-		driver.findElement(By.id(idBotaoExecutarConsulta)).click();
-		}catch(Exception e){
+	public void executaConsulta(WebDriver driver, String nomeTeste, int tentativas, String idBotaoExecutarConsulta) throws InterruptedException, IOException {
+		try {
+
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			driver.findElement(By.id(idBotaoExecutarConsulta)).click();
+		} catch (Exception e) {
 			falha("Não foi possivel executar a consulta", driver, nomeTeste);
 		}
 
@@ -2162,41 +2159,46 @@ public class VerificacoesDeTela {
 	}
 	public void validaOrdenacao(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiTabelasNaTelaCadastro, String[] xpathColunaOrdenacao, String[] indOrdenacaoColuna, String[] labelColuna) throws IOException {
 		// TODO Auto-generated method stub
-		try {
 
-			aguardaCarregamento(caminho, xpathColunaOrdenacao[0], nomeTeste, tentativas, driver);
+		if (possuiTabelasNaTelaCadastro == true) {
 
-			for (int i = 0; i < xpathColunaOrdenacao.length; i++) {
-				logger.info("Testando ordenação da coluna " + driver.findElement(By.xpath(xpathColunaOrdenacao[i])).getText() + "...");
+			try {
 
-				driver.findElement(By.xpath(xpathColunaOrdenacao[i])).click();
+				aguardaCarregamento(caminho, xpathColunaOrdenacao[0], nomeTeste, tentativas, driver);
 
-				moveParaIconeHome(driver);
+				for (int i = 0; i < xpathColunaOrdenacao.length; i++) {
+					logger.info("Testando ordenação da coluna " + driver.findElement(By.xpath(xpathColunaOrdenacao[i])).getText() + "...");
 
-				for (int second = 0;; second++) {
+					driver.findElement(By.xpath(xpathColunaOrdenacao[i])).click();
 
-					if (second >= tentativas)
-						falha("Timeout, elemento nao localizado " + indOrdenacaoColuna, driver, nomeTeste);
-					try {
+					moveParaIconeHome(driver);
 
-						if (isElementPresentByXpath(driver, indOrdenacaoColuna[i]))
-							break;
-					} catch (Exception e) {
+					for (int second = 0;; second++) {
+
+						if (second >= tentativas)
+							falha("Timeout, elemento nao localizado " + indOrdenacaoColuna, driver, nomeTeste);
+						try {
+
+							if (isElementPresentByXpath(driver, indOrdenacaoColuna[i]))
+								break;
+						} catch (Exception e) {
+						}
+						Thread.sleep(1000);
 					}
-					Thread.sleep(1000);
+					logger.info("indicador de Ordenação visualizado com sucesso!");
+
 				}
-				logger.info("indicador de Ordenação visualizado com sucesso!");
-
+			} catch (Exception e) {
+				falha("Não foi possível efetuar a ordenação de colunas!", driver, nomeTeste);
 			}
-		} catch (Exception e) {
-			falha("Não foi possível efetuar a ordenação de colunas!", driver, nomeTeste);
+		} else {
+			logger.info("Não Existem tabelas na tela para validar!");
 		}
-
 	}
 	public void verificaToolTipPorXpath(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] xpathColunaTabelaCadastro, String[] tooltipEsperadoColunaTabelaCadastro, String[] possuiTooltipColunaTabelaCadastro) throws IOException {
-		// TODO Auto-generated method stub
-		logger.info("Validando tooltip...");
 		
+		logger.info("Validando tooltip...");
+
 		for (int i = 0; i < xpathColunaTabelaCadastro.length; i++) {
 			if (Boolean.parseBoolean(possuiTooltipColunaTabelaCadastro[i]) == true) {
 				boolean toolTipVazia = driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title").isEmpty();
@@ -2209,6 +2211,7 @@ public class VerificacoesDeTela {
 
 						logger.info("#ALERTA# Tooltip esperado: " + tooltipEsperadoColunaTabelaCadastro[i] + ", tooltip obtido: " + driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title"));
 						String obtido = driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title");
+						// TODO MUDAR PRA FALHA!
 						//falha("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + obtido, driver, nomeTeste);
 					}
 				} else {
@@ -2220,5 +2223,15 @@ public class VerificacoesDeTela {
 			}
 
 		}
-}
+	}
+	public void validaLabelsDaAba(String nomeTeste, WebDriver driver, int tentativas, String[] labels, String[] idLabelsAba, boolean possuiLabel) throws IOException {
+		if (possuiLabel == true) {
+			validaLabels(driver, nomeTeste, tentativas, labels, idLabelsAba);
+		}
+
+	}
+	public void validaTootipDaAba(String nomeTeste, WebDriver driver, int tentativas, String[] idLabelsAba, String[] PossuiTooltipNaLabelAba, String[] toolTipEsperadoAba) throws IOException {
+		validaTootip(driver, nomeTeste, tentativas, idLabelsAba, PossuiTooltipNaLabelAba, toolTipEsperadoAba);
+
+	}
 }
