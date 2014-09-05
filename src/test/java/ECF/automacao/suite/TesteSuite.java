@@ -15,9 +15,11 @@ import ECF.automacaoECF.tela.TelaEstabelecimentos;
 import ECF.automacaoECF.tela.TelaLancamentosContabeis;
 import ECF.automacaoECF.tela.TelaLucroRealApuracaoIrpj;
 import ECF.automacaoECF.tela.TelaPlanoDeContas;
+import ECF.automacaoECF.tela.TelaProcessoEmLote;
 import ECF.automacaoECF.tela.TelaSaldos;
 import ECF.automacaoECF.tela.TelaScp;
-
+import ECF.automacaoECF.tela.TelaTaxaDeJurosDeLongoPrazo;
+import ECF.automacaoECF.tela.TelaTipoDeFeriadoAcesso;
 
 public class TesteSuite {
 	static org.apache.log4j.Logger logger = Logger.getLogger(TesteSuite.class.getName());
@@ -29,10 +31,7 @@ public class TesteSuite {
 	public static String testesTela = new RecebeParametros().testesTela;
 	public static String testesCrud = new RecebeParametros().testesCrud;
 	public static String testesIntegracao = new RecebeParametros().testesIntegracao;
-	
-	
 
-	
 	public static void main(String[] args) throws IOException, NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, NoSuchMethodException {
 		long inicio = System.currentTimeMillis();
 
@@ -44,8 +43,7 @@ public class TesteSuite {
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
 
-		//Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class,TelaAJustesParteBAcesso.class,TelaAliquotasDosTributosAcesso.class,TelaAssociacaoDeTabelasSpedAcesso.class,TelaCentrosDeCustos.class,TelaContasApuracaoAcesso.class,TelaDarfConsultaAcesso.class,TelaDarfProcessamentoAcesso.class,TelaEstabelecimentos.class,TelaFeriadosAcesso.class,TelaGeracaoEcfAcesso.class,TelaImpostosComBaseNoSaldoConsolidadoAcesso.class,TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class,TelaLancamentosContabeis.class,TelaLucroEstimadoApuracaoCsllAcesso.class,TelaLucroEstimadoApuracaoIrpjAcesso.class,TelaLucroEstimadoContasDaApuracaoAcesso.class,TelaLucroRealApuracaoCsllAcesso.class,TelaLucroRealApuracaoIrpjAcesso.class,TelaLucroRealContasAcesso.class,TelaLucroRealContasDaApuracaoAcesso.class,TelaPerfilEcflAcesso.class,TelaPlanoDeContas.class,TelaPlanoReferencialPlanoEmpresaAssociacao.class,TelaPlanoReferencialPlanoEmpresaConsulta.class,TelaProcessoEmLoteAcesso.class,TelaRelatorioDeEstabelecimentosAcesso.class,TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class,TelaRelatoriosContasLalurAcesso.class,TelaRelatoriosContasLalurContasContabeisAcesso.class,TelaRelatoriosDeCalculosAcesso.class,TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class,TelaRelatoriosImpDiferidosBaseMovtoAcesso.class,TelaRelatoriosSaldosParteBAcesso.class,TelaResponsaveisAcesso.class,TelaSaldos.class,TelaScp.class,TelaSituacaoEspecialAcesso.class,TelaTaxaSelicAcesso.class,TelaTipoDeFeriadoAcesso.class,TelaVencimentoDosTributosAcesso.class};
-		Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class,TelaAJustesParteBAcesso.class,TelaAliquotasDosTributosAcesso.class,TelaAssociacaoDeTabelasSpedAcesso.class,TelaCentrosDeCustos.class,TelaContasApuracaoAcesso.class,TelaDarfConsultaAcesso.class,TelaDarfProcessamentoAcesso.class,TelaEstabelecimentos.class,TelaFeriadosAcesso.class,TelaGeracaoEcfAcesso.class,TelaImpostosComBaseNoSaldoConsolidadoAcesso.class,TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class,TelaLancamentosContabeis.class,TelaLucroEstimadoApuracaoCsllAcesso.class,TelaLucroEstimadoApuracaoIrpjAcesso.class,TelaLucroEstimadoContasDaApuracaoAcesso.class,TelaLucroRealApuracaoCsllAcesso.class,TelaLucroRealApuracaoIrpj.class,TelaLucroRealContasAcesso.class,TelaLucroRealContasDaApuracaoAcesso.class,TelaPerfilEcflAcesso.class,TelaPlanoDeContas.class,TelaPlanoReferencialPlanoEmpresaAssociacao.class,TelaPlanoReferencialPlanoEmpresaConsulta.class,TelaRelatorioDeEstabelecimentosAcesso.class,TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class,TelaRelatoriosContasLalurAcesso.class,TelaRelatoriosContasLalurContasContabeisAcesso.class,TelaRelatoriosDeCalculosAcesso.class,TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class,TelaRelatoriosImpDiferidosBaseMovtoAcesso.class,TelaRelatoriosSaldosParteBAcesso.class,TelaResponsaveisAcesso.class,TelaSaldos.class,TelaScp.class,TelaSituacaoEspecialAcesso.class,TelaTaxaSelicAcesso.class,TelaTipoDeFeriadoAcesso.class,TelaVencimentoDosTributosAcesso.class};
+		Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class, TelaAJustesParteBAcesso.class, TelaAliquotasDosTributosAcesso.class, TelaAssociacaoDeTabelasSpedAcesso.class, TelaContasApuracaoAcesso.class, TelaDarfConsultaAcesso.class, TelaDarfProcessamentoAcesso.class, TelaFeriadosAcesso.class, TelaGeracaoEcfAcesso.class, TelaImpostosComBaseNoSaldoConsolidadoAcesso.class, TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class, TelaLucroEstimadoApuracaoCsllAcesso.class, TelaLucroEstimadoApuracaoIrpjAcesso.class, TelaLucroEstimadoContasDaApuracaoAcesso.class, TelaLucroRealApuracaoCsllAcesso.class, TelaLucroRealContasAcesso.class, TelaLucroRealContasDaApuracaoAcesso.class, TelaPerfilEcflAcesso.class, TelaPlanoReferencialPlanoEmpresaAssociacao.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaRelatorioDeEstabelecimentosAcesso.class, TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class, TelaRelatoriosContasLalurAcesso.class, TelaRelatoriosContasLalurContasContabeisAcesso.class, TelaRelatoriosDeCalculosAcesso.class, TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class, TelaRelatoriosImpDiferidosBaseMovtoAcesso.class, TelaRelatoriosSaldosParteBAcesso.class, TelaResponsaveisAcesso.class, TelaSituacaoEspecialAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaCentrosDeCustos.class, TelaEstabelecimentos.class, TelaLancamentosContabeis.class, TelaLucroRealApuracaoIrpj.class, TelaPlanoDeContas.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaProcessoEmLote.class, TelaSaldos.class, TelaScp.class, TelaTaxaDeJurosDeLongoPrazo.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 
@@ -53,7 +51,7 @@ public class TesteSuite {
 		String[] resultadosTestesCrud = new String[testesCrud.length];
 		String[] duracaoTestesCrud = new String[testesCrud.length];
 
-		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class,IntegracaoAccountEntryTeste.class,IntegracaoBranchTeste.class,IntegracaoChartsOfAccountsAssociationTeste.class,IntegracaoCostCenterTeste.class,IntegracaoLedgerAccountTeste.class,IntegracaoSocietyAccountParticipationTeste.class};
+		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermintereStrateTeste.class, IntegracaoSocietyAccountParticipationTeste.class};
 		String[] resultadosTestesIntegracao = new String[testesIntegracao.length];
 		String[] duracaoTestesIntegracao = new String[testesIntegracao.length];
 
@@ -65,11 +63,10 @@ public class TesteSuite {
 		auxReultados.imprimeParametrosDaSuite();
 
 		if (testaTelaBoolean == true) {
-			int qtdeTestes=testesTela.length;
-				
-			
+			int qtdeTestes = testesTela.length;
+
 			logger.info("------------------------------------------------------");
-			logger.info("INICIANDO TESTES DE TELA ("+qtdeTestes+" TESTES)");
+			logger.info("INICIANDO TESTES DE TELA (" + qtdeTestes + " TESTES)");
 			logger.info("------------------------------------------------------");
 			for (int i = 0; i < testesTela.length; i++) {
 
@@ -95,9 +92,9 @@ public class TesteSuite {
 		}
 
 		if (testaCRUDBoolean == true) {
-			int qtdeTestes=testesTela.length;
+			int qtdeTestes = testesTela.length;
 			logger.info("------------------------------------------------------");
-			logger.info("INICIANDO TESTES DE CRUD ("+qtdeTestes+" TESTES)");
+			logger.info("INICIANDO TESTES DE CRUD (" + qtdeTestes + " TESTES)");
 			logger.info("------------------------------------------------------");
 			for (int i = 0; i < testesCrud.length; i++) {
 
@@ -124,9 +121,9 @@ public class TesteSuite {
 		}
 
 		if (testaIntegracaoBoolean == true) {
-			int qtdeTestes=testesIntegracao.length;
+			int qtdeTestes = testesIntegracao.length;
 			logger.info("------------------------------------------------------");
-			logger.info("INICIANDO TESTES DE INTEGRAÇÃO ("+qtdeTestes+" TESTES)");
+			logger.info("INICIANDO TESTES DE INTEGRAÇÃO (" + qtdeTestes + " TESTES)");
 			logger.info("------------------------------------------------------");
 			for (int i = 0; i < testesIntegracao.length; i++) {
 				long duracaoSuiteTeste = System.currentTimeMillis();

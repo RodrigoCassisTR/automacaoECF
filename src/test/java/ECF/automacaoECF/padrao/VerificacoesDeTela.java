@@ -1361,7 +1361,6 @@ public class VerificacoesDeTela {
 		} else {
 			logger.info("Foi Apresentada a mensagem " + driver.findElement(By.xpath(xpathSemResultados)).getText());
 		}
-		logger.info("Retornando: " + noExists);
 		return noExists;
 
 	}
@@ -1481,6 +1480,7 @@ public class VerificacoesDeTela {
 
 		}
 		logger.info("Clicando no botão 'Executar Consulta'");
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 		driver.findElement(By.id(idBotaoExecutarConsulta)).click();
 
 		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
@@ -1546,7 +1546,7 @@ public class VerificacoesDeTela {
 		if (verificaCamposResultados == true) {
 			verificaCamposResultadosPorXpath(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
 			validaLabelsTelaResultados(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
-			validaBotoesResultados(driver, nomeTeste, tentativas, caminho, possuiBotoesNaTelaResultados,idBotoesResultados);
+			validaBotoesResultados(driver, nomeTeste, tentativas, caminho, possuiBotoesNaTelaResultados, idBotoesResultados);
 		} else {
 			//Não valida nada!
 		}

@@ -22,6 +22,9 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 	public String xpathModulo = new RecebeParametros().xpathModulo;
 	public String caminhoIntegrador = new RecebeParametros().caminhoIntegrador;
 	public String nomeDoServicoIntegrador = new RecebeParametros().nomeDoServicoIntegrador;
+	public String diretorioPadraoIntegracao = new RecebeParametros().diretorioPadraoIntegracao;
+	
+	
 
 	int tentativas = Integer.parseInt(numerotentativas);
 	protected Properties propertiesIntegrador;
@@ -95,10 +98,10 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String[] idBotoesResultados = {idBotaoConsultar, idBotaoNovo, idBotaoCriarCopia, idBotaoEditar, idBotaoExcluir, idBotaoExportar};
 
 		// Pastas Integração
-		String pastaEntrada = "C:/temp/ECF/" + nomeIntegracao + "/entrada";
-		String pastaEnviado = "C:/temp/ECF/" + nomeIntegracao + "/enviado";
-		String pastaErro = "C:/temp/ECF/" + nomeIntegracao + "/erro";
-		String pastaRecebido = "C:/temp/ECF/" + nomeIntegracao + "/recebido";
+		String pastaEntrada = diretorioPadraoIntegracao + nomeIntegracao + "/entrada";
+		String pastaEnviado = diretorioPadraoIntegracao + nomeIntegracao + "/enviado";
+		String pastaErro = diretorioPadraoIntegracao + nomeIntegracao + "/erro";
+		String pastaRecebido = diretorioPadraoIntegracao + nomeIntegracao + "/recebido";
 		String[] pastasIntegracao = {pastaEntrada, pastaEnviado, pastaErro, pastaRecebido};
 
 		//CAMPOS DO ARQUIVO

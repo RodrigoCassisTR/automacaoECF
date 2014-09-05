@@ -1,7 +1,7 @@
 package ECF.automacaoECF.acessoTela;
 
-import ECF.automacaoECF.padrao.ValidacaoDeTela;
+import ECF.automacaoECF.padrao.TelaAcesso;
 
-public class TelaPlanoReferencialPlanoEmpresaAssociacao extends ValidacaoDeTela {
+public class TelaPlanoReferencialPlanoEmpresaAssociacao extends TelaAcesso{
 
 }

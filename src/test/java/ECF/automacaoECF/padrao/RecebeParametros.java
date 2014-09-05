@@ -30,12 +30,14 @@ public class RecebeParametros {
 	public String caminhoIntegrador;
 	public String pastasIntegracao;
 	public String nomeDoServicoIntegrador;
+	public String diretorioPadraoIntegracao;
+	
 
 	public RecebeParametros() {
 
 		try {
 			Properties properties = new Properties();
-			FileInputStream file = new FileInputStream("./src/test/resources/automation.properties");
+			FileInputStream file = new FileInputStream("./automation.properties");
 			properties.load(file);
 
 			url = properties.getProperty("url");
@@ -63,6 +65,8 @@ public class RecebeParametros {
 			testesTela= properties.getProperty("testesTela");
 			testesCrud= properties.getProperty("testesCrud");
 			testesIntegracao= properties.getProperty("testesIntegracao");
+			diretorioPadraoIntegracao= properties.getProperty("diretorioPadraoIntegracao");
+			
 			
 			
 
