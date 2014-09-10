@@ -42,7 +42,7 @@ public class VerificacoesDeIntegracao {
 	}
 
 	public void falhaIntegracao(String mensagem) {
-				logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
+		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
 		logger.info("FALHA: " + mensagem);
 		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
 		fail(mensagem);
@@ -185,13 +185,15 @@ public class VerificacoesDeIntegracao {
 		return false;
 	}
 
-	public void verficaServicoIntegracaoIniciado(String nomeDoServicoIntegrador) {
+	public void verficaServicoIntegracaoIniciado(String nomeDoServicoIntegrador) throws Exception {
 
 		logger.info("Verificando se o serviço do Integrador iniciado...");
 		boolean servicoIniciado = verficaServicoIntegracao(nomeDoServicoIntegrador);
 		if (servicoIniciado == false) {
-			logger.info("O servico do integrador " + nomeDoServicoIntegrador + " não está iniciado, encerrando o teste!");
-			falhaIntegracao("O servico do integrador nao esta iniciado, encerando teste com falha!");
+			logger.info("O servico do integrador " + nomeDoServicoIntegrador + " não está iniciado!");
+			logger.info("iniciando servico " + nomeDoServicoIntegrador + "...");
+			IniciaServicoDoWindows(nomeDoServicoIntegrador);
+
 		} else {
 			logger.info("O servico do integrador esta iniciado!");
 
@@ -275,6 +277,7 @@ public class VerificacoesDeIntegracao {
 
 		if (verificaPastaErro(pasta_erro, tentativas) == true) {
 			logger.info("O arquivo  foi movido para a pasta 'erro'!");
+			copiaArquivos(pasta_erro + "/*.*", "./screenshot/" + nomeArquivo);
 			falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
 		}
 
@@ -379,6 +382,141 @@ public class VerificacoesDeIntegracao {
 			return false;
 		}
 
+	}
+
+	public void verificaUrlWS(String wsclientHost, String wsclientReturnHost, String urlIntegracao, String diretorioPadraoIntegracao, String arquivoCfg, String nomeDoServicoIntegrador) throws IOException {
+		logger.info("Verificando as WS de config do integrador...");
+
+		if (wsclientHost.contentEquals(urlIntegracao) && wsclientReturnHost.contentEquals(urlIntegracao)) {
+			logger.info("Integrador configurado com o endereço de WS correto...");
+			logger.info("wsclient.host= " + wsclientHost);
+			logger.info("wsclient.return.host= " + wsclientReturnHost);
+
+		} else {
+			logger.info("O endereço WS não está configurado corretamente, alterando para o endereço WS correto...");
+
+			logger.info("wsclient.host= " + wsclientHost + " esperado: " + urlIntegracao);
+			logger.info("wsclient.return.host= " + wsclientReturnHost + " esperado: " + urlIntegracao);
+
+			logger.info("Editando o arquivo cfg...");
+			Path path = Paths.get(arquivoCfg);
+			Charset charset = StandardCharsets.UTF_8;
+			String content = new String(Files.readAllBytes(path), charset);
+
+			String[] urlWsParaAlterar = {wsclientHost, wsclientReturnHost};
+			String[] urlWsEsperado = {urlIntegracao, urlIntegracao};
+
+			for (int count = 0; count < urlWsParaAlterar.length; count++) {
+				content = content.replaceAll(urlWsParaAlterar[count], urlWsEsperado[count]);
+				Files.write(path, content.getBytes(charset));
+			}
+
+			logger.info("URL do WS alterado com sucesso no arquivo .cfg!");
+			logger.info("Reiniciando o serviço do integrador...");
+
+			reiniciaServicoWindows(nomeDoServicoIntegrador);
+
+		}
+
+	}
+
+	private void reiniciaServicoWindows(String nomeDoServicoIntegrador) {
+
+		try {
+
+			ParaServicoDoWindows(nomeDoServicoIntegrador);
+			IniciaServicoDoWindows(nomeDoServicoIntegrador);
+			verificaSeOServicoEstaIniciado(nomeDoServicoIntegrador);
+
+		} catch (Exception e) {
+			logger.info("Erro de IO:" + e.getLocalizedMessage());
+		}
+
+	}
+
+	private void verificaSeOServicoEstaIniciado(String nomeDoServicoIntegrador) {
+		logger.info("verificando se o servico está iniciado " + nomeDoServicoIntegrador);
+		String[] statusService = {"cmd.exe", "/c", "sc \\remoteserver", "query", nomeDoServicoIntegrador, "|", "find", "/C", "\"RUNNING\""};
+
+	}
+
+	private void IniciaServicoDoWindows(String nomeDoServicoIntegrador) throws Exception {
+		String HOST = "\\\\127.0.0.1";
+		logger.info("Iniciando o serviço " + nomeDoServicoIntegrador);
+		String[] startService = {"cmd.exe", "/c", "sc " + HOST, "start", nomeDoServicoIntegrador};
+		Runtime.getRuntime().exec(startService);
+		int statusServico = stateService(nomeDoServicoIntegrador);
+
+		int count = 0;
+		logger.info("Aguardando o servico " + nomeDoServicoIntegrador + " iniciar...");
+		while (statusServico != 4) {
+			statusServico = stateService(nomeDoServicoIntegrador);
+			count++;
+			Thread.sleep(1000);
+			if (count >= tentativas) {
+				falhaIntegracao("Não foi possível iniciar o serviço do integrador " + nomeDoServicoIntegrador);
+			}
+
+		}
+		logger.info("Serviço " + nomeDoServicoIntegrador + " iniciado com sucesso!");
+
+	}
+
+	private void ParaServicoDoWindows(String nomeDoServicoIntegrador) throws Exception {
+		String HOST = "\\\\127.0.0.1";
+		logger.info("Parando o serviço " + nomeDoServicoIntegrador);
+		String[] stopService = {"cmd.exe", "/c", "sc " + HOST, "stop", nomeDoServicoIntegrador};
+		Runtime.getRuntime().exec(stopService);
+
+		int statusServico = stateService(nomeDoServicoIntegrador);
+
+		int count = 0;
+		logger.info("Aguardando o servico " + nomeDoServicoIntegrador + " parar...");
+		while (statusServico != 1) {
+			statusServico = stateService(nomeDoServicoIntegrador);
+			count++;
+			Thread.sleep(1000);
+			if (count >= tentativas) {
+				falhaIntegracao("Não foi possível parar o serviço do integrador " + nomeDoServicoIntegrador);
+			}
+
+		}
+		logger.info("Serviço " + nomeDoServicoIntegrador + " parado com sucesso!");
+
+	}
+
+	public int stateService(String serviceName) throws Exception {
+		return controleDeServicosDoWindows("query", serviceName);
+	}
+
+	private int controleDeServicosDoWindows(String cmd, String serviceName) throws Exception {
+		final int STATE_UNKNOWN = -1;
+		final int STATE_STOPPED = 1;
+		final int STATE_START_PENDING = 2;
+		final int STATE_STOP_PENDING = 3;
+		final int STATE_RUNNING = 4;
+
+		final Process proc = Runtime.getRuntime().exec("sc " + cmd + " " + serviceName);
+		BufferedReader br = new BufferedReader(new InputStreamReader(proc.getInputStream()));
+		String line;
+		int state = STATE_UNKNOWN;
+
+		while ((line = br.readLine()) != null) // searches for state in the child process output
+		{
+			int p;
+
+			if ((p = line.indexOf(" STATE ")) != -1) {
+				if ((p = line.indexOf(" : ", p)) != -1)
+					state = Integer.parseInt(line.substring(p + 3, p + 4));
+			}
+		}
+
+		int retCode = proc.waitFor();
+
+		if (retCode != 0)
+			throw new Exception("Error code of 'sc' is : " + retCode);
+
+		return state;
 	}
 
 }

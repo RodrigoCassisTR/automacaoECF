@@ -23,6 +23,8 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 	public String caminhoIntegrador = new RecebeParametros().caminhoIntegrador;
 	public String nomeDoServicoIntegrador = new RecebeParametros().nomeDoServicoIntegrador;
 	public String diretorioPadraoIntegracao = new RecebeParametros().diretorioPadraoIntegracao;
+	public String urlIntegracao = new RecebeParametros().urlIntegracao;
+	
 	
 	
 
@@ -33,7 +35,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 	public long duracaoTeste;
 
 	@Test
-	public void integraRegistro() throws IOException, InterruptedException {
+	public void integraRegistro() throws Exception {
 		long inicio = System.currentTimeMillis();
 
 		////// INTEGRACAO INFO
@@ -46,9 +48,9 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String arquivoIntegracaoExclui = properties.getProperty("arquivoIntegracaoExclui");
 
 		// Lendo o arquivo taxbr.ecf.integrator.ledgeraccount.cfg
-		String filename = caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg";
+		String arquivoCfg = caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg";
 		propertiesIntegrador = new Properties();
-		FileInputStream file = new FileInputStream(filename);
+		FileInputStream file = new FileInputStream(arquivoCfg);
 		propertiesIntegrador.load(file);
 
 		String wsclientHost = propertiesIntegrador.getProperty("wsclient.host");
@@ -63,7 +65,6 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		propertiesTela.load(file2);
 
 		////////PROPERTIES DE TELA 
-		//TELA: PLANO DE CONTAS (ACESSO)
 
 		//////////ACESSO E TITULOS
 		String caminho = propertiesTela.getProperty("caminho");
@@ -84,8 +85,6 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		//////////VALIDACOES PADRAO
 		String xPathCarregaPesquisa = propertiesTela.getProperty("xPathCarregaPesquisa");
-
-
 		String idBotaoExecutarConsulta = propertiesTela.getProperty("idBotaoExecutarConsulta");
 
 		String idBotaoConsultar = propertiesTela.getProperty("idBotaoConsultar");
@@ -251,8 +250,9 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		logger.info("----------------------------------------------------------");
 
 		//VERIFICA SE O SERVIÇO DO INTEGRADOR ESTÁ INICIADO
+		integracao.verificaUrlWS(wsclientHost,wsclientReturnHost,urlIntegracao,diretorioPadraoIntegracao,arquivoCfg,nomeDoServicoIntegrador);
 		integracao.verficaServicoIntegracaoIniciado(nomeDoServicoIntegrador);
-
+		
 		//VERIFICA SE O REGISTRO A SER INTEGRADO JA EXISTE, SE EXISTE EXCLUI
 		automacao.acessaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
 		automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);

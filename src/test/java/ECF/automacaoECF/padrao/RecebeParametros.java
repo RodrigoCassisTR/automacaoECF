@@ -31,6 +31,7 @@ public class RecebeParametros {
 	public String pastasIntegracao;
 	public String nomeDoServicoIntegrador;
 	public String diretorioPadraoIntegracao;
+	public String urlIntegracao;
 	
 
 	public RecebeParametros() {
@@ -66,6 +67,8 @@ public class RecebeParametros {
 			testesCrud= properties.getProperty("testesCrud");
 			testesIntegracao= properties.getProperty("testesIntegracao");
 			diretorioPadraoIntegracao= properties.getProperty("diretorioPadraoIntegracao");
+			urlIntegracao= properties.getProperty("urlIntegracao");
+			
 			
 			
 			

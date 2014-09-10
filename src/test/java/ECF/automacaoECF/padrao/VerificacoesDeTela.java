@@ -1190,6 +1190,7 @@ public class VerificacoesDeTela {
 			driver.findElement(By.linkText(labelTela)).click();
 			Thread.sleep(1000);
 		} else if (qtdeMenuInt == 2) {
+
 			driver.findElement(By.linkText(labelMenu1)).click();
 			aguardaCarregamentoPorLinkText(nomeTeste, labelMenu2, nomeTeste, tentativas, driver);
 			driver.findElement(By.linkText(labelMenu2)).click();
@@ -1279,8 +1280,6 @@ public class VerificacoesDeTela {
 			}
 			Thread.sleep(1000);
 		}
-
-		logger.info("Tela " + nomeTeste + " acessada com sucesso!!");
 
 	}
 
@@ -2239,6 +2238,40 @@ public class VerificacoesDeTela {
 	public void validaTootipDaAba(String nomeTeste, WebDriver driver, int tentativas, String[] idLabelsAba, String[] PossuiTooltipNaLabelAba, String[] toolTipEsperadoAba) throws IOException {
 
 		validaTootip(driver, nomeTeste, tentativas, idLabelsAba, PossuiTooltipNaLabelAba, toolTipEsperadoAba);
+
+	}
+	public void preencheCamposDeApuracao(WebDriver driver, String caminho, int tentativas, String nomeTeste, String[] idCamposTelaApuracao, String[] valorCamposTelaApuracao) throws IOException, InterruptedException {
+
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+		aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCamposTelaApuracao[0]);
+		for (int i = 0; i < idCamposTelaApuracao.length; i++) {
+			aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCamposTelaApuracao[i]);
+			logger.info("Preenchendo o campo " + idCamposTelaApuracao[i] + " com o valor: " + valorCamposTelaApuracao[i]);
+			driver.findElement(By.id(idCamposTelaApuracao[i])).click();
+			driver.findElement(By.id(idCamposTelaApuracao[i])).sendKeys(valorCamposTelaApuracao[i]);
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCamposTelaApuracao[i]);
+			Thread.sleep(500);
+
+		}
+
+	}
+	public void marcaCheckBox(WebDriver driver, String caminho, int tentativas, String nomeTeste, String[] idCampo, String[] valorCampo) throws IOException, InterruptedException {
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+		for (int i = 0; i < idCampo.length; i++) {
+			boolean valorCampoBoolean = Boolean.parseBoolean(valorCampo[i]);
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCampo[i]);
+			if (valorCampoBoolean == true) {
+				aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+				aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCampo[i]);
+				logger.info("Marcando o campo " + idCampo[i]);
+				driver.findElement(By.id(idCampo[i])).click();
+				aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCampo[i]);
+				aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			}
+
+		}
 
 	}
 }
