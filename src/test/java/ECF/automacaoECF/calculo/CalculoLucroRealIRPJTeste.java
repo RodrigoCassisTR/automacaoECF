@@ -45,6 +45,7 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 
 		//ACESSO E TITULOS
 		String caminho = propertiesTela.getProperty("caminho");
+		String nomeTeste = "TESTE";
 
 		//ACESSO A TELA
 		int qtdeMenu = Integer.parseInt(propertiesTela.getProperty("qtdeMenu"));
@@ -59,6 +60,15 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 		String labelTela = propertiesTela.getProperty("labelTela");
 		String xpathTela = propertiesTela.getProperty("xpathTela");
 		String xpathSemResultados = propertiesTela.getProperty("xpathSemResultados");
+
+		//TELA RESULTADOS
+		String idBotaoConsultar = propertiesTela.getProperty("idBotaoConsultar");
+		String idBotaoNovo = propertiesTela.getProperty("idBotaoNovo");
+		String idBotaoCriarCopia = propertiesTela.getProperty("idBotaoCriarCopia");
+		String idBotaoEditar = propertiesTela.getProperty("idBotaoEditar");
+		String idBotaoExcluir = propertiesTela.getProperty("idBotaoExcluir");
+		String idBotaoExportar = propertiesTela.getProperty("idBotaoExportar");
+		String[] idBotoesResultados = {idBotaoConsultar, idBotaoNovo, idBotaoCriarCopia, idBotaoEditar, idBotaoExcluir, idBotaoExportar};
 
 		//VALIDACOES PADRAO
 		String xPathCarregaPesquisa = propertiesTela.getProperty("xPathCarregaPesquisa");
@@ -78,8 +88,6 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 		String xpathTelaProcessoEmLote = propertiesTelaProcessoEmLote.getProperty("xpathTela");
 		String xPathCarregaPesquisaTelaProcessoEmLote = propertiesTelaProcessoEmLote.getProperty("xPathCarregaPesquisa");
 		String idBotaoExecutarConsultaTelaProcessoEmLote = propertiesTelaProcessoEmLote.getProperty("idBotaoExecutarConsulta");
-
-		String nomeTeste = getClass().getSimpleName().toUpperCase();
 
 		//INFORMCOES DA APURACAO
 		String empresaApuracao = properties.getProperty("String empresaApuracao");
@@ -176,6 +184,143 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 		String[] valorScp = {valorCampoComScp};
 
 		//CAMPO 12 '*Empresas/Estabelecimentos/SCPs'
+		String[] idListaDeEmpresasNaCaixaDeSelecao = properties.getProperty("idListaDeEmpresasNaCaixaDeSelecao").split(";");
+		String[] idBotoesDeSelecaoDeEmpresa = properties.getProperty("idBotoesDeSelecaoDeEmpresa").split(";");
+		String empresaSelecao = properties.getProperty("empresaSelecao");
+
+		// DE X PARA PESQUISA
+		int qtdePesquisa = Integer.parseInt(properties.getProperty("qtdePesquisa"));
+		String valorPesquisa1 = properties.getProperty("valorPesquisa1");
+		String valorPesquisa2 = properties.getProperty("valorPesquisa2");
+		String valorPesquisa3 = properties.getProperty("valorPesquisa3");
+		String valorPesquisa4 = properties.getProperty("valorPesquisa4");
+		String valorPesquisa5 = properties.getProperty("valorPesquisa5");
+		String valorPesquisa6 = properties.getProperty("valorPesquisa6");
+		String valorPesquisa7 = properties.getProperty("valorPesquisa7");
+		String valorPesquisa8 = properties.getProperty("valorPesquisa8");
+		String valorPesquisa9 = properties.getProperty("valorPesquisa9");
+		String valorPesquisa10 = properties.getProperty("valorPesquisa10");
+
+		String campoPesquisa1 = properties.getProperty("campoPesquisa1");
+		String campoPesquisa2 = properties.getProperty("campoPesquisa2");
+		String campoPesquisa3 = properties.getProperty("campoPesquisa3");
+		String campoPesquisa4 = properties.getProperty("campoPesquisa4");
+		String campoPesquisa5 = properties.getProperty("campoPesquisa5");
+		String campoPesquisa6 = properties.getProperty("campoPesquisa6");
+		String campoPesquisa7 = properties.getProperty("campoPesquisa7");
+		String campoPesquisa8 = properties.getProperty("campoPesquisa8");
+		String campoPesquisa9 = properties.getProperty("campoPesquisa9");
+		String campoPesquisa10 = properties.getProperty("campoPesquisa10");
+
+		String[] camposPesquisa = {campoPesquisa1, campoPesquisa2, campoPesquisa3, campoPesquisa4, campoPesquisa5, campoPesquisa6, campoPesquisa7, campoPesquisa8, campoPesquisa8, campoPesquisa9, campoPesquisa10};
+		String[] valoresPesquisa = {valorPesquisa1, valorPesquisa2, valorPesquisa3, valorPesquisa4, valorPesquisa5, valorPesquisa6, valorPesquisa7, valorPesquisa8, valorPesquisa9, valorPesquisa10};
+
+		//CAMPOS RESULTADOS
+		int qtdeResultados = Integer.parseInt(properties.getProperty("qtdeResultados"));
+		String valorResultados1 = properties.getProperty("valorResultados1");
+		String valorResultados2 = properties.getProperty("valorResultados2");
+		String valorResultados3 = properties.getProperty("valorResultados3");
+		String valorResultados4 = properties.getProperty("valorResultados4");
+		String valorResultados5 = properties.getProperty("valorResultados5");
+		String valorResultados6 = properties.getProperty("valorResultados6");
+		String valorResultados7 = properties.getProperty("valorResultados7");
+		String valorResultados8 = properties.getProperty("valorResultados8");
+		String valorResultados9 = properties.getProperty("valorResultados9");
+		String valorResultados10 = properties.getProperty("valorResultados10");
+		String campoResultados1 = properties.getProperty("campoResultados1");
+		String campoResultados2 = properties.getProperty("campoResultados2");
+		String campoResultados3 = properties.getProperty("campoResultados3");
+		String campoResultados4 = properties.getProperty("campoResultados4");
+		String campoResultados5 = properties.getProperty("campoResultados5");
+		String campoResultados6 = properties.getProperty("campoResultados6");
+		String campoResultados7 = properties.getProperty("campoResultados7");
+		String campoResultados8 = properties.getProperty("campoResultados8");
+		String campoResultados9 = properties.getProperty("campoResultados9");
+		String campoResultados10 = properties.getProperty("campoResultados10");
+
+		String[] valoresResultados = {valorResultados1, valorResultados2, valorResultados3, valorResultados4, valorResultados5, valorResultados6, valorResultados7, valorResultados8, valorResultados9, valorResultados10};
+		String[] colunasResultados = {campoResultados1, campoResultados2, campoResultados3, campoResultados4, campoResultados5, campoResultados6, campoResultados7, campoResultados8, campoResultados9, campoResultados10};
+		boolean registroNaoVisualizado = false;
+
+		// DE X PARA CADASTROS
+		int qtdeCadastro = Integer.parseInt(properties.getProperty("qtdeCadastro"));
+
+		String valorCadastro1 = properties.getProperty("valorCadastro1");
+		String valorCadastro2 = properties.getProperty("valorCadastro2");
+		String valorCadastro3 = properties.getProperty("valorCadastro3");
+		String valorCadastro4 = properties.getProperty("valorCadastro4");
+		String valorCadastro5 = properties.getProperty("valorCadastro5");
+		String valorCadastro6 = properties.getProperty("valorCadastro6");
+		String valorCadastro7 = properties.getProperty("valorCadastro7");
+		String valorCadastro8 = properties.getProperty("valorCadastro8");
+		String valorCadastro9 = properties.getProperty("valorCadastro9");
+		String valorCadastro10 = properties.getProperty("valorCadastro10");
+		String valorCadastro11 = properties.getProperty("valorCadastro11");
+		String valorCadastro12 = properties.getProperty("valorCadastro12");
+		String valorCadastro13 = properties.getProperty("valorCadastro13");
+		String valorCadastro14 = properties.getProperty("valorCadastro14");
+		String valorCadastro15 = properties.getProperty("valorCadastro15");
+		String valorCadastro16 = properties.getProperty("valorCadastro16");
+		String valorCadastro17 = properties.getProperty("valorCadastro17");
+		String valorCadastro18 = properties.getProperty("valorCadastro18");
+		String valorCadastro19 = properties.getProperty("valorCadastro19");
+		String valorCadastro20 = properties.getProperty("valorCadastro20");
+
+		String idCampoCadastro1 = properties.getProperty("idCampoCadastro1");
+		String idCampoCadastro2 = properties.getProperty("idCampoCadastro2");
+		String idCampoCadastro3 = properties.getProperty("idCampoCadastro3");
+		String idCampoCadastro4 = properties.getProperty("idCampoCadastro4");
+		String idCampoCadastro5 = properties.getProperty("idCampoCadastro5");
+		String idCampoCadastro6 = properties.getProperty("idCampoCadastro6");
+		String idCampoCadastro7 = properties.getProperty("idCampoCadastro7");
+		String idCampoCadastro8 = properties.getProperty("idCampoCadastro8");
+		String idCampoCadastro9 = properties.getProperty("idCampoCadastro9");
+		String idCampoCadastro10 = properties.getProperty("idCampoCadastro10");
+		String idCampoCadastro11 = properties.getProperty("idCampoCadastro11");
+		String idCampoCadastro12 = properties.getProperty("idCampoCadastro12");
+		String idCampoCadastro13 = properties.getProperty("idCampoCadastro13");
+		String idCampoCadastro14 = properties.getProperty("idCampoCadastro14");
+		String idCampoCadastro15 = properties.getProperty("idCampoCadastro15");
+		String idCampoCadastro16 = properties.getProperty("idCampoCadastro16");
+		String idCampoCadastro17 = properties.getProperty("idCampoCadastro17");
+		String idCampoCadastro18 = properties.getProperty("idCampoCadastro18");
+		String idCampoCadastro19 = properties.getProperty("idCampoCadastro19");
+		String idCampoCadastro20 = properties.getProperty("idCampoCadastro20");
+
+		String[] valoresCadastro = {valorCadastro1, valorCadastro2, valorCadastro3, valorCadastro4, valorCadastro5, valorCadastro6, valorCadastro7, valorCadastro8, valorCadastro9, valorCadastro10, valorCadastro11, valorCadastro12, valorCadastro13, valorCadastro14, valorCadastro15, valorCadastro16, valorCadastro17, valorCadastro18, valorCadastro19, valorCadastro20};
+		String[] camposTelaCadastro = {idCampoCadastro1, idCampoCadastro2, idCampoCadastro3, idCampoCadastro4, idCampoCadastro5, idCampoCadastro6, idCampoCadastro7, idCampoCadastro8, idCampoCadastro9, idCampoCadastro10, idCampoCadastro11, idCampoCadastro12, idCampoCadastro13, idCampoCadastro14, idCampoCadastro15, idCampoCadastro16, idCampoCadastro17, idCampoCadastro18, idCampoCadastro19, idCampoCadastro20};
+
+		//ABA LUCRO LIQUIDO 
+		String xpathAbaLucroLiquido = properties.getProperty("xpathAbaLucroLiquido");
+		String[] idCamposAbaLucroLiquido = properties.getProperty("idCamposAbaLucroLiquido").split(";");
+		String[] valoresCamposAbaLucroLiquido = properties.getProperty("valoresCamposAbaLucroLiquido").split(";");
+
+		//ABA ADICOES 
+		String xpathAbaAdicoes = properties.getProperty("xpathAbaAdicoes");
+		String[] idCamposAbaAdicoes = properties.getProperty("idCamposAbaAdicoes").split(";");
+		String[] valoresCamposAbaAdicoes = properties.getProperty("valoresCamposAbaAdicoes").split(";");
+
+		//ABA EXCLUSOES 
+		String xpathAbaExclusoes = properties.getProperty("xpathAbaExclusoes");
+		String[] idCamposAbaExclusoes = properties.getProperty("idCamposAbaExclusoes").split(";");
+		String[] valoresCamposAbaExclusoes = properties.getProperty("valoresCamposAbaExclusoes").split(";");
+
+		//ABA DEDUCOES 
+		String xpathAbaDeducoes = properties.getProperty("xpathAbaDeducoes");
+		String[] idCamposAbaDeducoes = properties.getProperty("idCamposAbaDeducoes").split(";");
+		String[] valoresCamposAbaDeducoes = properties.getProperty("valoresCamposAbaDeducoes").split(";");
+
+		//ABA COMPENSACOES 
+		String xpathAbaCompensacoes = properties.getProperty("xpathAbaCompensacoes");
+		String[] idCamposAbaCompensacoes = properties.getProperty("idCamposAbaCompensacoes").split(";");
+		String[] valoresCamposAbaCompensacoes = properties.getProperty("valoresCamposAbaCompensacoes").split(";");
+
+		//ABA CALCULO 
+		String xpathAbaCalculo = properties.getProperty("xpathAbaCalculo");
+		String[] xpathCamposAbaCalculo = properties.getProperty("xpathCamposAbaCalculo").split(";");
+		String[] valoresCamposAbaCalculo = properties.getProperty("valoresCamposAbaCalculo").split(";");
+		String[] xpathLabelsCamposAbaCalculo = properties.getProperty("xpathLabelsCamposAbaCalculo").split(";");
+		String[] valoresLabelsCamposAbaCalculo = properties.getProperty("valoresLabelsCamposAbaCalculo").split(";");
 
 		VerificacoesDeTela automacao = new VerificacoesDeTela();
 
@@ -198,8 +343,20 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 		automacao.marcaCheckBox(driver, caminho, tentativas, nomeTeste, idProcessar, valorProcessar);
 		automacao.marcaCheckBox(driver, caminho, tentativas, nomeTeste, idScp, valorScp);
 
-		
+		automacao.selecionaEmpresaParaApuracao(driver, caminho, tentativas, nomeTeste, idListaDeEmpresasNaCaixaDeSelecao, idBotoesDeSelecaoDeEmpresa, empresaSelecao);
+		automacao.clicaEmProcessarApuracao(driver, caminho, tentativas, nomeTeste, idBotaoProcessar);
+		automacao.fechaTela(driver, caminho, tentativas, nomeTeste, "/html/body/div[3]/div[2]/div/ul/li[2]/a/span[2]");
+		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 
+		automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
+		registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, xpathSemResultados);
+		automacao.verificaTelaCadastro(driver, tentativas, qtdeCadastro, camposTelaCadastro, valoresCadastro);
+		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaLucroLiquido, idCamposAbaLucroLiquido, valoresCamposAbaLucroLiquido);
+		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaAdicoes, idCamposAbaAdicoes, valoresCamposAbaAdicoes);
+		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaExclusoes, idCamposAbaExclusoes, valoresCamposAbaExclusoes);
+		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaDeducoes, idCamposAbaDeducoes, valoresCamposAbaDeducoes);
+		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaCompensacoes, idCamposAbaCompensacoes, valoresCamposAbaCompensacoes);
+		automacao.validaInformacoesApuracaoAbaCalculo(driver, tentativas, nomeTeste, xpathAbaCalculo, xpathCamposAbaCalculo, valoresCamposAbaCalculo, xpathLabelsCamposAbaCalculo, valoresLabelsCamposAbaCalculo);
 
 		Thread.sleep(100000);
 

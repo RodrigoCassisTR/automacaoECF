@@ -14,12 +14,15 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class VerificacoesDeTela {
@@ -1095,14 +1098,19 @@ public class VerificacoesDeTela {
 	public boolean verificaSeApresentaMensagemDeErro(WebDriver driver, String nomeTeste, int tentativas, String caminho) throws InterruptedException, IOException {
 
 		Thread.sleep(500);
-		boolean apareceuErro;
-		String xpathErro = "/html/body/div[13]/div";
-		apareceuErro = verificaSeElementoEstaPresente(driver, xpathErro);
-		if (apareceuErro == true) {
-			logger.info("Foi Apresentada mensagem de erro não prevista!");
-			falha("Foi Apresentada mensagem de erro não prevista!", driver, nomeTeste);
-			return (apareceuErro);
+		boolean apareceuErro = false;
+		String[] xpathErro = {"/html/body/div[13]/div", "/html/body/div[14]/div"};
+
+		for (int i = 0; i < xpathErro.length; i++) {
+			apareceuErro = verificaSeElementoEstaPresente(driver, xpathErro[i]);
+			if (apareceuErro == true) {
+				logger.info("Foi Apresentada mensagem de erro não prevista!");
+				falha("Foi Apresentada mensagem de erro não prevista!", driver, nomeTeste);
+				return (apareceuErro);
+			}
+
 		}
+
 		return apareceuErro;
 
 	}
@@ -1268,7 +1276,7 @@ public class VerificacoesDeTela {
 	public void aguardaProcessamentoDesaparecer(WebDriver driver, int tentativas, String nomeTeste) throws IOException, InterruptedException {
 
 		for (int second = 0;; second++) {
-			logger.info("Aguardando tela de loading desaparecer || Tentativa " + (second + 1) + " de " + tentativas);
+			//logger.info("Aguardando tela de loading desaparecer || Tentativa " + (second + 1) + " de " + tentativas);
 
 			if (second >= tentativas)
 				falha("Timeout, elemento nao localizado " + "//*[@id='taxit_loading']", driver, nomeTeste);
@@ -1388,6 +1396,7 @@ public class VerificacoesDeTela {
 			}
 
 		}
+		moveParaIconeHome(driver);
 
 	}
 	public boolean verificaExistenciaDoRegistro(WebDriver driver, int tentativas, String nomeTeste, int qtdePesquisa, String[] camposPesquisa, String[] valoresPesquisa, String idBotaoExecutarConsulta, int qtdeResultados, String[] colunasResultados, String[] valoresResultados) throws IOException, InterruptedException {
@@ -2244,16 +2253,20 @@ public class VerificacoesDeTela {
 
 		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 		aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCamposTelaApuracao[0]);
+
 		for (int i = 0; i < idCamposTelaApuracao.length; i++) {
-			aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCamposTelaApuracao[i]);
-			logger.info("Preenchendo o campo " + idCamposTelaApuracao[i] + " com o valor: " + valorCamposTelaApuracao[i]);
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCamposTelaApuracao[0]);
 			driver.findElement(By.id(idCamposTelaApuracao[i])).click();
+			driver.findElement(By.id(idCamposTelaApuracao[i])).clear();
 			driver.findElement(By.id(idCamposTelaApuracao[i])).sendKeys(valorCamposTelaApuracao[i]);
+			driver.findElement(By.id(idCamposTelaApuracao[i])).sendKeys(Keys.TAB);
 			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 			aguardaCarregamentoPorId(driver, tentativas, nomeTeste, idCamposTelaApuracao[i]);
-			Thread.sleep(500);
 
 		}
+
+		Thread.sleep(500);
 
 	}
 	public void marcaCheckBox(WebDriver driver, String caminho, int tentativas, String nomeTeste, String[] idCampo, String[] valorCampo) throws IOException, InterruptedException {
@@ -2274,4 +2287,85 @@ public class VerificacoesDeTela {
 		}
 
 	}
+	public void selecionaEmpresaParaApuracao(WebDriver driver, String caminho, int tentativas, String nomeTeste, String[] idListaDeEmpresasNaCaixaDeSelecao, String[] idBotoesDeSelecaoDeEmpresa, String empresaSelecao) throws InterruptedException, IOException {
+		logger.info("Selecionando a empresa " + empresaSelecao + "...");
+
+		for (int i = 0; i < idListaDeEmpresasNaCaixaDeSelecao.length; i++) {
+			if (driver.findElements(By.id(idListaDeEmpresasNaCaixaDeSelecao[i])).size() != 0) {
+				if (driver.findElement(By.id(idListaDeEmpresasNaCaixaDeSelecao[i])).getText().contentEquals(empresaSelecao)) {
+					Actions action = new Actions(driver);
+					action.moveToElement(driver.findElement(By.id(idListaDeEmpresasNaCaixaDeSelecao[i]))).doubleClick().build().perform();
+
+					break;
+				}
+
+			} else {
+				falha("Empresa não localizada na caixa de seleção!", driver, nomeTeste);
+			}
+
+		}
+
+	}
+	public void clicaEmProcessarApuracao(WebDriver driver, String caminho, int tentativas, String nomeTeste, String idBotaoProcessar) throws IOException, InterruptedException {
+
+		Actions actions = new Actions(driver);
+		actions.keyDown(Keys.CONTROL).sendKeys(Keys.HOME).perform();
+
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+		logger.info("Clicando no botão Processar...");
+		driver.findElement(By.id(idBotaoProcessar)).click();
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+
+		//verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
+
+	}
+	public void fechaTela(WebDriver driver, String caminho, int tentativas, String nomeTeste, String xpathFechar) throws InterruptedException, IOException {
+		aguardaCarregamento(caminho, xpathFechar, nomeTeste, tentativas, driver);
+		driver.findElement(By.xpath(xpathFechar)).click();
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+
+	}
+	public void validaInformacoesNasAbas(WebDriver driver, int tentativas, String nomeTeste, String xpathAba, String[] idCamposAba, String[] valoresCamposAba) throws IOException, InterruptedException {
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+		logger.info("Validando os campos da aba " + xpathAba + "...");
+
+		driver.findElement(By.xpath(xpathAba)).click();
+		for (int i = 0; i < idCamposAba.length; i++) {
+
+			if (driver.findElement(By.id(idCamposAba[i])).getAttribute("value").contentEquals(valoresCamposAba[i])) {
+				logger.info("#OK# Valor esperado: " + valoresCamposAba[i] + ", valor obtido: " + driver.findElement(By.id(idCamposAba[i])).getAttribute("value"));
+			} else {
+				logger.info("#ALERTA# Valor esperado: " + valoresCamposAba[i] + ", valor obtido: " + driver.findElement(By.id(idCamposAba[i])).getAttribute("value"));
+				//TODO MUDAR PARA FALHA
+			}
+		}
+
+	}
+	public void validaInformacoesApuracaoAbaCalculo(WebDriver driver, int tentativas, String nomeTeste, String xpathAbaCalculo, String[] xpathCamposAbaCalculo, String[] valoresCamposAbaCalculo, String[] xpathLabelsCamposAbaCalculo, String[] valoresLabelsCamposAbaCalculo) throws IOException, InterruptedException {
+		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+		logger.info("Validando os campos da aba " + xpathAbaCalculo + "...");
+		driver.findElement(By.xpath(xpathAbaCalculo)).click();
+
+		logger.info("Verificando sequencia das contas das abas Cálculo...");
+		for (int i = 0; i < xpathLabelsCamposAbaCalculo.length; i++) {
+			if (driver.findElement(By.xpath(xpathLabelsCamposAbaCalculo[i])).getText().contentEquals(valoresLabelsCamposAbaCalculo[i])) {
+				logger.info("#OK# Valor esperado: " + valoresLabelsCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathLabelsCamposAbaCalculo[i])).getText());
+			} else {
+				logger.info("#ALERTA# Valor esperado: " + valoresLabelsCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathLabelsCamposAbaCalculo[i])).getText());
+				//TODO mudar para falha
+			}
+		}
+		
+		logger.info("Verificando valores das contas da aba Cálculo...");
+		
+		for (int i = 0; i < xpathCamposAbaCalculo.length; i++) {
+			if (driver.findElement(By.xpath(xpathCamposAbaCalculo[i])).getAttribute("value").contentEquals(valoresCamposAbaCalculo[i])) {
+				logger.info("#OK# Valor esperado: " + valoresCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathCamposAbaCalculo[i])).getAttribute("value"));
+			} else {
+				logger.info("#ALERTA# Valor esperado: " + valoresCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathCamposAbaCalculo[i])).getAttribute("value"));
+				//TODO mudar para falha
+			}
+		}
+	}
+
 }
