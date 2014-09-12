@@ -477,6 +477,18 @@ public class VerificacoesDeTela {
 			logger.info("----------------------------------------------------");
 			logger.info("ABA: " + nomeTeste);
 			logger.info("----------------------------------------------------");
+		} else if (i == 6) {
+			logger.info("----------------------------------------------------");
+			logger.info("VALIDANDO DADOS DA APURAÇÃO ANTES DO CÁLCULO: " + nomeTeste);
+			logger.info("----------------------------------------------------");
+		} else if (i == 7) {
+			logger.info("----------------------------------------------------");
+			logger.info("INICIANDO O PROCESSAMENTO EM LOTE");
+			logger.info("----------------------------------------------------");
+		} else if (i == 8) {
+			logger.info("----------------------------------------------------");
+			logger.info("EDITANDO DADOS DA APURAÇÃO, E CALCULO");
+			logger.info("----------------------------------------------------");
 		} else {
 			logger.info("????????????????????????????????????????????????????");
 			logger.info("INVÁLIDO");
@@ -1055,7 +1067,7 @@ public class VerificacoesDeTela {
 		driver.findElement(By.xpath(xpathAba)).click();
 
 		Actions action = new Actions(driver);
-		WebElement we = driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/ul/li[1]/a"));
+		WebElement we = driver.findElement(By.xpath("//*[@id='ui-id-1']"));
 		action.moveToElement(we).build().perform();
 
 	}
@@ -1099,7 +1111,7 @@ public class VerificacoesDeTela {
 
 		Thread.sleep(500);
 		boolean apareceuErro = false;
-		String[] xpathErro = {"/html/body/div[13]/div", "/html/body/div[14]/div"};
+		String[] xpathErro = {"/html/body/div[13]/div", "/html/body/div[14]/div", "/html/body/div[21]/div"};
 
 		for (int i = 0; i < xpathErro.length; i++) {
 			apareceuErro = verificaSeElementoEstaPresente(driver, xpathErro[i]);
@@ -1111,15 +1123,17 @@ public class VerificacoesDeTela {
 
 		}
 
+		logger.info("Nenhuma mensagem de erro foi apresentada!!");
+
 		return apareceuErro;
 
 	}
 	private boolean verificaSeElementoEstaPresente(WebDriver driver, String xpathErro) {
 		if (driver.findElements(By.xpath(xpathErro)).size() != 0) {
-			logger.info("#ALERTA# Foi aprsentada mensagem de erro!");
+
 			return true;
 		} else {
-			logger.info("#OK# Nehuma mensagem de erro localizada!");
+
 			return false;
 		}
 
@@ -2355,9 +2369,9 @@ public class VerificacoesDeTela {
 				//TODO mudar para falha
 			}
 		}
-		
+
 		logger.info("Verificando valores das contas da aba Cálculo...");
-		
+
 		for (int i = 0; i < xpathCamposAbaCalculo.length; i++) {
 			if (driver.findElement(By.xpath(xpathCamposAbaCalculo[i])).getAttribute("value").contentEquals(valoresCamposAbaCalculo[i])) {
 				logger.info("#OK# Valor esperado: " + valoresCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathCamposAbaCalculo[i])).getAttribute("value"));
@@ -2366,6 +2380,71 @@ public class VerificacoesDeTela {
 				//TODO mudar para falha
 			}
 		}
+	}
+	public void verificaValoresDasContasAntesDoCalculo(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabels, String[] labels, String[] idCaixas, String[] valorCaixa) throws IOException {
+		logger.info("Iniciando validação de valores...");
+		try {
+
+			for (int i = 0; i < idLabels.length; i++) {
+
+				if (driver.findElement(By.id(idCaixas[i])).getAttribute("value").contentEquals(valorCaixa[0])) {
+
+					logger.info("------------------------------------------------");
+					logger.info("SUCESSO!!");
+					logger.info("Campo: " + labels[i]);
+					logger.info("Locator: " + idLabels[i]);
+					logger.info("Valor Esperado: " + valorCaixa[i]);
+					logger.info("Valor Obtido: " + driver.findElement(By.id(idCaixas[i])).getAttribute("value"));
+					logger.info("------------------------------------------------");
+				} else {
+
+					logger.info("------------------------------------------------");
+					logger.info("FALHA!!");
+					logger.info("Campo: " + labels[i]);
+					logger.info("Locator: " + idLabels[i]);
+					logger.info("Valor Esperado: " + valorCaixa[i]);
+					logger.info("Valor Obtido: " + driver.findElement(By.id(idCaixas[i])).getAttribute("value"));
+					logger.info("------------------------------------------------");
+					//TODO MUDAR PRA FALHA
+
+				}
+			}
+
+		} catch (Exception e) {
+			falha("Não foi possível validar os dados das abas de apuração...", driver, nomeTeste);
+
+		}
+
+	}
+
+	public void entrarEmModoEdicaoApuracao(WebDriver driver, int tentativas, String nomeTeste, String[] idBotoesPadraoCadastro) throws IOException, InterruptedException {
+		try {
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+			logger.info("Clicando no botão Editar " + idBotoesPadraoCadastro[3]);
+			driver.findElement(By.id(idBotoesPadraoCadastro[3])).click();
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+
+		} catch (Exception e) {
+			falha("Não foi possívem entrar no modo Edicao\n" + e.toString(), driver, nomeTeste);
+		}
+
+	}
+	public void editaValoresDaApuracao(WebDriver driver, String nomeTeste, int tentativas, String[] xpathCaixaAbaEdicaoValoresAba, String[] valorCaixaEdicaoValoresAba, String[] xpathLabelEdicaoValoresAba) throws IOException, InterruptedException {
+		try {
+			aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
+
+			for (int i = 0; i < xpathCaixaAbaEdicaoValoresAba.length; i++) {
+				logger.info("----------------------------------------------------");
+				logger.info("Alterando o valor da conta " + driver.findElement(By.xpath(xpathLabelEdicaoValoresAba[i])).getText() + "...");
+				driver.findElement(By.xpath(xpathCaixaAbaEdicaoValoresAba[i])).clear();
+				driver.findElement(By.xpath(xpathCaixaAbaEdicaoValoresAba[i])).sendKeys(valorCaixaEdicaoValoresAba[i]);
+				logger.info("Valor: " + valorCaixaEdicaoValoresAba[i] + "...");
+			}
+
+		} catch (Exception e) {
+			falha("Não foi possívem editar as contas na tela de apuração!\n" + e.toString(), driver, nomeTeste);
+		}
+
 	}
 
 }

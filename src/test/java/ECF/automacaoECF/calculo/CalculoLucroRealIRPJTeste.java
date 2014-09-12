@@ -45,7 +45,7 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 
 		//ACESSO E TITULOS
 		String caminho = propertiesTela.getProperty("caminho");
-		String nomeTeste = "TESTE";
+		String nomeTeste = getClass().getSimpleName().toUpperCase();
 
 		//ACESSO A TELA
 		int qtdeMenu = Integer.parseInt(propertiesTela.getProperty("qtdeMenu"));
@@ -69,6 +69,15 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 		String idBotaoExcluir = propertiesTela.getProperty("idBotaoExcluir");
 		String idBotaoExportar = propertiesTela.getProperty("idBotaoExportar");
 		String[] idBotoesResultados = {idBotaoConsultar, idBotaoNovo, idBotaoCriarCopia, idBotaoEditar, idBotaoExcluir, idBotaoExportar};
+		
+		//TELA CADASTRO
+		String idBotaoSalvarCadastro = propertiesTela.getProperty("idBotaoSalvarCadastro");
+		String idBotaoNovoCadastro = propertiesTela.getProperty("idBotaoNovoCadastro");
+		String idBotaoCriarCopiaCadastro = propertiesTela.getProperty("idBotaoCriarCopiaCadastro");
+		String idBotaoEditarCadastro = propertiesTela.getProperty("idBotaoEditarCadastro");
+		String idBotaoExcluirCadastro = propertiesTela.getProperty("idBotaoExcluirCadastro");
+		String idBotaoCancelarCadastro = propertiesTela.getProperty("idBotaoCancelarCadastro");
+		String[] idBotoesPadraoCadastro = {idBotaoSalvarCadastro, idBotaoNovoCadastro, idBotaoCriarCopiaCadastro, idBotaoEditarCadastro, idBotaoExcluirCadastro, idBotaoCancelarCadastro};
 
 		//VALIDACOES PADRAO
 		String xPathCarregaPesquisa = propertiesTela.getProperty("xPathCarregaPesquisa");
@@ -290,37 +299,26 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 		String[] valoresCadastro = {valorCadastro1, valorCadastro2, valorCadastro3, valorCadastro4, valorCadastro5, valorCadastro6, valorCadastro7, valorCadastro8, valorCadastro9, valorCadastro10, valorCadastro11, valorCadastro12, valorCadastro13, valorCadastro14, valorCadastro15, valorCadastro16, valorCadastro17, valorCadastro18, valorCadastro19, valorCadastro20};
 		String[] camposTelaCadastro = {idCampoCadastro1, idCampoCadastro2, idCampoCadastro3, idCampoCadastro4, idCampoCadastro5, idCampoCadastro6, idCampoCadastro7, idCampoCadastro8, idCampoCadastro9, idCampoCadastro10, idCampoCadastro11, idCampoCadastro12, idCampoCadastro13, idCampoCadastro14, idCampoCadastro15, idCampoCadastro16, idCampoCadastro17, idCampoCadastro18, idCampoCadastro19, idCampoCadastro20};
 
-		//ABA LUCRO LIQUIDO 
-		String xpathAbaLucroLiquido = properties.getProperty("xpathAbaLucroLiquido");
-		String[] idCamposAbaLucroLiquido = properties.getProperty("idCamposAbaLucroLiquido").split(";");
-		String[] valoresCamposAbaLucroLiquido = properties.getProperty("valoresCamposAbaLucroLiquido").split(";");
+		//VARIAVEIS DE VALIDACAO DE APURACAO
+		String[] xpathAcessoAbas = properties.getProperty("xpathAcessoAbas").split(";");
+		String[] labelAcessoAbas = properties.getProperty("labelAcessoAbas").split(";");
 
-		//ABA ADICOES 
-		String xpathAbaAdicoes = properties.getProperty("xpathAbaAdicoes");
-		String[] idCamposAbaAdicoes = properties.getProperty("idCamposAbaAdicoes").split(";");
-		String[] valoresCamposAbaAdicoes = properties.getProperty("valoresCamposAbaAdicoes").split(";");
+		String[] idLabelsContasAba = {properties.getProperty("idLabelsContasAba1"), properties.getProperty("idLabelsContasAba2"), properties.getProperty("idLabelsContasAba3"), properties.getProperty("idLabelsContasAba4"), properties.getProperty("idLabelsContasAba5"), properties.getProperty("idLabelsContasAba6"), properties.getProperty("idLabelsContasAba7"), properties.getProperty("idLabelsContasAba8"), properties.getProperty("idLabelsContasAba9"), properties.getProperty("idLabelsContasAba10")};
+		String[] labelContasAba = {properties.getProperty("labelContasAba1"), properties.getProperty("labelContasAba2"), properties.getProperty("labelContasAba3"), properties.getProperty("labelContasAba4"), properties.getProperty("labelContasAba5"), properties.getProperty("labelContasAba6"), properties.getProperty("labelContasAba7"), properties.getProperty("labelContasAba8"), properties.getProperty("labelContasAba9"), properties.getProperty("labelContasAba10")};
+		String[] idCaixaContasAba = {properties.getProperty("idCaixaContasAba1"), properties.getProperty("idCaixaContasAba2"), properties.getProperty("idCaixaContasAba3"), properties.getProperty("idCaixaContasAba4"), properties.getProperty("idCaixaContasAba5"), properties.getProperty("idCaixaContasAba6"), properties.getProperty("idCaixaContasAba7"), properties.getProperty("idCaixaContasAba8"), properties.getProperty("idCaixaContasAba9"), properties.getProperty("idCaixaContasAba10")};
+		String[] valorCaixaContasAntesCalculoAba = {properties.getProperty("valorCaixaContasAntesCalculoAba1"), properties.getProperty("valorCaixaContasAntesCalculoAba2"), properties.getProperty("valorCaixaContasAntesCalculoAba3"), properties.getProperty("valorCaixaContasAntesCalculoAba4"), properties.getProperty("valorCaixaContasAntesCalculoAba5"), properties.getProperty("valorCaixaContasAntesCalculoAba6"), properties.getProperty("valorCaixaContasAntesCalculoAba7"), properties.getProperty("valorCaixaContasAntesCalculoAba8"), properties.getProperty("valorCaixaContasAntesCalculoAba9"), properties.getProperty("valorCaixaContasAntesCalculoAba10")};
+		String[] valorCaixaContasDepoisCalculoAba = {properties.getProperty("valorCaixaContasDepoisCalculoAba1"), properties.getProperty("valorCaixaContasDepoisCalculoAba2"), properties.getProperty("valorCaixaContasDepoisCalculoAba3"), properties.getProperty("valorCaixaContasDepoisCalculoAba4"), properties.getProperty("valorCaixaContasDepoisCalculoAba5"), properties.getProperty("valorCaixaContasDepoisCalculoAba6"), properties.getProperty("valorCaixaContasDepoisCalculoAba7"), properties.getProperty("valorCaixaContasDepoisCalculoAba8"), properties.getProperty("valorCaixaContasDepoisCalculoAba9"), properties.getProperty("valorCaixaContasDepoisCalculoAba10")};
+		
+		//VARIAVEIS DE EDICAO DE VALORES
+		
+		String[] xpathAbaEdicaoValores = properties.getProperty("xpathAbaEdicaoValores").split(";");
+		String[] labelAbaEdicaoValores = properties.getProperty("labelAbaEdicaoValores").split(";");
 
-		//ABA EXCLUSOES 
-		String xpathAbaExclusoes = properties.getProperty("xpathAbaExclusoes");
-		String[] idCamposAbaExclusoes = properties.getProperty("idCamposAbaExclusoes").split(";");
-		String[] valoresCamposAbaExclusoes = properties.getProperty("valoresCamposAbaExclusoes").split(";");
+		String[] xpathCaixaAbaEdicaoValoresAba = {properties.getProperty("xpathCaixaAbaEdicaoValoresAba1"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba2"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba3"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba4"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba5"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba6"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba7"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba8"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba9"),properties.getProperty("xpathCaixaAbaEdicaoValoresAba10")};
+		String[] valorCaixaEdicaoValoresAba = {properties.getProperty("valorCaixaEdicaoValoresAba1"),properties.getProperty("valorCaixaEdicaoValoresAba2"),properties.getProperty("valorCaixaEdicaoValoresAba3"),properties.getProperty("valorCaixaEdicaoValoresAba4"),properties.getProperty("valorCaixaEdicaoValoresAba5"),properties.getProperty("valorCaixaEdicaoValoresAba6"),properties.getProperty("valorCaixaEdicaoValoresAba7"),properties.getProperty("valorCaixaEdicaoValoresAba8"),properties.getProperty("valorCaixaEdicaoValoresAba9"),properties.getProperty("valorCaixaEdicaoValoresAba10")};
+		String[] xpathLabelEdicaoValoresAba = {properties.getProperty("xpathLabelEdicaoValoresAba1"),properties.getProperty("xpathLabelEdicaoValoresAba2"),properties.getProperty("xpathLabelEdicaoValoresAba3"),properties.getProperty("xpathLabelEdicaoValoresAba4"),properties.getProperty("xpathLabelEdicaoValoresAba5"),properties.getProperty("xpathLabelEdicaoValoresAba6"),properties.getProperty("xpathLabelEdicaoValoresAba7"),properties.getProperty("xpathLabelEdicaoValoresAba8"),properties.getProperty("xpathLabelEdicaoValoresAba9"),properties.getProperty("xpathLabelEdicaoValoresAba10")};
+			
 
-		//ABA DEDUCOES 
-		String xpathAbaDeducoes = properties.getProperty("xpathAbaDeducoes");
-		String[] idCamposAbaDeducoes = properties.getProperty("idCamposAbaDeducoes").split(";");
-		String[] valoresCamposAbaDeducoes = properties.getProperty("valoresCamposAbaDeducoes").split(";");
-
-		//ABA COMPENSACOES 
-		String xpathAbaCompensacoes = properties.getProperty("xpathAbaCompensacoes");
-		String[] idCamposAbaCompensacoes = properties.getProperty("idCamposAbaCompensacoes").split(";");
-		String[] valoresCamposAbaCompensacoes = properties.getProperty("valoresCamposAbaCompensacoes").split(";");
-
-		//ABA CALCULO 
-		String xpathAbaCalculo = properties.getProperty("xpathAbaCalculo");
-		String[] xpathCamposAbaCalculo = properties.getProperty("xpathCamposAbaCalculo").split(";");
-		String[] valoresCamposAbaCalculo = properties.getProperty("valoresCamposAbaCalculo").split(";");
-		String[] xpathLabelsCamposAbaCalculo = properties.getProperty("xpathLabelsCamposAbaCalculo").split(";");
-		String[] valoresLabelsCamposAbaCalculo = properties.getProperty("valoresLabelsCamposAbaCalculo").split(";");
 
 		VerificacoesDeTela automacao = new VerificacoesDeTela();
 
@@ -342,21 +340,42 @@ public class CalculoLucroRealIRPJTeste extends CasoDeTesteBasico {
 		automacao.marcaCheckBox(driver, caminho, tentativas, nomeTeste, idTransportarExcessoDeJurosPara, valorTransportarExcessoDeJurosPara);
 		automacao.marcaCheckBox(driver, caminho, tentativas, nomeTeste, idProcessar, valorProcessar);
 		automacao.marcaCheckBox(driver, caminho, tentativas, nomeTeste, idScp, valorScp);
-
 		automacao.selecionaEmpresaParaApuracao(driver, caminho, tentativas, nomeTeste, idListaDeEmpresasNaCaixaDeSelecao, idBotoesDeSelecaoDeEmpresa, empresaSelecao);
 		automacao.clicaEmProcessarApuracao(driver, caminho, tentativas, nomeTeste, idBotaoProcessar);
 		automacao.fechaTela(driver, caminho, tentativas, nomeTeste, "/html/body/div[3]/div[2]/div/ul/li[2]/a/span[2]");
-		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 
+		//ACESSA TELA DA APURACAO
+		automacao.informaTeste(7, caminho, nomeTeste);
+		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);
 		automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
 		registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, xpathSemResultados);
 		automacao.verificaTelaCadastro(driver, tentativas, qtdeCadastro, camposTelaCadastro, valoresCadastro);
-		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaLucroLiquido, idCamposAbaLucroLiquido, valoresCamposAbaLucroLiquido);
-		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaAdicoes, idCamposAbaAdicoes, valoresCamposAbaAdicoes);
-		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaExclusoes, idCamposAbaExclusoes, valoresCamposAbaExclusoes);
-		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaDeducoes, idCamposAbaDeducoes, valoresCamposAbaDeducoes);
-		automacao.validaInformacoesNasAbas(driver, tentativas, nomeTeste, xpathAbaCompensacoes, idCamposAbaCompensacoes, valoresCamposAbaCompensacoes);
-		automacao.validaInformacoesApuracaoAbaCalculo(driver, tentativas, nomeTeste, xpathAbaCalculo, xpathCamposAbaCalculo, valoresCamposAbaCalculo, xpathLabelsCamposAbaCalculo, valoresLabelsCamposAbaCalculo);
+
+		automacao.informaTeste(6, caminho, nomeTeste);
+		for (int i = 0; i < xpathAcessoAbas.length; i++) {
+			// VALIDACAO DE VALORES NAS ABAS ANTES DO CALCULO
+			automacao.informaTeste(1, caminho, nomeTeste, labelAcessoAbas[i]);
+			automacao.acessaAbaPorXpath(driver, tentativas, xpathAcessoAbas[i], nomeTeste);
+			automacao.aguardaCarregamento(caminho, xpathAcessoAbas[i], nomeTeste, tentativas, driver);
+			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
+			automacao.verificaValoresDasContasAntesDoCalculo(driver, nomeTeste, tentativas, caminho, idLabelsContasAba[i].split(";"), labelContasAba[i].split(";"), idCaixaContasAba[i].split(";"), valorCaixaContasAntesCalculoAba[i].split(";"));
+			
+		}
+		
+		automacao.informaTeste(8, caminho, nomeTeste);
+		automacao.entrarEmModoEdicaoApuracao(driver, tentativas,nomeTeste,idBotoesPadraoCadastro);
+		for (int i = 0; i < xpathAbaEdicaoValores.length; i++) {
+			// VALIDACAO DE VALORES NAS ABAS ANTES DO CALCULO
+			automacao.informaTeste(1, caminho, nomeTeste, labelAbaEdicaoValores[i]);
+			automacao.acessaAbaPorXpath(driver, tentativas, xpathAbaEdicaoValores[i], nomeTeste);
+			automacao.aguardaCarregamento(caminho, xpathAbaEdicaoValores[i], nomeTeste, tentativas, driver);
+			automacao.verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
+			
+			automacao.editaValoresDaApuracao(driver,nomeTeste,tentativas,xpathCaixaAbaEdicaoValoresAba[i].split(";"),valorCaixaEdicaoValoresAba[i].split(";"),xpathLabelEdicaoValoresAba[i].split(";"));
+			
+			
+									
+		}
 
 		Thread.sleep(100000);
 
