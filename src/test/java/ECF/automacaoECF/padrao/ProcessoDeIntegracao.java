@@ -262,12 +262,12 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		automacao.aguardaCarregamento(caminho, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
 		existeRegistro = automacao.verificaExistenciaDoRegistro(driver, tentativas, nomeTeste, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, qtdeResultados, colunasResultados, valoresResultados);
 		if (existeRegistro == true) {
-			integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro);
+			integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro,nomeTeste);
 			Thread.sleep(1000);
 		}
 
 		//INTEGRAD REGISTRO
-		integracao.integraRegistro(arquivoIntegracao, pastasIntegracao, camposRegistro, informacoesRegistro);
+		integracao.integraRegistro(arquivoIntegracao, pastasIntegracao, camposRegistro, informacoesRegistro,nomeTeste);
 
 		//PESQUISA REGISTRO
 		automacao.efetuaLogout(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
@@ -296,7 +296,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		automacao.verificaTelaCadastro(driver, tentativas, qtdeCadastro, camposTelaCadastro, valoresCadastro);
 
 		//EXCLUI REGISTRO
-		integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro);
+		integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro,nomeTeste);
 
 		//VERIFICA SE O REGISTRO FOI EXCLUIDO
 		automacao.reotrnaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);

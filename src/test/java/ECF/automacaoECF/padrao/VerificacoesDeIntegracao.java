@@ -201,19 +201,23 @@ public class VerificacoesDeIntegracao {
 
 	}
 
-	private void verificaSeFoiParaAPastaErro(String pasta_erro) {
+	private boolean verificaSeFoiParaAPastaErro(String pasta_erro, String nomeArquivoIntegracao, String arquivoEnvio, String nomeTeste) throws IOException {
 		File file = new File(pasta_erro);
 		if (file.isDirectory()) {
 			if (file.list().length > 0) {
 				logger.info("O arquivo  foi movido para a pasta 'erro'!");
+				copiaArquivos(pasta_erro +nomeArquivoIntegracao, "./screenshot/" + nomeTeste.toLowerCase().trim()+"_retorno.xml");
+				copiaArquivos(arquivoEnvio, "./screenshot/" + nomeTeste.toLowerCase().trim()+"_envio.xml");
 				falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+				return true;
 			} else {
 				logger.info("O arquivo não foi movido para a pasta 'erro'!");
+				return false;
 			}
 		} else {
 			falhaIntegracao("O diretorio " + pasta_erro + " não existe!");
 		}
-
+		return true;
 	}
 
 	@SuppressWarnings("unused")
@@ -233,7 +237,7 @@ public class VerificacoesDeIntegracao {
 		}
 	}
 
-	public void integraRegistro(String arquivoIntegracaoExclui, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro) throws IOException, InterruptedException {
+	public void integraRegistro(String arquivoIntegracaoExclui, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro, String nomeTeste) throws IOException, InterruptedException {
 
 		// COPIA O ARQUIVO MODELO PARA UMA PASTA TEMPORARIA...
 		SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
@@ -245,6 +249,11 @@ public class VerificacoesDeIntegracao {
 		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
 		copiaArquivos(arquivoIntegracaoExclui, arquivoTemporario);
 		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
+		
+		String nomeArquivoIntegracao=prefixoNome + nomeArquivo;
+		
+		
+		logger.info("APAGAR ESSA PARADA DEPOSI..."+arquivoTemporario);
 
 		// EDITA O ARQUIVO...
 		substituiInformacoesNoArquivo(arquivoTemporario, camposRegistro, informacoesRegistro);
@@ -273,7 +282,7 @@ public class VerificacoesDeIntegracao {
 
 		//VERIFICA SE O ARQUIVO FOI MOVIDO PARA A PASTA ERRO
 		logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
-		verificaSeFoiParaAPastaErro(pasta_erro);
+		verificaSeFoiParaAPastaErro(pasta_erro,nomeArquivoIntegracao,arquivoTemporario,nomeTeste);
 
 		if (verificaPastaErro(pasta_erro, tentativas) == true) {
 			logger.info("O arquivo  foi movido para a pasta 'erro'!");
