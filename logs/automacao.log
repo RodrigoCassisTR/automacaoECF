@@ -2351,3 +2351,2629 @@ INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
 INFO main - FALHA: Não foi possível efetuar a ordenação de colunas!
 INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_telalucrorealapuracaocsll_1854104284.png
 INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - APURAÇÃO CSLL (LUCRO REAL) - TESTE INICIADO EM TER, 2014-9-23 AT 5:25:10 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 31816, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela APURAÇÃO CSLL (LUCRO REAL) || Tentativa 1 de 200
+INFO main - Tela APURAÇÃO CSLL (LUCRO REAL) acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1100, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela APURAÇÃO CSLL (LUCRO REAL) || Tentativa 1 de 200
+INFO main - Tela APURAÇÃO CSLL (LUCRO REAL) acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1086, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 21 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 21484, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 13 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 13506, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela APURAÇÃO CSLL (LUCRO REAL) || Tentativa 1 de 200
+INFO main - Tela APURAÇÃO CSLL (LUCRO REAL) acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE APURAÇÃO CSLL (LUCRO REAL) ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 2 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - INTEGRACAO ACCOUNT BALANCE - TESTE INICIADO EM TER, 2014-9-23 AT 6:57:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------------
+INFO main - PASTAS INTEGRAÇÃO ECF
+INFO main - entrada: C:/temp/ECF/accountbalance/entrada
+INFO main - enviado: C:/temp/ECF/accountbalance/enviado
+INFO main - erro: C:/temp/ECF/accountbalance/erro
+INFO main - recebido: C:/temp/ECF/accountbalance/recebido
+INFO main - ----------------------------------------------------------
+INFO main - PARAMETROS
+INFO main - wsclient.host: http://localhost:8081
+INFO main - wsclient.return.host: http://localhost:8081
+INFO main - route.import.file.payload.type: null
+INFO main - ----------------------------------------------------------
+INFO main - Verificando as WS de config do integrador...
+INFO main - O endereço WS não está configurado corretamente, alterando para o endereço WS correto...
+INFO main - wsclient.host= http://localhost:8081 esperado: http://166.78.0.215:8092
+INFO main - wsclient.return.host= http://localhost:8081 esperado: http://166.78.0.215:8092
+INFO main - Editando o arquivo cfg...
+INFO main - URL do WS alterado com sucesso no arquivo .cfg!
+INFO main - Reiniciando o serviço do integrador...
+INFO main - Parando o serviço TAXBR-INTEGRATOR-ECF
+INFO main - Aguardando o servico TAXBR-INTEGRATOR-ECF parar...
+INFO main - #########################################################################
+INFO main - TELALANCAMENTOSCONTABEIS - TESTE INICIADO EM QUA, 2014-9-24 AT 9:7:31 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1059, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 32683, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1085, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 9 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 9286, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #OK# Esperado: Lançamentos Contábei..., Obtido: Lançamentos Contábei...
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando a presença dos campos da tela de TELALANCAMENTOSCONTABEIS...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch::field
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType::field
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntryInputDate
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Código Centro de Custo, Obtido: Código Centro de Custo
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: Código SCP, Obtido: Código SCP
+INFO main - #OK# Esperado: SCP, Obtido: SCP
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch::field está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType::field está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntryInputDate está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntry_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1062, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1037, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 6 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 6621, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[6]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[7]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[8]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[9]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: SCP, Obtido: SCP
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Valor do Lançamento, Obtido: Valor do Lançamento
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1057, Tempo Aceitável: 10000
+INFO main - Testando ordenação da coluna CNPJ...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Tipo de Lançamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Conta Contábil...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Centro de Custo...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna SCP...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Arquivamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Valor do Lançamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Data do Lançamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1064, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando a presença dos campos da tela de TELALANCAMENTOSCONTABEIS...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit
+INFO main - -----
+INFO main - Verificando a existencia dos títulos...
+INFO main - -----
+INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[1]/h3
+INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/fieldset/legend
+INFO main - -----
+INFO main - Validando a label dos títulos...
+INFO main - -----
+INFO main - #OK# Esperado: Cadastro, Obtido: Cadastro
+INFO main - #OK# Esperado: Lançamentos Contábeis, Obtido: Lançamentos Contábeis
+INFO main - -----
+INFO main - Verificando labels da tela...
+INFO main - -----
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Código Conta Contrapartida, Obtido: Código Conta Contrapartida
+INFO main - #OK# Esperado: Conta Contrapartida, Obtido: Conta Contrapartida
+INFO main - #OK# Esperado: Código Centro de Custo, Obtido: Código Centro de Custo
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: Código SCP, Obtido: Código SCP
+INFO main - #OK# Esperado: Descrição SCP, Obtido: Descrição SCP
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - #OK# Esperado: N° Lançamento, Obtido: N° Lançamento
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Valor do Lançamento, Obtido: Valor do Lançamento
+INFO main - #OK# Esperado: Indicador de Lançamento, Obtido: Indicador de Lançamento
+INFO main - -----
+INFO main - Verificando tooltip das labels...
+INFO main - -----
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>CNPJ</span>, tooltip obtido: <span class='tipsy_msg_info'>CNPJ</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código Conta Contábil</span>, tooltip obtido: <span class='tipsy_msg_info'>Código Conta Contábil</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Conta Contábil</span>, tooltip obtido: <span class='tipsy_msg_info'>Conta Contábil</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código Conta Contrapartida</span>, tooltip obtido: <span class='tipsy_msg_info'>Código Conta Contrapartida</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Conta Contrapartida</span>, tooltip obtido: <span class='tipsy_msg_info'>Conta Contrapartida</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código Centro de Custo</span>, tooltip obtido: <span class='tipsy_msg_info'>Código Centro de Custo</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Centro de Custo</span>, tooltip obtido: <span class='tipsy_msg_info'>Centro de Custo</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código SCP</span>, tooltip obtido: <span class='tipsy_msg_info'>Código SCP</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Descrição SCP</span>, tooltip obtido: <span class='tipsy_msg_info'>Descrição SCP</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Arquivamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Arquivamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Data do Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Data do Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>N° Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>N° Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Tipo de Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Tipo de Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Valor do Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Valor do Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Indicador de Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Indicador de Lançamento</span>
+INFO main - -----
+INFO main - Verificando elementos input, como caixas de texto, checkbox, radiobutton, etc...
+INFO main - -----
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - Validando tooltip...
+INFO main - Elemento  não possui tooltip 'i' para verificar
+INFO main - Não Existem tabelas na tela para validar!
+INFO main - #########################################################################
+INFO main - TESTE TELALANCAMENTOSCONTABEIS ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 15 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - TELALANCAMENTOSCONTABEIS - TESTE INICIADO EM QUA, 2014-9-24 AT 9:10:20 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 35892, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1064, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 9 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 9223, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #OK# Esperado: Lançamentos Contábei..., Obtido: Lançamentos Contábei...
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando a presença dos campos da tela de TELALANCAMENTOSCONTABEIS...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch::field
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType::field
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntryInputDate
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Código Centro de Custo, Obtido: Código Centro de Custo
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: Código SCP, Obtido: Código SCP
+INFO main - #OK# Esperado: SCP, Obtido: SCP
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch::field está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType::field está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntryInputDate está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntry_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1043, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1065, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 5 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5700, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[6]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[7]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[8]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[9]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: SCP, Obtido: SCP
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Valor do Lançamento, Obtido: Valor do Lançamento
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Testando ordenação da coluna CNPJ...
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Não foi possível efetuar a ordenação de colunas!
+INFO main - Screenshot gravado no diretório ./screenshot/ com o nome erro_telalancamentoscontabeis_436675602.png
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - TELALANCAMENTOSCONTABEIS - TESTE INICIADO EM QUA, 2014-9-24 AT 9:13:32 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 34698, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1073, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 5 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5130, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Verificando a Aba da tela...
+INFO main - #OK# Esperado: Lançamentos Contábei..., Obtido: Lançamentos Contábei...
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando a presença dos campos da tela de TELALANCAMENTOSCONTABEIS...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch::field
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType::field
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntryInputDate
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar
+INFO main - Verificando a presença de todos os botões...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:PageTemplateSearchButton
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:PageTemplateClearButton
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Código Centro de Custo, Obtido: Código Centro de Custo
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: Código SCP, Obtido: Código SCP
+INFO main - #OK# Esperado: SCP, Obtido: SCP
+INFO main - Verificando se as caixas de texto estão vazias ...
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch::field está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType::field está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntryInputDate está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar está vazia
+INFO main - Caixa TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar está vazia
+INFO main - Verificando o tooltip 'i' dos campos...
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_tbrCad0000Branch_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_indAccountEntryType_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codLedgerAccount_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscLedgerAccount_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_datAccountEntry_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_numArchiving_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscCostCenter_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_codSocAccPar_label_span localizado com sucesso!
+INFO main - Tooltip 'i' do campo TAXIT:trTbrMov0001EntdtlBean:tab1:Filter_TbrMov0001Entdtl_dscSocAccPar_label_span localizado com sucesso!
+INFO main - Verificando botoes 'Executar Pesquisa' e 'Limpar'...
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - A quantidade de campos, labels foram informadas corretamente no .properties
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main - Acessando a tela de Resultados através da Aba...
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1043, Tempo Aceitável: 10000
+INFO main - Tela de Resultados acessa com sucesso pela aba, retornando para a tela de Pesquisa...
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Retornada a tela de pesquisa com sucesso!
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 3 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 3121, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[2]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[3]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[4]/label
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[5]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[6]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[7]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[8]/label/span
+INFO main - Verificando campo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/thead/tr/td[9]/label/span
+INFO main - Verificando labels...
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: SCP, Obtido: SCP
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Valor do Lançamento, Obtido: Valor do Lançamento
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main - Testando ordenação da coluna CNPJ...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Tipo de Lançamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Conta Contábil...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Centro de Custo...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna SCP...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Arquivamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Valor do Lançamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - Testando ordenação da coluna Data do Lançamento...
+INFO main - indicador de Ordenação visualizado com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: TELALANCAMENTOSCONTABEIS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela TELALANCAMENTOSCONTABEIS || Tentativa 1 de 200
+INFO main - Tela TELALANCAMENTOSCONTABEIS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1065, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Lançamentos Contábeis' || Tentativa 1 de 200
+INFO main - Tela 'Dados de Origem > Lançamentos Contábeis' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1064, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Verificando a presença dos campos da tela de TELALANCAMENTOSCONTABEIS...
+INFO main - Verificando a presença de todas as Labels...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount_label_span
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit_label_span
+INFO main - Verificando a presença de todas as caixas, checkbox e radio buttons...
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount
+INFO main - Verificando componente TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit
+INFO main - -----
+INFO main - Verificando a existencia dos títulos...
+INFO main - -----
+INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[1]/h3
+INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/fieldset/legend
+INFO main - -----
+INFO main - Validando a label dos títulos...
+INFO main - -----
+INFO main - #OK# Esperado: Cadastro, Obtido: Cadastro
+INFO main - #OK# Esperado: Lançamentos Contábeis, Obtido: Lançamentos Contábeis
+INFO main - -----
+INFO main - Verificando labels da tela...
+INFO main - -----
+INFO main - #OK# Esperado: CNPJ, Obtido: CNPJ
+INFO main - #OK# Esperado: Código Conta Contábil, Obtido: Código Conta Contábil
+INFO main - #OK# Esperado: Conta Contábil, Obtido: Conta Contábil
+INFO main - #OK# Esperado: Código Conta Contrapartida, Obtido: Código Conta Contrapartida
+INFO main - #OK# Esperado: Conta Contrapartida, Obtido: Conta Contrapartida
+INFO main - #OK# Esperado: Código Centro de Custo, Obtido: Código Centro de Custo
+INFO main - #OK# Esperado: Centro de Custo, Obtido: Centro de Custo
+INFO main - #OK# Esperado: Código SCP, Obtido: Código SCP
+INFO main - #OK# Esperado: Descrição SCP, Obtido: Descrição SCP
+INFO main - #OK# Esperado: Arquivamento, Obtido: Arquivamento
+INFO main - #OK# Esperado: Data do Lançamento, Obtido: Data do Lançamento
+INFO main - #OK# Esperado: N° Lançamento, Obtido: N° Lançamento
+INFO main - #OK# Esperado: Tipo de Lançamento, Obtido: Tipo de Lançamento
+INFO main - #OK# Esperado: Valor do Lançamento, Obtido: Valor do Lançamento
+INFO main - #OK# Esperado: Indicador de Lançamento, Obtido: Indicador de Lançamento
+INFO main - -----
+INFO main - Verificando tooltip das labels...
+INFO main - -----
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>CNPJ</span>, tooltip obtido: <span class='tipsy_msg_info'>CNPJ</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código Conta Contábil</span>, tooltip obtido: <span class='tipsy_msg_info'>Código Conta Contábil</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Conta Contábil</span>, tooltip obtido: <span class='tipsy_msg_info'>Conta Contábil</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código Conta Contrapartida</span>, tooltip obtido: <span class='tipsy_msg_info'>Código Conta Contrapartida</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Conta Contrapartida</span>, tooltip obtido: <span class='tipsy_msg_info'>Conta Contrapartida</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código Centro de Custo</span>, tooltip obtido: <span class='tipsy_msg_info'>Código Centro de Custo</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Centro de Custo</span>, tooltip obtido: <span class='tipsy_msg_info'>Centro de Custo</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Código SCP</span>, tooltip obtido: <span class='tipsy_msg_info'>Código SCP</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Descrição SCP</span>, tooltip obtido: <span class='tipsy_msg_info'>Descrição SCP</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Arquivamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Arquivamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Data do Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Data do Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>N° Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>N° Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Tipo de Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Tipo de Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Valor do Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Valor do Lançamento</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Indicador de Lançamento</span>, tooltip obtido: <span class='tipsy_msg_info'>Indicador de Lançamento</span>
+INFO main - -----
+INFO main - Verificando elementos input, como caixas de texto, checkbox, radiobutton, etc...
+INFO main - -----
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numFedTaxAndDescription preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccount preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccount preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codLedgerAccountDoubleEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscLedgerAccountDoubleEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codCostCenter preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscCostCenter preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_codSocAccPar preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_dscSocAccParr preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numArchiving preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_datAccountEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_numAccountEntry preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indAccountEntryType preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_curEntryAmount preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - #OK# Input TAXIT:trTbrMov0001EntdtlBean:tab1:TbrMov0001Entdtl_indDebitCredit preenchido com o valor esperado, obtido:  valor esperado: 
+INFO main - Validando tooltip...
+INFO main - Elemento  não possui tooltip 'i' para verificar
+INFO main - Não Existem tabelas na tela para validar!
+INFO main - #########################################################################
+INFO main - TESTE TELALANCAMENTOSCONTABEIS ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 27 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CALCULOLUCROREALIRPJTESTE - TESTE INICIADO EM QUA, 2014-9-24 AT 9:18:32 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CALCULOLUCROREALIRPJTESTE
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 31713, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1177, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1088, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 6 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 6163, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1143, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1065, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_processOptions:1::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1043, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1077, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1062, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_tipoCalculo:1::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1044, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_reinvestimento:0::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1047, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_reinvestimento:0::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1075, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1045, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1139, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_transportingExcessInterestTo:2::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1047, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_processType:0::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1037, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1073, Tempo Aceitável: 10000
+INFO main - Selecionando a empresa AUTO010 - AUTOMACAO ECF LR...
+INFO main - Clicando no botão Processar...
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - INICIANDO O PROCESSAMENTO EM LOTE
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1129, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1112, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 11 de 200
+INFO main - #########################################################################
+INFO main - CALCULOLUCROREALIRPJTESTE - TESTE INICIADO EM QUA, 2014-9-24 AT 9:21:50 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CALCULOLUCROREALIRPJTESTE
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 45326, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1116, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 9 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 9378, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1023, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1059, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1063, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1074, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1104, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_processOptions:1::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1061, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_tipoCalculo:1::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1064, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_reinvestimento:0::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1068, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_reinvestimento:0::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_transportingExcessInterestTo:2::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main - Marcando o campo TAXIT:trTbrLALURAccountBalanceImportBean:tab1:trTbrLALURAccountBalanceImport_processType:0::image
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1061, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1073, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1067, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Selecionando a empresa AUTO010 - AUTOMACAO ECF LR...
+INFO main - Clicando no botão Processar...
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - INICIANDO O PROCESSAMENTO EM LOTE
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1096, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1121, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 28 de 200
+INFO main - Tela Tela Pesquisa acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 28492, Tempo Aceitável: 10000
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrClcIncomeTaxBean:tab1:TbrClcIncomeTax_FilterGrid_AnoExercicio : 2014
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrClcIncomeTaxBean:tab1:TbrClcIncomeTax_FilterGrid_PeriodoApuracao::field : Janeiro
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrClcIncomeTaxBean:tab1:Filter_TbrClcIncomeTax_TbrClcIctPeriod_TbrClcIncmTxFy_tbrCadBranch::field : 66.147.995/0001-26 - AUTOMACAO ECF LR
+INFO main - Clicando no botão 'Executar Consulta'
+INFO main - Aguardando o carregamento da tela Resultados da Pesquisa || Tentativa 1 de 200
+INFO main - Tela Resultados da Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Resultado da Pesquisa || Tentativa 1 de 200
+INFO main - Tela Resultado da Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main - Verificando se apresenta a mensagem: 'Não foi encontrada nenhuma linha.' com o xpath /html/body/div[7]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/tbody/tr/td/label/span
+INFO main - Não foi apresentada mensagem de registro não localizado
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | 66.147.995/0001-26 : 66.147.995/0001-26
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | 2014 : 2014
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | Janeiro : Janeiro
+INFO main - Clicando no botão 'Consultar'
+INFO main - Aguardando o carregamento da tela Pesquisa || Tentativa 1 de 200
+INFO main - Tela Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 11 de 200
+INFO main - Tela Tela de Cadastro acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 11604, Tempo Aceitável: 10000
+INFO main - Comparando | Obtido: 66.147.995/0001-26 : Esperado: 66.147.995/0001-26
+INFO main - Comparando | Obtido: AUTOMACAO ECF LR : Esperado: AUTOMACAO ECF LR
+INFO main - Comparando | Obtido:  : Esperado: 
+INFO main - Comparando | Obtido: Janeiro : Esperado: Janeiro
+INFO main - ----------------------------------------------------
+INFO main - VALIDANDO DADOS DA APURAÇÃO ANTES DO CÁLCULO: CALCULOLUCROREALIRPJTESTE
+INFO main - ----------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - ABA: Lucro Líquido
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Iniciando validação de valores...
+INFO main - ------------------------------------------------
+INFO main - SUCESSO!!
+INFO main - Campo: Demais Atividades
+INFO main - Locator: TAXIT:trTbrClcIncomeTaxBean:tab1:TbrClcIncomeTax_curNetPrfBfItOtherAct_label_span
+INFO main - Valor Esperado: 0,00
+INFO main - Valor Obtido: 0,00
+INFO main - ------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - ABA: Adições
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1058, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[4]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Iniciando validação de valores...
+INFO main - ------------------------------------------------
+INFO main - FALHA!!
+INFO main - Campo: TOTAL
+INFO main - Locator: taxit_datatable_column taxit_datatable_column_footer
+INFO main - Valor Esperado: 1.999.999,00
+INFO main - Valor Obtido: 3.999.998,00
+INFO main - ------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - ABA: Exclusões
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1047, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[6]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Iniciando validação de valores...
+INFO main - ------------------------------------------------
+INFO main - FALHA!!
+INFO main - Campo: TOTAL
+INFO main - Locator: taxit_datatable_column taxit_datatable_column_footer
+INFO main - Valor Esperado: 0,00
+INFO main - Valor Obtido: 399.998,00
+INFO main - ------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - ABA: Deduções
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1057, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[8]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Iniciando validação de valores...
+INFO main - ------------------------------------------------
+INFO main - SUCESSO!!
+INFO main - Campo: TOTAL
+INFO main - Locator: taxit_datatable_column taxit_datatable_column_footer
+INFO main - Valor Esperado: 0,00
+INFO main - Valor Obtido: 0,00
+INFO main - ------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - ABA: Compensações
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1059, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[10]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1043, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Iniciando validação de valores...
+INFO main - ------------------------------------------------
+INFO main - SUCESSO!!
+INFO main - Campo: TOTAL
+INFO main - Locator: taxit_datatable_column taxit_datatable_column_footer
+INFO main - Valor Esperado: 0,00
+INFO main - Valor Obtido: 0,00
+INFO main - ------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - ABA: Cálculo
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1061, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[12]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Iniciando validação de valores...
+INFO main - ------------------------------------------------
+INFO main - FALHA!!
+INFO main - Campo: LIMITE COLETIVO
+INFO main - Locator: TAXIT:trTbrClcIncomeTaxBean:tab1:TbrClcIncomeTax_pctApportnmtOtherAct2_label_span
+INFO main - Valor Esperado: 20.999,99
+INFO main - Valor Obtido: 37.800,00
+INFO main - ------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - ABA: Incentivos Fiscais
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[14]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1029, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - Iniciando validação de valores...
+INFO main - ------------------------------------------------
+INFO main - SUCESSO!!
+INFO main - Campo: *Calcular Reinvestimento
+INFO main - Locator: TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrLALURAccountBalanceImport_reinvestimento_label_span
+INFO main - Valor Esperado: Não
+INFO main - Valor Obtido: Não
+INFO main - ------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - EDITANDO DADOS DA APURAÇÃO, E CALCULO
+INFO main - ----------------------------------------------------
+INFO main - Clicando no botão Editar TAXIT:trTbrClcIncomeTaxBean:tab1:PageTemplateToolbarSearchFormEdit
+INFO main - ----------------------------------------------------
+INFO main - ABA: Adições
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1082, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[4]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - Alterando o valor da conta Fundos dos Direitos da Criança e do Adolescente...
+INFO main - Valor: 1.999.999...
+INFO main - ----------------------------------------------------
+INFO main - ABA: Exclusões
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[6]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > IRPJ' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > IRPJ' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - Alterando o valor da conta Lucro da Exploração Corresp. à Export. Incent. - Befiex até 31/12/1987...
+INFO main - Valor: 199.999...
+INFO main - Clicando no botão 'Salvar' TAXIT:trTbrClcIncomeTaxBean:tab1:PageTemplateToolbarSearchFormSave ...
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main - Clicando no botão 'Salvar' TAXIT:trTbrClcIncomeTaxBean:tab1:PageTemplateToolbarSearchFormSave ...
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
+INFO main - Acessando a primeira aba para clicar no botão calcular...
+INFO main - Localizando Aba... /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - Localizando o botão 'Calcular': TAXIT:trTbrClcIncomeTaxBean:tab1:botaoCalcularLucroLiquido
+INFO main - Clicando no botão 'Calcular' ...
+INFO main - Calculado com sucesso!
+INFO main - -----
+INFO main - Verificando a existencia dos títulos...
+INFO main - -----
+INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/span[1]/div/div/div[2]/div/div[2]/table/tbody/tr[1]/td/div
+INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/span[1]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td/fieldset[2]
+INFO main - Verificando componente /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/span[1]/div/div/div[2]/div/div[2]/table/tbody/tr[2]/td/fieldset[3]/legend
+INFO main - -----
+INFO main - Validando a label dos títulos...
+INFO main - -----
+INFO main - #OK# Esperado: Valores Devidos, Obtido: Valores Devidos
+INFO main - #OK# Esperado: Apuração pelo Lucro Real, Obtido: Apuração pelo Lucro Real
+INFO main - #OK# Esperado: Apuração pelo Lucro Estimado(Receita Bruta), Obtido: Apuração pelo Lucro Estimado(Receita Bruta)
+INFO main - -----
+INFO main - Verificando labels da tela...
+INFO main - -----
+INFO main - #OK# Esperado: Selecionar, Obtido: Selecionar
+INFO main - #OK# Esperado: Lucro Real, Obtido: Lucro Real
+INFO main - #OK# Esperado: Lucro Estimado, Obtido: Lucro Estimado
+INFO main - #OK# Esperado: CSLL, Obtido: CSLL
+INFO main - #OK# Esperado: IRPJ, Obtido: IRPJ
+INFO main - #OK# Esperado: Total, Obtido: Total
+INFO main - #OK# Esperado: CSLL, Obtido: CSLL
+INFO main - #OK# Esperado: IRPJ, Obtido: IRPJ
+INFO main - #OK# Esperado: Total, Obtido: Total
+INFO main - -----
+INFO main - Verificando tooltip das labels...
+INFO main - -----
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_ProfitEstimate_radion_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Selecionar</span>, tooltip obtido: <span class='tipsy_msg_info'>Selecionar</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_ProfitEstimate_radion:0::label
+INFO main - -----------------------
+INFO main - Elemento TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_ProfitEstimate_radion:0::label não possui tooltip 'i' para verificar
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_ProfitEstimate_radion:1::label
+INFO main - -----------------------
+INFO main - Elemento TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_ProfitEstimate_radion:1::label não possui tooltip 'i' para verificar
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_IncomeTaxCSLL_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>CSLL</span>, tooltip obtido: <span class='tipsy_msg_info'>CSLL</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_IncomeTaxIRPJ_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>IRPJ</span>, tooltip obtido: <span class='tipsy_msg_info'>IRPJ</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_IncomeTaxTotal_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Total</span>, tooltip obtido: <span class='tipsy_msg_info'>Total</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcProfitEstimateModal_ProfitEstimateCSLL_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>CSLL</span>, tooltip obtido: <span class='tipsy_msg_info'>CSLL</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcProfitEstimateModal_ProfitEstimateIRPJ_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>IRPJ</span>, tooltip obtido: <span class='tipsy_msg_info'>IRPJ</span>
+INFO main - -----------------------
+INFO main - TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcProfitEstimateModal_ProfitEstimateTotal_label_span
+INFO main - -----------------------
+INFO main - #OK# Tooltip esperado: <span class='tipsy_msg_info'>Total</span>, tooltip obtido: <span class='tipsy_msg_info'>Total</span>
+INFO main - -----
+INFO main - Verificando elementos input, como caixas de texto, checkbox, radiobutton, etc...
+INFO main - -----
+INFO main - Elemento TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_ProfitEstimate_radion:0::image não possui value para validar!
+INFO main - Elemento TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_ProfitEstimate_radion:1::image não possui value para validar!
+INFO main - #OK# Input TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_IncomeTaxCSLL preenchido com o valor esperado, obtido: 0,00 valor esperado: 0,00
+INFO main - #ALERTA# Input TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_IncomeTaxIRPJ não preenchido com o valor esperado, obtido: 898.000,00 valor esperado: 4.367.998,85
+INFO main - #ALERTA# Input TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcIncomeTaxModal_IncomeTaxTotal não preenchido com o valor esperado, obtido: 898.000,00 valor esperado: 4.367.998,85
+INFO main - #OK# Input TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcProfitEstimateModal_ProfitEstimateCSLL preenchido com o valor esperado, obtido: 0,00 valor esperado: 0,00
+INFO main - #OK# Input TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcProfitEstimateModal_ProfitEstimateIRPJ preenchido com o valor esperado, obtido: 0,00 valor esperado: 0,00
+INFO main - #OK# Input TAXIT:trTbrClcIncomeTaxBean:tab1:trTbrClcProfitEstimateModal_ProfitEstimateTotal preenchido com o valor esperado, obtido: 0,00 valor esperado: 0,00
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CALCULOLUCROREALIRPJTESTE || Tentativa 1 de 200
+INFO main - Tela CALCULOLUCROREALIRPJTESTE acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1063, Tempo Aceitável: 10000
+INFO main - Iniciando a validação da Aba 'Cálculo' ...
+INFO main - Acessando a Aba Cálculo /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[3]/div[2]/div/table/tbody/tr[1]/td/table/tbody/tr/td[12]/table/tbody/tr/td[2]/table/tbody/tr/td
+INFO main - #########################################################################
+INFO main - APURAÇÃO CSLL (LUCRO REAL) - TESTE INICIADO EM QUA, 2014-9-24 AT 9:48:8 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 38898, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1069, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela APURAÇÃO CSLL (LUCRO REAL) || Tentativa 1 de 200
+INFO main - Tela APURAÇÃO CSLL (LUCRO REAL) acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1149, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela APURAÇÃO CSLL (LUCRO REAL) || Tentativa 1 de 200
+INFO main - Tela APURAÇÃO CSLL (LUCRO REAL) acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1105, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 34 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 35169, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 12 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 12466, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: APURAÇÃO CSLL (LUCRO REAL)
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela APURAÇÃO CSLL (LUCRO REAL) || Tentativa 1 de 200
+INFO main - Tela APURAÇÃO CSLL (LUCRO REAL) acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Processos > Lucro Real > CSLL' || Tentativa 1 de 200
+INFO main - Tela 'Processos > Lucro Real > CSLL' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1060, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE APURAÇÃO CSLL (LUCRO REAL) ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 28 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - INTEGRACAO BRANCH - TESTE INICIADO EM QUA, 2014-9-24 AT 10:59:43 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------------
+INFO main - PASTAS INTEGRAÇÃO ECF
+INFO main - entrada: C:/temp/ECF/branch/entrada
+INFO main - enviado: C:/temp/ECF/branch/enviado
+INFO main - erro: C:/temp/ECF/branch/erro
+INFO main - recebido: C:/temp/ECF/branch/recebido
+INFO main - ----------------------------------------------------------
+INFO main - PARAMETROS
+INFO main - wsclient.host: http://localhost:8081
+INFO main - wsclient.return.host: http://localhost:8081
+INFO main - route.import.file.payload.type: null
+INFO main - ----------------------------------------------------------
+INFO main - Verificando as WS de config do integrador...
+INFO main - O endereço WS não está configurado corretamente, alterando para o endereço WS correto...
+INFO main - wsclient.host= http://localhost:8081 esperado: http://166.78.0.215:8092
+INFO main - wsclient.return.host= http://localhost:8081 esperado: http://166.78.0.215:8092
+INFO main - Editando o arquivo cfg...
+INFO main - URL do WS alterado com sucesso no arquivo .cfg!
+INFO main - Reiniciando o serviço do integrador...
+INFO main - Parando o serviço TAXBR-INTEGRATOR-ECF
+INFO main - Aguardando o servico TAXBR-INTEGRATOR-ECF parar...
+INFO main - #########################################################################
+INFO main - INTEGRACAO BRANCH - TESTE INICIADO EM QUA, 2014-9-24 AT 11:2:25 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------------
+INFO main - PASTAS INTEGRAÇÃO ECF
+INFO main - entrada: C:/temp/ECF/branch/entrada
+INFO main - enviado: C:/temp/ECF/branch/enviado
+INFO main - erro: C:/temp/ECF/branch/erro
+INFO main - recebido: C:/temp/ECF/branch/recebido
+INFO main - ----------------------------------------------------------
+INFO main - PARAMETROS
+INFO main - wsclient.host: http://outro
+INFO main - wsclient.return.host: http://outro
+INFO main - route.import.file.payload.type: null
+INFO main - ----------------------------------------------------------
+INFO main - Verificando as WS de config do integrador...
+INFO main - O endereço WS não está configurado corretamente, alterando para o endereço WS correto...
+INFO main - wsclient.host= http://outro esperado: http://166.78.0.215:8092
+INFO main - wsclient.return.host= http://outro esperado: http://166.78.0.215:8092
+INFO main - Editando o arquivo cfg...
+INFO main - URL do WS alterado com sucesso no arquivo .cfg!
+INFO main - Reiniciando o serviço do integrador...
+INFO main - Parando o serviço TAXBR-INTEGRATOR-ECF
+INFO main - Aguardando o servico TAXBR-INTEGRATOR-ECF parar...
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - FALHA: Não foi possível parar o serviço do integrador TAXBR-INTEGRATOR-ECF
+INFO main - §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+INFO main - #########################################################################
+INFO main - INTEGRACAO BRANCH - TESTE INICIADO EM QUA, 2014-9-24 AT 11:6:21 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------------
+INFO main - PASTAS INTEGRAÇÃO ECF
+INFO main - entrada: C:/temp/ECF/branch/entrada
+INFO main - enviado: C:/temp/ECF/branch/enviado
+INFO main - erro: C:/temp/ECF/branch/erro
+INFO main - recebido: C:/temp/ECF/branch/recebido
+INFO main - ----------------------------------------------------------
+INFO main - PARAMETROS
+INFO main - wsclient.host: http://xcvxcv
+INFO main - wsclient.return.host: http://xcvxcv
+INFO main - route.import.file.payload.type: null
+INFO main - ----------------------------------------------------------
+INFO main - Verificando as WS de config do integrador...
+INFO main - O endereço WS não está configurado corretamente, alterando para o endereço WS correto...
+INFO main - wsclient.host= http://xcvxcv esperado: http://166.78.0.215:8092
+INFO main - wsclient.return.host= http://xcvxcv esperado: http://166.78.0.215:8092
+INFO main - Editando o arquivo cfg D:/Resources/tr-taxbr-ecf-integrator-installer-V01R17/etc/taxbr.ecf.integrator.branch.cfg ...
+INFO main - URL do WS alterado com sucesso no arquivo .cfg!
+INFO main - Reiniciando o serviço do integrador...
+INFO main - Parando o serviço TAXBR-INTEGRATOR-ECF
+INFO main - Aguardando o servico TAXBR-INTEGRATOR-ECF parar...
+INFO main - #########################################################################
+INFO main - CONTAS - TESTE INICIADO EM QUI, 2014-9-25 AT 4:58:51 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CONTAS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1055, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 39796, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CONTAS || Tentativa 1 de 200
+INFO main - Tela CONTAS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1083, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CONTAS || Tentativa 1 de 200
+INFO main - Tela CONTAS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1094, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 16 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Contas' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 16394, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CONTAS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Contas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1039, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CONTAS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 7 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Contas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 7261, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CONTAS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CONTAS || Tentativa 1 de 200
+INFO main - Tela CONTAS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1063, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Contas' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Contas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CONTAS ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 53 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:11:46 PM BRT
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:13:6 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CONSISTENCIAS COST CENTER
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:13:25 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:14:16 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:21:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:22:43 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:23:31 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:23:58 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:25:7 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:28:59 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:30:0 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:30:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:32:13 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:37:54 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:38:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:39:41 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:41:52 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:42:52 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:44:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:45:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:46:34 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM SEX, 2014-9-26 AT 3:57:58 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>

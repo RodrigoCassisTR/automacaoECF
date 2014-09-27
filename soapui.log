@@ -1,0 +1,52 @@
+2014-09-26 15:57:59,908 WARN  [SoapUI] Missing folder [D:\automacao\automacaoECF\.\ext] for external libraries
+2014-09-26 15:58:00,402 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\QA\soapui-settings.xml]
+2014-09-26 15:58:01,437 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2014-09-26 15:58:01,527 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2014-09-26 15:58:01,530 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2014-09-26 15:58:01,533 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2014-09-26 15:58:01,536 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2014-09-26 15:58:01,538 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2014-09-26 15:58:01,542 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2014-09-26 15:58:01,552 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2014-09-26 15:58:01,556 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2014-09-26 15:58:01,565 INFO  [SchemaUtils] Added default schema from file:/C:/Users/QA/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2014-09-26 15:58:02,324 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/CostCenterWebServiceImplPort?wsdl]
+2014-09-26 15:58:02,324 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/CostCenterWebServiceImplPort?wsdl
+2014-09-26 15:58:02,329 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/CostCenterWebServiceImplPort?xsd=costcenterwebserviceimpl_schema1.xsd
+2014-09-26 15:58:02,655 INFO  [WsdlImporter] Finding importer for {http://costcenter.webservices.taxbr.ta.thomsonreuters.com/}CostCenterWebServiceImplServiceSoapBinding
+2014-09-26 15:58:02,659 INFO  [WsdlImporter] Importing binding {http://costcenter.webservices.taxbr.ta.thomsonreuters.com/}CostCenterWebServiceImplServiceSoapBinding
+2014-09-26 15:58:02,689 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/CostCenterWebServiceImplPort
+2014-09-26 15:58:02,696 INFO  [Soap12HttpBindingImporter] importing operation receiveCostCenter
+2014-09-26 15:58:03,272 INFO  [VerificacoesDeWS] Request para envio : 
+2014-09-26 15:58:03,273 INFO  [VerificacoesDeWS] <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+2014-09-26 15:58:03,273 INFO  [VerificacoesDeWS] Response obtido : 
+2014-09-26 15:58:03,273 INFO  [VerificacoesDeWS] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:receiveCostCenterResponse xmlns:ns2="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+         <return>
+            <RESPONSE_DATE>2014-09-26T15:57:31.514-03:00</RESPONSE_DATE>
+            <PROTOCOL_NUMBER>1406e8aa-fdbe-4314-983f-df408a9d53b7</PROTOCOL_NUMBER>
+            <RESPONSE_MESSAGE>Mensagem recebida pelo ONESOURCE com sucesso.
+Utilize o número de protocolo para consultar o resultado do processamento.</RESPONSE_MESSAGE>
+         </return>
+      </ns2:receiveCostCenterResponse>
+   </soap:Body>
+</soap:Envelope>
+2014-09-26 15:58:03,273 INFO  [VerificacoesDeWS] Granvando o arquivo de retorno ...
+2014-09-26 15:58:03,393 INFO  [VerificacoesDeWS] Copiando arquivo modelo 'costcenter'...
+2014-09-26 15:58:03,397 INFO  [VerificacoesDeWS] Copiando arquivo modelo, com nome ./files/requestWS/temp/protocolo_26092014_155803.xml com sucesso!

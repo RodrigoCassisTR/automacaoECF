@@ -494,7 +494,11 @@ public class VerificacoesDeTela {
 			logger.info("----------------------------------------------------");
 			logger.info("EDITANDO DADOS DA APURAÇÃO, E CALCULO");
 			logger.info("----------------------------------------------------");
-		} else {
+		} else if (i == 9) {
+			logger.info("----------------------------------------------------");
+			logger.info("EFETUANDO O REQUEST PARA O WS ");
+			logger.info("----------------------------------------------------");
+		}else {
 			logger.info("????????????????????????????????????????????????????");
 			logger.info("INVÁLIDO");
 			logger.info("????????????????????????????????????????????????????");
@@ -2125,6 +2129,9 @@ public class VerificacoesDeTela {
 	public void validaOrdenacao(WebDriver driver, String nomeTeste, String caminho, int tentativas, String[] xpathColunasResultados, String[] indOrdenacaoColuna, String[] labelColuna) throws InterruptedException, IOException {
 
 		try {
+			
+			Actions actions = new Actions(driver);
+			actions.keyDown(Keys.CONTROL).sendKeys(Keys.HOME).perform();
 
 			aguardaCarregamento(caminho, xpathColunasResultados[0], nomeTeste, tentativas, driver);
 

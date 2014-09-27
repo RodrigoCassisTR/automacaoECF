@@ -1,9 +1,10 @@
 package ECF.automacaoECF.tela;
 
 
-import ECF.automacaoECF.padrao.ValidacaoDeTela;
+import ECF.automacaoECF.padrao.TelaAcesso;
 
-public class TelaLucroRealApuracaoCsll extends ValidacaoDeTela {
+
+public class TelaLucroRealApuracaoCsll extends TelaAcesso {
 
 	
 }

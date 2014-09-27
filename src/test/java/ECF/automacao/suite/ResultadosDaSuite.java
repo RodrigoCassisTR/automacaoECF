@@ -330,8 +330,6 @@ public class ResultadosDaSuite {
 	public void preparaSuite() {
 
 
-		logger.info("Apagando Screenshot");
-		apagaScreenshot();
 
 	}
 

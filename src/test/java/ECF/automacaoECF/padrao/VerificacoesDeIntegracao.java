@@ -95,7 +95,7 @@ public class VerificacoesDeIntegracao {
 
 	}
 
-	private void copiaArquivos(String origem, String destino) throws IOException {
+	public void copiaArquivos(String origem, String destino) throws IOException {
 		File inputFile = new File(origem);
 		File outputFile = new File(destino);
 
@@ -407,7 +407,7 @@ public class VerificacoesDeIntegracao {
 			logger.info("wsclient.host= " + wsclientHost + " esperado: " + urlIntegracao);
 			logger.info("wsclient.return.host= " + wsclientReturnHost + " esperado: " + urlIntegracao);
 
-			logger.info("Editando o arquivo cfg...");
+			logger.info("Editando o arquivo cfg "+arquivoCfg+" ...");
 			Path path = Paths.get(arquivoCfg);
 			Charset charset = StandardCharsets.UTF_8;
 			String content = new String(Files.readAllBytes(path), charset);
