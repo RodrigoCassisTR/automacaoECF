@@ -13,7 +13,7 @@ public class ZipUtils {
 
 	private List<String> fileList;
 	private static final String OUTPUT_ZIP_FILE = "./files/temp/ZipToSend/evidencias.zip";
-	private static final String SOURCE_FOLDER = "./screenshot"; 
+	private static final String SOURCE_FOLDER = "./evidencias"; 
 
 	public ZipUtils() {
 		fileList = new ArrayList<String>();
