@@ -383,7 +383,7 @@ public class ResultadosDaSuite {
 			messageBodyPart.setDataHandler(new DataHandler(source));
 			messageBodyPart.setFileName("automation.log");
 
-			if (utilidade.pastaVazia("./evidencias") == false) {
+			if (utilidade.pastaVazia("./screenshot") == false) {
 
 				String anexoEvidencias = zipaEvidencias();
 				messageBodyPart2 = new MimeBodyPart();

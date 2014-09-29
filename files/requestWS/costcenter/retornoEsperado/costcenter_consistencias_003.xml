@@ -13,5 +13,4 @@
 			</COST_CENTER_LIST>
 		</cos:receiveCostCenter>
 	</soap:Body>
-	</soap:Envelope>
-	
+</soap:Envelope>

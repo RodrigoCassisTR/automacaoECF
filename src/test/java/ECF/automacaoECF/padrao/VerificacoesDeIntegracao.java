@@ -62,20 +62,6 @@ public class VerificacoesDeIntegracao {
 		}
 
 	}
-	
-	public void limpaPasta(String enderecoPasta) {
-
-		File pastaTXT = new File(enderecoPasta);
-		if (pastaTXT.exists()) {
-			logger.info("Limpando pasta: " + enderecoPasta);
-			VerificacoesDeIntegracao ld = new VerificacoesDeIntegracao();
-			ld.remover(new File(enderecoPasta));
-
-		} else {
-			logger.info("Não existe pasta!");
-		}
-
-	}
 
 	public void remover(File f) {
 		if (f.isDirectory()) {
@@ -220,8 +206,8 @@ public class VerificacoesDeIntegracao {
 		if (file.isDirectory()) {
 			if (file.list().length > 0) {
 				logger.info("O arquivo  foi movido para a pasta 'erro'!");
-				copiaArquivos(pasta_erro +nomeArquivoIntegracao, "./evidencias/integracao/" + nomeTeste.toLowerCase().trim()+"_retorno.xml");
-				copiaArquivos(arquivoEnvio, "./evidencias/integracao/" + nomeTeste.toLowerCase().trim()+"_envio.xml");
+				copiaArquivos(pasta_erro +nomeArquivoIntegracao, "./screenshot/" + nomeTeste.toLowerCase().trim()+"_retorno.xml");
+				copiaArquivos(arquivoEnvio, "./screenshot/" + nomeTeste.toLowerCase().trim()+"_envio.xml");
 				falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
 				return true;
 			} else {
@@ -300,7 +286,7 @@ public class VerificacoesDeIntegracao {
 
 		if (verificaPastaErro(pasta_erro, tentativas) == true) {
 			logger.info("O arquivo  foi movido para a pasta 'erro'!");
-			copiaArquivos(pasta_erro + "/*.*", "./evidencias/integracao/" + nomeArquivo);
+			copiaArquivos(pasta_erro + "/*.*", "./screenshot/" + nomeArquivo);
 			falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
 		}
 
