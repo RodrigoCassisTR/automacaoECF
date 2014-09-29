@@ -8,6 +8,7 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 
 import ECF.automacaoECF.acessoTela.*;
+import ECF.automacaoECF.consistencias.ConsistenciasCostCenter;
 import ECF.automacaoECF.integracao.*;
 import ECF.automacaoECF.padrao.RecebeParametros;
 import ECF.automacaoECF.tela.TelaCentrosDeCustos;
@@ -44,7 +45,8 @@ public class TesteSuite {
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
 
-		Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class, TelaAJustesParteBAcesso.class, TelaAliquotasDosTributosAcesso.class, TelaAssociacaoDeTabelasSpedAcesso.class, TelaContasApuracaoAcesso.class, TelaDarfConsultaAcesso.class, TelaDarfProcessamentoAcesso.class, TelaFeriadosAcesso.class, TelaGeracaoEcfAcesso.class, TelaImpostosComBaseNoSaldoConsolidadoAcesso.class, TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class, TelaLucroEstimadoApuracaoCsllAcesso.class, TelaLucroEstimadoApuracaoIrpjAcesso.class, TelaLucroEstimadoContasDaApuracaoAcesso.class, TelaLucroRealApuracaoCsll.class, TelaLucroRealContasAcesso.class, TelaLucroRealContasDaApuracaoAcesso.class, TelaPerfilEcflAcesso.class, TelaPlanoReferencialPlanoEmpresaAssociacao.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaRelatorioDeEstabelecimentosAcesso.class, TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class, TelaRelatoriosContasLalurAcesso.class, TelaRelatoriosContasLalurContasContabeisAcesso.class, TelaRelatoriosDeCalculosAcesso.class, TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class, TelaRelatoriosImpDiferidosBaseMovtoAcesso.class, TelaRelatoriosSaldosParteBAcesso.class, TelaResponsaveisAcesso.class, TelaSituacaoEspecialAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaCentrosDeCustos.class, TelaEstabelecimentos.class, TelaLancamentosContabeis.class, TelaLucroRealApuracaoIrpj.class, TelaPlanoDeContas.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaProcessoEmLote.class, TelaSaldos.class, TelaScp.class, TelaTaxaDeJurosDeLongoPrazo.class};
+		//Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class, TelaAJustesParteBAcesso.class, TelaAliquotasDosTributosAcesso.class, TelaAssociacaoDeTabelasSpedAcesso.class, TelaContasApuracaoAcesso.class, TelaDarfConsultaAcesso.class, TelaDarfProcessamentoAcesso.class, TelaFeriadosAcesso.class, TelaGeracaoEcfAcesso.class, TelaImpostosComBaseNoSaldoConsolidadoAcesso.class, TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class, TelaLucroEstimadoApuracaoCsllAcesso.class, TelaLucroEstimadoApuracaoIrpjAcesso.class, TelaLucroEstimadoContasDaApuracaoAcesso.class, TelaLucroRealApuracaoCsll.class, TelaLucroRealContasAcesso.class, TelaLucroRealContasDaApuracaoAcesso.class, TelaPerfilEcflAcesso.class, TelaPlanoReferencialPlanoEmpresaAssociacao.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaRelatorioDeEstabelecimentosAcesso.class, TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class, TelaRelatoriosContasLalurAcesso.class, TelaRelatoriosContasLalurContasContabeisAcesso.class, TelaRelatoriosDeCalculosAcesso.class, TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class, TelaRelatoriosImpDiferidosBaseMovtoAcesso.class, TelaRelatoriosSaldosParteBAcesso.class, TelaResponsaveisAcesso.class, TelaSituacaoEspecialAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaCentrosDeCustos.class, TelaEstabelecimentos.class, TelaLancamentosContabeis.class, TelaLucroRealApuracaoIrpj.class, TelaPlanoDeContas.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaProcessoEmLote.class, TelaSaldos.class, TelaScp.class, TelaTaxaDeJurosDeLongoPrazo.class};
+		Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 
@@ -52,7 +54,9 @@ public class TesteSuite {
 		String[] resultadosTestesCrud = new String[testesCrud.length];
 		String[] duracaoTestesCrud = new String[testesCrud.length];
 
-		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermintereStrateTeste.class, IntegracaoSocietyAccountParticipationTeste.class};
+		//Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermintereStrateTeste.class, IntegracaoSocietyAccountParticipationTeste.class};
+		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class,ConsistenciasCostCenter.class};
+		
 		String[] resultadosTestesIntegracao = new String[testesIntegracao.length];
 		String[] duracaoTestesIntegracao = new String[testesIntegracao.length];
 

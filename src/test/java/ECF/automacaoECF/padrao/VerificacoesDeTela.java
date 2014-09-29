@@ -40,7 +40,7 @@ public class VerificacoesDeTela {
 		Random numeroAleatorio = new Random();
 		String nomeDoScreenshot = "erro_" + nomeTeste.trim().toLowerCase() + "_" + numeroAleatorio.hashCode();
 		File scrsht = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrsht, new File("./screenshot/" + nomeDoScreenshot + ".png"));
+		FileUtils.copyFile(scrsht, new File("./evidencias/screenshot/" + nomeDoScreenshot + ".png"));
 
 		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
 		logger.info("FALHA: " + mensagem);
