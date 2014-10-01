@@ -2,8 +2,8 @@
    <soap:Body>
       <ns2:receiveCostCenterResponse xmlns:ns2="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
          <return>
-            <RESPONSE_DATE>2014-09-26T15:57:31.514-03:00</RESPONSE_DATE>
-            <PROTOCOL_NUMBER>1406e8aa-fdbe-4314-983f-df408a9d53b7</PROTOCOL_NUMBER>
+            <RESPONSE_DATE>2014-10-01T00:26:51.815-03:00</RESPONSE_DATE>
+            <PROTOCOL_NUMBER>60aaad4a-b142-44e2-acb7-3b6025c06ea3</PROTOCOL_NUMBER>
             <RESPONSE_MESSAGE>Mensagem recebida pelo ONESOURCE com sucesso.
 Utilize o número de protocolo para consultar o resultado do processamento.</RESPONSE_MESSAGE>
          </return>

@@ -4977,3 +4977,1293 @@ INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Enve
 		</cos:receiveCostCenter>
 	</soap:Body>
 	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-9-29 AT 5:56:46 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 17324, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1045, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1057, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1058, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5090, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1174, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1026, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 54 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-9-29 AT 9:43:55 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1037, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 17282, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 47 de 200
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM SEG, 2014-9-29 AT 9:45:30 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1052, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 16238, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1057, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 4097, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 0 MINUTOS 51 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM TER, 2014-9-30 AT 4:51:10 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 26435, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1022, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1058, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1042, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 4069, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2066, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1039, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 10 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM TER, 2014-9-30 AT 4:55:5 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 49787, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1040, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1077, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5115, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1047, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1068, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1043, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 34 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:8:12 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Limpando a pasta temporária: ./files/requestWS/temp/
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:9:13 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Limpando a pasta temporária: ./files/requestWS/temp/
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:19:40 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:21:28 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:21:59 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Limpando a pasta temporária: ./files/requestWS/temp/
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:22:41 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Limpando a pasta temporária: ./files/requestWS/temp/
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:28:2 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:28:40 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:29:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO TESTE WS</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:31:14 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:32:26 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Limpando a pasta temporária: ./files/requestWS/temp/
+INFO main - Arquivo de request: <?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cos="http://costcenter.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<cos:receiveCostCenter>
+			<COST_CENTER_LIST>
+				<COST_CENTER>
+					<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+					<IND_DELETE>N</IND_DELETE>
+					<COD_COST_CENTER>CC001</COD_COST_CENTER>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<DSC_COST_CENTER>CENTRO DE CUSTO AUTOMACAO TESTE WS</DSC_COST_CENTER>
+				</COST_CENTER>
+			</COST_CENTER_LIST>
+		</cos:receiveCostCenter>
+	</soap:Body>
+	</soap:Envelope>
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:32:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:38:6 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:41:23 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:44:37 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:45:3 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:46:3 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:46:48 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:53:33 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:54:42 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:55:33 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:56:25 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:57:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:57:43 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 5:59:4 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:0:0 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:0:45 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:3:33 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:15:1 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:17:17 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:18:19 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:19:10 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:21:49 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 6:24:59 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:2:27 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:3:14 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:3:50 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:4:37 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:6:55 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:10:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:10:46 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:29:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:34:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:36:18 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:37:28 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:38:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:39:1 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:40:0 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:42:37 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:43:2 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:53:15 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:53:48 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:54:31 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:55:45 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:56:27 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:57:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 7:59:8 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:0:0 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:0:33 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:1:43 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:2:27 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:2:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:5:31 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:6:0 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:7:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:8:9 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:23:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:24:34 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:25:39 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:26:4 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:31:39 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:32:43 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:40:33 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 8:41:5 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:0:26 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:6:19 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:8:26 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:9:29 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:11:1 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:12:16 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:13:37 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:15:59 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:22:15 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:23:32 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:25:17 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:28:27 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:29:45 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:30:47 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 9:32:8 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 11:55:34 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 11:56:24 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 11:57:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 11:59:13 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM TER, 2014-9-30 AT 11:59:55 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:0:53 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:3:35 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:4:39 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:6:6 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:8:7 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:9:22 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:10:12 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:11:20 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:12:19 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:13:51 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:16:23 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:18:40 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:19:29 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:21:11 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:22:20 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:23:46 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:25:18 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 12:26:16 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------

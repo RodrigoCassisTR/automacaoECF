@@ -1,5 +1,6 @@
 package ECF.automacaoECF.padrao;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -54,7 +55,6 @@ public class ManipuladorDeArquivos {
 	
 	public void limpaPastas(String diretorio) throws IOException {
 		File diretorioParaApagar = new File(diretorio);
-
 		FileUtils.cleanDirectory(diretorioParaApagar);
 
 	}
@@ -64,6 +64,15 @@ public class ManipuladorDeArquivos {
 		Date date = new Date();
 		String nomeData = dateFormat.format(date);
 		return nomeData;
+		
+	}
+
+	public void gravaArquivoDeUmaString(String arquivoRetornado, String string) throws IOException {
+		File file = new File(arquivoRetornado);
+		FileWriter fw = new FileWriter(file.getAbsoluteFile());
+		BufferedWriter bw = new BufferedWriter(fw);
+		bw.write(string);
+		bw.close();
 		
 	}
 }

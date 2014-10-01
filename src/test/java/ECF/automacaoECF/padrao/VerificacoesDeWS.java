@@ -1,10 +1,10 @@
 package ECF.automacaoECF.padrao;
 
+import static org.junit.Assert.fail;
+
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringWriter;
@@ -22,14 +22,16 @@ import org.apache.log4j.Logger;
 import org.apache.xmlbeans.XmlException;
 import org.jsoup.*;
 import org.jsoup.parser.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.util.Random;
 
 import com.eviware.soapui.impl.WsdlInterfaceFactory;
 import com.eviware.soapui.impl.wsdl.WsdlInterface;
@@ -45,7 +47,8 @@ import com.eviware.soapui.support.SoapUIException;
 public class VerificacoesDeWS {
 	public org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeWS.class.getName());
 	ManipuladorDeArquivos manipulaArquivos;
-
+	RecebeParametros parametros;
+	@SuppressWarnings("unused")
 	public String converteXmlParaString(String arquivoXml) {
 
 		try {
@@ -81,7 +84,6 @@ public class VerificacoesDeWS {
 	}
 
 	public String pegaValorDeTagXML(String xmlOrigem, String tag) {
-		VerificacoesDeWS xml = new VerificacoesDeWS();
 
 		org.jsoup.nodes.Document doc = Jsoup.parse(xmlOrigem, "", Parser.xmlParser());
 		String valorObtidoDaTag = doc.select(tag).text();
@@ -102,20 +104,31 @@ public class VerificacoesDeWS {
 
 	}
 
-	public String enviaRequest(String nomeIntegracao, String[] arquivosEnvio, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType) throws XmlException, IOException, SoapUIException, SubmitException {
+	public String enviaRequest(String nomeIntegracao, String arquivosEnvio, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType) throws XmlException, IOException, SoapUIException, SubmitException {
+		manipulaArquivos = new ManipuladorDeArquivos();
 
-		VerificacoesDeIntegracao integrador = new VerificacoesDeIntegracao();
+		System.out.println("Limpando a pasta temporária: " + "./files/requestWS/temp/");
+		manipulaArquivos.limpaPastas("./files/requestWS/temp/");
 
-		// LIMPANDO PASTAS
-		logger.info("Limpando a pasta temporária: " + "./files/requestWS/temp/");
-		File pastaTempWS = new File("./files/requestWS/temp/");
-		FileUtils.cleanDirectory(pastaTempWS);
+		String requestDoArquivo = converteXmlParaString("./files/requestWS/" + nomeIntegracao + "/envio/" + arquivosEnvio);
+		System.out.println("Arquivo de request: " + requestDoArquivo);
 
-		String requestDoArquivo = converteXmlParaString("./files/requestWS/" + nomeIntegracao + "/envio/" + arquivosEnvio[0]);
-		logger.info("Arquivo de request: " + requestDoArquivo);
+		String resposta = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation);
+		System.out.println("RESPOSTA: " + resposta);
 
+		System.out.println("Granvando o arquivo de retorno ...");
+		String arquivoRetornado = "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_" + arquivosEnvio;
+		manipulaArquivos.gravaArquivoDeUmaString(arquivoRetornado, resposta);
+
+		return arquivoRetornado;
+
+	}
+
+	@SuppressWarnings("rawtypes")
+	private String enviaRequestParaWS(String enderecoWSDL, String username, String password, String wssPasswordType, String requestDoArquivo, String nomeOperation) throws SoapUIException, SubmitException, XmlException, IOException {
+		parametros = new RecebeParametros();
 		WsdlProject project = new WsdlProject();
-		WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, enderecoWSDL, true)[0];
+		WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, parametros.urlIntegracao + enderecoWSDL, true)[0];
 		WsdlOperation operation = (WsdlOperation) iface.getOperationByName(nomeOperation);
 		WsdlRequest request = operation.addNewRequest("My Request");
 		request.setPassword(password);
@@ -124,51 +137,22 @@ public class VerificacoesDeWS {
 		request.setRequestContent(requestDoArquivo);
 		WsdlSubmit submit = (WsdlSubmit) request.submit(new WsdlSubmitContext(request), false);
 		Response response = submit.getResponse();
-		String content = response.getContentAsString();
-
-		logger.info("Request para envio : ");
-		logger.info(request.getRequestContent());
-
-		logger.info("Response obtido : ");
-		logger.info(content);
-
-		String responseString = response.getContentAsString();
-
-		logger.info("Granvando o arquivo de retorno ...");
-
-		SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
-		Date date = new Date();
-		String nomeArquivo = dateFormat.format(date) + ".xml";
-		String arquivoRetornado = "./files/requestWS/temp/retornoWS_" + arquivosEnvio[0] + "_" + nomeArquivo;
-		File file = new File(arquivoRetornado);
-		FileWriter fw = new FileWriter(file.getAbsoluteFile());
-		BufferedWriter bw = new BufferedWriter(fw);
-		bw.write(responseString);
-		bw.close();
-
-		return arquivoRetornado;
+		String resposta = response.getContentAsString();
+		return resposta;
 
 	}
 
-	@SuppressWarnings("rawtypes")
 	public String enviaRequestDoProtocolo(String nomeIntegracao, String arquivoRetornoRequest, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType, int tentativas) throws XmlException, IOException, SoapUIException, SubmitException {
-		VerificacoesDeIntegracao integracao = new VerificacoesDeIntegracao();
 
+		manipulaArquivos = new ManipuladorDeArquivos();
 		String protocoloObtido = pegaValorDeTag(arquivoRetornoRequest, "PROTOCOL_NUMBER");
 
-		// COPIA O ARQUIVO MODELO PARA UMA PASTA TEMPORARIA...
-		SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
-		Date date = new Date();
-		logger.info("Copiando arquivo modelo '" + nomeIntegracao + "'...");
-		String diretorioTemporario = "./files/requestWS/temp";
-		String prefixoNome = "/protocolo_";
-		String nomeArquivo = dateFormat.format(date) + ".xml";
-		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
-
+		System.out.println("Copiando arquivo modelo de request protocolo '" + nomeIntegracao + "'...");
+		String arquivoTemporario = "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_prt_" + nomeIntegracao + ".xml";
 		String modeloArquivoProtocolo = "./files/requestWS/modeloRequestProtocolo.xml";
 
-		integracao.copiaArquivos(modeloArquivoProtocolo, arquivoTemporario);
-		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
+		manipulaArquivos.copiaArquivos(modeloArquivoProtocolo, arquivoTemporario);
+		System.out.println("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
 
 		// SUBSTITUIÇÃO DE DO PROTOCOLO NO MODELO
 		String[] campos = {"!protocolo"};
@@ -177,57 +161,34 @@ public class VerificacoesDeWS {
 
 		// TRANSFORMANDO O ARQUIVO EM REQUEST
 		String requestDoArquivo = converteXmlParaString(arquivoTemporario);
-		logger.info("Arquivo de request: " + requestDoArquivo);
+		System.out.println("Arquivo de request: \n" + requestDoArquivo);
+
+		System.out.println("HERE: \n" + pegaValorDeTagXML(enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation), "RESPONSE_MESSAGE"));
 
 		for (int i = 0; i < tentativas; i++) {
+			String responseString = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation);
+			String mensagemRecebida = pegaValorDeTagXML(responseString, "RESPONSE_MESSAGE");
 
-			WsdlProject project = new WsdlProject();
-			WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, "http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl", true)[0];
-			WsdlOperation operation = (WsdlOperation) iface.getOperationByName("getResponseMessage");
-			WsdlRequest request = operation.addNewRequest("My Request");
-			request.setPassword(password);
-			request.setUsername(username);
-			request.setWssPasswordType(wssPasswordType);
-			request.setRequestContent(requestDoArquivo);
-			WsdlSubmit submit = (WsdlSubmit) request.submit(new WsdlSubmitContext(request), false);
-			Response response = submit.getResponse();
-			String content = response.getContentAsString();
-
-			logger.info("Request para envio : ");
-			logger.info(request.getRequestContent());
-
-			logger.info("Response obtido : ");
-			logger.info(content);
-
-			String responseString = response.getContentAsString();
-
-			System.out.println(responseString);
-
-			String mensagemRecebida = pegaValorDeTagXML(response.getContentAsXml(), "RESPONSE_MESSAGE");
-			if (mensagemRecebida.contentEquals("Aguarde um momento. O registro está sendo integrado.")) {
-
-				logger.info(mensagemRecebida);
-
+			if (mensagemRecebida.contentEquals("Aguarde um momento. O registro está sendo integrado.") || mensagemRecebida.contentEquals("Protocolo não encontrado: . Aguarde alguns instantes e tente novamente.")) {
+				System.out.println(mensagemRecebida);
 			} else {
-				logger.info("Mensagem Recebida: " + mensagemRecebida);
-				logger.info("Granvando o arquivo de retorno ...");
-				String nomeArquivoRetorno = dateFormat.format(date) + ".xml";
-				String arquivoRetornado = "./files/requestWS/temp/retornoWS_" +
-						nomeArquivoRetorno + "_retorno.xml";
-				File file = new File(arquivoRetornado);
-				FileWriter fw = new FileWriter(file.getAbsoluteFile());
-				BufferedWriter bw = new BufferedWriter(fw);
-				bw.write(responseString);
-				bw.close();
-				return arquivoRetornado;
+				System.out.println("Mensagem Recebida: " + mensagemRecebida);
+				System.out.println("Granvando o arquivo de retorno ...");
+
+				manipulaArquivos.gravaArquivoDeUmaString("./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml", responseString);
+
+				return "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml";
 			}
+			
+			//TODO COLOCAR QUEBRA SE PASSAR DAS TENTATIVAS
 		}
 
 		return null;
 
 	}
 
-	public void comparaResponseObtidoComEsperado(String arquivoEsperado, String arquivoObtido, String nomeIntegracao, String arquivosEnvio) throws IOException {
+	public int comparaResponseObtidoComEsperado(String arquivoEsperado, String arquivoObtido, String nomeIntegracao, String arquivosEnvio) throws IOException {
+		int qtdeFalhas = 0;
 		manipulaArquivos = new ManipuladorDeArquivos();
 		String enderecoDoArquivoEsperado = "./files/requestWS/" + nomeIntegracao + "/retornoEsperado/" + arquivoEsperado;
 
@@ -238,20 +199,22 @@ public class VerificacoesDeWS {
 		String responseMessageObtido = pegaValorDeTagXML(xmlObtidoEmString, "RESPONSE_MESSAGE");
 
 		if (responseMessageObtido.contentEquals(responseMessageEsperado)) {
-			System.out.println("SÂO IGUAIS!!!");
+			System.out.println("#OK# Response Obtido igual ao esperado!");
+			System.out.println("Obtido: " + responseMessageObtido);
+			System.out.println("Esperado: " + responseMessageEsperado);
 		} else {
 
-			System.out.println("SÂO DIFERENTES!!!");
+			System.out.println("#ERRO# Response Obtido diferente do esperado!");
+			System.out.println("Obtido: " + responseMessageObtido);
+			System.out.println("Esperado: " + responseMessageEsperado);
+
 			manipulaArquivos.copiaArquivos(enderecoDoArquivoEsperado, "./evidencias/WS/" + manipulaArquivos.retornaNomeEmData() + "_" + nomeIntegracao + "_responseEsperado" + ".xml");
 			manipulaArquivos.copiaArquivos(arquivoObtido, "./evidencias/WS/" + manipulaArquivos.retornaNomeEmData() + "_" + nomeIntegracao + "_responseObtido" + ".xml");
 			manipulaArquivos.copiaArquivos("./files/requestWS/" + nomeIntegracao + "/envio/" + arquivosEnvio, "./evidencias/WS/" + manipulaArquivos.retornaNomeEmData() + "_" + nomeIntegracao + "_request" + ".xml");
-
+			qtdeFalhas++;
 		}
 
-		System.out.println("AQUI EU PRECISO COMPARAR: ");
-
-		System.out.println("MENSAGEM ESPERADO: " + responseMessageEsperado + "\nARQUIVO: \n" + enderecoDoArquivoEsperado);
-		System.out.println("MENSAGEM OBTIDO: " + responseMessageObtido + "\nARQUIVO: \n" + arquivoObtido);
+		return qtdeFalhas;
 
 	}
 
@@ -268,5 +231,24 @@ public class VerificacoesDeWS {
 		reader.close();
 
 		return stringBuilder.toString();
+	}
+
+	public void verificaErros(int falhasWS) throws IOException {
+
+		System.out.println("Falhas: " + falhasWS);
+		if (falhasWS > 0) {
+			falhaWS("Encontrato erros nas consistencias");
+		}
+
+	}
+
+	public void falhaWS(String mensagem) throws IOException {
+
+		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
+		logger.info("FALHA: " + mensagem);
+		logger.info("§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§");
+
+		fail(mensagem + " - Evidencias gravadas no diretório ./evidencias/WS");
+
 	}
 }

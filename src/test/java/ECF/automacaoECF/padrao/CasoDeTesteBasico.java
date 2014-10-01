@@ -12,6 +12,7 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -39,8 +40,19 @@ public class CasoDeTesteBasico {
 
 	private void selecionarNavegador() {
 		if (navegador.equals("chrome")) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-maximized", "forced-maximize-mode",
+					"disable-threaded-compositing", "disable-gpu",
+					"disable-custom-jumplist", "disable-desktop-notifications",
+					"disable-device-orientation", "disable-extensions",
+					"disable-webgl", "no-default-browser-check");
+
+			DesiredCapabilities capabilities = new DesiredCapabilities(
+					DesiredCapabilities.chrome());
+			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+
 			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(capabilities);
 		}
 		if (navegador.equals("firefox")) {
 
