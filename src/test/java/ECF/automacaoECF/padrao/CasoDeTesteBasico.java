@@ -1,7 +1,5 @@
 package ECF.automacaoECF.padrao;
 
-
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,8 +16,6 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
-	
 
 public class CasoDeTesteBasico {
 
@@ -40,19 +36,17 @@ public class CasoDeTesteBasico {
 
 	private void selecionarNavegador() {
 		if (navegador.equals("chrome")) {
+			
+			
+			System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("start-maximized", "forced-maximize-mode",
-					"disable-threaded-compositing", "disable-gpu",
-					"disable-custom-jumplist", "disable-desktop-notifications",
-					"disable-device-orientation", "disable-extensions",
-					"disable-webgl", "no-default-browser-check");
+			options.addArguments("user-data-dir=C:/Users/user_name/AppData/Local/Google/Chrome/User");
+			options.addArguments("--start-maximized");
+			driver = new ChromeDriver(options);
+			
+		
+	
 
-			DesiredCapabilities capabilities = new DesiredCapabilities(
-					DesiredCapabilities.chrome());
-			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-
-			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
-			driver = new ChromeDriver(capabilities);
 		}
 		if (navegador.equals("firefox")) {
 

@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:getResponseMessageResponse xmlns:ns2="http://response.webservices.taxbr.ta.thomsonreuters.com/">
+         <return>
+            <PROTOCOL_NUMBER>6bce1e13-ea50-4a65-b3c3-8466d0c4f336</PROTOCOL_NUMBER>
+            <RESPONSE_MESSAGE_LIST>
+               <RESPONSE_MESSAGE>Plano de Contas: CNPJ (Código da Central de Cadastros) 55231342000104, Código da conta Contábil COD e Data de Início da Validade 1985-01-01.
+Não foi encontrado estabelecimento com o CNPJ informado com data inicial igual ou anterior a data do cadastro importado.</RESPONSE_MESSAGE>
+            </RESPONSE_MESSAGE_LIST>
+         </return>
+      </ns2:getResponseMessageResponse>
+   </soap:Body>
+</soap:Envelope>

@@ -6267,3 +6267,2045 @@ INFO main - ####################################################################
 INFO main - ----------------------------------------------------
 INFO main - EFETUANDO O REQUEST PARA O WS 
 INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 10:35:48 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 10:36:9 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 10:36:27 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 10:37:28 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 10:54:11 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 10:56:1 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 11:45:14 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 12:7:6 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 12:8:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 2:30:14 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 2:31:50 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1030, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - #########################################################################
+INFO main - AJUSTES PARTE B  - TESTE INICIADO EM QUA, 2014-10-1 AT 4:28:50 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2044, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 53 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 54 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 55 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 56 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 57 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 58 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 59 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 60 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 61 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 62 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 63 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 64 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 65 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 66 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 67 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 68 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 69 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 70 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 71 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 72 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 73 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 74 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 75 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 75802, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1056, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 13 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 13161, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 12 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 12246, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1037, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 50 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - AJUSTES PARTE B  - TESTE INICIADO EM QUA, 2014-10-1 AT 4:33:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 5 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5073, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 53 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 54 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 55 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 56 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 57 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 58 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 59 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 60 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 61 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 62 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 63 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 64 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 64711, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1044, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1057, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 8121, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 8168, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1036, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 23 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - AJUSTES PARTE B  - TESTE INICIADO EM QUA, 2014-10-1 AT 4:37:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 53 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 54 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 55 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 56 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 57 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 58 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 59 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 60 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 61 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 62 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 63 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 64 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 65 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 66 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 67 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 68 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 69 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 70 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 70729, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1059, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 7103, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 13 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 13246, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1035, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 19 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - AJUSTES PARTE B  - TESTE INICIADO EM QUA, 2014-10-1 AT 4:44:58 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 4:45:15 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - ************************************************************************
+INFO main - AUTOMACAO | ONESOURCE ECF
+INFO main - ************************************************************************
+INFO main - ------------------------------------------------------------------------
+INFO main - SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 1 DE OUTUBRO DE 2014
+INFO main - ------------------------------------------------------------------------
+INFO main - PARÂMETROS GERAIS: 
+INFO main - ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - QTDE DE TENTATIVAS: 200
+INFO main - TEMPO ACEITÁVEL DE CARREGAMENTO: 200 (milissegundos)
+INFO main - PARÂMETROS DA SUITE: 
+INFO main - ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main - TESTES DE TELA (testaTela): true
+INFO main - TESTES DE CRUD (testaCRUD): false
+INFO main - TESTES DE INTEGRAÇÃO (testaIntegracao): true
+INFO main - ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main - 
+INFO main - 
+INFO main - ------------------------------------------------------
+INFO main - INICIANDO TESTES DE TELA (1 TESTES)
+INFO main - ------------------------------------------------------
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 4:46:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 53 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 53754, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1047, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 6089, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2178, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1039, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1039, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 1 MINUTOS 24 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - ------------------------------------------------------
+INFO main - INICIANDO TESTES DE INTEGRAÇÃO (2 TESTES)
+INFO main - ------------------------------------------------------
+INFO main - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=37.0.2062.124)
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'U0155902-TPD-A', ip: '10.197.26.88', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 9fc99ae95f20ec56f0d67605e838b9c9
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:/Users/user_name/AppData/Local/Google/Chrome/User}, rotatable=false, locationContextEnabled=true, version=37.0.2062.124, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+INFO main - [Ljava.lang.StackTraceElement;@77352ff7
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 5 de 200
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 4:48:31 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela Home || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 53 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 54 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 55 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 56 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 57 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 58 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 59 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 60 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 61 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 62 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 63 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 64 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 65 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 66 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 67 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 68 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 69 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 70 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 71 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 72 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 73 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 74 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 75 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 76 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 77 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 78 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 79 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 80 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 81 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 82 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 83 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 84 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 85 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 86 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 87 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 88 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 89 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 90 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 91 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 92 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 93 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 94 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 95 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 96 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 97 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 98 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 99 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 100 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 101 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 102 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 103 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 104 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 105 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 106 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 107 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 108 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 109 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 110 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 111 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 112 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 113 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 114 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 115 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 116 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 117 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 118 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 119 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 120 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 121 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 122 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 123 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 124 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 125 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 126 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 127 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 128 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 129 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 130 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 131 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 132 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 133 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 134 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 135 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 136 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 137 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 138 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 139 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 140 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 141 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 142 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 143 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 144 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 145 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 146 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 147 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 148 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 149 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 150 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 151 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 152 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 153 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 154 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 155 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 156 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 157 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 158 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 159 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 160 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 161 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 162 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 163 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 164 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 165 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 166 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 167 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 168 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 169 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 170 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 171 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 172 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 173 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 174 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 175 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 176 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 177 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 178 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 179 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 180 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 181 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 182 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 183 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 184 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 185 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 186 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 187 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 188 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 189 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 190 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 191 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 192 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 193 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 194 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 195 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 196 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 197 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 198 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 199 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 200 de 200
+INFO main - Aguardando o carregamento da tela Home || Tentativa 201 de 200
+INFO main - ************************************************************************
+INFO main - AUTOMACAO | ONESOURCE ECF
+INFO main - ************************************************************************
+INFO main - ------------------------------------------------------------------------
+INFO main - SUITE DE TESTE INICIADA EM QUARTA-FEIRA, 1 DE OUTUBRO DE 2014
+INFO main - ------------------------------------------------------------------------
+INFO main - PARÂMETROS GERAIS: 
+INFO main - ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - QTDE DE TENTATIVAS: 200
+INFO main - TEMPO ACEITÁVEL DE CARREGAMENTO: 200 (milissegundos)
+INFO main - PARÂMETROS DA SUITE: 
+INFO main - ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main - TESTES DE TELA (testaTela): true
+INFO main - TESTES DE CRUD (testaCRUD): false
+INFO main - TESTES DE INTEGRAÇÃO (testaIntegracao): true
+INFO main - ------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO main - 
+INFO main - 
+INFO main - ------------------------------------------------------
+INFO main - INICIANDO TESTES DE TELA (1 TESTES)
+INFO main - ------------------------------------------------------
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 5:0:19 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1032, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 53 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 54 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 55 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 56 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 57 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 58 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 59 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 60 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 61 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 62 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 63 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 64 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 65 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 66 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 67 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 68 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 69 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 70 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 71 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 72 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 73 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 74 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 75 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 76 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 77 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 78 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 79 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 80 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 81 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 82 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 83 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 84 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 85 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 86 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 87 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 88 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 89 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 90 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 91 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 92 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 93 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 94 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 95 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 96 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 97 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 98 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 99 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 100 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 101 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 102 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 103 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 104 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 105 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 106 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 107 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 108 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 109 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 110153, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1046, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1048, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5075, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2060, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 20 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - ------------------------------------------------------
+INFO main - INICIANDO TESTES DE INTEGRAÇÃO (1 TESTES)
+INFO main - ------------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS COST CENTER - TESTE INICIADO EM QUA, 2014-10-1 AT 5:2:46 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CENTRAL DE CADASTROS - TESTE INICIADO EM QUA, 2014-10-1 AT 5:6:30 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1028, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 53 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 54 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 55 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 56 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 57 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 58 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 59 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 60 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 61 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 62 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 63 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 64 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 65 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 66 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 67 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 68 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 69 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 70 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 71 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 72 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 73 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 74 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 75 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 76 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 77 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 78 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 79 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 80 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 81 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 82 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 83 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 84 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 85 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 86 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 87 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 88 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 89 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 90 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 91 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 92 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 93 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 94 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 95 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 96 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 97 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 98 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 99 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 100 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 101 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 102 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 103 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 104 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 105 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 106 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 107 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 108 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 109 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 110 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 111 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 112 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 113268, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1049, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1050, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 6 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 6087, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 5 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5113, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: CENTRAL DE CADASTROS
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela CENTRAL DE CADASTROS || Tentativa 1 de 200
+INFO main - Tela CENTRAL DE CADASTROS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' || Tentativa 1 de 200
+INFO main - Tela 'Parâmetros Iniciais > Perfis > Agrupamentos de Tabelas' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE CENTRAL DE CADASTROS ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 29 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - AJUSTES PARTE B  - TESTE INICIADO EM QUA, 2014-10-1 AT 5:37:48 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 201
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 200
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 35 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 36 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 37 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 38 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 39 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 40 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 41 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 42 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 43 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 44 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 45 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 46 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 47 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 48 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 49 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 50 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 51 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 52 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 53 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 54 de 200
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 55 de 200
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 55575, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 200
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1025, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 3 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 3193, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 3 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 3223, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 7 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 8 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 8119, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - TELA DE PESQUISA, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1020, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE RESULTADOS, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 2 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 3 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 4 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 5 de 200
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 6 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 6156, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - ----------------------------------------------------
+INFO main - TELA DE CADASTRO, TELA: AJUSTES PARTE B 
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela AJUSTES PARTE B  || Tentativa 1 de 200
+INFO main - Tela AJUSTES PARTE B  acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - xpath da Aba: /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[2]/div[3]/div/ul/li[3]/span/a
+INFO main - Aguardando o carregamento da tela 'Cadastros > Lucro Real > Ajustes Parte B' || Tentativa 1 de 200
+INFO main - Tela 'Cadastros > Lucro Real > Ajustes Parte B' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main - Nenhuma mensagem de erro foi apresentada!!
+INFO main - #########################################################################
+INFO main - TESTE AJUSTES PARTE B  ENCERRADO COM SUCESSO EM 0 HORAS 2 MINUTOS 38 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:17:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:21:32 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:22:30 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:26:47 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:33:47 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:34:28 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:35:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:35:51 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:36:18 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:36:48 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:37:59 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:38:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:39:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:40:40 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:41:19 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:42:33 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:43:16 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:45:2 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:45:52 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:46:55 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:48:31 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:49:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:51:40 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:53:8 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:55:37 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 12:56:26 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:6:54 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:8:16 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:9:25 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:10:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:11:23 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:12:25 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:13:22 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:14:17 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:15:46 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:16:39 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:17:47 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:19:51 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:20:32 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 1:25:13 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 3:38:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 3:54:51 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 3:56:25 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 3:57:43 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 3:59:25 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:0:39 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:1:47 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:3:30 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:4:59 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:7:31 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:8:53 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:10:6 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:12:10 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:13:35 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:14:57 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:16:32 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:18:20 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:20:8 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:21:35 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:28:26 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:29:44 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:32:17 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:34:29 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:36:3 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:43:40 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:44:23 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:46:19 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:52:22 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 4:54:11 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:9:46 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:25:40 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:28:8 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:30:58 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:37:0 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:40:51 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:43:24 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS LEDGER ACCOUNT - TESTE INICIADO EM QUI, 2014-10-2 AT 5:46:38 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------

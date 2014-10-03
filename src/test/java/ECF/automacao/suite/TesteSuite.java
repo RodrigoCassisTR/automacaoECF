@@ -9,6 +9,7 @@ import org.junit.runner.Result;
 
 import ECF.automacaoECF.acessoTela.*;
 import ECF.automacaoECF.consistencias.ConsistenciasCostCenter;
+import ECF.automacaoECF.consistencias.ConsistenciasLedgerAccount;
 import ECF.automacaoECF.integracao.*;
 import ECF.automacaoECF.padrao.RecebeParametros;
 import ECF.automacaoECF.tela.TelaCentrosDeCustos;
@@ -55,7 +56,7 @@ public class TesteSuite {
 		String[] duracaoTestesCrud = new String[testesCrud.length];
 
 		//Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermintereStrateTeste.class, IntegracaoSocietyAccountParticipationTeste.class};
-		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class,ConsistenciasCostCenter.class};
+		Class<?>[] testesIntegracao = {ConsistenciasCostCenter.class,ConsistenciasLedgerAccount.class};
 		
 		String[] resultadosTestesIntegracao = new String[testesIntegracao.length];
 		String[] duracaoTestesIntegracao = new String[testesIntegracao.length];

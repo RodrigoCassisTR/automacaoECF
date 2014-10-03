@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:getResponseMessageResponse xmlns:ns2="http://response.webservices.taxbr.ta.thomsonreuters.com/">
+         <return>
+            <PROTOCOL_NUMBER>6c59d7cf-0e4b-4074-a9ad-a84d14c81966</PROTOCOL_NUMBER>
+            <RESPONSE_MESSAGE_LIST>
+               <RESPONSE_MESSAGE>Plano de Contas: CNPJ (Código da Central de Cadastros) 55231342000104, Código da conta Contábil COD e Data de Início da Validade 2014-01-01.
+Campo Indicador do tipo de natureza da conta Contábil, com tamanho maior que o permitido: 123456789123456789123456789123456789123456789123456789123456789123456789</RESPONSE_MESSAGE>
+            </RESPONSE_MESSAGE_LIST>
+         </return>
+      </ns2:getResponseMessageResponse>
+   </soap:Body>
+</soap:Envelope>

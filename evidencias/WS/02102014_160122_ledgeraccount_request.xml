@@ -1,0 +1,20 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:led="http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/">
+   <soap:Header/>
+   <soap:Body>
+      <led:receiveLedgerAccount>
+         <LEDGER_ACCOUNT_LIST>
+            <LEDGER_ACCOUNT>
+               <COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
+               <IND_DELETE>N</IND_DELETE>
+               <COD_LEDGER_ACCOUNT>COD</COD_LEDGER_ACCOUNT>
+               <DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+               <DSC_LEDGER_ACCOUNT>CONTA DE TESTE DE WS</DSC_LEDGER_ACCOUNT>
+               <IND_LEDGER_ACCT_NAT_TYPE>1</IND_LEDGER_ACCT_NAT_TYPE>
+               <IND_LEDGER_ACCOUNT_TYPE>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</IND_LEDGER_ACCOUNT_TYPE>
+               <NUM_LEDGER_ACCT_LEVEL>1</NUM_LEDGER_ACCT_LEVEL>
+               <IDT_UPPER_LVL_LEDGER_ACCT/>
+            </LEDGER_ACCOUNT>
+         </LEDGER_ACCOUNT_LIST>
+      </led:receiveLedgerAccount>
+   </soap:Body>
+</soap:Envelope>

@@ -105,17 +105,14 @@ public class VerificacoesDeWS {
 	}
 
 	public String enviaRequest(String nomeIntegracao, String arquivosEnvio, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType) throws XmlException, IOException, SoapUIException, SubmitException {
-		manipulaArquivos = new ManipuladorDeArquivos();
 
+		manipulaArquivos = new ManipuladorDeArquivos();
 		System.out.println("Limpando a pasta temporária: " + "./files/requestWS/temp/");
 		manipulaArquivos.limpaPastas("./files/requestWS/temp/");
-
 		String requestDoArquivo = converteXmlParaString("./files/requestWS/" + nomeIntegracao + "/envio/" + arquivosEnvio);
 		System.out.println("Arquivo de request: " + requestDoArquivo);
-
 		String resposta = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation);
 		System.out.println("RESPOSTA: " + resposta);
-
 		System.out.println("Granvando o arquivo de retorno ...");
 		String arquivoRetornado = "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_" + arquivosEnvio;
 		manipulaArquivos.gravaArquivoDeUmaString(arquivoRetornado, resposta);
@@ -126,6 +123,7 @@ public class VerificacoesDeWS {
 
 	@SuppressWarnings("rawtypes")
 	private String enviaRequestParaWS(String enderecoWSDL, String username, String password, String wssPasswordType, String requestDoArquivo, String nomeOperation) throws SoapUIException, SubmitException, XmlException, IOException {
+
 		parametros = new RecebeParametros();
 		WsdlProject project = new WsdlProject();
 		WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, parametros.urlIntegracao + enderecoWSDL, true)[0];
@@ -169,7 +167,7 @@ public class VerificacoesDeWS {
 			String responseString = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation);
 			String mensagemRecebida = pegaValorDeTagXML(responseString, "RESPONSE_MESSAGE");
 
-			if (mensagemRecebida.contentEquals("Aguarde um momento. O registro está sendo integrado.") || mensagemRecebida.contentEquals("Protocolo não encontrado: . Aguarde alguns instantes e tente novamente.")) {
+			if (mensagemRecebida.contains("Aguarde um momento. O registro está sendo integrado.") || mensagemRecebida.contentEquals("Protocolo não encontrado: . Aguarde alguns instantes e tente novamente.")) {
 				System.out.println(mensagemRecebida);
 			} else {
 				System.out.println("Mensagem Recebida: " + mensagemRecebida);
@@ -179,8 +177,8 @@ public class VerificacoesDeWS {
 
 				return "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml";
 			}
-			
-			//TODO COLOCAR QUEBRA SE PASSAR DAS TENTATIVAS
+
+			// TODO COLOCAR QUEBRA SE PASSAR DAS TENTATIVAS
 		}
 
 		return null;

@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:getResponseMessageResponse xmlns:ns2="http://response.webservices.taxbr.ta.thomsonreuters.com/">
+         <return>
+            <PROTOCOL_NUMBER>2b3c84ee-4664-4e94-8451-2d21b8a47062</PROTOCOL_NUMBER>
+            <RESPONSE_MESSAGE_LIST>
+               <RESPONSE_MESSAGE>Aguarde um momento. O registro está sendo integrado.</RESPONSE_MESSAGE>
+               <RESPONSE_MESSAGE>Aguarde um momento. O registro está sendo integrado.</RESPONSE_MESSAGE>
+            </RESPONSE_MESSAGE_LIST>
+         </return>
+      </ns2:getResponseMessageResponse>
+   </soap:Body>
+</soap:Envelope>
