@@ -16,7 +16,7 @@ public class ProcessoDeConsistencias extends CasoDeTesteBasico {
 	int tentativas = Integer.parseInt(numerotentativas);
 
 	@Test
-	public void enviaXmlDaIntegracao() throws XmlException, IOException, SoapUIException, SubmitException, ParserConfigurationException {
+	public void enviaXmlDaIntegracao() throws XmlException, IOException, SoapUIException, SubmitException, ParserConfigurationException, InterruptedException {
 
 		String arquivoRetornoRequest;
 		String arquivoRetornoProtocolo;
@@ -42,7 +42,7 @@ public class ProcessoDeConsistencias extends CasoDeTesteBasico {
 		automacao.informaTeste(9, "", nomeTeste);
 
 		for (int i = 0; i < arquivosEnvio.length; i++) {
-			arquivoRetornoRequest = testeWS.enviaRequest(nomeIntegracao, arquivosEnvio[i], enderecoWSDL, nomeOperation, password, username, wssPasswordType);
+			arquivoRetornoRequest = testeWS.enviaRequest(nomeIntegracao, arquivosEnvio[i], enderecoWSDL, nomeOperation, password, username, wssPasswordType,tentativas);
 			arquivoRetornoProtocolo = testeWS.enviaRequestDoProtocolo(nomeIntegracao, arquivoRetornoRequest, enderecoWSDLResponse, nomeOperationResponse, password, username, wssPasswordType, tentativas);
 			falhasWS=falhasWS+testeWS.comparaResponseObtidoComEsperado(retornoEsperado[i], arquivoRetornoProtocolo, nomeIntegracao, arquivosEnvio[i]);
 		}

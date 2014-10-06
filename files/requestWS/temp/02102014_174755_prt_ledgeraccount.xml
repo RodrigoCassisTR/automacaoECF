@@ -1,8 +1,0 @@
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:res="http://response.webservices.taxbr.ta.thomsonreuters.com/">
-	<soap:Header/>
-	<soap:Body>
-		<res:getResponseMessage>
-			<PROTOCOL_NUMBER>bace4600-87fd-456d-8741-14404d55c256</PROTOCOL_NUMBER>
-		</res:getResponseMessage>
-	</soap:Body>
-</soap:Envelope>

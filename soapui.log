@@ -1,663 +1,75 @@
-2014-10-02 17:46:38,745 WARN  [SoapUI] Missing folder [D:\auto\automacaoECF\.\ext] for external libraries
-2014-10-02 17:46:38,946 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\u0155902\soapui-settings.xml]
-2014-10-02 17:46:39,739 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
-2014-10-02 17:46:39,781 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
-2014-10-02 17:46:39,782 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
-2014-10-02 17:46:39,784 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
-2014-10-02 17:46:39,785 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
-2014-10-02 17:46:39,786 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
-2014-10-02 17:46:39,787 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
-2014-10-02 17:46:39,793 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
-2014-10-02 17:46:39,795 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
-2014-10-02 17:46:39,802 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
-2014-10-02 17:46:40,387 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:46:40,387 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:46:40,391 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:46:40,667 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:40,670 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:40,693 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:46:40,698 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:46:41,902 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:41,903 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:41,905 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:42,007 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:42,007 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:42,007 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:42,007 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:42,989 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:42,989 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:42,991 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:43,092 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:43,092 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:43,093 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:43,093 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:43,570 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:43,570 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:43,572 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:43,639 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:43,639 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:43,639 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:43,639 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:45,098 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:46:45,098 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:46:45,100 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:46:45,164 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:45,164 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:45,165 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:46:45,165 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:46:45,662 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:45,662 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:45,664 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:45,715 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:45,715 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:45,716 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:45,716 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:46,242 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:46,242 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:46,244 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:46,290 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:46,290 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:46,290 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:46,290 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:47,336 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:46:47,336 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:46:47,338 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:46:47,385 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:47,385 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:47,385 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:46:47,385 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:46:48,723 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:48,723 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:48,725 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:48,781 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:48,781 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:48,782 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:48,782 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:49,855 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:49,855 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:49,858 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:49,899 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:49,899 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:49,899 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:49,899 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:50,441 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:46:50,441 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:46:50,443 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:46:50,481 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:50,481 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:50,482 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:46:50,482 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:46:51,761 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:51,761 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:51,763 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:51,804 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:51,804 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:51,805 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:51,805 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:52,341 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:52,341 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:52,343 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:52,380 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:52,380 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:52,380 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:52,380 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:52,916 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:46:52,916 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:46:52,917 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:46:52,950 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:52,950 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:52,951 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:46:52,951 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:46:53,470 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:53,470 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:53,472 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:53,513 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:53,513 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:53,514 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:53,514 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:54,794 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:54,794 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:54,796 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:54,828 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:54,828 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:54,829 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:54,830 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:55,377 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:46:55,378 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:46:55,379 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:46:55,408 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:55,408 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:55,408 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:46:55,408 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:46:55,907 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:55,907 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:55,908 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:55,940 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:55,940 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:55,940 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:55,941 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:56,953 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:56,953 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:56,955 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:56,980 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:56,980 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:56,980 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:56,980 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:58,012 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:46:58,012 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:46:58,013 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:46:58,040 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:58,040 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:46:58,041 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:46:58,041 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:46:58,529 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:58,529 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:58,531 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:58,555 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:58,555 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:58,556 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:58,556 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:46:59,570 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:46:59,570 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:46:59,571 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:46:59,621 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:59,621 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:46:59,621 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:46:59,621 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:00,160 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:00,161 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:00,162 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:00,187 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:00,187 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:00,187 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:00,187 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:01,194 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:01,194 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:01,196 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:01,222 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:01,222 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:01,222 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:01,223 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:02,248 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:02,248 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:02,250 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:02,280 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:02,280 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:02,281 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:02,281 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:02,817 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:02,817 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:02,818 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:02,842 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:02,842 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:02,842 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:02,842 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:03,329 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:03,330 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:03,331 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:03,360 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:03,360 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:03,360 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:03,360 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:04,726 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:04,726 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:04,728 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:04,751 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:04,751 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:04,751 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:04,751 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:05,282 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:05,283 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:05,284 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:05,306 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:05,306 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:05,307 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:05,307 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:05,792 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:05,792 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:05,793 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:05,815 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:05,815 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:05,815 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:05,815 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:06,331 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:06,331 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:06,332 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:06,356 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:06,356 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:06,356 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:06,356 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:06,904 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:06,904 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:06,906 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:06,930 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:06,930 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:06,930 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:06,930 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:09,374 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:09,374 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:09,375 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:09,401 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:09,401 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:09,401 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:09,401 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:10,919 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:10,919 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:10,920 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:10,941 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:10,941 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:10,942 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:10,942 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:11,476 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:11,476 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:11,477 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:11,500 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:11,500 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:11,500 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:11,500 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:13,876 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:13,876 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:13,878 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:13,912 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:13,912 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:13,912 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:13,912 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:14,434 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:14,434 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:14,435 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:14,456 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:14,456 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:14,456 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:14,456 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:15,500 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:15,500 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:15,501 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:15,522 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:15,522 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:15,523 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:15,523 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:16,010 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:16,011 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:16,012 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:16,038 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:16,038 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:16,039 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:16,039 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:16,561 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:16,561 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:16,562 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:16,585 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:16,585 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:16,586 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:16,586 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:17,137 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:17,137 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:17,138 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:17,160 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:17,160 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:17,160 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:17,160 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:17,658 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:17,658 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:17,660 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:17,688 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:17,688 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:17,689 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:17,689 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:18,739 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:18,739 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:18,740 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:18,774 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:18,774 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:18,775 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:18,775 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:19,811 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:19,811 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:19,812 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:19,833 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:19,833 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:19,834 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:19,834 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:21,851 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:21,851 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:21,852 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:21,881 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:21,881 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:21,881 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:21,881 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:22,401 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:22,401 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:22,402 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:22,422 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:22,422 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:22,422 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:22,422 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:22,950 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:22,950 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:22,951 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:22,968 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:22,968 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:22,969 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:22,969 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:23,457 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:23,457 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:23,459 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:23,476 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:23,478 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:23,478 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:23,478 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:24,002 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:24,002 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:24,003 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:24,027 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:24,027 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:24,027 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:24,027 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:24,560 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:24,560 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:24,561 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:24,580 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:24,580 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:24,580 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:24,580 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:25,075 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:25,075 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:25,076 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:25,092 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:25,092 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:25,093 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:25,093 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:25,610 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:25,610 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:25,611 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:25,638 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:25,638 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:25,638 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:25,638 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:26,168 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:26,168 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:26,169 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:26,187 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:26,188 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:26,188 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:26,188 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:27,409 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:27,410 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:27,411 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:27,429 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:27,429 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:27,429 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:27,429 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:28,809 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:28,809 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:28,810 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:28,827 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:28,827 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:28,827 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:28,827 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:29,350 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:29,350 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:29,351 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:29,368 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:29,368 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:29,368 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:29,368 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:30,696 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:30,696 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:30,698 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:30,713 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:30,714 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:30,714 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:30,714 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:31,193 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:31,193 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:31,194 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:31,210 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:31,210 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:31,210 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:31,210 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:31,738 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:31,738 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:31,739 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:31,757 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:31,757 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:31,757 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:31,758 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:32,244 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:32,244 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:32,245 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:32,263 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:32,263 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:32,263 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:32,263 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:32,728 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:32,728 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:32,729 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:32,748 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:32,748 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:32,748 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:32,749 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:33,216 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:33,217 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:33,218 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:33,238 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:33,238 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:33,238 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:33,238 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:34,552 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:34,552 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:34,553 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:34,589 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:34,589 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:34,589 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:34,589 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:35,117 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:35,117 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:35,118 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:35,142 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:35,142 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:35,143 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:35,143 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:35,634 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:35,634 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:35,635 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:35,650 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:35,650 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:35,651 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:35,651 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:36,117 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:36,117 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:36,118 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:36,133 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:36,133 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:36,134 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:36,134 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:37,111 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:37,111 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:37,112 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:37,126 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:37,126 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:37,127 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:37,127 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:38,156 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:38,156 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:38,157 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:38,174 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:38,174 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:38,174 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:38,174 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:38,665 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:38,665 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:38,666 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:38,680 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:38,680 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:38,680 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:38,680 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:39,152 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:39,152 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:39,153 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:39,168 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:39,168 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:39,168 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:39,168 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:40,135 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:40,135 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:40,136 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:40,151 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:40,151 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:40,152 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:40,152 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:40,678 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:40,678 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:40,679 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:40,692 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:40,692 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:40,693 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:40,693 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:41,177 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:41,177 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:41,178 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:41,192 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:41,192 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:41,192 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:41,192 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:41,663 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:41,663 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:41,665 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:41,677 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:41,677 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:41,677 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:41,677 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:42,145 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:42,145 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:42,146 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:42,160 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:42,160 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:42,160 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:42,161 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:43,149 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:43,150 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:43,151 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:43,164 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:43,164 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:43,164 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:43,165 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:43,686 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:43,686 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:43,687 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:43,700 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:43,700 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:43,700 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:43,701 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:44,188 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:44,188 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:44,189 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:44,202 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:44,202 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:44,203 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:44,203 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:44,668 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:44,668 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:44,669 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:44,682 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:44,682 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:44,682 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:44,682 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:45,146 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:45,146 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:45,147 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:45,159 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:45,159 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:45,159 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:45,160 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:45,623 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:45,624 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:45,625 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:45,636 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:45,636 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:45,637 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:45,637 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:46,994 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:46,994 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:46,995 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:47,007 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:47,007 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:47,008 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:47,008 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:48,323 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:48,323 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:48,324 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:48,336 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:48,337 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:48,337 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:48,337 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:48,803 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:48,803 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:48,804 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:48,825 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:48,825 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:48,825 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:48,825 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:49,290 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:49,290 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:49,291 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:49,304 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:49,304 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:49,304 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:49,304 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:50,537 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:50,537 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:50,538 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:50,553 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:50,554 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:50,560 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:50,561 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:53,014 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:53,015 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:53,016 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:53,027 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:53,027 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:53,028 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:53,028 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:53,860 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:53,860 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:53,861 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:53,873 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:53,873 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:53,873 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:53,873 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:54,338 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:54,338 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:54,339 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:54,350 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:54,350 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:54,351 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:54,351 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:54,816 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:54,816 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:54,817 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:54,828 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:54,828 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:54,829 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:54,829 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:55,359 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl]
-2014-10-02 17:47:55,359 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?wsdl
-2014-10-02 17:47:55,360 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort?xsd=ledgeraccountwebserviceimpl_schema1.xsd
-2014-10-02 17:47:55,371 INFO  [WsdlImporter] Finding importer for {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:55,371 INFO  [WsdlImporter] Importing binding {http://ledgeraccount.webservices.taxbr.ta.thomsonreuters.com/}LedgerAccountWebServiceImplServiceSoapBinding
-2014-10-02 17:47:55,372 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LedgerAccountWebServiceImplPort
-2014-10-02 17:47:55,372 INFO  [Soap12HttpBindingImporter] importing operation receiveLedgerAccount
-2014-10-02 17:47:58,089 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:58,089 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:58,090 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:58,101 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:58,101 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:58,101 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:58,101 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-02 17:47:59,152 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-02 17:47:59,152 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-02 17:47:59,153 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-02 17:47:59,165 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:59,165 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-02 17:47:59,165 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-02 17:47:59,165 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-05 18:57:24,787 WARN  [SoapUI] Missing folder [C:\Users\Rodrigo\Documents\GitHub\automacaoECF\.\ext] for external libraries
+2014-10-05 18:57:24,984 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Rodrigo\soapui-settings.xml]
+2014-10-05 18:57:25,650 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2014-10-05 18:57:25,690 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2014-10-05 18:57:25,692 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2014-10-05 18:57:25,695 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2014-10-05 18:57:25,696 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2014-10-05 18:57:25,697 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2014-10-05 18:57:25,699 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2014-10-05 18:57:25,704 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2014-10-05 18:57:25,706 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2014-10-05 18:57:25,711 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2014-10-05 18:57:26,800 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?wsdl]
+2014-10-05 18:57:26,800 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?wsdl
+2014-10-05 18:57:26,803 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?xsd=brancheswebserviceimpl_schema1.xsd
+2014-10-05 18:57:27,029 INFO  [WsdlImporter] Finding importer for {http://branch.webservices.taxbr.ta.thomsonreuters.com/}BranchesWebServiceImplServiceSoapBinding
+2014-10-05 18:57:27,031 INFO  [WsdlImporter] Importing binding {http://branch.webservices.taxbr.ta.thomsonreuters.com/}BranchesWebServiceImplServiceSoapBinding
+2014-10-05 18:57:27,054 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort
+2014-10-05 18:57:27,060 INFO  [Soap12HttpBindingImporter] importing operation receiveBranches
+2014-10-05 18:57:29,795 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-05 18:57:29,795 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-05 18:57:29,799 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-05 18:57:29,888 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:29,888 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:29,889 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-05 18:57:29,889 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-05 18:57:31,131 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-05 18:57:31,131 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-05 18:57:31,134 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-05 18:57:31,205 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:31,205 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:31,206 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-05 18:57:31,206 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-05 18:57:32,662 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?wsdl]
+2014-10-05 18:57:32,662 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?wsdl
+2014-10-05 18:57:32,665 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?xsd=brancheswebserviceimpl_schema1.xsd
+2014-10-05 18:57:32,733 INFO  [WsdlImporter] Finding importer for {http://branch.webservices.taxbr.ta.thomsonreuters.com/}BranchesWebServiceImplServiceSoapBinding
+2014-10-05 18:57:32,733 INFO  [WsdlImporter] Importing binding {http://branch.webservices.taxbr.ta.thomsonreuters.com/}BranchesWebServiceImplServiceSoapBinding
+2014-10-05 18:57:32,733 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort
+2014-10-05 18:57:32,734 INFO  [Soap12HttpBindingImporter] importing operation receiveBranches
+2014-10-05 18:57:34,362 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-05 18:57:34,362 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-05 18:57:34,364 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-05 18:57:34,419 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:34,419 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:34,419 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-05 18:57:34,419 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-05 18:57:35,728 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-05 18:57:35,728 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-05 18:57:35,730 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-05 18:57:35,779 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:35,779 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:35,780 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-05 18:57:35,780 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-05 18:57:37,727 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?wsdl]
+2014-10-05 18:57:37,727 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?wsdl
+2014-10-05 18:57:37,730 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort?xsd=brancheswebserviceimpl_schema1.xsd
+2014-10-05 18:57:37,789 INFO  [WsdlImporter] Finding importer for {http://branch.webservices.taxbr.ta.thomsonreuters.com/}BranchesWebServiceImplServiceSoapBinding
+2014-10-05 18:57:37,789 INFO  [WsdlImporter] Importing binding {http://branch.webservices.taxbr.ta.thomsonreuters.com/}BranchesWebServiceImplServiceSoapBinding
+2014-10-05 18:57:37,789 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/BranchesWebServiceImplPort
+2014-10-05 18:57:37,789 INFO  [Soap12HttpBindingImporter] importing operation receiveBranches
+2014-10-05 18:57:39,589 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-05 18:57:39,589 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-05 18:57:39,592 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-05 18:57:39,635 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:39,635 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:39,636 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-05 18:57:39,636 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-05 18:57:41,587 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-05 18:57:41,588 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-05 18:57:41,589 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-05 18:57:41,656 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:41,656 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-05 18:57:41,656 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-05 18:57:41,657 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage

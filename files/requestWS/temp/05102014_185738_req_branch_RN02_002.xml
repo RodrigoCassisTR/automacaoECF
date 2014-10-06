@@ -1,0 +1,12 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:receiveBranchesResponse xmlns:ns2="http://branch.webservices.taxbr.ta.thomsonreuters.com/">
+         <return>
+            <RESPONSE_DATE>2014-10-05T18:57:40.014-03:00</RESPONSE_DATE>
+            <PROTOCOL_NUMBER>7947b076-7ac1-46d6-93d3-3b7f8abe0a6c</PROTOCOL_NUMBER>
+            <RESPONSE_MESSAGE>Mensagem recebida pelo ONESOURCE com sucesso.
+Utilize o número de protocolo para consultar o resultado do processamento.</RESPONSE_MESSAGE>
+         </return>
+      </ns2:receiveBranchesResponse>
+   </soap:Body>
+</soap:Envelope>

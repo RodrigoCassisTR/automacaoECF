@@ -104,14 +104,15 @@ public class VerificacoesDeWS {
 
 	}
 
-	public String enviaRequest(String nomeIntegracao, String arquivosEnvio, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType) throws XmlException, IOException, SoapUIException, SubmitException {
+	public String enviaRequest(String nomeIntegracao, String arquivosEnvio, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType, int tentativas) throws XmlException, IOException, SoapUIException, SubmitException, InterruptedException {
 
 		manipulaArquivos = new ManipuladorDeArquivos();
 		System.out.println("Limpando a pasta temporária: " + "./files/requestWS/temp/");
 		manipulaArquivos.limpaPastas("./files/requestWS/temp/");
 		String requestDoArquivo = converteXmlParaString("./files/requestWS/" + nomeIntegracao + "/envio/" + arquivosEnvio);
 		System.out.println("Arquivo de request: " + requestDoArquivo);
-		String resposta = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation);
+
+		String resposta = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas);
 		System.out.println("RESPOSTA: " + resposta);
 		System.out.println("Granvando o arquivo de retorno ...");
 		String arquivoRetornado = "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_" + arquivosEnvio;
@@ -122,25 +123,37 @@ public class VerificacoesDeWS {
 	}
 
 	@SuppressWarnings("rawtypes")
-	private String enviaRequestParaWS(String enderecoWSDL, String username, String password, String wssPasswordType, String requestDoArquivo, String nomeOperation) throws SoapUIException, SubmitException, XmlException, IOException {
+	private String enviaRequestParaWS(String enderecoWSDL, String username, String password, String wssPasswordType, String requestDoArquivo, String nomeOperation, int tentativas) throws SoapUIException, SubmitException, XmlException, IOException, InterruptedException {
 
 		parametros = new RecebeParametros();
-		WsdlProject project = new WsdlProject();
-		WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, parametros.urlIntegracao + enderecoWSDL, true)[0];
-		WsdlOperation operation = (WsdlOperation) iface.getOperationByName(nomeOperation);
-		WsdlRequest request = operation.addNewRequest("My Request");
-		request.setPassword(password);
-		request.setUsername(username);
-		request.setWssPasswordType(wssPasswordType);
-		request.setRequestContent(requestDoArquivo);
-		WsdlSubmit submit = (WsdlSubmit) request.submit(new WsdlSubmitContext(request), false);
-		Response response = submit.getResponse();
-		String resposta = response.getContentAsString();
-		return resposta;
+		int qtdeDeComunicacoes = 0;
+
+		for (int i = 0;; i++) {
+			WsdlProject project = new WsdlProject();
+			WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, parametros.urlIntegracao + enderecoWSDL, true)[0];
+			WsdlOperation operation = (WsdlOperation) iface.getOperationByName(nomeOperation);
+			WsdlRequest request = operation.addNewRequest("My Request");
+			request.setPassword(password);
+			request.setUsername(username);
+			request.setWssPasswordType(wssPasswordType);
+			request.setRequestContent(requestDoArquivo);
+			WsdlSubmit submit = (WsdlSubmit) request.submit(new WsdlSubmitContext(request), false);
+			Response response = submit.getResponse();
+			String resposta = response.getContentAsString();
+			qtdeDeComunicacoes++;
+			if (qtdeDeComunicacoes > tentativas) {
+				falhaWS("Não foi Possível comunicação com o WS " + parametros.urlIntegracao + enderecoWSDL);
+				break;
+
+			}
+			Thread.sleep(500);
+			return resposta;
+		}
+		return null;
 
 	}
 
-	public String enviaRequestDoProtocolo(String nomeIntegracao, String arquivoRetornoRequest, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType, int tentativas) throws XmlException, IOException, SoapUIException, SubmitException {
+	public String enviaRequestDoProtocolo(String nomeIntegracao, String arquivoRetornoRequest, String enderecoWSDL, String nomeOperation, String password, String username, String wssPasswordType, int tentativas) throws XmlException, IOException, SoapUIException, SubmitException, InterruptedException {
 
 		manipulaArquivos = new ManipuladorDeArquivos();
 		String protocoloObtido = pegaValorDeTag(arquivoRetornoRequest, "PROTOCOL_NUMBER");
@@ -161,10 +174,10 @@ public class VerificacoesDeWS {
 		String requestDoArquivo = converteXmlParaString(arquivoTemporario);
 		System.out.println("Arquivo de request: \n" + requestDoArquivo);
 
-		System.out.println("HERE: \n" + pegaValorDeTagXML(enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation), "RESPONSE_MESSAGE"));
+		System.out.println("HERE: \n" + pegaValorDeTagXML(enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas), "RESPONSE_MESSAGE"));
 
 		for (int i = 0; i < tentativas; i++) {
-			String responseString = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation);
+			String responseString = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas);
 			String mensagemRecebida = pegaValorDeTagXML(responseString, "RESPONSE_MESSAGE");
 
 			if (mensagemRecebida.contains("Aguarde um momento. O registro está sendo integrado.") || mensagemRecebida.contentEquals("Protocolo não encontrado: . Aguarde alguns instantes e tente novamente.")) {

@@ -1,0 +1,95 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:bran="http://branch.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header>  
+	</soap:Header>	
+	<soap:Body>
+		<bran:receiveBranches>
+			<!--Optional:-->
+			<COMPANY_LIST>
+				<!--1 or more repetitions:-->
+				<COMPANY>
+					<COD_COMPANY>999</COD_COMPANY>
+					<!--Optional:-->
+					<BRANCH_LIST>
+						<!--1 or more repetitions:-->
+						<BRANCH>
+							<!--Optional:-->
+							<IND_DELETE>N</IND_DELETE>
+							<COD_BRANCH>Telefone</COD_BRANCH>
+							<DAT_INSERT_UPDATE>2000-01-01</DAT_INSERT_UPDATE>
+							<NUM_FED_TAX>00910509000171</NUM_FED_TAX>
+							<DSC_BRANCH>ESTABELECIMENTO PRINCIPAL EFD SOCIAL</DSC_BRANCH>
+							<IND_HEAD_OFFICE>N</IND_HEAD_OFFICE>
+							<!--Optional:-->
+							<DSC_TRADE_NAME>TESTE DE CENTRAL DE CADASTROS</DSC_TRADE_NAME>
+							<COD_ECONO_ACTV>0111302</COD_ECONO_ACTV>
+							<!--Optional:-->
+							<COD_PATIO_TYPE>AV</COD_PATIO_TYPE>
+							<DSC_ADDRESS>CARDOSO DE MELLO</DSC_ADDRESS>
+							<DSC_NEIGHBOURHOOD>VILA OLIMPIA</DSC_NEIGHBOURHOOD>
+							<COD_ZIP>04548005</COD_ZIP>
+							<NUM_DDD>11</NUM_DDD>
+							<NUM_PHONE/>
+							<COD_STATE>SP</COD_STATE>
+							<COD_CITY>3550308</COD_CITY>
+							<!--Optional:-->
+							<PROPERTY_LIST>
+								<!--1 or more repetitions:-->
+								<PROPERTY>
+									<COD_PROPERTY>NAT_JURIDICA</COD_PROPERTY>
+									<REFERENCE_LIST>
+										<!--Zero or more repetitions:-->
+										<REFERENCE>
+											<!--Optional:-->
+											<FIELD_REF>CODIGO</FIELD_REF>
+											<!--Optional:-->
+											<VALUE_REF>1023</VALUE_REF>
+										</REFERENCE>
+									</REFERENCE_LIST>
+								</PROPERTY>
+								<PROPERTY>
+									<COD_PROPERTY>CLASSIF_TRIB</COD_PROPERTY>
+									<REFERENCE_LIST>
+										<!--Zero or more repetitions:-->
+										<REFERENCE>
+											<!--Optional:-->
+											<FIELD_REF>CODIGO</FIELD_REF>
+											<!--Optional:-->
+											<VALUE_REF>01</VALUE_REF>
+										</REFERENCE>
+									</REFERENCE_LIST>
+								</PROPERTY>
+								<PROPERTY>
+									<COD_PROPERTY>ALIQ_RAT</COD_PROPERTY>                                                
+									<REFERENCE_LIST>
+										<REFERENCE>
+											<FIELD_REF>CODIGO</FIELD_REF>
+											<VALUE_REF>3</VALUE_REF>
+										</REFERENCE>
+									</REFERENCE_LIST>
+								</PROPERTY>
+								<PROPERTY>
+									<COD_PROPERTY>FAP</COD_PROPERTY>
+									<!--Optional:-->
+									<VALUE>2</VALUE>
+									<!--Optional:-->
+								</PROPERTY>
+								<PROPERTY>
+									<COD_PROPERTY>IND_COOPERATIVA</COD_PROPERTY>
+									<REFERENCE_LIST>
+										<!--Zero or more repetitions:-->
+										<REFERENCE>
+											<!--Optional:-->
+											<FIELD_REF>CODIGO</FIELD_REF>
+											<!--Optional:-->
+											<VALUE_REF>1</VALUE_REF>
+										</REFERENCE>
+									</REFERENCE_LIST>
+								</PROPERTY>
+							</PROPERTY_LIST>
+						</BRANCH>
+					</BRANCH_LIST>
+				</COMPANY>
+			</COMPANY_LIST>
+		</bran:receiveBranches>
+	</soap:Body>
+</soap:Envelope>
