@@ -24,10 +24,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 	public String nomeDoServicoIntegrador = new RecebeParametros().nomeDoServicoIntegrador;
 	public String diretorioPadraoIntegracao = new RecebeParametros().diretorioPadraoIntegracao;
 	public String urlIntegracao = new RecebeParametros().urlIntegracao;
-	
-	
-	
-
+		
 	int tentativas = Integer.parseInt(numerotentativas);
 	protected Properties propertiesIntegrador;
 
@@ -235,6 +232,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		//ROTEIRO DE INTEGRACAO
 		automacao.informaTeste(0, "-", nomeTeste);
+		integracao.copiaModeloCfg(diretorioPadraoIntegracao);
 		
 		logger.info("----------------------------------------------------------");
 		logger.info("PASTAS INTEGRAÇÃO ECF");

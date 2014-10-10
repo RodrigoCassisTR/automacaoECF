@@ -542,4 +542,10 @@ public class VerificacoesDeIntegracao {
 		return state;
 	}
 
+	public void copiaModeloCfg(String diretorioPadraoIntegracao) throws IOException {
+		ManipuladorDeArquivos manipuladorDeArquivos=new ManipuladorDeArquivos();
+		manipuladorDeArquivos.copiaArquivos("./files/modeloCfg/taxbr.ecf.integrator.accountbalance.cfg", diretorioPadraoIntegracao+"/etc/teste");
+		
+	}
+
 }
