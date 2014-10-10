@@ -498,7 +498,7 @@ public class VerificacoesDeTela {
 			logger.info("----------------------------------------------------");
 			logger.info("EFETUANDO O REQUEST PARA O WS ");
 			logger.info("----------------------------------------------------");
-		}else {
+		} else {
 			logger.info("????????????????????????????????????????????????????");
 			logger.info("INVÁLIDO");
 			logger.info("????????????????????????????????????????????????????");
@@ -1052,7 +1052,8 @@ public class VerificacoesDeTela {
 		} else if (qtdeMenuInt == 0) {
 
 			Thread.sleep(500);
-			//aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas, driver);
+			// aguardaCarregamento(nomeTeste, xpathMenu1, nomeTeste, tentativas,
+			// driver);
 			logger.info(driver.findElement(By.xpath(xpathMenu1)).getText() + " >");
 			Thread.sleep(500);
 
@@ -1096,7 +1097,8 @@ public class VerificacoesDeTela {
 			logger.info("Localizando o link do módulo...");
 
 			if (second >= tentativas)
-				//falha("Timeout, módulo não localizado" + xpathModulo, driver, "Acesso ao Módulo");
+				// falha("Timeout, módulo não localizado" + xpathModulo, driver,
+				// "Acesso ao Módulo");
 				efetuaLogoutLogin(driver, tentativas);
 
 			try {
@@ -1181,7 +1183,7 @@ public class VerificacoesDeTela {
 			driver.findElement(By.id(idBotaoExecutarConsulta)).click();
 			aguardaCarregamento(nomeTeste, xpathCarregaResultadoPesquisa, nomeTeste, tentativas, driver);
 
-			//Coluna Resultado de Pesquisa 'Código Conta Contábil'
+			// Coluna Resultado de Pesquisa 'Código Conta Contábil'
 			logger.info("Verificando se o registro é apresentado na tela de resultados");
 			if (driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/tbody/tr/td[3]")).isDisplayed() == false) {
 				falha("Registro não foi visualizado na tela de resultado de pesquisa", driver, nomeTeste);
@@ -1308,7 +1310,8 @@ public class VerificacoesDeTela {
 	public void aguardaProcessamentoDesaparecer(WebDriver driver, int tentativas, String nomeTeste) throws IOException, InterruptedException {
 
 		for (int second = 0;; second++) {
-			//logger.info("Aguardando tela de loading desaparecer || Tentativa " + (second + 1) + " de " + tentativas);
+			// logger.info("Aguardando tela de loading desaparecer || Tentativa "
+			// + (second + 1) + " de " + tentativas);
 
 			if (second >= tentativas)
 				falha("Timeout, elemento nao localizado " + "//*[@id='taxit_loading']", driver, nomeTeste);
@@ -1588,7 +1591,7 @@ public class VerificacoesDeTela {
 			validaLabelsTelaResultados(driver, nomeTeste, tentativas, caminho, xpathColunasResultados, labelsColunasResultados);
 			validaBotoesResultados(driver, nomeTeste, tentativas, caminho, possuiBotoesNaTelaResultados, idBotoesResultados);
 		} else {
-			//Não valida nada!
+			// Não valida nada!
 		}
 	}
 	private void validaBotoesResultados(WebDriver driver, String nomeTeste, int tentativas, String caminho, boolean possuiBotoesNaTelaResultados, String[] idBotoesResultados) throws IOException, InterruptedException {
@@ -1667,7 +1670,8 @@ public class VerificacoesDeTela {
 					logger.info("Tooltip 'i' do campo " + idLabels[i] + " localizado com sucesso!");
 				} else {
 					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo ");
-					//	falha("Tooltip 'i' não localizado no campo " + idLabels[i], driver, nomeTeste);
+					// falha("Tooltip 'i' não localizado no campo " +
+					// idLabels[i], driver, nomeTeste);
 				}
 			} else {
 
@@ -1694,7 +1698,8 @@ public class VerificacoesDeTela {
 						logger.info("Caixa " + idCaixas[i] + " está vazia");
 					} else {
 						logger.info("A caixa de texto " + idCaixas[i] + " está preenchida com valor!");
-						//falha("A caixa de texto " + idCaixas[i] + " está preenchida com valor!", driver, nomeTeste);
+						// falha("A caixa de texto " + idCaixas[i] +
+						// " está preenchida com valor!", driver, nomeTeste);
 
 					}
 				} else {
@@ -1855,7 +1860,7 @@ public class VerificacoesDeTela {
 	}
 	public void verificaAbasDaTelaCadastro(WebDriver driver, String nomeTeste, String caminho, int tentativas, boolean possuiAbas, String[] xpathAbasDaTelaCadastro, String[] labelAbasDaTelaCadastro) {
 		if (possuiAbas == true) {
-			//Processo de validação das abas
+			// Processo de validação das abas
 			logger.info("Validando abas, quantidade de abas: " + labelAbasDaTelaCadastro.length);
 			comparaLabelsPorXpath(driver, nomeTeste, tentativas, labelAbasDaTelaCadastro, xpathAbasDaTelaCadastro);
 
@@ -1893,7 +1898,8 @@ public class VerificacoesDeTela {
 				aguardaCarregamento(driver.findElement(By.xpath(xpathAbasDaTelaCadastro[i])).getText(), xpathAbasDaTelaCadastro[i], nomeTeste, tentativas, driver);
 				logger.info("Aba " + driver.findElement(By.xpath(xpathAbasDaTelaCadastro[i])).getText() + " acessada com sucesso!");
 
-				//comparaLabelsPorId(driver, nomeTeste, tentativas, caminho, idLabelsCadastro, labelsCadastro);
+				// comparaLabelsPorId(driver, nomeTeste, tentativas, caminho,
+				// idLabelsCadastro, labelsCadastro);
 
 			}
 		} else {
@@ -2034,7 +2040,9 @@ public class VerificacoesDeTela {
 
 						logger.info("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + driver.findElement(By.id(idLabel[i])).getAttribute("original-title"));
 						String obtido = driver.findElement(By.id(idLabel[i])).getAttribute("original-title");
-						//falha("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + obtido, driver, nomeTeste);
+						// falha("#ALERTA# Tooltip esperado: " +
+						// toolTipEsperado[i] + ", tooltip obtido: " + obtido,
+						// driver, nomeTeste);
 					}
 				} else {
 					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idLabel[i]);
@@ -2080,7 +2088,9 @@ public class VerificacoesDeTela {
 				} else {
 
 					logger.info("#ALERTA# Input " + idCaixaCampo[i] + " não preenchido com o valor esperado, obtido: " + driver.findElement(By.id(idCaixaCampo[i])).getAttribute("value") + " valor esperado: " + vlrEsperadoCaixaCampo[i]);
-					//falha("#ALERTA#  Input não preenchido com o valor esperado, input: " + idCaixaCampo[i] + " valor esperado: " + vlrEsperadoCaixaCampo[i], driver, nomeTeste);
+					// falha("#ALERTA#  Input não preenchido com o valor esperado, input: "
+					// + idCaixaCampo[i] + " valor esperado: " +
+					// vlrEsperadoCaixaCampo[i], driver, nomeTeste);
 				}
 			} else {
 				logger.info("Elemento " + idCaixaCampo[i] + " não possui value para validar!");
@@ -2101,7 +2111,8 @@ public class VerificacoesDeTela {
 					logger.info("Input " + idBotoesTelaCadastro[i] + " Preenchido com o valor esperado " + valueBotoes[i] + "!");
 				} else {
 
-					//logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idBotoesTelaCadastro[i]);
+					// logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo "
+					// + idBotoesTelaCadastro[i]);
 					falha("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + idBotoesTelaCadastro[i], driver, nomeTeste);
 				}
 
@@ -2118,7 +2129,8 @@ public class VerificacoesDeTela {
 					logger.info("Botão padrão " + idBotoesPadraoCadastro[i] + " localizado com sucesso!");
 				} else {
 					logger.info("#ALERTA# Botão não localizado " + idBotoesPadraoCadastro[i]);
-					//falha("#ALERTA# Botão não localizado "+idBotoesPadraoCadastro[i], driver, nomeTeste);
+					// falha("#ALERTA# Botão não localizado "+idBotoesPadraoCadastro[i],
+					// driver, nomeTeste);
 				}
 
 			}
@@ -2129,7 +2141,7 @@ public class VerificacoesDeTela {
 	public void validaOrdenacao(WebDriver driver, String nomeTeste, String caminho, int tentativas, String[] xpathColunasResultados, String[] indOrdenacaoColuna, String[] labelColuna) throws InterruptedException, IOException {
 
 		try {
-			
+
 			Actions actions = new Actions(driver);
 			actions.keyDown(Keys.CONTROL).sendKeys(Keys.HOME).perform();
 
@@ -2176,7 +2188,7 @@ public class VerificacoesDeTela {
 			Alert alert = driver.switchTo().alert();
 			alert.getText();
 		} catch (Exception e) {
-			//exception handling
+			// exception handling
 		}
 	}
 	public void acessaTelaResultadosPelaAba(WebDriver driver, String nomeTeste, int tentativas, String xpathAbaPesquisa, String xpathAbaResultados, String xPathCarregaPesquisa, String xpathCarregaResultadoPesquisa) throws InterruptedException, IOException {
@@ -2261,7 +2273,9 @@ public class VerificacoesDeTela {
 						logger.info("#ALERTA# Tooltip esperado: " + tooltipEsperadoColunaTabelaCadastro[i] + ", tooltip obtido: " + driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title"));
 						String obtido = driver.findElement(By.xpath(xpathColunaTabelaCadastro[i])).getAttribute("original-title");
 						// TODO MUDAR PRA FALHA!
-						//falha("#ALERTA# Tooltip esperado: " + toolTipEsperado[i] + ", tooltip obtido: " + obtido, driver, nomeTeste);
+						// falha("#ALERTA# Tooltip esperado: " +
+						// toolTipEsperado[i] + ", tooltip obtido: " + obtido,
+						// driver, nomeTeste);
 					}
 				} else {
 					logger.info("#ALERTA# Tooltip Tooltip 'i' não localizado no campo " + xpathColunaTabelaCadastro[i]);
@@ -2351,7 +2365,8 @@ public class VerificacoesDeTela {
 		driver.findElement(By.id(idBotaoProcessar)).click();
 		aguardaProcessamentoDesaparecer(driver, tentativas, nomeTeste);
 
-		//verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas, caminho);
+		// verificaSeApresentaMensagemDeErro(driver, nomeTeste, tentativas,
+		// caminho);
 
 	}
 	public void fechaTela(WebDriver driver, String caminho, int tentativas, String nomeTeste, String xpathFechar) throws InterruptedException, IOException {
@@ -2371,7 +2386,7 @@ public class VerificacoesDeTela {
 				logger.info("#OK# Valor esperado: " + valoresCamposAba[i] + ", valor obtido: " + driver.findElement(By.id(idCamposAba[i])).getAttribute("value"));
 			} else {
 				logger.info("#ALERTA# Valor esperado: " + valoresCamposAba[i] + ", valor obtido: " + driver.findElement(By.id(idCamposAba[i])).getAttribute("value"));
-				//TODO MUDAR PARA FALHA
+				// TODO MUDAR PARA FALHA
 			}
 		}
 
@@ -2387,7 +2402,7 @@ public class VerificacoesDeTela {
 				logger.info("#OK# Valor esperado: " + valoresLabelsCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathLabelsCamposAbaCalculo[i])).getText());
 			} else {
 				logger.info("#ALERTA# Valor esperado: " + valoresLabelsCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathLabelsCamposAbaCalculo[i])).getText());
-				//TODO mudar para falha
+				// TODO mudar para falha
 			}
 		}
 
@@ -2398,14 +2413,14 @@ public class VerificacoesDeTela {
 				logger.info("#OK# Valor esperado: " + valoresCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathCamposAbaCalculo[i])).getAttribute("value"));
 			} else {
 				logger.info("#ALERTA# Valor esperado: " + valoresCamposAbaCalculo[i] + ", valor obtido: " + driver.findElement(By.xpath(xpathCamposAbaCalculo[i])).getAttribute("value"));
-				//TODO mudar para falha
+				// TODO mudar para falha
 			}
 		}
 	}
 	public void verificaValoresDasContasAntesDoCalculo(WebDriver driver, String nomeTeste, int tentativas, String caminho, String[] idLabels, String[] labels, String[] idCaixas, String[] valorCaixa) throws IOException, InterruptedException {
 		logger.info("Iniciando validação de valores...");
 		Thread.sleep(500);
-		//		try {
+		// try {
 
 		for (int i = 0; i < idLabels.length; i++) {
 
@@ -2427,15 +2442,16 @@ public class VerificacoesDeTela {
 				logger.info("Valor Esperado: " + valorCaixa[i]);
 				logger.info("Valor Obtido: " + driver.findElement(By.id(idCaixas[i])).getAttribute("value"));
 				logger.info("------------------------------------------------");
-				//TODO MUDAR PRA FALHA
+				// TODO MUDAR PRA FALHA
 
 			}
 		}
 
-		//		} catch (Exception e) {
-		//			falha("Não foi possível validar os dados das abas de apuração...", driver, nomeTeste);
+		// } catch (Exception e) {
+		// falha("Não foi possível validar os dados das abas de apuração...",
+		// driver, nomeTeste);
 		//
-		//		}
+		// }
 
 	}
 

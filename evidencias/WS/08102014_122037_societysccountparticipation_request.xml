@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:soc="http://societyaccountparticipation.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<soc:receiveSocietyAccountParticipation>
+			<SAP_LIST>
+				<SAP>
+					<IND_DELETE>N</IND_DELETE>
+					<NUM_FED_TAX></NUM_FED_TAX>
+					<DAT_INSERT_UPDATE>2014-01-01</DAT_INSERT_UPDATE>
+					<COD_SOC_ACC_PAR>SCP_AUTO_XX</COD_SOC_ACC_PAR>
+					<DSC_SOC_ACC_PAR>SCP AUTOMACAO CONSISTENCIAS</DSC_SOC_ACC_PAR>
+					<DSC_COMPL_INFO>SCP AUTOMACAO CONSISTENCIAS</DSC_COMPL_INFO>
+				</SAP>
+			</SAP_LIST>
+		</soc:receiveSocietyAccountParticipation>
+	</soap:Body>
+</soap:Envelope>

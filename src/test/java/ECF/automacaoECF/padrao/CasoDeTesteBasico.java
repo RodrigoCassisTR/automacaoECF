@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -27,25 +28,34 @@ public class CasoDeTesteBasico {
 	public void setup() throws IOException {
 		carregarParametros();
 		carregarPropriedades();
+		mataProcesso();
 		selecionarNavegador();
+	}
+
+	private void mataProcesso() {
+		FuncionalidadesUteis utilidade = new FuncionalidadesUteis();
+		utilidade.mataProcesso("chromedriver.exe");
+		utilidade.mataProcesso("chrome.exe");
+
 	}
 
 	private void carregarParametros() {
 		navegador = new RecebeParametros().navegador;
 	}
 
-	private void selecionarNavegador() {
+	private void selecionarNavegador() throws IOException {
 		if (navegador.equals("chrome")) {
-			
-			
-			System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("user-data-dir=C:/Users/user_name/AppData/Local/Google/Chrome/User");
+			// options.addArguments("user-data-dir=C:/Users/user_name/AppData/Local/Google/Chrome/User");
 			options.addArguments("--start-maximized");
+			options.addArguments("--disable-extensions");
+			options.addArguments("--debug-enable-frame-toggle");
+
+			options.addArguments("--verbose");
+
 			driver = new ChromeDriver(options);
-			
-		
-	
 
 		}
 		if (navegador.equals("firefox")) {

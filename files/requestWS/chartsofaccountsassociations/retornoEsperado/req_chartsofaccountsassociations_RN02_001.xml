@@ -1,0 +1,13 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:getResponseMessageResponse xmlns:ns2="http://response.webservices.taxbr.ta.thomsonreuters.com/">
+         <return>
+            <PROTOCOL_NUMBER>972a0083-6090-44b7-a736-d6d145182e4d</PROTOCOL_NUMBER>
+            <RESPONSE_MESSAGE_LIST>
+               <RESPONSE_MESSAGE>Plano de Contas da Empresa X Plano de Contas Referencial: Empresa *, Data IniciaL 2014-01-01, Versão do Plano de Contas Referencial 3.00 e Código da Entidade 10.
+Campo CNPJ do Estabelecimento obrigatório não preenchido.</RESPONSE_MESSAGE>
+            </RESPONSE_MESSAGE_LIST>
+         </return>
+      </ns2:getResponseMessageResponse>
+   </soap:Body>
+</soap:Envelope>

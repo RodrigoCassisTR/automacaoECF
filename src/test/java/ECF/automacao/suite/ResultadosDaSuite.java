@@ -18,6 +18,7 @@ import javax.activation.*;
 import org.apache.log4j.Logger;
 
 import ECF.automacaoECF.padrao.FuncionalidadesUteis;
+import ECF.automacaoECF.padrao.ManipuladorDeArquivos;
 import ECF.automacaoECF.padrao.RecebeParametros;
 import ECF.automacaoECF.padrao.ZipUtils;
 
@@ -46,6 +47,7 @@ public class ResultadosDaSuite {
 	public String testaTela = new RecebeParametros().testaTela;
 	public String testaCRUD = new RecebeParametros().testaCRUD;
 	public String testaIntegracao = new RecebeParametros().testaIntegracao;
+
 	public String geraData() {
 		Date d = new Date();
 		Calendar c = Calendar.getInstance();
@@ -70,11 +72,10 @@ public class ResultadosDaSuite {
 
 	public void imprimeTitulo() {
 
-		
 		logger.info("************************************************************************");
 		logger.info("AUTOMACAO | ONESOURCE ECF");
 		logger.info("************************************************************************");
-		
+
 		logger.info("------------------------------------------------------------------------");
 		logger.info("SUITE DE TESTE INICIADA EM " + geraData().toUpperCase());
 		logger.info("------------------------------------------------------------------------");
@@ -112,13 +113,13 @@ public class ResultadosDaSuite {
 		String cabecalho;
 		int totalDeTestes = qtdeSucesso + qtdeFalhas;
 
-		//para a tela
+		// para a tela
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 		logger.info("RESULTADOS DA SUITE EM " + geraData().toUpperCase());
 		logger.info("TOTAL DE TESTES: " + totalDeTestes + " | FALHA: " + qtdeFalhas + " | SUCESSO: " + qtdeSucesso);
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 
-		//para o arquivo
+		// para o arquivo
 		cabecalhoLinha[0] = "--------------------------------------------------------------------------------------------------------------------------------";
 		cabecalhoLinha[1] = "RESULTADOS DA SUITE EM " + geraData().toUpperCase() + "\n";
 		cabecalhoLinha[2] = "TOTAL DE TESTES: " + totalDeTestes + " | FALHA: " + qtdeFalhas + " | SUCESSO: " + qtdeSucesso;
@@ -133,12 +134,12 @@ public class ResultadosDaSuite {
 		String[] cabecalhoLinha = {"", "", ""};
 		String cabecalhoTestes;
 
-		//para a tela
+		// para a tela
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 		logger.info(String.format("%-60s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO"));
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 
-		//para o arquivo
+		// para o arquivo
 		cabecalhoLinha[0] = "--------------------------------------------------------------------------------------------------------------------------------";
 		cabecalhoLinha[1] = String.format("%-60s %10s %20s %20s", "TESTE", "RESULTADO", "CATEGORIA", "DURAÇÃO");
 		cabecalhoLinha[2] = "--------------------------------------------------------------------------------------------------------------------------------";
@@ -151,12 +152,12 @@ public class ResultadosDaSuite {
 	public String imprimeDuracaoDaSuite(long duracaoTeste) {
 		String[] rodapeLinha = {"", "", ""};
 		String rodapeTestes;
-		//para a tela
+		// para a tela
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 		logger.info("SUITE DE TESTE EXECUTADA EM: " + utilidade.formataDuracao(duracaoTeste));
 		logger.info(String.format("--------------------------------------------------------------------------------------------------------------------------------"));
 
-		//para o arquivo
+		// para o arquivo
 		rodapeLinha[0] = "--------------------------------------------------------------------------------------------------------------------------------";
 		rodapeLinha[1] = "SUITE DE TESTE EXECUTADA EM: " + utilidade.formataDuracao(duracaoTeste);
 		rodapeLinha[2] = "--------------------------------------------------------------------------------------------------------------------------------";
@@ -270,8 +271,8 @@ public class ResultadosDaSuite {
 	}
 
 	public String montaAssuntoEmail(String cabecalhoDeResultado) {
-		//TODO montar este metodo
-		return "AUTOMACAO DE TESTES | ONESOURCE ECF";
+		// TODO montar este metodo
+		return "AUTOMACAO DE TESTES | ONESOURCE ECF | " + url;
 	}
 
 	public void enviaEmail(String destinatarios, String assuntoEmail, String corpoEmailString) throws IOException {
@@ -292,20 +293,21 @@ public class ResultadosDaSuite {
 		});
 
 		try {
-			//			FileDataSource fileDataSource = new FileDataSource(anexoEvidencias);
-			//			MimeBodyPart attachmentPart = new MimeBodyPart();
-			//			attachmentPart.setDataHandler(new DataHandler(fileDataSource));
-			//			attachmentPart.setFileName(fileDataSource.getName());
+			// FileDataSource fileDataSource = new
+			// FileDataSource(anexoEvidencias);
+			// MimeBodyPart attachmentPart = new MimeBodyPart();
+			// attachmentPart.setDataHandler(new DataHandler(fileDataSource));
+			// attachmentPart.setFileName(fileDataSource.getName());
 			//
-			//			Multipart multipart = new MimeMultipart();
-			//			multipart.addBodyPart(attachmentPart);
+			// Multipart multipart = new MimeMultipart();
+			// multipart.addBodyPart(attachmentPart);
 
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress("tr.automation.webdriver@gmail.com"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(destinatarios));
 			message.setSubject(assuntoEmail);
 			message.setText(corpoEmailString);
-			//			message.setContent(multipart);
+			// message.setContent(multipart);
 
 			Transport.send(message);
 			logger.info("--------------------------------------------------------------------------------------------------------------------------------");
@@ -327,9 +329,16 @@ public class ResultadosDaSuite {
 		return informacoesGerais;
 	}
 
-	public void preparaSuite() {
+	public void preparaSuite() throws IOException {
 
+		apagaEvidencias();
+	}
 
+	private void apagaEvidencias() throws IOException {
+		ManipuladorDeArquivos manipulador = new ManipuladorDeArquivos();
+		manipulador.limpaPastas("./evidencias/WS");
+		manipulador.limpaPastas("./evidencias/screenshot");
+		manipulador.limpaPastas("./evidencias/integracao");
 
 	}
 
@@ -365,7 +374,7 @@ public class ResultadosDaSuite {
 		try {
 
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress(from,"AUTOMACAO"));
+			message.setFrom(new InternetAddress(from, "AUTOMACAO"));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
 			message.setSubject(assuntoEmail);
 
@@ -383,7 +392,7 @@ public class ResultadosDaSuite {
 			messageBodyPart.setDataHandler(new DataHandler(source));
 			messageBodyPart.setFileName("automation.log");
 
-			if (utilidade.pastaVazia("./evidencias") == false) {
+			if (utilidade.pastaVazia("./evidencias/integracao") == false || utilidade.pastaVazia("./evidencias/screenshot") == false || utilidade.pastaVazia("./evidencias/WS") == false) {
 
 				String anexoEvidencias = zipaEvidencias();
 				messageBodyPart2 = new MimeBodyPart();

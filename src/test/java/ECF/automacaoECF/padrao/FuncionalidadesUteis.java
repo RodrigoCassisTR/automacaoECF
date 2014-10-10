@@ -1,6 +1,8 @@
 package ECF.automacaoECF.padrao;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.InputStreamReader;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -73,5 +75,26 @@ public class FuncionalidadesUteis {
 			return true;
 
 		}
+	}
+
+	public void mataProcesso(String processo) {
+		logger.info("Encerrando Processo " + processo);
+		try {
+			String line;
+			Process p = Runtime.getRuntime().exec("tasklist.exe /fo csv /nh");
+			BufferedReader input = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			while ((line = input.readLine()) != null) {
+				if (!line.trim().equals("")) {
+					if (line.substring(1, line.indexOf("\"", 1)).equalsIgnoreCase(processo)) {
+						Runtime.getRuntime().exec("taskkill /F /IM " + line.substring(1, line.indexOf("\"", 1)));
+
+					}
+				}
+			}
+			input.close();
+		} catch (Exception err) {
+			err.printStackTrace();
+		}
+
 	}
 }

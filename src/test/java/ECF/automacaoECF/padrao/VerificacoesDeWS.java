@@ -3,7 +3,6 @@ package ECF.automacaoECF.padrao;
 import static org.junit.Assert.fail;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -17,22 +16,15 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import org.w3c.dom.Document;
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.xmlbeans.XmlException;
 import org.jsoup.*;
 import org.jsoup.parser.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Random;
-
 import com.eviware.soapui.impl.WsdlInterfaceFactory;
 import com.eviware.soapui.impl.wsdl.WsdlInterface;
 import com.eviware.soapui.impl.wsdl.WsdlOperation;
@@ -128,28 +120,19 @@ public class VerificacoesDeWS {
 		parametros = new RecebeParametros();
 		int qtdeDeComunicacoes = 0;
 
-		for (int i = 0;; i++) {
-			WsdlProject project = new WsdlProject();
-			WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, parametros.urlIntegracao + enderecoWSDL, true)[0];
-			WsdlOperation operation = (WsdlOperation) iface.getOperationByName(nomeOperation);
-			WsdlRequest request = operation.addNewRequest("My Request");
-			request.setPassword(password);
-			request.setUsername(username);
-			request.setWssPasswordType(wssPasswordType);
-			request.setRequestContent(requestDoArquivo);
-			WsdlSubmit submit = (WsdlSubmit) request.submit(new WsdlSubmitContext(request), false);
-			Response response = submit.getResponse();
-			String resposta = response.getContentAsString();
-			qtdeDeComunicacoes++;
-			if (qtdeDeComunicacoes > tentativas) {
-				falhaWS("Não foi Possível comunicação com o WS " + parametros.urlIntegracao + enderecoWSDL);
-				break;
+		WsdlProject project = new WsdlProject();
+		WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, parametros.urlIntegracao + enderecoWSDL, true)[0];
+		WsdlOperation operation = (WsdlOperation) iface.getOperationByName(nomeOperation);
+		WsdlRequest request = operation.addNewRequest("My Request");
+		request.setPassword(password);
+		request.setUsername(username);
+		request.setWssPasswordType(wssPasswordType);
+		request.setRequestContent(requestDoArquivo);
+		WsdlSubmit submit = (WsdlSubmit) request.submit(new WsdlSubmitContext(request), false);
+		Response response = submit.getResponse();
+		String resposta = response.getContentAsString();
 
-			}
-			Thread.sleep(500);
-			return resposta;
-		}
-		return null;
+		return resposta;
 
 	}
 
@@ -176,25 +159,28 @@ public class VerificacoesDeWS {
 
 		System.out.println("HERE: \n" + pegaValorDeTagXML(enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas), "RESPONSE_MESSAGE"));
 
-		for (int i = 0; i < tentativas; i++) {
+		for (int i = 0;; i++) {
+			System.out.println("TENTATIVA: " + i);
 			String responseString = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas);
 			String mensagemRecebida = pegaValorDeTagXML(responseString, "RESPONSE_MESSAGE");
-
 			if (mensagemRecebida.contains("Aguarde um momento. O registro está sendo integrado.") || mensagemRecebida.contentEquals("Protocolo não encontrado: . Aguarde alguns instantes e tente novamente.")) {
 				System.out.println(mensagemRecebida);
 			} else {
 				System.out.println("Mensagem Recebida: " + mensagemRecebida);
 				System.out.println("Granvando o arquivo de retorno ...");
-
 				manipulaArquivos.gravaArquivoDeUmaString("./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml", responseString);
+				break;
+			}
 
+			if (i > (tentativas / 4)) {
+				manipulaArquivos.gravaArquivoDeUmaString("./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml", responseString);
 				return "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml";
 			}
 
-			// TODO COLOCAR QUEBRA SE PASSAR DAS TENTATIVAS
+			Thread.sleep(500);
 		}
 
-		return null;
+		return "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml";
 
 	}
 

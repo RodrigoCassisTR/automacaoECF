@@ -1,0 +1,23 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:acc="http://accountbalance.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<acc:receiveAccountBalance>
+			<ACCOUNT_BALANCE_LIST>
+				<ACCOUNT_BALANCE>
+					<IND_DELETE>N</IND_DELETE>
+					<NUM_FED_TAX>55231342000104</NUM_FED_TAX>
+					<COD_COST_CENTER>
+					</COD_COST_CENTER>
+					<COD_LEDGER_ACCOUNT></COD_LEDGER_ACCOUNT>
+					<DAT_ACCOUNT_BALANCE>2014-01-01</DAT_ACCOUNT_BALANCE>
+					<CUR_OPENING_BALANCE>9111111.11</CUR_OPENING_BALANCE>
+					<IND_OPENING_BALANCE>C</IND_OPENING_BALANCE>
+					<CUR_CREDIT>10</CUR_CREDIT>
+					<CUR_DEBIT>10</CUR_DEBIT>
+					<CUR_CLOSING_BALANCE>1000.11</CUR_CLOSING_BALANCE>
+					<IND_CLOSING_BALANCE>C</IND_CLOSING_BALANCE>
+				</ACCOUNT_BALANCE>
+			</ACCOUNT_BALANCE_LIST>
+		</acc:receiveAccountBalance>
+	</soap:Body>
+</soap:Envelope>

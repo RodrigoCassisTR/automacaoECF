@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:lon="http://longTermInterestRate.webservices.taxbr.ta.thomsonreuters.com/">
+	<soap:Header/>
+	<soap:Body>
+		<lon:receiveLongTermInterestRate>
+			<LONG_TERM_INTEREST_RATE_LIST>
+				<LONG_TERM_INTEREST_RATE>
+					<IND_DELETE>N</IND_DELETE>
+					<DAT_INSERT_UPDATE>2014-10</DAT_INSERT_UPDATE>
+					<PCT_ANUAL_RATE></PCT_ANUAL_RATE>
+				</LONG_TERM_INTEREST_RATE>
+			</LONG_TERM_INTEREST_RATE_LIST>
+		</lon:receiveLongTermInterestRate>
+	</soap:Body>
+</soap:Envelope>

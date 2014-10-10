@@ -8,22 +8,11 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 
 import ECF.automacaoECF.acessoTela.*;
-import ECF.automacaoECF.consistencias.ConsistenciasBranch;
-import ECF.automacaoECF.consistencias.ConsistenciasCostCenter;
-import ECF.automacaoECF.consistencias.ConsistenciasLedgerAccount;
+import ECF.automacaoECF.acessoTela.TelaPlanoReferencialPlanoEmpresaConsulta;
+import ECF.automacaoECF.consistencias.*;
 import ECF.automacaoECF.integracao.*;
 import ECF.automacaoECF.padrao.RecebeParametros;
-import ECF.automacaoECF.tela.TelaCentrosDeCustos;
-import ECF.automacaoECF.tela.TelaEstabelecimentos;
-import ECF.automacaoECF.tela.TelaLancamentosContabeis;
-import ECF.automacaoECF.tela.TelaLucroRealApuracaoCsll;
-import ECF.automacaoECF.tela.TelaLucroRealApuracaoIrpj;
-import ECF.automacaoECF.tela.TelaPlanoDeContas;
-import ECF.automacaoECF.tela.TelaProcessoEmLote;
-import ECF.automacaoECF.tela.TelaSaldos;
-import ECF.automacaoECF.tela.TelaScp;
-import ECF.automacaoECF.tela.TelaTaxaDeJurosDeLongoPrazo;
-import ECF.automacaoECF.tela.TelaTipoDeFeriadoAcesso;
+import ECF.automacaoECF.tela.*;
 
 public class TesteSuite {
 	static org.apache.log4j.Logger logger = Logger.getLogger(TesteSuite.class.getName());
@@ -47,8 +36,8 @@ public class TesteSuite {
 		Boolean testaIntegracaoBoolean = Boolean.parseBoolean(testaIntegracao);
 		Boolean enviaEmailBoolean = Boolean.parseBoolean(enviaEmail);
 
-		//Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class, TelaAJustesParteBAcesso.class, TelaAliquotasDosTributosAcesso.class, TelaAssociacaoDeTabelasSpedAcesso.class, TelaContasApuracaoAcesso.class, TelaDarfConsultaAcesso.class, TelaDarfProcessamentoAcesso.class, TelaFeriadosAcesso.class, TelaGeracaoEcfAcesso.class, TelaImpostosComBaseNoSaldoConsolidadoAcesso.class, TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class, TelaLucroEstimadoApuracaoCsllAcesso.class, TelaLucroEstimadoApuracaoIrpjAcesso.class, TelaLucroEstimadoContasDaApuracaoAcesso.class, TelaLucroRealApuracaoCsll.class, TelaLucroRealContasAcesso.class, TelaLucroRealContasDaApuracaoAcesso.class, TelaPerfilEcflAcesso.class, TelaPlanoReferencialPlanoEmpresaAssociacao.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaRelatorioDeEstabelecimentosAcesso.class, TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class, TelaRelatoriosContasLalurAcesso.class, TelaRelatoriosContasLalurContasContabeisAcesso.class, TelaRelatoriosDeCalculosAcesso.class, TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class, TelaRelatoriosImpDiferidosBaseMovtoAcesso.class, TelaRelatoriosSaldosParteBAcesso.class, TelaResponsaveisAcesso.class, TelaSituacaoEspecialAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaCentrosDeCustos.class, TelaEstabelecimentos.class, TelaLancamentosContabeis.class, TelaLucroRealApuracaoIrpj.class, TelaPlanoDeContas.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaProcessoEmLote.class, TelaSaldos.class, TelaScp.class, TelaTaxaDeJurosDeLongoPrazo.class};
-		Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class,TelaAJustesParteBAcesso.class,TelaAliquotasDosTributosAcesso.class,TelaAssociacaoDeTabelasSpedAcesso.class,TelaContasApuracaoAcesso.class,TelaDarfConsultaAcesso.class,TelaDarfProcessamentoAcesso.class,TelaFeriadosAcesso.class,TelaGeracaoEcfAcesso.class,TelaImpostosComBaseNoSaldoConsolidadoAcesso.class,TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class,TelaLucroEstimadoApuracaoCsllAcesso.class,TelaLucroEstimadoApuracaoIrpjAcesso.class,TelaLucroEstimadoContasDaApuracaoAcesso.class,TelaLucroRealContasAcesso.class,TelaLucroRealContasDaApuracaoAcesso.class,TelaPerfilEcflAcesso.class,TelaPlanoReferencialPlanoEmpresaAssociacao.class,TelaPlanoReferencialPlanoEmpresaConsulta.class,TelaRelatorioDeEstabelecimentosAcesso.class,TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class,TelaRelatoriosContasLalurAcesso.class,TelaRelatoriosContasLalurContasContabeisAcesso.class,TelaRelatoriosDeCalculosAcesso.class,TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class,TelaRelatoriosImpDiferidosBaseMovtoAcesso.class,TelaRelatoriosSaldosParteBAcesso.class,TelaResponsaveisAcesso.class,TelaSituacaoEspecialAcesso.class,TelaTaxaSelicAcesso.class,TelaVencimentoDosTributosAcesso.class,TelaCentrosDeCustos.class,TelaEstabelecimentos.class,TelaLancamentosContabeis.class,TelaLucroRealApuracaoCsll.class,TelaLucroRealApuracaoIrpj.class,TelaPlanoDeContas.class,TelaPlanoReferencialPlanoEmpresaConsulta.class,TelaProcessoEmLote.class,TelaSaldos.class,TelaScp.class,TelaTaxaDeJurosDeLongoPrazo.class,TelaTipoDeFeriadoAcesso.class};
+		Class<?>[] testesTela = {TelaAgrupamentoDeTabelasAcesso.class, TelaAJustesParteBAcesso.class, TelaAliquotasDosTributosAcesso.class, TelaAssociacaoDeTabelasSpedAcesso.class, TelaContasApuracaoAcesso.class, TelaDarfConsultaAcesso.class, TelaDarfProcessamentoAcesso.class, TelaFeriadosAcesso.class, TelaGeracaoEcfAcesso.class, TelaImpostosComBaseNoSaldoConsolidadoAcesso.class, TelaImpostosDiferidosComBaseNaMovimentacaoAcesso.class, TelaLucroEstimadoApuracaoCsllAcesso.class, TelaLucroEstimadoApuracaoIrpjAcesso.class, TelaLucroEstimadoContasDaApuracaoAcesso.class, TelaLucroRealApuracaoCsll.class, TelaLucroRealContasAcesso.class, TelaLucroRealContasDaApuracaoAcesso.class, TelaPerfilEcflAcesso.class, TelaPlanoReferencialPlanoEmpresaAssociacao.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaRelatorioDeEstabelecimentosAcesso.class, TelaRelatoriosCompLucroRealLucroEstimadoAcesso.class, TelaRelatoriosContasLalurAcesso.class, TelaRelatoriosContasLalurContasContabeisAcesso.class,
+				TelaRelatoriosDeCalculosAcesso.class, TelaRelatoriosImpDiferBaseSaldoConsolidAcesso.class, TelaRelatoriosImpDiferidosBaseMovtoAcesso.class, TelaRelatoriosSaldosParteBAcesso.class, TelaResponsaveisAcesso.class, TelaSituacaoEspecialAcesso.class, TelaTaxaSelicAcesso.class, TelaTipoDeFeriadoAcesso.class, TelaVencimentoDosTributosAcesso.class, TelaCentrosDeCustos.class, TelaEstabelecimentos.class, TelaLancamentosContabeis.class, TelaLucroRealApuracaoIrpj.class, TelaPlanoDeContas.class, TelaPlanoReferencialPlanoEmpresaConsulta.class, TelaProcessoEmLote.class, TelaSaldos.class, TelaScp.class, TelaTaxaDeJurosDeLongoPrazo.class};
 		String[] resultadosTestesTela = new String[testesTela.length];
 		String[] duracaoTestesTela = new String[testesTela.length];
 
@@ -56,9 +45,8 @@ public class TesteSuite {
 		String[] resultadosTestesCrud = new String[testesCrud.length];
 		String[] duracaoTestesCrud = new String[testesCrud.length];
 
-		//Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermintereStrateTeste.class, IntegracaoSocietyAccountParticipationTeste.class};
-		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class,IntegracaoAccountEntryTeste.class,IntegracaoBranchTeste.class,IntegracaoChartsOfAccountsAssociationTeste.class,IntegracaoCostCenterTeste.class,IntegracaoLedgerAccountTeste.class,IntegracaoLongTermintereStrateTeste.class,IntegracaoSocietyAccountParticipationTeste.class,ConsistenciasBranch.class,ConsistenciasCostCenter.class,ConsistenciasLedgerAccount.class};
-		
+		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermInterestRateTeste.class, IntegracaoSocietyAccountParticipationTeste.class, ConsistenciasBranch.class, ConsistenciasCostCenter.class, ConsistenciasLedgerAccount.class, ConsistenciasLongTermInterestRate.class, ConsistenciasAccountBalance.class,ConsistenciasSocietyAccountParticipation.class,ConsistenciasAccountEntry.class,ConsistenciasChartsOfAccountsAssociation.class};
+
 		String[] resultadosTestesIntegracao = new String[testesIntegracao.length];
 		String[] duracaoTestesIntegracao = new String[testesIntegracao.length];
 

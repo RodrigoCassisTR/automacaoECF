@@ -1,0 +1,28 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:acc="http://accountentry.webservices.taxbr.ta.thomsonreuters.com/">
+   <soap:Header/>
+   <soap:Body>
+      <acc:receiveAccountEntry>
+         <ACCOUNT_ENTRY_LIST>
+            <ACCOUNT_ENTRY>
+               <NUM_FED_TAX>55231342000104</NUM_FED_TAX>
+               <IND_DELETE>N</IND_DELETE>
+               <COD_SOC_ACC_PAR>20</COD_SOC_ACC_PAR>
+               <DAT_ACCOUNT_ENTRY>2014-01-01</DAT_ACCOUNT_ENTRY>
+               <NUM_ACCOUNT_ENTRY>30</NUM_ACCOUNT_ENTRY>
+               <CUR_ACCOUNT_ENTRY_AMOUNT>30.01</CUR_ACCOUNT_ENTRY_AMOUNT>
+               <IND_ACCOUNT_ENTRY_TYPE>C</IND_ACCOUNT_ENTRY_TYPE>
+               <ACCOUNT_ENTRY_DETAIL_LIST>
+                  <ACCOUNT_ENTRY_DETAIL>
+                     <COD_LEDGER_ACCOUNT>20.1</COD_LEDGER_ACCOUNT>
+                     <COD_COST_CENTER>20.3</COD_COST_CENTER>
+                     <COD_LDGR_ACCT_DBLE_ENTRY>30</COD_LDGR_ACCT_DBLE_ENTRY>
+                     <NUM_ARCHIVING>20</NUM_ARCHIVING>
+                     <IND_DEBIT_CREDIT>D</IND_DEBIT_CREDIT>
+                     <CUR_ENTRY_AMOUNT>30.1</CUR_ENTRY_AMOUNT>
+                  </ACCOUNT_ENTRY_DETAIL>
+               </ACCOUNT_ENTRY_DETAIL_LIST>
+            </ACCOUNT_ENTRY>
+         </ACCOUNT_ENTRY_LIST>
+      </acc:receiveAccountEntry>
+   </soap:Body>
+</soap:Envelope>
