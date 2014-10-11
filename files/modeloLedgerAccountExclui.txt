@@ -1,0 +1,3 @@
+CAD2002|!campo1|S|!campo2|!campo3|CONTA ANALITICA AUTOMACAO|1|A|6|6|
+
+

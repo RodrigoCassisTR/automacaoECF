@@ -45,7 +45,7 @@ public class TesteSuite {
 		String[] resultadosTestesCrud = new String[testesCrud.length];
 		String[] duracaoTestesCrud = new String[testesCrud.length];
 
-		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermInterestRateTeste.class, IntegracaoSocietyAccountParticipationTeste.class, ConsistenciasBranch.class, ConsistenciasCostCenter.class, ConsistenciasLedgerAccount.class, ConsistenciasLongTermInterestRate.class, ConsistenciasAccountBalance.class,ConsistenciasSocietyAccountParticipation.class,ConsistenciasAccountEntry.class,ConsistenciasChartsOfAccountsAssociation.class};
+		Class<?>[] testesIntegracao = {IntegracaoAccountBalanceTeste.class, IntegracaoAccountEntryTeste.class, IntegracaoBranchTeste.class, IntegracaoChartsOfAccountsAssociationTeste.class, IntegracaoCostCenterTeste.class, IntegracaoLedgerAccountTeste.class, IntegracaoLongTermintereStrateTeste.class, IntegracaoSocietyAccountParticipationTeste.class, ConsistenciasBranch.class, ConsistenciasCostCenter.class, ConsistenciasLedgerAccount.class, ConsistenciasLongTermInterestRate.class, ConsistenciasAccountBalance.class,ConsistenciasSocietyAccountParticipation.class,ConsistenciasAccountEntry.class,ConsistenciasChartsOfAccountsAssociation.class};
 
 		String[] resultadosTestesIntegracao = new String[testesIntegracao.length];
 		String[] duracaoTestesIntegracao = new String[testesIntegracao.length];

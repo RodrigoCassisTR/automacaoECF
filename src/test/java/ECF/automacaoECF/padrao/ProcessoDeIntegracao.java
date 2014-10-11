@@ -1,7 +1,6 @@
 package ECF.automacaoECF.padrao;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
@@ -24,7 +23,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 	public String nomeDoServicoIntegrador = new RecebeParametros().nomeDoServicoIntegrador;
 	public String diretorioPadraoIntegracao = new RecebeParametros().diretorioPadraoIntegracao;
 	public String urlIntegracao = new RecebeParametros().urlIntegracao;
-		
+
 	int tentativas = Integer.parseInt(numerotentativas);
 	protected Properties propertiesIntegrador;
 
@@ -35,12 +34,13 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 	public void integraRegistro() throws Exception {
 		long inicio = System.currentTimeMillis();
 
-		////// INTEGRACAO INFO
+		// //// INTEGRACAO INFO
 		String nomeTeste = properties.getProperty("nomeTeste");
 		String categoria = properties.getProperty("categoria");
 		String nomeIntegracao = properties.getProperty("nomeIntegracao");
+		String formatoIntegracao = properties.getProperty("formatoIntegracao");
 
-		//INFORMCOES REGISTRO
+		// INFORMCOES REGISTRO
 		String arquivoIntegracao = properties.getProperty("arquivoIntegracao");
 		String arquivoIntegracaoExclui = properties.getProperty("arquivoIntegracaoExclui");
 
@@ -54,19 +54,19 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String wsclientReturnHost = propertiesIntegrador.getProperty("wsclient.return.host");
 		String routeImportFilePayloadType = propertiesIntegrador.getProperty("route.import.file.payload.type");
 
-		//CARREGANDO AS INFORMAÇÕES NO PROPERTIES DE TELA
+		// CARREGANDO AS INFORMAÇÕES NO PROPERTIES DE TELA
 		String nomeClasseTela = properties.getProperty("nomeClasseTela");
 		String filename2 = "./src/test/resources/" + nomeClasseTela + ".properties";
 		Properties propertiesTela = new Properties();
 		FileInputStream file2 = new FileInputStream(filename2);
 		propertiesTela.load(file2);
 
-		////////PROPERTIES DE TELA 
+		// //////PROPERTIES DE TELA
 
-		//////////ACESSO E TITULOS
+		// ////////ACESSO E TITULOS
 		String caminho = propertiesTela.getProperty("caminho");
 
-		//////////ACESSO A TELA
+		// ////////ACESSO A TELA
 		int qtdeMenu = Integer.parseInt(propertiesTela.getProperty("qtdeMenu"));
 		String labelMenu1 = propertiesTela.getProperty("labelMenu1");
 		String xpathMenu1 = propertiesTela.getProperty("xpathMenu1");
@@ -80,7 +80,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String xpathTela = propertiesTela.getProperty("xpathTela");
 		String xpathSemResultados = propertiesTela.getProperty("xpathSemResultados");
 
-		//////////VALIDACOES PADRAO
+		// ////////VALIDACOES PADRAO
 		String xPathCarregaPesquisa = propertiesTela.getProperty("xPathCarregaPesquisa");
 		String idBotaoExecutarConsulta = propertiesTela.getProperty("idBotaoExecutarConsulta");
 
@@ -100,7 +100,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String pastaRecebido = diretorioPadraoIntegracao + nomeIntegracao + "/recebido";
 		String[] pastasIntegracao = {pastaEntrada, pastaEnviado, pastaErro, pastaRecebido};
 
-		//CAMPOS DO ARQUIVO
+		// CAMPOS DO ARQUIVO
 
 		String campo1 = properties.getProperty("campo1");
 		String campo2 = properties.getProperty("campo2");
@@ -123,7 +123,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String campo19 = properties.getProperty("campo19");
 		String campo20 = properties.getProperty("campo20");
 
-		//CAMPOS PESQUISA
+		// CAMPOS PESQUISA
 		int qtdePesquisa = Integer.parseInt(properties.getProperty("qtdePesquisa"));
 		String valorPesquisa1 = properties.getProperty("valorPesquisa1");
 		String valorPesquisa2 = properties.getProperty("valorPesquisa2");
@@ -148,7 +148,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String[] camposPesquisa = {campoPesquisa1, campoPesquisa2, campoPesquisa3, campoPesquisa4, campoPesquisa5, campoPesquisa6, campoPesquisa7, campoPesquisa8, campoPesquisa9, campoPesquisa10};
 		String[] valoresPesquisa = {valorPesquisa1, valorPesquisa2, valorPesquisa3, valorPesquisa4, valorPesquisa5, valorPesquisa6, valorPesquisa7, valorPesquisa8, valorPesquisa9, valorPesquisa10};
 
-		//CAMPOS RESULTADOS
+		// CAMPOS RESULTADOS
 		int qtdeResultados = Integer.parseInt(properties.getProperty("qtdeResultados"));
 		String valorResultados1 = properties.getProperty("valorResultados1");
 		String valorResultados2 = properties.getProperty("valorResultados2");
@@ -174,7 +174,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		String[] valoresResultados = {valorResultados1, valorResultados2, valorResultados3, valorResultados4, valorResultados5, valorResultados6, valorResultados7, valorResultados8, valorResultados9, valorResultados10};
 		String[] colunasResultados = {campoResultados1, campoResultados2, campoResultados3, campoResultados4, campoResultados5, campoResultados6, campoResultados7, campoResultados8, campoResultados9, campoResultados10};
 
-		////// CAMPOS CADASTRO
+		// //// CAMPOS CADASTRO
 		int qtdeCadastro = Integer.parseInt(properties.getProperty("qtdeCadastro"));
 		String valorCadastro1 = properties.getProperty("valorCadastro1");
 		String valorCadastro2 = properties.getProperty("valorCadastro2");
@@ -230,10 +230,11 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		VerificacoesDeIntegracao integracao = new VerificacoesDeIntegracao();
 		VerificacoesDeTela automacao = new VerificacoesDeTela();
 
-		//ROTEIRO DE INTEGRACAO
+		// ROTEIRO DE INTEGRACAO
 		automacao.informaTeste(0, "-", nomeTeste);
-		integracao.copiaModeloCfg(diretorioPadraoIntegracao);
-		
+		integracao.copiaModeloCfg(caminhoIntegrador, nomeIntegracao);
+		integracao.verificaUrlWS(wsclientHost, wsclientReturnHost, urlIntegracao, diretorioPadraoIntegracao, arquivoCfg, nomeDoServicoIntegrador, routeImportFilePayloadType, formatoIntegracao);
+
 		logger.info("----------------------------------------------------------");
 		logger.info("PASTAS INTEGRAÇÃO ECF");
 		logger.info("entrada: " + pastaEntrada);
@@ -247,11 +248,24 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		logger.info("route.import.file.payload.type: " + routeImportFilePayloadType);
 		logger.info("----------------------------------------------------------");
 
-		//VERIFICA SE O SERVIÇO DO INTEGRADOR ESTÁ INICIADO
-		integracao.verificaUrlWS(wsclientHost,wsclientReturnHost,urlIntegracao,diretorioPadraoIntegracao,arquivoCfg,nomeDoServicoIntegrador);
+		// VERIFICA SE O SERVIÇO DO INTEGRADOR ESTÁ INICIADO
+
 		integracao.verficaServicoIntegracaoIniciado(nomeDoServicoIntegrador);
-		
-		//VERIFICA SE O REGISTRO A SER INTEGRADO JA EXISTE, SE EXISTE EXCLUI
+
+		logger.info("----------------------------------------------------------");
+		logger.info("PASTAS INTEGRAÇÃO ECF");
+		logger.info("entrada: " + pastaEntrada);
+		logger.info("enviado: " + pastaEnviado);
+		logger.info("erro: " + pastaErro);
+		logger.info("recebido: " + pastaRecebido);
+		logger.info("----------------------------------------------------------");
+		logger.info("PARAMETROS");
+		logger.info("wsclient.host: " + wsclientHost);
+		logger.info("wsclient.return.host: " + wsclientReturnHost);
+		logger.info("route.import.file.payload.type: " + routeImportFilePayloadType);
+		logger.info("----------------------------------------------------------");
+
+		// VERIFICA SE O REGISTRO A SER INTEGRADO JA EXISTE, SE EXISTE EXCLUI
 		automacao.acessaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
 		automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
@@ -260,14 +274,14 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		automacao.aguardaCarregamento(caminho, xPathCarregaPesquisa, nomeTeste, tentativas, driver);
 		existeRegistro = automacao.verificaExistenciaDoRegistro(driver, tentativas, nomeTeste, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, qtdeResultados, colunasResultados, valoresResultados);
 		if (existeRegistro == true) {
-			integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro,nomeTeste);
+			integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro, nomeTeste, formatoIntegracao);
 			Thread.sleep(1000);
 		}
 
-		//INTEGRAD REGISTRO
-		integracao.integraRegistro(arquivoIntegracao, pastasIntegracao, camposRegistro, informacoesRegistro,nomeTeste);
+		// INTEGRAD REGISTRO
+		integracao.integraRegistro(arquivoIntegracao, pastasIntegracao, camposRegistro, informacoesRegistro, nomeTeste, formatoIntegracao);
 
-		//PESQUISA REGISTRO
+		// PESQUISA REGISTRO
 		automacao.efetuaLogout(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
 		automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
@@ -276,7 +290,8 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		automacao.pesquisaRegistroIntegrado(driver, tentativas, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta);
 		registroNaoVisualizado = automacao.verificaResultadoDaPesquisa(driver, tentativas, qtdeResultados, colunasResultados, valoresResultados, idBotoesResultados, qtdePesquisa, camposPesquisa, valoresPesquisa, idBotaoExecutarConsulta, xpathSemResultados);
 
-		//TENTA 4 VEZES LOCALIZAR O REGISTRO NA TELA, FAZENDO O LOGOUT E LOGIN A CADA TENTATIVA
+		// TENTA 4 VEZES LOCALIZAR O REGISTRO NA TELA, FAZENDO O LOGOUT E LOGIN
+		// A CADA TENTATIVA
 		do {
 			if (registroNaoVisualizado == false) {
 				automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
@@ -293,10 +308,10 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		automacao.verificaTelaCadastro(driver, tentativas, qtdeCadastro, camposTelaCadastro, valoresCadastro);
 
-		//EXCLUI REGISTRO
-		integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro,nomeTeste);
+		// EXCLUI REGISTRO
+		integracao.integraRegistro(arquivoIntegracaoExclui, pastasIntegracao, camposRegistro, informacoesRegistro, nomeTeste, formatoIntegracao);
 
-		//VERIFICA SE O REGISTRO FOI EXCLUIDO
+		// VERIFICA SE O REGISTRO FOI EXCLUIDO
 		automacao.reotrnaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
 		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
 		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);

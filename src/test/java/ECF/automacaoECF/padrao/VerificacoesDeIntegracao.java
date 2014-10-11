@@ -1,6 +1,7 @@
 package ECF.automacaoECF.padrao;
 
 import static org.junit.Assert.fail;
+import static java.nio.file.StandardCopyOption.*;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -62,7 +63,7 @@ public class VerificacoesDeIntegracao {
 		}
 
 	}
-	
+
 	public void limpaPasta(String enderecoPasta) {
 
 		File pastaTXT = new File(enderecoPasta);
@@ -220,8 +221,8 @@ public class VerificacoesDeIntegracao {
 		if (file.isDirectory()) {
 			if (file.list().length > 0) {
 				logger.info("O arquivo  foi movido para a pasta 'erro'!");
-				copiaArquivos(pasta_erro +nomeArquivoIntegracao, "./evidencias/integracao/" + nomeTeste.toLowerCase().trim()+"_retorno.xml");
-				copiaArquivos(arquivoEnvio, "./evidencias/integracao/" + nomeTeste.toLowerCase().trim()+"_envio.xml");
+				copiaArquivos(pasta_erro + nomeArquivoIntegracao, "./evidencias/integracao/" + nomeTeste.toLowerCase().trim() + "_retorno.xml");
+				copiaArquivos(arquivoEnvio, "./evidencias/integracao/" + nomeTeste.toLowerCase().trim() + "_envio.xml");
 				falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
 				return true;
 			} else {
@@ -251,64 +252,124 @@ public class VerificacoesDeIntegracao {
 		}
 	}
 
-	public void integraRegistro(String arquivoIntegracaoExclui, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro, String nomeTeste) throws IOException, InterruptedException {
+	public void integraRegistro(String arquivoIntegracaoExclui, String[] pastasIntegracao, String[] camposRegistro, String[] informacoesRegistro, String nomeTeste, String formatoIntegracao) throws IOException, InterruptedException {
 
-		// COPIA O ARQUIVO MODELO PARA UMA PASTA TEMPORARIA...
-		SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
-		Date date = new Date();
-		logger.info("Copiando arquivo modelo '" + arquivoIntegracaoExclui + "'...");
-		String diretorioTemporario = "./files/temp/xmlUp";
-		String prefixoNome = "/arquivo_integracao_";
-		String nomeArquivo = dateFormat.format(date) + ".xml";
-		String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
-		copiaArquivos(arquivoIntegracaoExclui, arquivoTemporario);
-		logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
-		
-		String nomeArquivoIntegracao=prefixoNome + nomeArquivo;
-		
-		
-		logger.info("APAGAR ESSA PARADA DEPOSI..."+arquivoTemporario);
+		if (formatoIntegracao.contentEquals("XML")) {
 
-		// EDITA O ARQUIVO...
-		substituiInformacoesNoArquivo(arquivoTemporario, camposRegistro, informacoesRegistro);
+			// COPIA O ARQUIVO MODELO PARA UMA PASTA TEMPORARIA...
+			SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
+			Date date = new Date();
+			logger.info("Copiando arquivo modelo '" + arquivoIntegracaoExclui + "'...");
+			String diretorioTemporario = "./files/temp/xmlUp";
+			String prefixoNome = "/arquivo_integracao_";
+			String nomeArquivo = dateFormat.format(date) + ".xml";
+			String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
+			copiaArquivos(arquivoIntegracaoExclui, arquivoTemporario);
+			logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
 
-		// LIMPA PASTAS DE INTEGRACAO...
-		logger.info("Limpando as pastas de integração...");
-		limpaArrayDePastas(pastasIntegracao);
+			String nomeArquivoIntegracao = prefixoNome + nomeArquivo;
 
-		// INFORMA PASTAS DE INTEGRAÇÃO...
-		String pasta_entrada = pastasIntegracao[0] + "/";
-		String pasta_enviado = pastasIntegracao[1] + "/";
-		String pasta_erro = pastasIntegracao[2] + "/";
-		@SuppressWarnings("unused")
-		String pasta_recebido = pastasIntegracao[3] + "/";
-		String pasta_backup = pasta_entrada + "/.ecf-backup";
+			logger.info("APAGAR ESSA PARADA DEPOSI..." + arquivoTemporario);
 
-		// MOVENDO PARA A PASTA ENTRADA DA INTEGRACAO...
-		logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
-		copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
+			// EDITA O ARQUIVO...
+			substituiInformacoesNoArquivo(arquivoTemporario, camposRegistro, informacoesRegistro);
 
-		// AGUARDA SAIR DA PASTA DE ENTRADA...
-		aguardaSairDaPastaEntrada(prefixoNome, nomeArquivo, pasta_entrada, pasta_backup);
+			// LIMPA PASTAS DE INTEGRACAO...
+			logger.info("Limpando as pastas de integração...");
+			limpaArrayDePastas(pastasIntegracao);
 
-		// AGUARDA SAIR DA PASTA DE ENVIADO...
-		aguardaSairDaPastaEnviado(prefixoNome, nomeArquivo, pasta_enviado, pasta_backup);
+			// INFORMA PASTAS DE INTEGRAÇÃO...
+			String pasta_entrada = pastasIntegracao[0] + "/";
+			String pasta_enviado = pastasIntegracao[1] + "/";
+			String pasta_erro = pastasIntegracao[2] + "/";
+			@SuppressWarnings("unused")
+			String pasta_recebido = pastasIntegracao[3] + "/";
+			String pasta_backup = pasta_entrada + "/.ecf-backup";
 
-		//VERIFICA SE O ARQUIVO FOI MOVIDO PARA A PASTA ERRO
-		logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
-		verificaSeFoiParaAPastaErro(pasta_erro,nomeArquivoIntegracao,arquivoTemporario,nomeTeste);
+			// MOVENDO PARA A PASTA ENTRADA DA INTEGRACAO...
+			logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
+			copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
 
-		if (verificaPastaErro(pasta_erro, tentativas) == true) {
-			logger.info("O arquivo  foi movido para a pasta 'erro'!");
-			copiaArquivos(pasta_erro + "/*.*", "./evidencias/integracao/" + nomeArquivo);
-			falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+			// AGUARDA SAIR DA PASTA DE ENTRADA...
+			aguardaSairDaPastaEntrada(prefixoNome, nomeArquivo, pasta_entrada, pasta_backup);
+
+			// AGUARDA SAIR DA PASTA DE ENVIADO...
+			aguardaSairDaPastaEnviado(prefixoNome, nomeArquivo, pasta_enviado, pasta_backup);
+
+			// VERIFICA SE O ARQUIVO FOI MOVIDO PARA A PASTA ERRO
+			logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
+			verificaSeFoiParaAPastaErro(pasta_erro, nomeArquivoIntegracao, arquivoTemporario, nomeTeste);
+
+			if (verificaPastaErro(pasta_erro, tentativas) == true) {
+				logger.info("O arquivo  foi movido para a pasta 'erro'!");
+				copiaArquivos(pasta_erro + "/*.*", "./evidencias/integracao/" + nomeArquivo);
+				falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+			}
+
+			logger.info("O arquivo não foi movido para a pasta 'erro'!");
+
+			logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
+			limpaPastas(diretorioTemporario);
+			logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
+		} else if (formatoIntegracao.contentEquals("TXT")) {
+
+			// COPIA O ARQUIVO MODELO PARA UMA PASTA TEMPORARIA...
+			SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
+			Date date = new Date();
+			logger.info("Copiando arquivo modelo '" + arquivoIntegracaoExclui + "'...");
+			String diretorioTemporario = "./files/temp/xmlUp";
+			String prefixoNome = "/arquivo_integracao_";
+			String nomeArquivo = dateFormat.format(date) + ".txt";
+			String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
+			copiaArquivos(arquivoIntegracaoExclui, arquivoTemporario);
+			logger.info("Copiando arquivo modelo, com nome " + arquivoTemporario + " com sucesso!");
+
+			String nomeArquivoIntegracao = prefixoNome + nomeArquivo;
+
+			logger.info("APAGAR ESSA PARADA DEPOSI..." + arquivoTemporario);
+
+			// EDITA O ARQUIVO...
+			substituiInformacoesNoArquivo(arquivoTemporario, camposRegistro, informacoesRegistro);
+
+			// LIMPA PASTAS DE INTEGRACAO...
+			logger.info("Limpando as pastas de integração...");
+			limpaArrayDePastas(pastasIntegracao);
+
+			// INFORMA PASTAS DE INTEGRAÇÃO...
+			String pasta_entrada = pastasIntegracao[0] + "/";
+			String pasta_enviado = pastasIntegracao[1] + "/";
+			String pasta_erro = pastasIntegracao[2] + "/";
+			@SuppressWarnings("unused")
+			String pasta_recebido = pastasIntegracao[3] + "/";
+			String pasta_backup = pasta_entrada + "/.ecf-backup";
+
+			// MOVENDO PARA A PASTA ENTRADA DA INTEGRACAO...
+			logger.info("Movendo o arquivo alterado para a pasta de entrada do integrador...");
+			copiaArquivos(arquivoTemporario, pasta_entrada + prefixoNome + nomeArquivo);
+
+			// AGUARDA SAIR DA PASTA DE ENTRADA...
+			aguardaSairDaPastaEntrada(prefixoNome, nomeArquivo, pasta_entrada, pasta_backup);
+
+			// AGUARDA SAIR DA PASTA DE ENVIADO...
+			aguardaSairDaPastaEnviado(prefixoNome, nomeArquivo, pasta_enviado, pasta_backup);
+
+			// VERIFICA SE O ARQUIVO FOI MOVIDO PARA A PASTA ERRO
+			logger.info("Verificando se o arquivo foi movido para a pasta 'erro'");
+			verificaSeFoiParaAPastaErro(pasta_erro, nomeArquivoIntegracao, arquivoTemporario, nomeTeste);
+
+			if (verificaPastaErro(pasta_erro, tentativas) == true) {
+				logger.info("O arquivo  foi movido para a pasta 'erro'!");
+				copiaArquivos(pasta_erro + "/*.*", "./evidencias/integracao/" + nomeArquivo);
+				falhaIntegracao("O arquivo foi movido para a pasta 'erro'!");
+			}
+
+			logger.info("O arquivo não foi movido para a pasta 'erro'!");
+
+			logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
+			limpaPastas(diretorioTemporario);
+			logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
+
 		}
-
-		logger.info("O arquivo não foi movido para a pasta 'erro'!");
-
-		logger.info("Limpando a pasta temporaria " + diretorioTemporario + "...");
-		limpaPastas(diretorioTemporario);
-		logger.info("Pastas temporaria " + diretorioTemporario + " limpa com sucesso!");
 
 	}
 
@@ -407,27 +468,29 @@ public class VerificacoesDeIntegracao {
 
 	}
 
-	public void verificaUrlWS(String wsclientHost, String wsclientReturnHost, String urlIntegracao, String diretorioPadraoIntegracao, String arquivoCfg, String nomeDoServicoIntegrador) throws IOException {
+	public void verificaUrlWS(String wsclientHost, String wsclientReturnHost, String urlIntegracao, String diretorioPadraoIntegracao, String arquivoCfg, String nomeDoServicoIntegrador, String routeImportFilePayloadType, String formatoIntegracao) throws IOException {
 		logger.info("Verificando as WS de config do integrador...");
 
-		if (wsclientHost.contentEquals(urlIntegracao) && wsclientReturnHost.contentEquals(urlIntegracao)) {
+		if (wsclientHost.contentEquals(urlIntegracao) || wsclientReturnHost.contentEquals(urlIntegracao) || routeImportFilePayloadType.contentEquals(formatoIntegracao)) {
 			logger.info("Integrador configurado com o endereço de WS correto...");
 			logger.info("wsclient.host= " + wsclientHost);
 			logger.info("wsclient.return.host= " + wsclientReturnHost);
+			logger.info("route.import.file.payload.type=" + routeImportFilePayloadType);
 
 		} else {
 			logger.info("O endereço WS não está configurado corretamente, alterando para o endereço WS correto...");
 
 			logger.info("wsclient.host= " + wsclientHost + " esperado: " + urlIntegracao);
 			logger.info("wsclient.return.host= " + wsclientReturnHost + " esperado: " + urlIntegracao);
+			logger.info("route.import.file.payload.type=" + routeImportFilePayloadType + " esperado: " + formatoIntegracao);
 
-			logger.info("Editando o arquivo cfg "+arquivoCfg+" ...");
+			logger.info("Editando o arquivo cfg " + arquivoCfg + " ...");
 			Path path = Paths.get(arquivoCfg);
 			Charset charset = StandardCharsets.UTF_8;
 			String content = new String(Files.readAllBytes(path), charset);
 
-			String[] urlWsParaAlterar = {wsclientHost, wsclientReturnHost};
-			String[] urlWsEsperado = {urlIntegracao, urlIntegracao};
+			String[] urlWsParaAlterar = {wsclientHost, wsclientReturnHost, routeImportFilePayloadType};
+			String[] urlWsEsperado = {urlIntegracao, urlIntegracao, formatoIntegracao};
 
 			for (int count = 0; count < urlWsParaAlterar.length; count++) {
 				content = content.replaceAll(urlWsParaAlterar[count], urlWsEsperado[count]);
@@ -438,9 +501,7 @@ public class VerificacoesDeIntegracao {
 			logger.info("Reiniciando o serviço do integrador...");
 
 			reiniciaServicoWindows(nomeDoServicoIntegrador);
-
 		}
-
 	}
 
 	private void reiniciaServicoWindows(String nomeDoServicoIntegrador) {
@@ -524,7 +585,8 @@ public class VerificacoesDeIntegracao {
 		String line;
 		int state = STATE_UNKNOWN;
 
-		while ((line = br.readLine()) != null) // searches for state in the child process output
+		while ((line = br.readLine()) != null) // searches for state in the
+												// child process output
 		{
 			int p;
 
@@ -542,10 +604,11 @@ public class VerificacoesDeIntegracao {
 		return state;
 	}
 
-	public void copiaModeloCfg(String diretorioPadraoIntegracao) throws IOException {
-		ManipuladorDeArquivos manipuladorDeArquivos=new ManipuladorDeArquivos();
-		manipuladorDeArquivos.copiaArquivos("./files/modeloCfg/taxbr.ecf.integrator.accountbalance.cfg", diretorioPadraoIntegracao+"/etc/teste");
-		
+	public void copiaModeloCfg(String diretorioIntegrador, String nomeIntegracao) throws IOException {
+
+		ManipuladorDeArquivos manipuladorDeArquivos = new ManipuladorDeArquivos();
+		manipuladorDeArquivos.copiaArquivos("./files/modeloCfg/taxbr.ecf.integrator." + nomeIntegracao + ".cfg", diretorioIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
+
 	}
 
 }
