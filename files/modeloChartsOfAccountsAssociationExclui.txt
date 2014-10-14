@@ -1,0 +1,4 @@
+PAR2101_01|!campo1|S|!campo2|!campo3|!campo4|!campo5|
+PAR2101_02|S|!campo6|
+PAR2101_03|!campo7|
+PAR2101_04|!campo8|

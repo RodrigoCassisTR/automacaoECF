@@ -317,7 +317,7 @@ public class VerificacoesDeIntegracao {
 			SimpleDateFormat dateFormat = new SimpleDateFormat("ddMMyyyy_HHmmss");
 			Date date = new Date();
 			logger.info("Copiando arquivo modelo '" + arquivoIntegracaoExclui + "'...");
-			String diretorioTemporario = "./files/temp/xmlUp";
+			String diretorioTemporario = "./files/temp/txtUp";
 			String prefixoNome = "/arquivo_integracao_";
 			String nomeArquivo = dateFormat.format(date) + ".txt";
 			String arquivoTemporario = diretorioTemporario + prefixoNome + nomeArquivo;
@@ -615,24 +615,23 @@ public class VerificacoesDeIntegracao {
 
 		logger.info("----------------------------------------------------------");
 		logger.info("VERIFICANDO CONFIGURAÇÕES DO INTEGRADOR");
-		logger.info("Verificando cfg: " + diretorioPadraoIntegracao + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
+		logger.info("Verificando cfg: " + caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
 
 		
-		//TODO FAZER UMA CONDIÇÃO PRA QUANDO O PAYLOAD FILE = NULO
-		
-		if (wsclientHost.contentEquals(urlIntegracao) && wsclientReturnHost.contentEquals(urlIntegracao) && routeImportFilePayloadType.contentEquals(formatoIntegracao)) {
-		
+
 			
+	
+		if (wsclientHost.contentEquals(urlIntegracao) && wsclientReturnHost.contentEquals(urlIntegracao) && routeImportFilePayloadType.contentEquals(formatoIntegracao)) {
+
 			logger.info("As informações do arquivo cfg: " + caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg, estão de acordo com o teste!");
 
 		} else {
 			logger.info("As informações do arquivo cfg: " + caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg, não estão de acordo com o teste!");
 			logger.info("Criando novo arquivo .cfg...");
 
-			copiaArquivos("./files/modelo.cfg", caminhoIntegrador+"/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
-			
-			
-			Path path = Paths.get(caminhoIntegrador+"/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
+			copiaArquivos("./files/modelo.cfg", caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
+
+			Path path = Paths.get(caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
 			Charset charset = StandardCharsets.UTF_8;
 			String content = new String(Files.readAllBytes(path), charset);
 
@@ -644,7 +643,7 @@ public class VerificacoesDeIntegracao {
 						dadosIntegracao[count]);
 				Files.write(path, content.getBytes(charset));
 			}
-			
+
 			reiniciaServicoWindows(nomeDoServicoIntegrador);
 
 		}

@@ -1,0 +1,16 @@
+============================================================
+FALHA NA INTEGRAÇÃO:
+============================================================
+Nome do arquivo: arquivo_integracao_14102014_164742.txt
+Caminho completo: c:\temp\ECF\societyaccountparticipation\entrada\arquivo_integracao_14102014_164742.txt
+Data da ultima modificacao: 14/10/2014 - 16:47:42.47
+Tamanho em bytes do arquivo: 81 bytes
+============================================================
+Motivo da falha: Error during type conversion from type: org.apache.camel.component.file.GenericFile to the required type: org.w3c.dom.Document with value GenericFile[c:\temp\ECF\societyaccountparticipation\entrada\arquivo_integracao_14102014_164742.txt] due org.xml.sax.SAXParseException: Content is not allowed in prolog.
+Causa principal:org.xml.sax.SAXParseException: Content is not allowed in prolog.
+============================================================
+Mensagem original:
+CAD2057|N|55231342000104|2014-01-01|AUTO001|SCP AUTOMACAO|SCP AUTOMACAO NAO MEXER
+============================================================
+Relatorio gerado em: 14/10/2014 - 16:47:42.47
+============================================================
