@@ -1,0 +1,24 @@
+============================================================
+FALHA NA INTEGRAÇÃO:
+============================================================
+Nome do arquivo: arquivo_integracao_14102014_114148.txt
+Caminho completo: c:\temp\ECF\branch\entrada\arquivo_integracao_14102014_114148.txt
+Data da ultima modificacao: 14/10/2014 - 11:41:48.41
+Tamanho em bytes do arquivo: 382 bytes
+============================================================
+Motivo da falha: Failed to filter source.
+Causa principal:EDI message processing failed [EFDSocial/Branch - Transformador de Leiaute TXT para XML][1.0].  Segment [PRP0000] expected to contain 2 fields.  Actually contains 4 fields (not including segment code).  Currently at segment number 3.
+============================================================
+Mensagem original:
+CADCOMPANY|800|
+CAD0000|N|AUTO010|1988-01-01|55231342009160|AUTOMACAO FILIAL NAO MEXER DE JEITO NENHUM|N|AUTOMACAO FILIAL NAO MEXER DE JEITO NENHUM|111302|R|RUA AUTOMACAO| | |AUTO|11500360| |11|42156867| | |SP|3513504| | |
+PRP0000|NAT_JURIDICA| 
+PRP0001|CODIGO|1023|
+PRP0000|CLASSIF_TRIB| |
+PRP0001|CODIGO|1|
+PRP0000|FAP|VALUE| |
+PRP0000|IND_COOPERATIVA| |
+PRP0001|CODIGO|1|
+============================================================
+Relatorio gerado em: 14/10/2014 - 11:41:48.41
+============================================================

@@ -93,7 +93,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		String[] idBotoesResultados = {idBotaoConsultar, idBotaoNovo, idBotaoCriarCopia, idBotaoEditar, idBotaoExcluir, idBotaoExportar};
 
-		// Pastas Integração
+		// PASTAS INTEGRACAO
 		String pastaEntrada = diretorioPadraoIntegracao + nomeIntegracao + "/entrada";
 		String pastaEnviado = diretorioPadraoIntegracao + nomeIntegracao + "/enviado";
 		String pastaErro = diretorioPadraoIntegracao + nomeIntegracao + "/erro";
@@ -232,9 +232,8 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		// ROTEIRO DE INTEGRACAO
 		automacao.informaTeste(0, "-", nomeTeste);
-		integracao.copiaModeloCfg(caminhoIntegrador, nomeIntegracao);
-		integracao.verificaUrlWS(wsclientHost, wsclientReturnHost, urlIntegracao, diretorioPadraoIntegracao, arquivoCfg, nomeDoServicoIntegrador, routeImportFilePayloadType, formatoIntegracao);
-
+		integracao.validaArquivoCfgDoIntegrador(caminhoIntegrador, nomeIntegracao,urlIntegracao,formatoIntegracao,wsclientHost,wsclientReturnHost,routeImportFilePayloadType,diretorioPadraoIntegracao,nomeDoServicoIntegrador);
+		
 		logger.info("----------------------------------------------------------");
 		logger.info("PASTAS INTEGRAÇÃO ECF");
 		logger.info("entrada: " + pastaEntrada);
@@ -249,7 +248,6 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 		logger.info("----------------------------------------------------------");
 
 		// VERIFICA SE O SERVIÇO DO INTEGRADOR ESTÁ INICIADO
-
 		integracao.verficaServicoIntegracaoIniciado(nomeDoServicoIntegrador);
 
 		logger.info("----------------------------------------------------------");

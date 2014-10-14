@@ -611,4 +611,44 @@ public class VerificacoesDeIntegracao {
 
 	}
 
+	public void validaArquivoCfgDoIntegrador(String caminhoIntegrador, String nomeIntegracao, String urlIntegracao, String formatoIntegracao, String wsclientHost, String wsclientReturnHost, String routeImportFilePayloadType, String diretorioPadraoIntegracao, String nomeDoServicoIntegrador) throws IOException {
+
+		logger.info("----------------------------------------------------------");
+		logger.info("VERIFICANDO CONFIGURAÇÕES DO INTEGRADOR");
+		logger.info("Verificando cfg: " + diretorioPadraoIntegracao + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
+
+		
+		//TODO FAZER UMA CONDIÇÃO PRA QUANDO O PAYLOAD FILE = NULO
+		
+		if (wsclientHost.contentEquals(urlIntegracao) && wsclientReturnHost.contentEquals(urlIntegracao) && routeImportFilePayloadType.contentEquals(formatoIntegracao)) {
+		
+			
+			logger.info("As informações do arquivo cfg: " + caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg, estão de acordo com o teste!");
+
+		} else {
+			logger.info("As informações do arquivo cfg: " + caminhoIntegrador + "/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg, não estão de acordo com o teste!");
+			logger.info("Criando novo arquivo .cfg...");
+
+			copiaArquivos("./files/modelo.cfg", caminhoIntegrador+"/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
+			
+			
+			Path path = Paths.get(caminhoIntegrador+"/etc/taxbr.ecf.integrator." + nomeIntegracao + ".cfg");
+			Charset charset = StandardCharsets.UTF_8;
+			String content = new String(Files.readAllBytes(path), charset);
+
+			String[] dadosParaAlterar = {"!urlIntegracao", "!formatoIntegracao"};
+			String[] dadosIntegracao = {urlIntegracao, formatoIntegracao};
+
+			for (int count = 0; count < dadosParaAlterar.length; count++) {
+				content = content.replaceAll(dadosParaAlterar[count],
+						dadosIntegracao[count]);
+				Files.write(path, content.getBytes(charset));
+			}
+			
+			reiniciaServicoWindows(nomeDoServicoIntegrador);
+
+		}
+
+	}
+
 }

@@ -1,9 +1,9 @@
 ============================================================
 FALHA NA INTEGRAÇÃO:
 ============================================================
-Nome do arquivo: arquivo_integracao_11102014_154326.xml
-Caminho completo: c:\temp\ECF\ledgeraccount\entrada\arquivo_integracao_11102014_154326.xml
-Data da ultima modificacao: 11/10/2014 - 15:43:26.43
+Nome do arquivo: arquivo_integracao_13102014_113136.txt
+Caminho completo: c:\temp\ECF\ledgeraccount\entrada\arquivo_integracao_13102014_113136.txt
+Data da ultima modificacao: 13/10/2014 - 11:31:36.31
 Tamanho em bytes do arquivo: 982 bytes
 ============================================================
 Motivo da falha: Failed to filter source.
@@ -14,7 +14,7 @@ Mensagem original:
 	<LEDGER_ACCOUNT>
 		<COD_CENTRAL_REGISTRATION>55231342000104</COD_CENTRAL_REGISTRATION>
 		<!--CODIGO DA CENTRAL DE CADASTROS-->
-		<IND_DELETE>S</IND_DELETE>
+		<IND_DELETE>N</IND_DELETE>
 		<!--INDICADOR DE EXCLUSAO-->
 		<COD_LEDGER_ACCOUNT>6.1</COD_LEDGER_ACCOUNT>
 		<!--CONTA CONTABIL-->
@@ -33,5 +33,5 @@ Mensagem original:
 	</LEDGER_ACCOUNT>	
 </LEDGER_ACCOUNT_LIST>
 ============================================================
-Relatorio gerado em: 11/10/2014 - 15:43:26.43
+Relatorio gerado em: 13/10/2014 - 11:31:36.31
 ============================================================
