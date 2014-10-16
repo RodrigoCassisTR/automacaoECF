@@ -1481,31 +1481,11 @@ public class VerificacoesDeTela {
 		return present;
 	}
 	public void reotrnaSistema(WebDriver driver, int tentativas, String url, String usuario2, String senha2, String navegador, String nomeTeste) throws IOException, InterruptedException {
-		logger.info("----------------------------------------------------");
-		logger.info("URL: " + url);
-		logger.info("USUARIO: " + usuario);
-		logger.info("SENHA: " + senha);
-		logger.info("NAVEGADOR: " + navegador);
-		logger.info("TESTE: " + nomeTeste);
-		logger.info("----------------------------------------------------");
 
-		logger.info("Acessando aplicação no endereco " + url);
+		aguardaCarregamento("url", "//*[@id='ui-id-1']/span", nomeTeste, tentativas, driver);
+		driver.findElement(By.linkText("Sair")).click();
+		aguardaCarregamentoPorId(driver, tentativas, nomeTeste, "j_username");
 
-		driver.get(url);
-
-		for (int second = 0;; second++) {
-			logger.info("Aguardando carregamento da tela | Tentativa " + (second) + " de " + (tentativas));
-
-			if (second >= tentativas)
-				falha("Timeout, elemento nao localizado j_username", driver, nomeTeste);
-			try {
-				if (driver.findElement(By.id("taxit_solution_logo")).isDisplayed())
-					break;
-			} catch (Exception e) {
-			}
-			Thread.sleep(1000);
-
-		}
 		logger.info("Tela carregada com sucesso!");
 
 	}

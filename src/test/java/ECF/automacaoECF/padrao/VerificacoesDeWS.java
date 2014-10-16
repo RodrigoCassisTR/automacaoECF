@@ -78,7 +78,7 @@ public class VerificacoesDeWS {
 	public String pegaValorDeTagXML(String xmlOrigem, String tag) {
 
 		org.jsoup.nodes.Document doc = Jsoup.parse(xmlOrigem, "", Parser.xmlParser());
-		String valorObtidoDaTag = doc.select(tag).text();
+		String valorObtidoDaTag = doc.select(tag).val();
 		return valorObtidoDaTag;
 
 	}
@@ -114,11 +114,9 @@ public class VerificacoesDeWS {
 
 	}
 
-	@SuppressWarnings("rawtypes")
 	private String enviaRequestParaWS(String enderecoWSDL, String username, String password, String wssPasswordType, String requestDoArquivo, String nomeOperation, int tentativas) throws SoapUIException, SubmitException, XmlException, IOException, InterruptedException {
 
 		parametros = new RecebeParametros();
-		int qtdeDeComunicacoes = 0;
 
 		WsdlProject project = new WsdlProject();
 		WsdlInterface iface = WsdlInterfaceFactory.importWsdl(project, parametros.urlIntegracao + enderecoWSDL, true)[0];
@@ -131,6 +129,8 @@ public class VerificacoesDeWS {
 		WsdlSubmit submit = (WsdlSubmit) request.submit(new WsdlSubmitContext(request), false);
 		Response response = submit.getResponse();
 		String resposta = response.getContentAsString();
+
+		System.out.println("RESPOSTA: \n" + resposta);
 
 		return resposta;
 
@@ -157,12 +157,15 @@ public class VerificacoesDeWS {
 		String requestDoArquivo = converteXmlParaString(arquivoTemporario);
 		System.out.println("Arquivo de request: \n" + requestDoArquivo);
 
-		System.out.println("HERE: \n" + pegaValorDeTagXML(enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas), "RESPONSE_MESSAGE"));
+		// System.out.println("HERE: \n" +
+		pegaValorDeTagXML(enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas), "RESPONSE_MESSAGE_LIST");
+
+		enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas);
 
 		for (int i = 0;; i++) {
 			System.out.println("TENTATIVA: " + i);
 			String responseString = enviaRequestParaWS(enderecoWSDL, username, password, wssPasswordType, requestDoArquivo, nomeOperation, tentativas);
-			String mensagemRecebida = pegaValorDeTagXML(responseString, "RESPONSE_MESSAGE");
+			String mensagemRecebida = pegaValorDeTagXML(responseString, "RESPONSE_MESSAGE_LIST");
 			if (mensagemRecebida.contains("Aguarde um momento. O registro está sendo integrado.") || mensagemRecebida.contentEquals("Protocolo não encontrado: . Aguarde alguns instantes e tente novamente.")) {
 				System.out.println(mensagemRecebida);
 			} else {
@@ -183,7 +186,6 @@ public class VerificacoesDeWS {
 		return "./files/requestWS/temp/" + manipulaArquivos.retornaNomeEmData() + "_res_" + nomeIntegracao + ".xml";
 
 	}
-
 	public int comparaResponseObtidoComEsperado(String arquivoEsperado, String arquivoObtido, String nomeIntegracao, String arquivosEnvio) throws IOException {
 		int qtdeFalhas = 0;
 		manipulaArquivos = new ManipuladorDeArquivos();
@@ -192,8 +194,17 @@ public class VerificacoesDeWS {
 		String xmlEsperadoEmString = converterArquivoXmlParaString(enderecoDoArquivoEsperado);
 		String xmlObtidoEmString = converterArquivoXmlParaString(arquivoObtido);
 
+		System.out.println("COMPARAÇÃO: ");
+		System.out.println("OBTIDO: " + xmlEsperadoEmString);
+		System.out.println("ESPERADO: " + xmlEsperadoEmString);
+
 		String responseMessageEsperado = pegaValorDeTagXML(xmlEsperadoEmString, "RESPONSE_MESSAGE");
 		String responseMessageObtido = pegaValorDeTagXML(xmlObtidoEmString, "RESPONSE_MESSAGE");
+		
+		
+		System.out.println("VALORES QUE ESTÃO NA TAG: ");
+		System.out.println("OBTIDO: " + responseMessageObtido);
+		System.out.println("ESPERADO: " + responseMessageEsperado);
 
 		if (responseMessageObtido.contentEquals(responseMessageEsperado)) {
 			System.out.println("#OK# Response Obtido igual ao esperado!");

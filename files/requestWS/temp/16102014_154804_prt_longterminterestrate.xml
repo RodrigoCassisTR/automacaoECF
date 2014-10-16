@@ -2,7 +2,7 @@
    <soap:Header/>
    <soap:Body>
       <res:getResponseMessage>
-         <PROTOCOL_NUMBER>!protocolo</PROTOCOL_NUMBER>
+         <PROTOCOL_NUMBER>81411c72-e555-4377-929c-09801b8cfe66</PROTOCOL_NUMBER>
       </res:getResponseMessage>
    </soap:Body>
 </soap:Envelope>

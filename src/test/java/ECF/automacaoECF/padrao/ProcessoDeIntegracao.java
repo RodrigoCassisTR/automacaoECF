@@ -232,8 +232,8 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		// ROTEIRO DE INTEGRACAO
 		automacao.informaTeste(0, "-", nomeTeste);
-		integracao.validaArquivoCfgDoIntegrador(caminhoIntegrador, nomeIntegracao,urlIntegracao,formatoIntegracao,wsclientHost,wsclientReturnHost,routeImportFilePayloadType,diretorioPadraoIntegracao,nomeDoServicoIntegrador);
-		
+		integracao.validaArquivoCfgDoIntegrador(caminhoIntegrador, nomeIntegracao, urlIntegracao, formatoIntegracao, wsclientHost, wsclientReturnHost, routeImportFilePayloadType, diretorioPadraoIntegracao, nomeDoServicoIntegrador);
+
 		logger.info("----------------------------------------------------------");
 		logger.info("PASTAS INTEGRAÇÃO ECF");
 		logger.info("entrada: " + pastaEntrada);
@@ -311,6 +311,7 @@ public class ProcessoDeIntegracao extends CasoDeTesteBasico {
 
 		// VERIFICA SE O REGISTRO FOI EXCLUIDO
 		automacao.reotrnaSistema(driver, tentativas, url, usuario, senha, navegador, nomeTeste);
+		automacao.efetuaLoginComSucesso(driver, tentativas, usuario, senha, nomeTeste);
 		automacao.acessaModuloECF(driver, tentativas, xpathModulo, nomeTeste);
 		automacao.aguardaCarregamento("Home", xpathHome, nomeTeste, tentativas, driver);
 		automacao.acessaTelaPorClick2(driver, qtdeMenu, xpathMenu1, xpathMenu2, xpathMenu3, xpathMenu4, xpathTela, nomeTeste, labelMenu1, labelMenu2, labelMenu3, labelMenu4, labelTela, qtdeMenu, tentativas);

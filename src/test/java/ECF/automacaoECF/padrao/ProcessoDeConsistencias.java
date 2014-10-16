@@ -41,7 +41,6 @@ public class ProcessoDeConsistencias extends CasoDeTesteBasico {
 		automacao.informaTeste(0, "", nomeTeste);
 		automacao.informaTeste(9, "", nomeTeste);
 		
-
 		for (int i = 0; i < arquivosEnvio.length; i++) {
 			arquivoRetornoRequest = testeWS.enviaRequest(nomeIntegracao, arquivosEnvio[i], enderecoWSDL, nomeOperation, password, username, wssPasswordType, tentativas);
 			arquivoRetornoProtocolo = testeWS.enviaRequestDoProtocolo(nomeIntegracao, arquivoRetornoRequest, enderecoWSDLResponse, nomeOperationResponse, password, username, wssPasswordType, tentativas);
