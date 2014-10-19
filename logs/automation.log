@@ -3189,3 +3189,391 @@ INFO main - ####################################################################
 INFO main - ----------------------------------------------------
 INFO main - EFETUANDO O REQUEST PARA O WS 
 INFO main - ----------------------------------------------------
+INFO main - Encerrando Processo chromedriver.exe
+INFO main - Encerrando Processo chrome.exe
+INFO main - #########################################################################
+INFO main - INTEGRACAO ACCOUNT BALANCE TXT - TESTE INICIADO EM SEX, 2014-10-17 AT 11:32:12 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------------
+INFO main - VERIFICANDO CONFIGURAÇÕES DO INTEGRADOR
+INFO main - Verificando cfg: C:/tr-taxbr-ecf-integrator-installer-V01R18/etc/taxbr.ecf.integrator.accountbalance.cfg
+INFO main - As informações do arquivo cfg: C:/tr-taxbr-ecf-integrator-installer-V01R18/etc/taxbr.ecf.integrator.accountbalance.cfg, estão de acordo com o teste!
+INFO main - ----------------------------------------------------------
+INFO main - PASTAS INTEGRAÇÃO ECF
+INFO main - entrada: C:/temp/ECF/accountbalance/entrada
+INFO main - enviado: C:/temp/ECF/accountbalance/enviado
+INFO main - erro: C:/temp/ECF/accountbalance/erro
+INFO main - recebido: C:/temp/ECF/accountbalance/recebido
+INFO main - ----------------------------------------------------------
+INFO main - PARAMETROS
+INFO main - wsclient.host: http://166.78.0.215:8092
+INFO main - wsclient.return.host: http://166.78.0.215:8092
+INFO main - route.import.file.payload.type: TXT
+INFO main - ----------------------------------------------------------
+INFO main - Verificando se o serviço do Integrador iniciado...
+INFO main - O servico do integrador esta iniciado!
+INFO main - ----------------------------------------------------------
+INFO main - PASTAS INTEGRAÇÃO ECF
+INFO main - entrada: C:/temp/ECF/accountbalance/entrada
+INFO main - enviado: C:/temp/ECF/accountbalance/enviado
+INFO main - erro: C:/temp/ECF/accountbalance/erro
+INFO main - recebido: C:/temp/ECF/accountbalance/recebido
+INFO main - ----------------------------------------------------------
+INFO main - PARAMETROS
+INFO main - wsclient.host: http://166.78.0.215:8092
+INFO main - wsclient.return.host: http://166.78.0.215:8092
+INFO main - route.import.file.payload.type: TXT
+INFO main - ----------------------------------------------------------
+INFO main - ----------------------------------------------------
+INFO main - URL: http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - USUARIO: OPERADOR
+INFO main - SENHA: OP001
+INFO main - NAVEGADOR: chrome
+INFO main - TESTE: INTEGRACAO ACCOUNT BALANCE TXT
+INFO main - ----------------------------------------------------
+INFO main - Acessando aplicação no endereco http://166.78.0.215:8092/taxbr-web/pages/index.jsf
+INFO main - Aguardando tela de login ser carregada | Tentativa 1 de 251
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 250
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1034, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 25 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 26 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 27 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 28 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 29 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 30 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 31 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 32 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 33 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 34 de 250
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 34393, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 250
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1069, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Saldos' || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Saldos' || Tentativa 2 de 250
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Saldos' || Tentativa 3 de 250
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Saldos' || Tentativa 4 de 250
+INFO main - Aguardando o carregamento da tela 'Dados de Origem > Saldos' || Tentativa 5 de 250
+INFO main - Tela 'Dados de Origem > Saldos' acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 5071, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - VERIFICANDO SE O REGISTRO EXISTE...
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 1 de 250
+INFO main - Tela Tela Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1038, Tempo Aceitável: 10000
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_tbrCad0000Branch::field : 55.231.342/0001-04 - AUTOMACAO ECF MATRIZ
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_datAccountBalanceInputDate : 01/01/2014
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_TbrCad2002Ledact_codLedgerAccount : 10.2
+INFO main - Clicando no botão 'Executar Consulta'
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - Registro não localizado! Iniciando o processo de integração do registro...
+INFO main - ----------------------------------------------------
+INFO main - Copiando arquivo modelo './files/modeloAccountBalance.txt'...
+INFO main - Copiando arquivo modelo, com nome ./files/temp/txtUp/arquivo_integracao_17102014_113321.txt com sucesso!
+INFO main - APAGAR ESSA PARADA DEPOSI..../files/temp/txtUp/arquivo_integracao_17102014_113321.txt
+INFO main - Editando o arquivo com as informações de envio...
+INFO main - Preenchendo o arquivo com as informações corretas...
+INFO main - Limpando as pastas de integração...
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/entrada
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/enviado
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/erro
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/recebido
+INFO main - Pastas limpas com sucesso!
+INFO main - Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main - Aguardando o arquivo /arquivo_integracao_17102014_113321.txt sair da pasta 'entrada': C:/temp/ECF/accountbalance/entrada/...
+INFO main - Arquivo /arquivo_integracao_17102014_113321.txt saiu da pasta de entrada: C:/temp/ECF/accountbalance/entrada/ com sucesso!
+INFO main - Aguardando o arquivo /arquivo_integracao_17102014_113321.txt sair da pasta 'enviado': C:/temp/ECF/accountbalance/enviado/...
+INFO main - Arquivo /arquivo_integracao_17102014_113321.txt saiu da pasta de enviado: C:/temp/ECF/accountbalance/enviado/ com sucesso!
+INFO main - Verificando se o arquivo foi movido para a pasta 'erro'
+INFO main - O arquivo não foi movido para a pasta 'erro'!
+INFO main - Verificando se o arquivo foi movido para a pasta erro: C:/temp/ECF/accountbalance/erro/
+INFO main - O arquivo não foi movido para a pasta 'erro'!
+INFO main - Limpando a pasta temporaria ./files/temp/txtUp...
+INFO main - Pastas temporaria ./files/temp/txtUp limpa com sucesso!
+INFO main - Efetuando logout da aplicação...
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1022, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 2 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 3975, Tempo Aceitável: 10000
+INFO main - Logout efetuado com sucesso!
+INFO main - Excluindo todos os Cookies...
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1023, Tempo Aceitável: 10000
+INFO main - Cookies excluidos com sucesso!
+INFO main - Atualizando página...
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1027, Tempo Aceitável: 10000
+INFO main - Página atualizada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 250
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1041, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 22 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 23 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 24 de 250
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 24459, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 250
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1023, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1043, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 2 de 250
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 3 de 250
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 4 de 250
+INFO main - Tela Tela Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 4105, Tempo Aceitável: 10000
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_tbrCad0000Branch::field : 55.231.342/0001-04 - AUTOMACAO ECF MATRIZ
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_datAccountBalanceInputDate : 01/01/2014
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_TbrCad2002Ledact_codLedgerAccount : 10.2
+INFO main - Clicando no botão 'Executar Consulta'
+INFO main - Aguardando o carregamento da tela Resultados da Pesquisa || Tentativa 1 de 250
+INFO main - Tela Resultados da Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Resultado da Pesquisa || Tentativa 1 de 250
+INFO main - Tela Resultado da Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1031, Tempo Aceitável: 10000
+INFO main - Verificando se apresenta a mensagem: 'Não foi encontrada nenhuma linha.' com o xpath /html/body/div[3]/div[2]/div/div[4]/div/div[1]/div/form/div[4]/div[2]/div[1]/span/div/div[1]/table/tbody/tr/td/label/span
+INFO main - Não foi apresentada mensagem de registro não localizado
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | 55.231.342/0001-04 : 55.231.342/0001-04
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | 10.2 : 10.2
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando |  : 
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | 1.000,10 : 1.000,10
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | 1.000,10 : 
+INFO main - #ALERTA# Não foi retornado resultado esperado: Esperado: , Obtido: 1.000,10
+INFO main - Iniciando comparação do resultado de pesquisa...
+INFO main - Comparando | 01/01/2014 : 
+INFO main - #ALERTA# Não foi retornado resultado esperado: Esperado: , Obtido: 01/01/2014
+INFO main - Clicando no botão 'Consultar'
+INFO main - Aguardando o carregamento da tela Pesquisa || Tentativa 1 de 250
+INFO main - Tela Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1021, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela Tela de Cadastro || Tentativa 2 de 250
+INFO main - Tela Tela de Cadastro acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 2053, Tempo Aceitável: 10000
+INFO main - Comparando | Obtido: 55.231.342/0001-04 - AUTOMACAO ECF MATRIZ : Esperado: 55.231.342/0001-04 - AUTOMACAO ECF MATRIZ
+INFO main - Comparando | Obtido: 01/01/2014 : Esperado: 01/01/2014
+INFO main - Comparando | Obtido: 10.2 : Esperado: 10.2
+INFO main - Comparando | Obtido: CONTA ANALITICA AUTOMACAO : Esperado: CONTA ANALITICA AUTOMACAO
+INFO main - Comparando | Obtido:  : Esperado: 
+INFO main - Comparando | Obtido:  : Esperado: 
+INFO main - Comparando | Obtido:  : Esperado: 
+INFO main - Comparando | Obtido:  : Esperado: 
+INFO main - Comparando | Obtido: 1.000,10 : Esperado: 1.000,10
+INFO main - Copiando arquivo modelo './files/modeloAccountBalanceExclui.txt'...
+INFO main - Copiando arquivo modelo, com nome ./files/temp/txtUp/arquivo_integracao_17102014_113444.txt com sucesso!
+INFO main - APAGAR ESSA PARADA DEPOSI..../files/temp/txtUp/arquivo_integracao_17102014_113444.txt
+INFO main - Editando o arquivo com as informações de envio...
+INFO main - Preenchendo o arquivo com as informações corretas...
+INFO main - Limpando as pastas de integração...
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/entrada
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/enviado
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/erro
+INFO main - Limpando pasta C:/temp/ECF/accountbalance/recebido
+INFO main - Pastas limpas com sucesso!
+INFO main - Movendo o arquivo alterado para a pasta de entrada do integrador...
+INFO main - Aguardando o arquivo /arquivo_integracao_17102014_113444.txt sair da pasta 'entrada': C:/temp/ECF/accountbalance/entrada/...
+INFO main - Arquivo /arquivo_integracao_17102014_113444.txt saiu da pasta de entrada: C:/temp/ECF/accountbalance/entrada/ com sucesso!
+INFO main - Aguardando o arquivo /arquivo_integracao_17102014_113444.txt sair da pasta 'enviado': C:/temp/ECF/accountbalance/enviado/...
+INFO main - Arquivo /arquivo_integracao_17102014_113444.txt saiu da pasta de enviado: C:/temp/ECF/accountbalance/enviado/ com sucesso!
+INFO main - Verificando se o arquivo foi movido para a pasta 'erro'
+INFO main - O arquivo não foi movido para a pasta 'erro'!
+INFO main - Verificando se o arquivo foi movido para a pasta erro: C:/temp/ECF/accountbalance/erro/
+INFO main - O arquivo não foi movido para a pasta 'erro'!
+INFO main - Limpando a pasta temporaria ./files/temp/txtUp...
+INFO main - Pastas temporaria ./files/temp/txtUp limpa com sucesso!
+INFO main - Aguardando o carregamento da tela url || Tentativa 1 de 250
+INFO main - Tela url acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1022, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 2 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 3696, Tempo Aceitável: 10000
+INFO main - Tela carregada com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - ACESSANDO A APLICACAO
+INFO main - ----------------------------------------------------
+INFO main - Digitando usuario: OPERADOR
+INFO main - Digitando senha: OP001
+INFO main - Clicando no botão 'Entrar'
+INFO main - Aguardando o acesso a aplicacao...
+INFO main - Aplicacao acessada com sucesso!
+INFO main - Acessando o módulo ONESOURCE ECF...
+INFO main - Aguardando o carregamento da tela SELEÇÃO DE MÓDULOS || Tentativa 1 de 250
+INFO main - Tela SELEÇÃO DE MÓDULOS acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1051, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 2 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 3 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 4 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 5 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 6 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 7 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 8 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 9 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 10 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 11 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 12 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 13 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 14 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 15 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 16 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 17 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 18 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 19 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 20 de 250
+INFO main - Aguardando o carregamento da tela HOME || Tentativa 21 de 250
+INFO main - Tela HOME acessada com sucesso!!
+INFO main - #ALERTA# Tempo de Carregamento: 21232, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela Home || Tentativa 1 de 250
+INFO main - Tela Home acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1033, Tempo Aceitável: 10000
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1053, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - VERIFICANDO SE O REGISTRO EXISTE...
+INFO main - ----------------------------------------------------
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 1 de 250
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 2 de 250
+INFO main - Aguardando o carregamento da tela Tela Pesquisa || Tentativa 3 de 250
+INFO main - Tela Tela Pesquisa acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 3054, Tempo Aceitável: 10000
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_tbrCad0000Branch::field : 55.231.342/0001-04 - AUTOMACAO ECF MATRIZ
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_datAccountBalanceInputDate : 01/01/2014
+INFO main - Preenchendo campos de pesquisa |TAXIT:trTbrMov0002ActblcBean:tab1:filter_TbrMov0002Actblc_TbrCad2002Ledact_codLedgerAccount : 10.2
+INFO main - Clicando no botão 'Executar Consulta'
+INFO main - Aguardando o carregamento da tela INTEGRACAO ACCOUNT BALANCE TXT || Tentativa 1 de 250
+INFO main - Tela INTEGRACAO ACCOUNT BALANCE TXT acessada com sucesso!!
+INFO main - #OK# Tempo de Carregamento: 1054, Tempo Aceitável: 10000
+INFO main - ----------------------------------------------------
+INFO main - Excluido com sucesso!
+INFO main - ----------------------------------------------------
+INFO main - #########################################################################
+INFO main - TESTE INTEGRACAO ACCOUNT BALANCE TXT ENCERRADO COM SUCESSO EM 0 HORAS 3 MINUTOS 27 SEGUNDOS 
+INFO main - #########################################################################
+INFO main - Encerrando Processo chromedriver.exe
+INFO main - Encerrando Processo chrome.exe
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS ACCOUNT BALANCE  - TESTE INICIADO EM SEX, 2014-10-17 AT 11:36:39 AM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Encerrando Processo chromedriver.exe
+INFO main - Encerrando Processo chrome.exe
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS ACCOUNT BALANCE  - TESTE INICIADO EM SEX, 2014-10-17 AT 12:23:27 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Encerrando Processo chromedriver.exe
+INFO main - Encerrando Processo chrome.exe
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS ACCOUNT BALANCE  - TESTE INICIADO EM SEX, 2014-10-17 AT 12:29:16 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Encerrando Processo chromedriver.exe
+INFO main - Encerrando Processo chrome.exe
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS ACCOUNT BALANCE  - TESTE INICIADO EM SEX, 2014-10-17 AT 12:30:42 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------
+INFO main - Encerrando Processo chromedriver.exe
+INFO main - Encerrando Processo chrome.exe
+INFO main - #########################################################################
+INFO main - CONSISTENCIAS ACCOUNT BALANCE  - TESTE INICIADO EM SEX, 2014-10-17 AT 12:33:15 PM BRT
+INFO main - #########################################################################
+INFO main - ----------------------------------------------------
+INFO main - EFETUANDO O REQUEST PARA O WS 
+INFO main - ----------------------------------------------------

@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ns2:getResponseMessageResponse xmlns:ns2="http://response.webservices.taxbr.ta.thomsonreuters.com/">
+         <return>
+            <PROTOCOL_NUMBER>99662438-c5c7-4235-8da7-79b57dca7dd1</PROTOCOL_NUMBER>
+            <RESPONSE_MESSAGE_LIST>
+               <RESPONSE_MESSAGE>
+                  <MESSAGE description="Saldo Contábil: CNPJ do Estabelecimento 55231342000104A, Código da conta Contábil 10.1, Código do Centro de Custo * e Data de apuração do saldo 2014-01-01."/>
+                  <MESSAGE type="Erro" code="TR00033" description="Campo numérico CNPJ do Estabelecimento com valor inválido: 55231342000104A."/>
+                  <MESSAGE type="Erro" code="TR00035" description="Campo CNPJ do Estabelecimento, com tamanho maior que o permitido: 55231342000104A"/>
+               </RESPONSE_MESSAGE>
+            </RESPONSE_MESSAGE_LIST>
+         </return>
+      </ns2:getResponseMessageResponse>
+   </soap:Body>
+</soap:Envelope>

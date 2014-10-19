@@ -2,11 +2,11 @@
    <soap:Body>
       <ns2:getResponseMessageResponse xmlns:ns2="http://response.webservices.taxbr.ta.thomsonreuters.com/">
          <return>
-            <PROTOCOL_NUMBER>81411c72-e555-4377-929c-09801b8cfe66</PROTOCOL_NUMBER>
+            <PROTOCOL_NUMBER>e6993460-5dc3-4778-8088-f496d9c7c0c8</PROTOCOL_NUMBER>
             <RESPONSE_MESSAGE_LIST>
                <RESPONSE_MESSAGE>
-                  <ns2:MESSAGE description="Taxa de Juros de Longo Prazo: Período de Referência 2030-12-01 e  ."/>
-                  <ns2:MESSAGE code="TR00252" description="Registro informado não contém alterações em relação ao cadastro já existente. O registro foi ignorado." type="Erro"/>
+                  <ns2:MESSAGE description="Saldo Contábil: CNPJ do Estabelecimento *, Código da conta Contábil 10.1, Código do Centro de Custo * e Data de apuração do saldo 2014-01-01."/>
+                  <ns2:MESSAGE code="TR00036" description="Campo CNPJ do Estabelecimento obrigatório não preenchido." type="Erro"/>
                </RESPONSE_MESSAGE>
             </RESPONSE_MESSAGE_LIST>
          </return>

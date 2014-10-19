@@ -1,40 +1,43 @@
-2014-10-16 15:48:01,726 WARN  [SoapUI] Missing folder [D:\auto\automacaoECF\.\ext] for external libraries
-2014-10-16 15:48:01,922 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\u0155902\soapui-settings.xml]
-2014-10-16 15:48:02,656 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
-2014-10-16 15:48:02,697 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
-2014-10-16 15:48:02,699 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
-2014-10-16 15:48:02,700 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
-2014-10-16 15:48:02,701 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
-2014-10-16 15:48:02,702 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
-2014-10-16 15:48:02,704 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
-2014-10-16 15:48:02,711 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
-2014-10-16 15:48:02,713 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
-2014-10-16 15:48:02,719 INFO  [SchemaUtils] Added default schema from file:/C:/Users/u0155902/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
-2014-10-16 15:48:03,305 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/LongTermInterestRateWebServiceImplPort?wsdl]
-2014-10-16 15:48:03,305 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LongTermInterestRateWebServiceImplPort?wsdl
-2014-10-16 15:48:03,309 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/LongTermInterestRateWebServiceImplPort?xsd=longterminterestratewebserviceimpl_schema1.xsd
-2014-10-16 15:48:03,569 INFO  [WsdlImporter] Finding importer for {http://longTermInterestRate.webservices.taxbr.ta.thomsonreuters.com/}LongTermInterestRateWebServiceImplServiceSoapBinding
-2014-10-16 15:48:03,572 INFO  [WsdlImporter] Importing binding {http://longTermInterestRate.webservices.taxbr.ta.thomsonreuters.com/}LongTermInterestRateWebServiceImplServiceSoapBinding
-2014-10-16 15:48:03,593 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/LongTermInterestRateWebServiceImplPort
-2014-10-16 15:48:03,598 INFO  [Soap12HttpBindingImporter] importing operation receiveLongTermInterestRate
-2014-10-16 15:48:06,115 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-16 15:48:06,115 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-16 15:48:06,118 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-16 15:48:06,218 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-16 15:48:06,218 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-16 15:48:06,219 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-16 15:48:06,219 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-16 15:48:06,740 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-16 15:48:06,740 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-16 15:48:06,742 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-16 15:48:06,863 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-16 15:48:06,863 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-16 15:48:06,863 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-16 15:48:06,864 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
-2014-10-16 15:48:07,884 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
-2014-10-16 15:48:07,885 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
-2014-10-16 15:48:07,887 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
-2014-10-16 15:48:07,957 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-16 15:48:07,957 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
-2014-10-16 15:48:07,957 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
-2014-10-16 15:48:07,957 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-17 12:33:15,674 WARN  [SoapUI] Missing folder [C:\Users\Rodrigo\Documents\GitHub\automacaoECF\.\ext] for external libraries
+2014-10-17 12:33:15,904 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Rodrigo\soapui-settings.xml]
+2014-10-17 12:33:16,585 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2014-10-17 12:33:16,625 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2014-10-17 12:33:16,625 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2014-10-17 12:33:16,625 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2014-10-17 12:33:16,625 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2014-10-17 12:33:16,625 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2014-10-17 12:33:16,635 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2014-10-17 12:33:16,635 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2014-10-17 12:33:16,635 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2014-10-17 12:33:16,675 INFO  [SchemaUtils] Added default schema from file:/C:/Users/Rodrigo/.m2/repository/eviware/soapui/4.0.0/soapui-4.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2014-10-17 12:33:17,375 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/AccountBalanceWebServiceImplPort?wsdl]
+2014-10-17 12:33:17,375 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/AccountBalanceWebServiceImplPort?wsdl
+2014-10-17 12:33:17,385 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/AccountBalanceWebServiceImplPort?xsd=accountbalancewebserviceimpl_schema1.xsd
+2014-10-17 12:33:17,585 INFO  [WsdlImporter] Finding importer for {http://accountbalance.webservices.taxbr.ta.thomsonreuters.com/}AccountBalanceWebServiceImplServiceSoapBinding
+2014-10-17 12:33:17,585 INFO  [WsdlImporter] Importing binding {http://accountbalance.webservices.taxbr.ta.thomsonreuters.com/}AccountBalanceWebServiceImplServiceSoapBinding
+2014-10-17 12:33:17,606 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/AccountBalanceWebServiceImplPort
+2014-10-17 12:33:17,616 INFO  [Soap12HttpBindingImporter] importing operation receiveAccountBalance
+2014-10-17 12:33:18,576 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-17 12:33:18,576 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-17 12:33:18,576 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-17 12:33:18,667 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-17 12:33:18,667 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-17 12:33:18,667 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-17 12:33:18,667 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-17 12:33:19,332 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-17 12:33:19,332 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-17 12:33:19,332 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-17 12:33:19,452 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-17 12:33:19,452 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-17 12:33:19,452 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-17 12:33:19,452 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-17 12:33:20,113 INFO  [SchemaUtils] Loading schema types from [http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl]
+2014-10-17 12:33:20,113 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?wsdl
+2014-10-17 12:33:20,113 INFO  [SchemaUtils] Getting schema http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort?xsd=trtaxbrmessageresponseimpl_schema1.xsd
+2014-10-17 12:33:20,173 INFO  [WsdlImporter] Finding importer for {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-17 12:33:20,173 INFO  [WsdlImporter] Importing binding {http://response.webservices.taxbr.ta.thomsonreuters.com/}TrTaxBrMessageResponseImplServiceSoapBinding
+2014-10-17 12:33:20,173 INFO  [Soap12HttpBindingImporter] importing endpoint http://166.78.0.215:8092/taxbr-solution-webservices/services/TrTaxBrMessageResponseImplPort
+2014-10-17 12:33:20,173 INFO  [Soap12HttpBindingImporter] importing operation getResponseMessage
+2014-10-17 12:33:20,454 INFO  [VerificacoesDeWS] §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§
+2014-10-17 12:33:20,454 INFO  [VerificacoesDeWS] FALHA: Encontrato erros nas consistencias
+2014-10-17 12:33:20,454 INFO  [VerificacoesDeWS] §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§

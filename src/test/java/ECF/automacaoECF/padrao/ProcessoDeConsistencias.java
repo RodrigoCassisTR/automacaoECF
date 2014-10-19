@@ -7,6 +7,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.apache.xmlbeans.XmlException;
 import org.junit.After;
 import org.junit.Test;
+import org.xml.sax.SAXException;
 
 import com.eviware.soapui.model.iface.Request.SubmitException;
 import com.eviware.soapui.support.SoapUIException;
@@ -16,7 +17,7 @@ public class ProcessoDeConsistencias extends CasoDeTesteBasico {
 	int tentativas = Integer.parseInt(numerotentativas);
 
 	@Test
-	public void enviaXmlDaIntegracao() throws XmlException, IOException, SoapUIException, SubmitException, ParserConfigurationException, InterruptedException {
+	public void enviaXmlDaIntegracao() throws XmlException, IOException, SoapUIException, SubmitException, ParserConfigurationException, InterruptedException, SAXException {
 
 		String arquivoRetornoRequest;
 		String arquivoRetornoProtocolo;

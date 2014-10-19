@@ -4,11 +4,10 @@
          <return>
             <PROTOCOL_NUMBER>99662438-c5c7-4235-8da7-79b57dca7dd1</PROTOCOL_NUMBER>
             <RESPONSE_MESSAGE_LIST>
-               <RESPONSE_MESSAGE>
-                  <MESSAGE description="Saldo Contábil: CNPJ do Estabelecimento 55231342000104A, Código da conta Contábil 10.1, Código do Centro de Custo * e Data de apuração do saldo 2014-01-01."/>
-                  <MESSAGE type="Erro" code="TR00033" description="Campo numérico CNPJ do Estabelecimento com valor inválido: 55231342000104A."/>
-                  <MESSAGE type="Erro" code="TR00035" description="Campo CNPJ do Estabelecimento, com tamanho maior que o permitido: 55231342000104A"/>
-               </RESPONSE_MESSAGE>
+<response_message> 
+ <ns2:message description="Saldo Cont&aacute;bil: CNPJ do Estabelecimento *, C&oacute;digo da conta Cont&aacute;bil 10.1, C&oacute;digo do Centro de Custo * e Data de apura&ccedil;&atilde;o do saldo 2014-01-01." /> 
+ <ns2:message code="TR00036" description="Campo CNPJ do Estabelecimento obrigat&oacute;rio n&atilde;o preenchido." type="Erro" /> 
+</response_message>
             </RESPONSE_MESSAGE_LIST>
          </return>
       </ns2:getResponseMessageResponse>

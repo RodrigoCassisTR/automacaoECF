@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<licenca data_emissao="01/01/1988">
+	<validador senha="EWCRNJA9RPVSI0" />
+	<contratante cnpj="55.231.342/0091-60">
+		<empresa cnpj="55.231.342/0091-60" razao_social="UTOMACAO FILIAL NAO MEXER DE JEITO NENHUM" cod_empresa="800">
+			<modulo nome="EIRPJ"/>
+		</empresa>
+	</contratante>
+</licenca>

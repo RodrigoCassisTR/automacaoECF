@@ -3,28 +3,33 @@ package ECF.automacaoECF.padrao;
 import static org.junit.Assert.fail;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringWriter;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-
-import org.w3c.dom.Document;
-import org.apache.log4j.Logger;
-import org.apache.xmlbeans.XmlException;
-import org.jsoup.*;
-import org.jsoup.parser.*;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.apache.log4j.Logger;
+import org.apache.xmlbeans.XmlException;
+import org.jsoup.Jsoup;
+import org.jsoup.parser.Parser;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
 import com.eviware.soapui.impl.WsdlInterfaceFactory;
 import com.eviware.soapui.impl.wsdl.WsdlInterface;
 import com.eviware.soapui.impl.wsdl.WsdlOperation;
@@ -35,6 +40,8 @@ import com.eviware.soapui.impl.wsdl.WsdlSubmitContext;
 import com.eviware.soapui.model.iface.Request.SubmitException;
 import com.eviware.soapui.model.iface.Response;
 import com.eviware.soapui.support.SoapUIException;
+
+import flex.messaging.io.ArrayList;
 
 public class VerificacoesDeWS {
 	public org.apache.log4j.Logger logger = Logger.getLogger(VerificacoesDeWS.class.getName());
@@ -78,7 +85,7 @@ public class VerificacoesDeWS {
 	public String pegaValorDeTagXML(String xmlOrigem, String tag) {
 
 		org.jsoup.nodes.Document doc = Jsoup.parse(xmlOrigem, "", Parser.xmlParser());
-		String valorObtidoDaTag = doc.select(tag).val();
+		String valorObtidoDaTag = doc.select(tag).toString();
 		return valorObtidoDaTag;
 
 	}
@@ -200,8 +207,7 @@ public class VerificacoesDeWS {
 
 		String responseMessageEsperado = pegaValorDeTagXML(xmlEsperadoEmString, "RESPONSE_MESSAGE");
 		String responseMessageObtido = pegaValorDeTagXML(xmlObtidoEmString, "RESPONSE_MESSAGE");
-		
-		
+
 		System.out.println("VALORES QUE ESTÃO NA TAG: ");
 		System.out.println("OBTIDO: " + responseMessageObtido);
 		System.out.println("ESPERADO: " + responseMessageEsperado);
@@ -259,4 +265,20 @@ public class VerificacoesDeWS {
 		fail(mensagem + " - Evidencias gravadas no diretório ./evidencias/WS");
 
 	}
+
+	public String[] pegaAtributoDeTag(String xml, String tag, String atributo) throws ParserConfigurationException, SAXException, IOException {
+		String[] atributos = null;
+
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		DocumentBuilder db = dbf.newDocumentBuilder();
+		Document document = db.parse(new String(xml));
+		NodeList nodeList = document.getElementsByTagName("MESSAGE");
+		for (int x = 0, size = nodeList.getLength(); x < size; x++) {
+			atributos[x] = nodeList.item(x).getAttributes().getNamedItem("description").getNodeValue();
+		}
+
+		return atributos;
+
+	}
+
 }
